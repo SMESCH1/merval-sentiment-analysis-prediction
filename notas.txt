@@ -1,0 +1,10 @@
+- aplicar data coverage?
+
+
+
+scraper noticias:
+- buscar codigo de investigacion fake news
+- ver si está e codigo fuente de:
+- https://deun.click/ 
+- https://versusweb.com.ar/
+para ver de sacar el scraper, o si tienen API
