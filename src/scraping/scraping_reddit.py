@@ -4,7 +4,7 @@ Reddit Scraper for Argentine Finance Data
 Collects posts and comments from Argentine finance-related subreddits.
 """
 
-import praw
+import praw # https://praw.readthedocs.io/en/stable/
 import json
 import csv
 import os

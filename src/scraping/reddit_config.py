@@ -1,41 +1,31 @@
-"""
-Reddit API Configuration
-This file contains the configuration for Reddit API access.
-You need to create a Reddit app at https://www.reddit.com/prefs/apps to get these credentials.
-"""
-
 import os
 from typing import Dict, Any
+import praw
 
-# Reddit API credentials
-# To get these credentials:
-# 1. Go to https://www.reddit.com/prefs/apps
-# 2. Click "Create App" or "Create Another App"
-# 3. Choose "script" as the app type
-# 4. Fill in the required fields
-# 5. Note down the client_id (under the app name) and client_secret
+print(os.getenv('client_id', ''))
 
-REDDIT_CONFIG = {
-    'client_id': os.getenv('REDDIT_CLIENT_ID', ''),
-    'client_secret': os.getenv('REDDIT_CLIENT_SECRET', ''),
-    'user_agent': 'StockPredictionBot/1.0 by /u/your_username',  # Replace with your Reddit username
-    'username': os.getenv('REDDIT_USERNAME', ''),
-    'password': os.getenv('REDDIT_PASSWORD', '')
+# Configuración de Reddit como diccionario
+reddit_config = {
+    'client_id': os.getenv('client_id', ''),
+    'client_secret': os.getenv('client_secret', ''),
+    'user_agent': "scraper-MIA:v1.0 (by u/Sure_Session_9073)",
+    'username': os.getenv('reddit_username', ''),
+    'password': os.getenv('reddit_password', '')
 }
 
-# Argentine finance-related subreddits
-ARGENTINE_FINANCE_SUBREDDITS = [
-    'merval',           # Main Argentine stock market subreddit
-    'argentina',        # General Argentina subreddit (has finance discussions)
-    'argentinacrypto',  # Argentine cryptocurrency discussions
-    'argentinaeconomia', # Argentine economy discussions
-    'CryptoArgentina',   # Alternative crypto subreddit
-    'InversionesArg',   # Argentine investments
-    'finanzaspersonales' # Personal finance (Spanish)
+# subreddits de finanzas Argentina
+nombre_subreddits = [
+    'merval',           
+    'argentina',        # este es general de Arg, pero se puede buscar por keywords
+    'argentinacrypto',  
+    'argentinaeconomia', 
+    'CryptoArgentina',   
+    'InversionesArg',   
+    'finanzaspersonales' # este es en español, no específico de arg
 ]
 
 # Keywords to filter relevant posts (Spanish/Argentine finance terms)
-FINANCE_KEYWORDS = [
+keywords = [
     'merval', 'bovespa', 'acciones', 'bonos', 'dólar', 'peso', 'inflación',
     'dolar', 'peso', 'inversion', 'inversión', 'bolsa', 'mercado', 'finanzas',
     'economia', 'economía', 'crypto', 'bitcoin', 'ethereum', 'criptomonedas',
@@ -45,11 +35,11 @@ FINANCE_KEYWORDS = [
 ]
 
 # Reddit API rate limits (requests per minute)
-RATE_LIMITS = {
+""" rate = {
     'posts_per_minute': 60,
     'comments_per_minute': 60,
     'delay_between_requests': 1  # seconds
-}
+} """
 
 def get_reddit_config() -> Dict[str, Any]:
     """
@@ -64,10 +54,10 @@ def get_reddit_config() -> Dict[str, Any]:
     required_fields = ['client_id', 'client_secret', 'user_agent']
     
     for field in required_fields:
-        if not REDDIT_CONFIG.get(field):
+        if not reddit_config.get(field) or reddit_config.get(field) == '':
             raise ValueError(f"Missing required Reddit configuration: {field}")
     
-    return REDDIT_CONFIG
+    return reddit_config
 
 def validate_credentials() -> bool:
     """
