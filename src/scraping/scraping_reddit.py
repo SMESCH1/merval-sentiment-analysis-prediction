@@ -4,6 +4,9 @@ Scraper de Reddit para datos financieros argentinos.
 Recolecta posts y comentarios de subreddits relacionados con finanzas argentinas.
 """
 
+# https://www.reddit.com/dev/api/
+# https://support.reddithelp.com/hc/en-us/articles/16160319875092-Reddit-Data-API-Wiki
+
 import praw # https://praw.readthedocs.io/en/stable/
 import json
 import csv
