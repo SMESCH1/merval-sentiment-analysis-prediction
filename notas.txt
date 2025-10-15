@@ -8,3 +8,5 @@ scraper noticias:
 - https://deun.click/ 
 - https://versusweb.com.ar/
 para ver de sacar el scraper, o si tienen API
+
+- hacer scraper https://stocktwits.com/symbol/PLTR/sentiment
