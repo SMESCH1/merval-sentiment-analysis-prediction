@@ -1,6 +1,10 @@
 import os
 from typing import Dict, Any
 import praw
+from dotenv import load_dotenv
+
+# Cargar variables de entorno desde el archivo .env
+load_dotenv()
 
 print(os.getenv('client_id', ''))
 

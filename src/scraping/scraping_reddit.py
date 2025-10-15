@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Reddit Scraper for Argentine Finance Data
-Collects posts and comments from Argentine finance-related subreddits.
+Scraper de Reddit para datos financieros argentinos.
+Recolecta posts y comentarios de subreddits relacionados con finanzas argentinas.
 """
 
 import praw # https://praw.readthedocs.io/en/stable/
@@ -20,10 +20,17 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(
 
 from src.scraping.reddit_config import (
     get_reddit_config, 
-    ARGENTINE_FINANCE_SUBREDDITS, 
-    FINANCE_KEYWORDS,
-    RATE_LIMITS
+    nombre_subreddits, 
+    keywords,
+    #RATE_LIMITS
 )
+
+# dir para logs
+log_dir = 'logs'
+
+if not os.path.exists(log_dir):
+    os.makedirs(log_dir) # os.makedirs crea la ruta completa si es necesario
+
 
 # Set up logging
 logging.basicConfig(
@@ -37,7 +44,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 class RedditScraper:
-    """Reddit scraper for collecting Argentine finance data."""
+    """Scraper de Reddit scraper for collecting Argentine finance data."""
     
     def __init__(self):
         """Initialize the Reddit scraper with API credentials."""
@@ -69,7 +76,7 @@ class RedditScraper:
             return False
             
         text_lower = text.lower()
-        return any(keyword.lower() in text_lower for keyword in FINANCE_KEYWORDS)
+        return any(keyword.lower() in text_lower for keyword in keywords)
     
     def extract_post_data(self, submission) -> Dict[str, Any]:
         """
@@ -196,7 +203,7 @@ class RedditScraper:
         """
         all_data = {}
         
-        for subreddit_name in ARGENTINE_FINANCE_SUBREDDITS:
+        for subreddit_name in nombre_subreddits:
             logger.info(f"Starting to scrape r/{subreddit_name}")
             
             # Scrape posts
