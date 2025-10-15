@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  reddit-scraper:
+    build: .
+    container_name: reddit-scraper-mia
+    restart: unless-stopped
+    volumes:
+      # Persist data and logs
+      - ./data:/app/data
+      - ./logs:/app/logs
+      # Mount .env file for credentials
+      - ./.env:/app/.env:ro
+    environment:
+      - TZ=America/Argentina/Buenos_Aires

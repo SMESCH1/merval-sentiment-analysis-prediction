@@ -9,4 +9,8 @@ scraper noticias:
 - https://versusweb.com.ar/
 para ver de sacar el scraper, o si tienen API
 
+
+stocktwits
 - hacer scraper https://stocktwits.com/symbol/PLTR/sentiment
+- https://rapidapi.com/stocktwits/api/stocktwits
+- https://api.stocktwits.com/developers
