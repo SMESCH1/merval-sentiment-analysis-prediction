@@ -1,5 +1,19 @@
-- aplicar data coverage?
+TBD:
 
+1. ver base de datos (stocktwits) para implementar directo LSTM u otro para sentiment analysis
+2. PPT martes
+3. ETL script
+
+
+Objetivo del TP
+Motivación
+Dataset
+Modelos
+
+
+
+- aplicar data coverage?
+- keywords manneja regexx?
 
 
 scraper noticias:
