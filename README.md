@@ -140,9 +140,153 @@ streamlit run dashboard.py
 
 ---
 
+## 🚀 Configuración Inicial
+
+### Prerrequisitos
+- Python 3.11+
+- Docker Desktop (para automatización)
+- Cuenta de Reddit con API credentials
+
+### 1. Clonar y Configurar el Proyecto
+
+```bash
+# Clonar el repositorio
+git clone <tu-repositorio>
+cd stock_price_prediction_MIA
+
+# Crear entorno virtual
+python -m venv venv
+
+# Activar entorno virtual
+# Windows:
+venv\Scripts\activate
+# Linux/Mac:
+source venv/bin/activate
+
+# Instalar dependencias
+pip install -r requirements.txt
+```
+
+### 2. Configurar Credenciales de Reddit
+
+```bash
+# Ejecutar script de configuración
+python setup_reddit.py
+```
+
+Este script te guiará para:
+- Crear una aplicación en Reddit (https://www.reddit.com/prefs/apps)
+- Configurar las credenciales en el archivo `.env`
+
+### 3. Probar la Conexión
+
+```bash
+# Verificar que las credenciales funcionan
+python test_reddit_connection.py
+```
+
+### 4. Configurar Automatización con Docker
+
+```bash
+# Instalar Docker Desktop desde:
+# https://www.docker.com/products/docker-desktop
+
+# Configurar el contenedor automatizado
+python docker_setup.py
+```
+
+El contenedor Docker:
+- ✅ Se ejecuta automáticamente todos los días a las 9:00 AM
+- ✅ Se reinicia solo si hay problemas
+- ✅ Persiste los datos en tu máquina local
+- ✅ Funciona en Windows, Linux y macOS
+
+### 5. Ejecutar Scraping Manual (Opcional)
+
+```bash
+# Ejecutar una vez para probar
+python src/scraping/scraping_reddit.py
+
+# O ejecutar el scraper diario
+python src/scraping/daily_reddit_scraper.py
+```
+
+### 6. Verificar Datos
+
+Los datos se guardan en:
+- `data/raw/` - Datos crudos en JSON y CSV
+- `logs/` - Logs de ejecución
+
+---
+
+## 📊 Uso del Sistema
+
+### Comandos Principales
+
+```bash
+# Gestionar contenedor Docker
+python docker_setup.py
+
+# Ver logs del scraper
+docker-compose logs -f
+
+# Ejecutar scraper manualmente
+docker-compose exec reddit-scraper python src/scraping/daily_reddit_scraper.py
+
+# Detener automatización
+docker-compose down
+```
+
+### Estructura de Datos
+
+Los datos se organizan por fecha y subreddit:
+```
+data/raw/
+├── reddit_data_20241201_090000.json          # Datos completos
+├── reddit_data_20241201_090000_merval_posts.csv
+├── reddit_data_20241201_090000_merval_comments.csv
+├── reddit_data_20241201_090000_argentina_posts.csv
+└── ...
+```
+
+---
+
+## 🔧 Solución de Problemas
+
+### Error de Credenciales
+```bash
+# Verificar archivo .env
+cat .env
+
+# Reconfigurar credenciales
+python setup_reddit.py
+```
+
+### Error de Docker
+```bash
+# Verificar que Docker esté corriendo
+docker --version
+docker info
+
+# Reiniciar contenedor
+docker-compose down
+docker-compose up -d
+```
+
+### Ver Logs
+```bash
+# Logs del contenedor
+docker-compose logs -f
+
+# Logs del scraper
+tail -f logs/reddit_scraper.log
+```
+
+---
+
 ## Plan de Acción
 
-1. **Infraestructura mínima**
+1. **Infraestructura mínima** ✅
    - Crear carpetas `data/raw`, `data/processed`, `logs/`.
    - Implementar scrapers iniciales.
 
@@ -151,8 +295,8 @@ streamlit run dashboard.py
    - Generar features básicos.
    - Baseline: regresión lineal con sentimiento agregado.
 
-3. **Automatización**
-   - Configurar `cron` para scraping diario.
+3. **Automatización** ✅
+   - Configurar Docker para scraping diario.
    - Procesamiento y actualización semanal.
 
 4. **Iteración**

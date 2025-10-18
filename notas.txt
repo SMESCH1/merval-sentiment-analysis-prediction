@@ -1,5 +1,19 @@
-- aplicar data coverage?
+TBD:
 
+1. ver base de datos (stocktwits) para implementar directo LSTM u otro para sentiment analysis
+2. PPT martes
+3. ETL script
+
+
+Objetivo del TP
+Motivación
+Dataset
+Modelos
+
+
+
+- aplicar data coverage?
+- keywords manneja regexx?
 
 
 scraper noticias:
@@ -8,3 +22,19 @@ scraper noticias:
 - https://deun.click/ 
 - https://versusweb.com.ar/
 para ver de sacar el scraper, o si tienen API
+
+
+stocktwits
+- hacer scraper https://stocktwits.com/symbol/PLTR/sentiment
+- https://rapidapi.com/stocktwits/api/stocktwits
+- https://api.stocktwits.com/developers
+
+
+revisar si aplican:
+- https://www.linkedin.com/posts/giannis-tolios_datascience-python-deeplearning-activity-7382812129344524288-VieC?utm_medium=ios_app&rcm=ACoAADR32awBt8SmZ69h5_pS5ToZNNeDYQ2S0_w&utm_source=social_share_send&utm_campaign=copy_link
+- https://x.com/rryssf_/status/1976996282033225936?s=46&t=jwJuf8cvuY12bm32cvK0pA
+- https://github.com/bitnom/Timeseries-Prediction-Models
+- https://www.arxiv.org/abs/2510.04618
+- https://arxiv.org/abs/2507.22922
+- https://aclanthology.org/2021.finnlp-1.4/
+- 
