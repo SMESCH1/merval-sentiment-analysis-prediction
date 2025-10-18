@@ -3,7 +3,7 @@ TBD:
 1. ver base de datos (stocktwits) para implementar directo LSTM u otro para sentiment analysis
 2. PPT martes
 3. ETL script
-
+4. revisar pq algunos archivos que pusheo desde branch feature reddit no se ven en main, si están siendo commiteados
 
 Objetivo del TP
 Motivación
