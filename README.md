@@ -1,5 +1,7 @@
 # Proyecto: Predicción de Precios de Activos Financieros en Argentina usando Deep Learning y Datos Sociales
 
+[Presentación de diapositivas del TP](https://docs.google.com/presentation/d/1htcqRN_dIlC_S9j6hK2fxhk_o9ao8IVpJe8fz_M0aqQ/edit?slide=id.g39ade7ba14d_0_134#slide=id.g39ade7ba14d_0_134), etapa 1
+
 ## Descripción General
 
 Este proyecto busca predecir precios de activos financieros en Argentina combinando:

@@ -2,8 +2,8 @@ TBD:
 
 1. ver base de datos (stocktwits) para implementar directo LSTM u otro para sentiment analysis
 2. PPT martes
-3. ETL script
-
+3. ETL script, tener en cuenta que el modelo no use los datos reales que se filtren en los foros. es decir, en los foros van a figurar datos de los precios y eso, hay que ver como trabajamos con eso
+4. revisar pq algunos archivos que pusheo desde branch feature reddit no se ven en main, si están siendo commiteados
 
 Objetivo del TP
 Motivación
