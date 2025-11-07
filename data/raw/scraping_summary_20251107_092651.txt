@@ -1,0 +1,20 @@
+Reddit Scraping Summary - 2025-11-07T09:26:51.965252
+==================================================
+Total posts collected: 1
+Total comments collected: 213
+Data files created:
+  - reddit_data_20251107_092651.json
+  - reddit_data_20251107_092651_merval_posts.csv
+  - reddit_data_20251107_092651_merval_comments.csv
+  - reddit_data_20251107_092651_argentina_posts.csv
+  - reddit_data_20251107_092651_argentina_comments.csv
+  - reddit_data_20251107_092651_argentinacrypto_posts.csv
+  - reddit_data_20251107_092651_argentinacrypto_comments.csv
+  - reddit_data_20251107_092651_argentinaeconomia_posts.csv
+  - reddit_data_20251107_092651_argentinaeconomia_comments.csv
+  - reddit_data_20251107_092651_CryptoArgentina_posts.csv
+  - reddit_data_20251107_092651_CryptoArgentina_comments.csv
+  - reddit_data_20251107_092651_InversionesArg_posts.csv
+  - reddit_data_20251107_092651_InversionesArg_comments.csv
+  - reddit_data_20251107_092651_finanzaspersonales_posts.csv
+  - reddit_data_20251107_092651_finanzaspersonales_comments.csv
