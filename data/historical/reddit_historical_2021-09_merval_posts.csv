@@ -1,0 +1,418 @@
+id,title,text,author,subreddit,score,upvote_ratio,num_comments,created_utc,url,permalink,is_self,type
+phcrs8,Guia para fondear Broker del Exterior y escapar al cepo (Sept 2021),"Primero que todo quiero agradecer a esta gran comunidad. Hace 1 año no me animaba a hacer mucho más que una suscripción en un FCI y gracias a todo lo que aprendí acá hoy siento que tengo muchas más herramientas y control sobre mis decisiones financieras.
+
+Así que quiero devolver un poco de todo lo que recibí contando como estoy haciendo para escapar al nuevo cepo y regulaciones del BCRA. Como muchos acá me cansé del cambio constante de reglas del juego así que decidí abrir varias cuentas para lograr escapar del riesgo argy. 
+
+Para este proceso use: Bitso – Binance – Kraken – Dukascopy – Tradestation Global. El tiempo de apertura de cuenta en los crypto exchanges fue de 10 minutos aprox, Dukas 1 dia y Tradestation 3 dias (pero porque me rebotaron varias veces el POA).
+
+El paso a paso:
+
+1. Fondear Mercadopago. Para esta primera prueba transferí $36.000
+
+2. Compre USDT en Binance con $18.000 y LTC en Bitso con los otros $18k para probar dos maneras de fondeo crypto distinto.
+
+3. Mandé todo a Kraken. Los USDT por la red TRC20 (comisión 1 USD y llegaron en 6 minutos) y los LTC por su propia red (comisión 0,3 USD pero tardó bastante más tiempo). Acá hay que tener en cuenta que LTC es muy volátil y este tiempo puedo jugar a favor o en contra. 
+
+4. En Kraken convierto a EUR. Los USDT fueron €83.38 y los LTC €83.62
+
+5. Paso los EUR a Dukascopy via SEPA. Llegaron €166.91 (costo de la transferencia €0.09)
+
+6. Envio los EUR a Tradestation Global también via SEPA (costo €3.50)
+
+7. Convierto los EUR de vuelta a USD a $194.22
+
+Como ven, arranque con ARS 36.000 (204 USD al tipo de cambio CCL “libre” del día de la fecha) y llegaron a mi bróker del exterior USD 194.22",BosteroMerval,merval,167,0.99,161,2021-09-03 17:05:55,https://www.reddit.com/r/merval/comments/phcrs8/guia_para_fondear_broker_del_exterior_y_escapar/,/r/merval/comments/phcrs8/guia_para_fondear_broker_del_exterior_y_escapar/,True,post
+pl8y5r,"Guía: Como cobrar dólares billete en Argentina [YouTube, AdMob, AdSense, etc.] # 2021","Hoy les vengo a contar como luego de tanto averiguar y renegar, pude cobrar mis 13K dólares que hace ya rato tenia estancados. Primero como introducción voy a comentar mi problema, las diversas posibilidades que conozco y por que elegí hacerlo de esta manera.
+
+**Introducción**
+
+Contexto: Hago plata como programador, pretendo cobrar por múltiples servicios que me pagan por diferentes vías, hoy lo hice de este modo, pero conocer alternativas me va a servir en el futuro. Junte un dinero y quería ingresarlo a Argentina, pero no quería que esa plata se me transfiera a mi cuenta en un banco de Argentina. Los dólares estaban estancados en una cuenta de **Google**.
+
+Debido a que me faltaba información en ese entonces, creí que tenia mil maneras de cobrar la plata (las maneras de cobrar la playa depende del servicio con el que estés tratando, recordemos que queremos evitar una transferencia común), entonces me puse a investigar a lo loco, creyendo que cualquier opción servía para mi:
+
+* Transfiero la plata a una cuenta en Uruguay y retiro los dólares ahí. Problema: No podes abrir una cuenta en Uruguay así como así, pero lo que me detuvo: Uruguay comparte información fiscal con Argentina.
+* Transfiero la plata a una cuenta en USA: Esto se veía mejor, USA no comparte información fiscal con Argentina, pero me tope con que abrir una cuenta en USA no era tan sencillo. Tenias que viajar y personalmente solicitar la apertura de una, no era una opción para mi y no encontré una manera de abrirla a distancia. Así que busque otras alternativas, aunque no estaba descartado del todo.
+* Payoneer (Mi opción favorita en ese momento). Si ganaste guita haciendo apps y usaste otro servicio de anuncios (como AdColony, IronSource, etc) o sos desarrollador web, o lo que sea, puede que te paguen por este medio. Maneras de cobrarlo? Dado que no fue mi problema, no investigue tanto, y si lo fuese, mandaría el saldo Payoneer a una cuenta en Puerto Rico, que es como cobre, pero ya vamos a llegar a eso. Hay gente que te compra el ""saldo"", podes encontrar sitios que te conectan al estilo P2P, o te hacen la movida directamente, y te suelen matar con la comisión. Otra opción es cobrar los dólares en cajeros de Uruguay, que es lo que iba a hacer yo.
+* Cripto. Este seria el paso siguiente, ingresar el dinero al pais, pero primero necesitaba cobrarlo, y estas empresas no te pagan en cripto. Si sos desarrollador web que laburas para alguien puede ser la mejor opción. Cambias USDT por verdes y se termino la historia, pero no es mi caso.
+
+Después tenes mil servicios mas, PayPal, por ejemplo. Esto funciona siempre que te paguen por ese medio, o puedas transferir a una cuenta abierta en cualquier pais, y justamente acá es donde le había errado, **Google solo hace transferencias bancarias a una cuenta que se encuentra en el pais que figuras registrado en AdSense/AdMob, o te envía un cheque en dólares.** Puede que si hubiese usado otro servicio de anuncios, me hubiesen pagado por Payoneer, o mínimamente me hubiesen permitido transferir la playa a una cuenta en otro pais (si conseguía abrirla). Y si sos Youtuber, estas atado a este problema.
+
+Ya la tenia toda armada, si me pagaban por Payoneer me iba a buscar los verdes a Uruguay, si podía abrirme una cuenta en USA me enviaban los verdes ahí y los traía transfiriéndoselos a alguna cueva y que me den los billetes físicos acá (tenia fichada una de buena reputación). Pero esto se me pincho.
+
+Así que investigue sobre la única opción que me quedaba para cobrar esta plata de Google y que desconocía totalmente: cheque en dólares, y una vez que me llegaba veía que hacia. Tenia miles de preguntas. Se puede cobrar en otro pais? En ese caso, donde lo cobro si no tengo cuenta? De ultima lo puedo endosar y se lo doy a alguien para que me lo cobre a cambio de una comisión, o algo así?
+
+Cambie la configuración de ""pagos"" y puse una dirección para que me llegue el cheque, y me llego al poco tiempo (no es una foto mía):
+
+&#x200B;
+
+https://preview.redd.it/jztprlllnjm71.jpg?width=348&format=pjpg&auto=webp&s=635b95223f4ba4abbebc3a6b7b69f68dbdbddafc
+
+Mientras tanto averigüé y:
+
+* Ningún banco de Argentina te lo cambia, leí por ahí que había el Banco Itaú podía llegar a cambiártelo a precio oficial.
+* Se puede cobrar en otro pais perfectamente.
+* Puedo endosarlo y dárselo a otro persona, aparentemente.
+
+Llegados a este punto estaba mas encaminado, con el cheque en la mano me puse a averiguar como cobrarlo. Encontré personas que me cambiaban el cheque por pesos o dólares. Yo lo endosaba y ellos se encargaban de cobrarlo y darme el dinero. Pero todo era a distancia, con comisiones altísimas, pobre atención, cero garantías y yo tenia demasiadas dudas para correr ese riesgo.
+
+**Abrir una cuenta a distancia**
+
+Bancos que te permiten abrir una cuenta a distancia:
+
+* Dukascopy, Suiza. Pros: Podía cobrar el cheque ahí, y si en el futuro usaba otros servicios que si me permitían transferirme a una cuenta en otro pais, pasaba la plata directamente a esta cuenta. El banco es amigable con las criptomonedas, por lo que me ahorraba el pasar por una cueva (y sus comisiones) para hacer ingresar la plata. Contras: Suiza comparte información fiscal con Argentina. Dukascopy es caro (fuente: lo que alguna vez leí). Pero me tiro para atrás lo primero.
+* Facebank, Puerto Rico. El banco que use. Pros: La cuenta no necesita contar con un mínimo. Tienen un servicio de atención al cliente donde te atienden bastante rápido y me solucionaron siempre todos los problemas. El tribunal supremo de Puerto Rico funciona de la misma manera en la cual funcionan las cortes supremas de los estados de Estados Unidos \[Wikipedia\]. Entre otras cosas significa que no comparte información fiscal con Argentina y que no saltan las alarmas por montos chicos. Contras: Por transferencia te cobran 30USD. Sus sistemas (banca, app) están un poco rotos y el registro no se hace por la aplicación oficial, sino por una aplicación exclusiva para argentinos y venezolanos que quieren abrirse una cuenta en Facebank, y hasta donde se no esta funcionando para venezolanos, se....
+* Hay otros bancos en Suiza amigables con las criptomonedas, y en Puerto Rico, similares en características. Supongo que habrá en otros paises también.
+
+**Abrir una cuenta a distancia en Puerto Rico**
+
+Si queres empezar a familiarizarte con este banco te dejo su pagina web: [https://facebank.pr/](https://facebank.pr/)
+
+* Para abrirte una cuenta en Facebank, lo primero que necesitas es descargarte esta aplicación: [https://play.google.com/store/apps/details?id=ar.com.facebank&hl=es\_AR&gl=US](https://play.google.com/store/apps/details?id=ar.com.facebank&hl=es_AR&gl=US). Dado que hace ya tiempo que lo hice, no recuerdo el paso a paso, pero es relativamente sencillo. Dentro de la app tenes la opción de chatear con soporte por WhatsApp, o podes llamar a (11) 5032-017 para atención al cliente. Ese numero se encuentra al final de su web.
+* Facebank todo el tiempo te va a estar enviando correos para que pases la información por ahí. Por ejemplo puede que te pidan foto del DNI en la aplicación y foto de una factura donde consta tu domicilio por correo electrónico. Por lo tanto tenes que estar muy pendiente de esto.
+* La aplicación que te comente arriba, va a pedirte una foto frontal de tu cara. Nota: El sistema saca la foto ""automáticamente"" cuando centras la cara en la figura que te indica, pero funciona muy mal, y puede que no te la saque aunque tengas la cara en el lugar. Espera... y te va a dar la opción de apretar un botón para sacártela manualmente.
+* Algo similar pasa con el DNI, puede que no se saque automáticamente, nuevamente, lo mismo que te comente. Espera y sácala manualmente. No vale una foto así nomas, si algún numero o letra no se lee, volvela a sacar. Hacelo afuera con luz solar, o que tu mujer te sostenga una luz artificial pero que no encandile la cámara! La info se tiene que ver clara.
+* El nombre con el que te registres tiene que coincidir exactamente con el del documento.
+* Una vez que te registres, no vas a poder hacer mucho. La solicitud se ""envió"", y a partir de ahí todo continua vía mail. No elimines todavía esta app, necesitas usarla una vez mas.
+* Te van a enviar un mail de que recibieron tu solicitud, con un link para continuar el registro, seguí los pasos.
+* Te van a enviar un correo para que les pases una foto de un documento donde conste tu domicilio. Respondeles al correo pasando una foto clara del documento.
+* Si todo sale bien te van a enviar un correo, donde te comentan que podes continuar el registro en la app (te va a llegar una notificación en la app de antes, supongo que si la abrís si no te llego nada también sirve). No recuerdo que mas te pedían ahí.
+* Después de todo esto finalmente estas registrado, al menos un poco. Te va a llegar un correo con un usuario y un numero de cuenta. Este usuario no te permite iniciar sesión en Facebank aun (como yo pensé), sino que te sirve como ""invitación"" para realizar el registro en su banca. Entonces te vas a [https://secureib.facebank.pr/enrollment/banca-virtual#!/login](https://secureib.facebank.pr/enrollment/banca-virtual#!/login) y pones ese usuario. Y te registras. Si no hiciste todo lo anterior no tenes nombre de usuario que poner y no podes registrarte.
+* Después de esto te va a llegar un correo ""Solicitud de Autoenrolamiento"" donde te van a brindar una clave para poder acceder con el usuario creado antes, si mal no recuerdo. Ahora podes irte a [https://secureib.facebank.pr/personas/banca-virtual#/login](https://secureib.facebank.pr/personas/banca-virtual#/login) e intentar iniciar sesión. Te van a pedir que cambies la clave la primera vez que ingresas. Puede que también te manden un código de confirmación al correo antes de poder continuar, es por seguridad, copialo y ya vas a poder entrar.
+* Después de todo esto ya tenes una cuenta en Facebank, pero sin saldo. Para poder cobrar el cheque tenes que descargar una segunda aplicación, ya que no es posible cobrarlo desde la banca ni por correo. La primera aplicación, del registro, ya no te sirve mas, la podes eliminar. Esta nueva aplicación es como la aplicación ""oficial de Facebank"", y tenes una sección donde podes mandar fotos del cheque. La app es esta: [https://play.google.com/store/apps/details?id=com.facebank2.mobile&hl=es\_AR&gl=US](https://play.google.com/store/apps/details?id=com.facebank2.mobile&hl=es_AR&gl=US). Descargala e iniciala.
+* OJO ACA, esto es engañoso y tuve que comunicarme con el banco porque no tenia idea que pasaba. Cuando entras a la app, te pide usuario y contraseña. Si pones el usuario y contraseña que tenias hasta ahora, te va a lanzar un error. Resulta que tenes que registrarte ahí también, como si la banca móvil fuese distinta a la banca web. Arriba de Iniciar sesión tenes un botón verde **REGISTRO DE BANCA MOVIL**, hace click y ahí te va a permitir poner el usuario y la contraseña de la banca con la que entrabas desde el navegador. Seguí los pasos y después ya vas a poder entrar.
+* Ya una vez dentro debajo tenes la opción ""Deposito"" que es donde vas a cargar el cheque. **Importante**, el cheque debe estar endosado. Del lado de atrás tiene que tener tu firma y en lo posible también tu numero de cuenta, que alguna vez te enviaron por correo o podes consultar en la banca web. Nuevamente, funciona con un sistema donde te detecta el cheque y lo fotografía. No me funciono. Si te pasa lo mismo espera y saca la foto manualmente. Si tu cámara no es del todo buena como la mía, no te preocupes en centrar el cheque donde te dicen, acerca la cámara lo mas que puedas para que sea legible, a ellos le llega la foto entera probablemente (no solo la sección recomendada por la app).
+* Te va a llegar una respuesta de si el cheque fue depositado o no. No tarda mas de 3 días hábiles. En caso de ser rechazado también te dicen por que.
+* **Importante:** Si el cheque fue emitido hace mas de 30 días a la hora de depositarlo, **no podes mover la plata hasta 10 días hábiles después de que haya sido depositado**. Puede que veas la plata en la cuenta 5 días después como me paso a mi, pero cuando intente transferirla me decía que no tenia fondos, y este era el problema. Lo malo es que la plata te aparece igual, o se te permite hacer la transferencia, y la solicitud se te rechaza días después. Acordate que simpre tenes la atención al cliente por cualquier cosa.
+* Una vez que la plata este depositada, antes de transferirla a una cuenta llama, explica la situación del cheque y pedí que te CONFIRMEN cuando vas a poder mover esa plata, así no andas teniendo estos problemas que tuve.
+
+Lo lindo de este método, es que si laburas para afuera, normalmente cualquier servicio o cliente te paga con transferencia internacional. Podes mandar toda la plata a Facebank y cobrarla desde un mismo lugar, en lugar de tener que andar recurriendo a distintos métodos.
+
+**Como ingresar la plata a Argentina**
+
+Compras cripto o le mandas la plata a una cueva de confianza. Facebank te puede cerrar la cuenta si se enteran que andas metido con cripto, esa es tu decisión. Supongo que podes zafar. Yo tengo un contacto en Rosario muy profesional que me da todo billete, cero problema. Le paso la plata a una cuenta que el me dice y al otro día me da todo junto. Una cuenta en Puerto Rico te cobra un 5%, una cuenta en USA te cobra menos. La transferencia con Facebank cuesta 30 USD. Alguno dirá que es mucho, pero comparado al 40% que el gobierno te roba y encima te dan pesos, parece una buena opción. Otro dirá que es mejor cobrar en cripto, porque el intercambio como mucho te sale un 1%, pero a mi no me pagan en cripto y prefiero no arriesgarme a comprar cripto desde Facebank. El modelo que uso me funciona bien y estoy cómodo, laburo con gente de confianza y no tengo riesgos.
+
+Mi recomendación es que tengas donde tengas la plata, mandala a una cuenta en Facebank y cobra los verdes en una cueva de confianza. Si vendes el saldo de PayPal a tal o pasas Payoneer a cripto etc capaz a la larga le sacas mas, pero si los montos son arriba de 1K manda todo al mismo fondo y retira de una, no te compliques la vida.",BrilliantOk1045,merval,146,0.99,16,2021-09-09 20:11:19,https://www.reddit.com/r/merval/comments/pl8y5r/guía_como_cobrar_dólares_billete_en_argentina/,/r/merval/comments/pl8y5r/guía_como_cobrar_dólares_billete_en_argentina/,True,post
+phgf1b,Preparandose para la Crisis [Parte 2],"Buenos tardes a todos los rediturros y rediturras de r/merval, hoy vengo a continuar y terminar mi anterior [post](https://www.reddit.com/r/merval/comments/os8gyw/preparandose_para_la_crisis_parte_1/) que tuvo múltiples repercusiones. Recibí muchas consultas, felicitaciones, y comentarios sobre el post anterior y bueno, hoy voy a tratar de ayudar a todos con la Parte 2.
+
+Les recuerdo que, este post junto con el anterior lo que busca es informar al lector explicando la situación del país de manera sencilla y sin preferencias políticas, busco explicar las cosas de manera imparcial y sumamente realista. Voy a adjuntar fuentes a medida que vaya explicando porque probablemente muchas cosas de las que voy a explicar no las puedas creer si no las ves en algún diario/canal de noticias relativamente conocido.
+
+En este post, voy a tomar las evidencias y red flags para insinuar que podría llegar a pasar en el corto lapso, quiero aclarar que bajo ningún punto de vista se considere futurología lo que voy a explicar, sino mas bien hechos posibles.
+
+# Dolar
+
+En el anterior post te hable mucho del dólar, esa moneda emitida por EEUU que nosotros los Argentinos adorados con todo nuestro ser, que durante muchas generaciones sirvió como reserva de valor y resguardo del Peso.
+
+Recordando un poco el Post anterior, La Argentina NO genera dólares, los únicos que generan USD en la Argentina es el Campo con sus múltiples yuyitos y animalitos. Hoy en día hay escasees de dólares en la Argentina, no hay USD para todos y todas sino mas bien para unos pocos.
+
+Al ser un bien escaso y por contra parte el Peso Argentino es un bien ultra abundante la pregunta que todos nos hacemos es ¿ Cual es el precio del USD ? 100? 130? 170? Mayorista? Oficial? Solidario? USD Netflix?
+
+La respuesta a esa compleja pregunta tiene mucho que ver en relación al nivel de reservas del Pais, recordemos que estas por definición son:
+
+>Las **reservas** son los recursos financieros en oro y divisas con los que cuenta un **país** para garantizar los pagos de los bienes que importa y el servicio de la deuda.
+
+En cuanto están las reservas de la Argentina? Esa si es una pregunta muy compleja porque hay reserva Bruta (la sumatoria de todo) y la Neta (La tangible). El BCRA no te dice fácilmente cuantas reservas netas hay porque simplemente no les conviene, siempre mencionan las brutas que es el numero mágico con el que inflan el pecho y venden un discurso.
+
+Entonces, son secreto de estado las reservas netas? La respuesta es NO, no te dicen el numero real pero si hay indicadores aproximados para calcular las reservas netas. Hay un user en Twitter muy famoso que sugiero seguirlo, este calcula las reservas netas y muchas cosas mas cada ciertos días, notificándote del valor real del dólar. El [Twitter](https://twitter.com/hombre__manzana?lang=es) del user.
+
+Para los que no puedan entrar al twitter de este user, el calcula que las reservas netas el 2/09/21 están en 3179M de USD. Es un numero críticamente bajo para un Pais y de alta peligrosidad en términos cambiarios.
+
+Imagen que mañana todos los ahorristas del País van a sacar sus USD ahorrados del homebanking a la vez, NO hay para todos. Así como lees... No hay para todos y todas sino mas unos pocos. Si no te acordás, en la época de Macri hubo un par de corridas bancarias, es decir, la gente fue masivamente a sacar sus USD por miedo a ciertas medidas del Gobierno. Una corrida bancaria de tal magnitud es imposible de frenar.
+
+Es por este y varios motivos mas que el Gobierno le pone trabas a cualquiera que pretenda acceder USD mediante algún mercado legal. Te frenan exportaciones, te frenan importaciones, ponen una lista ridícula de pretensiones para comprar $200 USD para ahorro, etc.
+
+Entonces volviendo a lo que seguramente te importa querido lector, que pasa con el USD? Que hago si tengo USD en el Banco? Me contaron de un corralito, podría pasar?
+
+Como te menciono, el USD es un bien escaso y preciado, su precio sube eternamente en la Argentina y no cualquiera puede comprarlo. Si tenes parientes que vienen comprando USD ahorro, te recomiendo que lo compren por casas de cambio virtuales como PlusCambio o TiendaDolar que manejan un Dolar Oficial mucho mas económico que los bancos y te termina resultando mucho mas barato.
+
+A penas compren los 200 USD, saca turno para el banco y anda a retirarlos, bajo ningún punto de vista dejes USD en el homebanking donde existen múltiples riesgos (intervenciones del gobierno, falta de liquidez del banco, etc) que te imposibiliten acceder a estos.
+
+Si no compras los 200 USD, sácate de encima los ARS con Dolar MEP o Dolarizate mediante Cripto. Si compras dolar MEP para evitar lio podes hacerlo mediante el banco (casi todos están habilitando MEP via homebanking) sino abrite cuenta en Reba donde podes hacerlo ahí sin limites ni problemas con transferencias con los USD. Si compras MEP te sugiero retirar los USD del Banco por lo anteriormente mencionado.
+
+Con respecto a un corralito hoy en día es poco probable pero no imposible, imagínate que de un día para el otro el BCRA le dice a los bancos ""No permitan que la gente saque mas de 100 USD por mes de su homebanking"" seria dispararse políticamente en el pie, podría desencadenar un caos enorme en una parte de la sociedad. Es mas lógico una fuerte devaluación que un corralito.
+
+Y ahora viene lo divertido querido lector, estas listo para emocionarte? Hace poco salió una nota en infobae sobre el Presupuesto 2022 que hablaba de un Dolar Oficial de $159 Pesos Argentinos (sin impuestos), esa nota fue borrada pero encontré esta que es una copia: [Fuente](https://www.parlamentario.com/2021/08/31/presupuesto-2022-dolar-a-159-y-crecimiento-del-4/)
+
+Al parecer fueron datos ""desmentidos"" por gente del circulo cercano al Ministro Guzman, sin embargo no es tan descabellado pensar que el USD tiene un precio atrasado, un dólar oficial a $102 ARS tiene algún sentido? Indudablemente no, entonces a continuación te voy a explicar que va a pasar con ese billete de monopoly que tenemos de moneda.
+
+Si tomamos en cuenta ese valor presuntamente ficticio de $159 ARS cada USD en el presupuesto oficial del 2022, el propio gobierno te esta diciendo que van a devaluar el ARS un 60% y que la inflación va a tener un piso del 60%.
+
+# Peso Argentino
+
+El Peso Argentino, esa moneda desagradable, devaluada, no la quieren ni siquiera los ciudadanos de su propio pais de origen y encima los políticos que tienen pretenden encajársela a otros paises, chistoso no?
+
+Hoy el Peso Argentino esta en constante crecimiento de circulante, es decir, por cada segundo que pasas leyendo este post se están imprimiendo billetes de $1000 pesos para distribuir de manera desigual entre las personas de este pais.
+
+Como te mencione en el post anterior, la Argentina es un Pais deficitario, un Pais que gasta mas de la que tiene, no importa quien gobierno ningún político toma las medidas que hay que tomar para cortar con el deficit porque estas medidas tienen un enorme costo político, son medidas ultra impopulares que a la mayoría de la Argentina le disgustaría.
+
+Entonces, como el país gasta mas de la que tiene hay dos formas de cubrir el gasto, pidiéndole prestado a alguien (deuda externa) o emitiendo billetes de monopoly (emisión monetaria), el Gobierno de Macri se financio con deuda externa, el gobierno de Alberto se financia con emisión monetaria.
+
+Las dos opciones son malas pero la emisión te explota antes, el Gobierno HOY en día esta inundando de ARS el mercado, en forma de subsidios, en forma de ayuda a empresas, en forma de prestamos a un ínfimo sector de la población, etc. Este gobierno en su discurso te insiste con que, la emisión monetaria es buena porque si vos le colocas ARS a la gente esta va a consumir mas productos y ese consumo hace mover la industria.
+
+La realidad es distinta, esos ARS sobrantes van directo a USD, sino es MEP, es Blue y sino Cripto (CCL), esos ARS que van a USD aumentan la presión contra el USD y por ende le aumentan la presión al BCRA que es el que esta interviniendo todos los mercados para que no surja una super devaluación pre elecciones.
+
+Por si no lo sabias hoy el BCRA tiene intervenido el mercado bursátil (dolar MEP y CCL) mediante bonos del mega canje, es decir, el ministro Guzmán vende bonos (deuda en manos del estado) a privados para frenar el MEP y CCL.
+
+Además vende USD mediante empresas amigas para que el Blue no se dispare y acelere el aumento de precios. [Fuente](https://www.cronista.com/finanzas-mercados/dolar-blue-rozo-180-y-manos-amigas-pusieron-us-800-000-para-bajarlo-a-176/)
+
+Volviendo a lo importante, la emisión monetaria es tal que literalmente no dan abasto con las maquinas impresoras de billetes que hay en el pais, sino que tienen que importar pesos Argentinos de otros países. [Fuente](https://www.lavoz.com.ar/politica/emision-monetaria-argentina-importara-billetes-de-1000-desde-brasil/)
+
+Te quieres reír? No alcanzan con los Billetes de industria nacional y tampoco con los importados... Por que no imprimir billetes de mayor denominación? Si no alcanzan con tantos billetes de $1000, porque no imprimir de $5000 o $10000? Eso mi querido lector seria aceptar completamente la inflación y por ende el fracaso de las medidas del gobierno y pro ende se caería el relato.
+
+Entonces que hace el gobierno para seguir emitiendo y cubrir toda la enorme demanda? Esto es muy importante y te pido total seriedad y lentitud para leer eso, es algo que me la paso explicando y alertando a todos mis conocidos y muchos no quieren creerlo.
+
+El BCRA tomo dos medidas, voy a explicarte una a la vez:
+
+1. Como primer medida el BCRA le pidió a los bancos que migren parte de sus tenencias de LELIQS a Bonos del Tesoro que son a 180 dias.
+
+Que quiere decir esto? Por si no lo sabes, hoy los bancos ofrecen Plazos Fijos al 37-38% anual en ARS, los ARS de los ahorristas que invierten ahí van a parar a las LELIQS que es un instrumento que impuso el BCRA para quitarle ARS a los bancos y reducir parcialmente la oferta de ARS en el mercado.
+
+Entonces, Ahorrista pone Plazo Fijo ---> Banco pone LELIQS a 30 días.
+
+Que quiere decir eso de los bonos del tesoro? Básicamente el Tesoro es el que reparte los pesos en conceptos de subsidios, ayudas, etc. El BCRA le provee de ARS y el Tesoro la reparte toda. Por ende, todo lo que tenga el Tesoro va a contribuir el déficit y la emisión.
+
+El BCRA le pide a los bancos que parte de esas LELIQS se conviertan a Bonos del Tesoro, es decir, LOS PESOS DE LOS AHORRISTAS TERMINAN VOLVIENDO A LA CALLE COMO MAS EMISION.
+
+Ahorrista con Plazo Fijo ---> Banco con Leliqs ---> Bonos del Tesoro 180 dias.
+
+Dato importante, los Plazos fijos por Ley te los cubre el BCRA hasta un monto, es decir, pase lo que pase el BCRA te tiene que garantizar que un cierto monto esta 100% seguro, pero que pasa con estos bonos del Tesoro? Bueno acá viene lo grave, esos Bonos del tesoro son Defaulteables, reperfileables, totalmente rompibles.
+
+Aca es donde uno piensa en un inevitable Bonex, te recomiendo leer el Plan Bonex [Wikipedia](https://es.wikipedia.org/wiki/Plan_Bonex). Básicamente el Gobierno te reemplaza los Bonos del Tesoro por Bonos a 20 años, reduciendo rápidamente el circulante de ARS en el mercado.
+
+Es decir, dejaste 100.000 ARS en plazo fijo a 30 días, el gobierno mete un Bonex y el banco en vez de darte los 100k + Intereses te da un Bono a 20 años que no vale nada. Si vos necesitabas esos ARS te imaginaras que, estas arruinado no? Bueno eso paso, hay antecedentes y se están dando señales de que podría repetirse.
+
+[Fondeo: BCRA habilita a bancos a migrar encajes de Leliq a bonos del Tesoro (ambito.com)](https://www.ambito.com/economia/leliq/fondeo-bcra-habilita-bancos-migrar-encajes-bonos-del-tesoro-n5196156)
+
+[Leliqs por bonos: el canje con el que el BCRA busca bajar una deuda récord y que los bancos financien al Estado - LA NACION](https://www.lanacion.com.ar/economia/leliqs-por-bonos-el-canje-con-el-que-el-bcra-busca-bajar-una-deuda-record-y-que-los-bancos-financien-nid27052021/)
+
+2) La Segunda medida igual de grave es que el BCRA le pidió a los FCI money markets (Esos FCI de súper liquidez donde entras y salís en el momento como MercadoPago y UALA) que migren sus Plazos fijos, cauciones y otras tenencias de ínfimo riesgo a los súper re contra seguros (sarcasmo) bonos del tesoro.
+
+Se repite lo mismo que en la primer medida, BCRA quiere financiar al estado con dinero del ahorrista, algo muy grave y que inevitablemente va a conllevar a una inexorable devaluación y posible bonex.
+
+[Lanzan medidas para aumentar la demanda de títulos públicos, calmar al dólar y ""rollear"" la deuda - El Cronista](https://www.cronista.com/finanzas-mercados/deuda-en-pesos-el-gobierno-da-un-nuevo-paso-para-llevar-liquidez-a-las-letras-del-tesoro/)
+
+En un principio estas medidas NO son obligatorias, pero son un enorme RED FLAG de lo que puede llegar a pasar.
+
+Es inevitable una enorme devaluación post elecciones, inclusive con un Bonex el USD se debería disparar, el user de twitter que pase antes tiene un indicador de USD mediante Bonex que ronda los $400. Imagínate que el USD se vaya $400, te explota la Hiper.
+
+En definitiva, el Peso es malo, nadie lo quiere y es el instrumento del Político de turno para robarle a la gente.
+
+Vos querido lector, si tenes amigos/parientes/conocidos que invierten en Plazos fijos, te pido por favor que los invites a leer este post o, que te tomes el tiempo de explicarles los riesgos enormes que están tomando.
+
+# Impuestos
+
+La Argentina es uno de los países con mayor carga impositiva del mundo, hay impuestos sobre otros impuestos, un mamarracho total.
+
+Como el deficit fiscal no lo baja ningún gobierno, se financian con deuda externa, emisión monetaria y la frutilla del postre CARGA IMPOSITIVA.
+
+Por que cada vez suben los impuestos te preguntaras... Resulta que, como la emisión no alcanza hay que subir impuestos para financiar al estado, pagamos enormes impuestos para pagar subsidios, sueldos de politicos, etc.
+
+Te hace enojar, imagino no? Bueno yo no te voy a recomendar que caigan en la evasión impositiva porque es un delito penado, de hecho a Tinelli le confiscaron cuentas por no pagar impuestos. [Fuente](https://www.perfil.com/noticias/economia/embargan-cuentas-de-marcelo-tinelli-por-impuestos-impagos.phtml)
+
+El FMI en su nuevo acuerdo le va a exigir a este gobierno que baje el deficit fiscal, este gobierno le va a decir al FMI ""Si, yo te prometo que lo bajo, no me preguntes como pero lo voy a bajar"".
+
+Si van a bajar el déficit pero lo van a financiar con mas impuestos, esta medida sigue el discurso del gobierno de turno que dice que, hay que sacarle al que mas tiene para darle a los que menos tienen, es algo ironice porque el IVA lo pagamos todos, no importa la escala social.
+
+Para mejorar esta situación muchas personas dejan de pagar impuestos municipales, ABL, patente, etc con el fin de entrar en una moratoria con quita de deuda años después.
+
+Otras personas, las menos kamikazes buscan un buen contador que los ayude a acomodar sus números y pagar lo menos posible.
+
+Como los impuestos van a seguir subiendo, vamos a terminar igual que Venezuela con una economía 100% barrani/negra, es decir, vamos a manejarnos 100% en Efectivo o, a lo sumo en Crypto.
+
+Mediante el Efectivo o Cripto se puede evadir impuestos, es por eso que el gobierno le mete trabas al efectivo y dentro de poco se viene una regulación cripto.
+
+Lo mas probable es que migremos 100% a cripto porque el efectivo es inseguro y sucio.
+
+Hoy las personas están tomando la decisión de emigrar del Pais en busca de un mejor futuro. Esta parte del post es una opinión 100% personal, no lo tomen como una recomendación sino una opinión del escritor.
+
+Hay un candidato a Diputado, muchos lo conocerán Javier Milei, nadie puede negar que tiene intenciones de tomar medidas disruptivas considerando la mierda que venimos viviendo hace años. Medidas Pro mercado, bajando impuestos etc...
+
+Javier Milei con su opinión economica-politica y con las medidas que pretende tomar el mismo te dice que este Pais se arregla en 30-40 años. No te creas que un cambio de gobierno va a solucionar al pais en 4 años, No importa que medida pro mercado tomes, tenes un par de generaciones rotas por la pobreza, la falta de educación y dependientes del estado.
+
+Para que este pais comienzo a progresar, el estado tiene que reducirse al mínimo posible, el déficit fiscal eliminarse, la gente que vive de subsidios tiene que comenzar a trabajar y aportar, Vos querido lector, lo ves posible en 4 años ?
+
+Lamentablemente NO, muchos te diran ""Hay que quedarse y lucharla"", segados por un falso patriotismo pretenden que vivas comiendo mierda para sostener un modelo de pais inviable, yo en mi OPINION, lo mas patriota que podes hacer es irte y fomentar el colapso total y posterior reinicio Argentino. Anda a un país que te quiera ver crecer, que te permita disfrutar, que te permita vivir, que te deje soñar. Quédate ahí varios años y cada tanto vení a vacacionar a la Argentina. Es lo mejor que podes hacer.
+
+Obviamente las cosas afuera no son fáciles, pero el Argentino se destaca por ser solidario, somos un pueblo que a pesar de todo vive poniendo el pecho y no es distinto cuando se trata de emigrar.
+
+# Inflación
+
+La inflación es a causa de los desequilibrios económicos, como no los van a equilibrar entonces va a seguir fija y acelerando.
+
+Este mes te van a querer hacer creer que la inflación baja porque van a venderte un 2% de inflación mensual, como si fuera poco no? Con la enorme emisión monetaria y el circulante que están haciendo llegar al mercado la inflación se va a tener que acelerar mas y mas.
+
+Te hago una pregunta, tiene sentido que tengamos este año 3% promedio de inflación mensual con las Tarifas congeladas, precios congelados, transporte congelado, etc ... ?
+
+Si esta todo tan congelado, por que sube? Hoy en día con todo el bardo del Covid y la Inflación, muchas empresas están cerrando, el mercado se esta achicando y los actores que proveen de productos a los consumidores cada vez son menos.
+
+Hay costos de producción en dólares, hay impuestos, hay un montón de cosas que generan que el precio suba y suba, no hay congelamiento ni intervención que valga. La culpa no es del Productor ni del Empresario, son las medidas del propio gobierno sumado a los enormes impuestos y la falta de competencia que generan toda una situación ridícula e insostenible.
+
+Hoy tenemos inflación resentida por los congelamientos, sumado a inflación futura por la emisión de HOY. Entonces, no tengo dudas de que el año que viene nos vamos a comer una inflación del 60% o mas.  Acompañada de desabastecimiento, pobreza, indigencia, devaluación etc.
+
+En el anterior post te comente múltiples formas de resguardarse contra la inflación, léelo porque es muy importante.
+
+# Cripto
+
+Hoy las Cripto son muy útiles para dolarizarse sin limitaciones, muchos creen que no le afecta a nada al gobierno que los ciudadanos compres Cripto. Me temo que se equivocan, las Cripto se compras en USD afuera de la Argentina y estas se compran mediante CCL.
+
+EL CCL esta intervenido y por ende le genera presión al BCRA  y reservas. Como dije antes, ante una inevitable economía en Negro con Precios dolarizados, es muy probable que la Argentina comience a manejarse 100% en Cripto.
+
+Imaginate llegar a un negocio y comprar un producto, ese producto te lo cobran en USDT/USDC/DAI siempre al mismo precio, no seria lindo?  Bueno, nosotros vamos por eso camino invitable y el gobierno lo sabe.
+
+Es por eso que pretenden ponerle impuestos y regulaciones, lo chistoso es que si no funciona con el USD porque va a funcionar con las Criptos? Va a surgir un mercado Blue de Criptos.
+
+# Conclusión
+
+El país esta atravesando una bomba que no termina de explotar, el famoso ""TIC TAC"" explota pero lentamente, no es algo de un día para el otro.
+
+Hoy con pobreza del 50%, alta indigencia y niveles enormes de desocupación se puede decir que la bomba exploto y sigue expandiéndose la destrucción masiva lentamente.
+
+Cobrar un sueldo en USD te garantiza comodidades en Argentina, porque seamos honestos, estamos baratos en USD pero no te protege contra la delincuencia, la inseguridad, la corrupción jurídica, el desabastecimiento, etc.
+
+Entonces, mi intención con estos dos post y probablemente una Parte 3 mas adelante, es que vos querido lector estés al tanto de lo que pasa, sepas protegerte y que ayudes a los demás.
+
+Realmente existe gente que no entiende nada de económica y esas personas son sumamente vulnerables a lo que se viene, te pido por favor que ayudes a tus conocidos y les recomiendes salir del Riesgo Argentino.
+
+# Dejo links útiles:
+
+Grupo de Discord: [https://discord.gg/r2DPBKh4uR](https://discord.gg/r2DPBKh4uR)
+
+Grupo de Telegram: [https://t.me/joinchat/Im3DS5tDp5UzMDAx](https://t.me/joinchat/Im3DS5tDp5UzMDAx)
+
+Pagina para Calcular si conviene pago en Efectivo o en Cuotas: [Infleta](https://infleta.com.ar/)
+
+Muchas Gracias a todos!
+
+EDIT: Se edito para adecuar a las normas del subreddit.",Heike77,merval,124,0.88,65,2021-09-03 20:33:14,https://www.reddit.com/r/merval/comments/phgf1b/preparandose_para_la_crisis_parte_2/,/r/merval/comments/phgf1b/preparandose_para_la_crisis_parte_2/,True,post
+przke5,Como hacer un plan de herencia cripto: paso a paso," **Un plan de herencia de criptomonedas es una estrategia que le va a permitir a tus herederos acceder a todos tus fondos cripto en el caso de tu muerte.** Se dice que tener bitcoin es como **ser tu propio banco** (no confundir nunca con “ser tu propio jefe”). Al tener control total de nuestro dinero lo podemos intercambiar sin permiso de nadie y sin temor a que alguna entidad decida congelar nuestras cuentas. Al mismo tiempo ser nuestro propio banco también significa que la seguridad de nuestros fondos está en nuestras manos. **Nos tenemos que ocupar de resolver cosas que habitualmente resolvían otros por nosotros, como es el caso de la herencia.**  
+
+&#x200B;
+
+No importa si hoy en día parece que el monto que tenés en criptomonedas es muy chico y crees que no vale la pena hacerlo. Como hemos visto a lo largo de la historia de Bitcoin y las criptomonedas: **lo que es insignificante hoy puede ser una fortuna en algunos años**. No existe el plan de herencia cripto perfecto o libre de fallas, pero todos tienen el mismo objetivo: **permitir que tus herederos o quién vos dispongas, encuentren y sepan acceder a tus criptomonedas en el caso de tu muerte, sin comprometer la seguridad de estas.** 
+
+ 
+
+# Paso 1: Armá un inventario de todos tus criptoactivos. 
+
+**Hacé un inventario y anotá en una lista todas las plataformas cripto en las que tengas una cuenta**: exchanges, wallets, también las hardware, pools de DeFi, etc. Por seguridad es recomendable hacerlo con papel y lápiz, en vez de en una computadora. Tambies debes agregar los bitcoins fuera de la cadena en redes como la Lightning Network o cadenas laterales como RSK en el caso de que los tengas. 
+
+ 
+
+# Paso 2: Especificá la localización de tus backups
+
+Por cada plataforma que utilicemos para guardar nuestras criptomonedas **debemos tener un backup que nos permita recuperar esos fondos en caso de que perdamos nuestro teléfono, se nos rompa la computadora u olvidemos la contraseña de un exchange**. Para las billeteras no custodiadas, donde tenemos posesión de nuestras llaves privadas, lo recomendable es escribirlas en un papel con el nombre de la wallet y ocultar este en un lugar seguro. Incluso, para mayor seguridad podemos hacer 2 copias y ocultarlas en lugares distintos. Esta es una medida básica de seguridad que nos va a permitir dormir más tranquilos cuando estemos en vida. Cuando ella concluya, también va a ser una herramienta clave para que nuestros seres queridos puedan acceder a nuestro dinero. 
+
+Entonces en el plan de herencia tenemos que especificar las plataformas que utilizamos y también donde encontrar los backups. **No es recomendable poner los datos de backup directamente en el plan de herencia ya que si llega a caer en manos de una persona equivocada se puede apoderar de todos nuestros fondos**. 
+
+&#x200B;
+
+Ejemplos de cómo quedaría el inventario:
+
+## Billetera del celular:
+
+○ Dispositivo: Samsung S10
+
+○ Wallet Software: Coinomi
+
+○ Activo: BTC
+
+○ Contraseña: abcd1234
+
+○ Pin: 1234
+
+○ Backup: Caja de seguridad
+
+## Hardware wallet:
+
+○ Dispositivo: Trezor Model T
+
+○ Ubicación: Cajón del escritorio de la oficina
+
+○ Activo: BTC
+
+○ Backup: Un sobre sellado dentro de un libro azul en la biblioteca de la casa 
+
+○ Pin: 1234
+
+## Exchange:
+
+○ Web: https://www.binance.com/
+
+○ Wallet Software: Binance app
+
+○ Activo: Muchas shitcoins
+
+○ Usuario: email@email.com
+
+○ Contraseña:  B1TG4L3a 
+
+○ 2FA: Samsung S10 Google 2FA
+
+○ 2FA Key google: 123456789 
+
+&#x200B;
+
+## Puntos a tener en cuenta durante el armado del inventario: 
+
+* En el caso en que lo utilicemos, **es muy importante agregar el dispositivo en el que tengamos el autentificador de 2 factores y su clave.** 
+* **No dejes afuera ningún detalle aunque te parezca obvio**, como la web de acceso a Binance. Tené en cuenta que quien lo lea probablemente no tenga experiencia en criptomonedas y él o ella va a estar pasando por un momento traumático al haberte perdido y no van a poder pensar con claridad. 
+* **No seas totalmente explícito en la localización de tus backups.** Es decir que no pongas la dirección y un mapa exacto para que cualquiera lo pueda encontrar si accede al plan. El punto es que con esa pista tu familia lo pueda encontrar.
+* En el caso del exchange podemos elegir poner la información directo en el plan o crear un backup con el usuario, contraseña y autentificación de 2 factores y guardarlo en otro lugar. **La segunda opción es la más recomendable desde el punto de vista de la seguridad.** 
+
+&#x200B;
+
+# Paso 3: Designá ayudantes
+
+Como ya mencionamos antes, hay una gran posibilidad de que tus seres queridos no estén familiarizados con las criptomonedas. **Esto quiere decir que aunque tu plan de herencia haya funcionado, y ellos tengan acceso a tu inventario y a tus llaves privadas no van a saber qué hacer.** Al encontrarse con toda esta información en el estado de shock en el que estén, es probable que terminen buscando ayuda en desconocidos o todavía peor, en internet. **Para ahorrarles esa situación de estrés y la posibilidad de que sean estafados, es que vas a armar una lista de ayudantes.** Estos ayudantes serán personas con las que tengas confianza y que conozcan el funcionamiento de las criptomonedas. La idea es que tus familiares o aquél que hayas seleccionado como benefactor, se puedan apoyar en los ayudantes designados para poder acceder y utilizar de la manera que quieran tus criptomonedas. Si no tenés ningún amigo de confianza que sepa de criptomonedas, podes elegir a alguien que tenga conocimientos de tecnología y pueda, en última instancia, aprender rápido sobre cripto para ayudar a tu familia.  
+
+Lo ideal es que los ayudantes seleccionados sean más de uno, y estén ordenados de mejor opción, a peor opción. **Anotá la mayor cantidad de información posible sobre cada ayudante:** nombre, mail, fotos, links a sus cuentas de redes sociales, etc. Esto se debe a que muy probablemente el plan de herencia que armas hoy, se use muy adelante en el tiempo,  y esos datos de contacto ya no sean los mismos. Más adelante vamos a hablar de cómo actualizar este plan. 
+
+ 
+
+# Paso 4: Redactá una carta dirigida tus herederos o benefactores
+
+Como indica el sentido común, no podés dejarle a tus benefactores únicamente una lista con nombres de billeteras y números extraños, porque es probable que la encuentren y no sepan que es. **Para eso vamos a hacer una carta de introducción que les va a dar el contexto y los consejos necesarios para que puedan realizar el proceso de forma segura.** Abajo dejo una plantilla de esta carta traducida y adaptada del libro de Pamela Morgan “*Criptoassets Inheritance Planning: A Simple Guide for Owners*”. Esto es solo una plantilla, puedes corregir, agregar o sacar partes para que se ajuste a tu situación. 
+
+*Estimados {familia/amigos/herederos}:*
+
+*La fecha de hoy es {insertar fecha}. Esta carta es para informarle que poseo criptomonedas que no están en manos de terceros ni están controladas por ellos. Quiero estar seguro de que puede acceder a ellos en caso de que algún día yo no pueda. Lea esta carta completamente antes de tomar cualquier medida y si tiene alguna duda use la lista de ayudantes que encontrará más abajo. No acceda a mis criptomonedas a menos que yo este incapacitado de hacerlo.* 
+
+*Recuerde, estos activos no están en manos de un banco y los errores no se pueden corregir; las transferencias deben realizarse correctamente o los fondos podrían perderse para siempre. Observe de cerca a todos los que ayudan y asegúrese de comprender todo lo que está sucediendo. Tenga mucho cuidado con los ""backups” de las billeteras porque cualquiera que los vea puede robar los activos.*
+
+*Uso los exchanges presentes en la lista más abajo para intercambiar criptomonedas y activos. Puede que ahora haya efectivo o activos allí. Debe sacar estos activos del exchange lo más rápido posible porque este no está asegurado y si el sistema es hackeado, los fondos podrían verse comprometidos. Para acceder a esta cuenta, necesitará mi nombre de usuario, contraseña y un código de seguridad, también necesitará el PIN de mi teléfono y el PIN de la autentificación de 2 factores. Toda esta información o donde encontrarla se encuentra aclarado más abajo. Esta cuenta está conectada a mi cuenta bancaria en \_\_\_\_\_\_\_\_\_\_\_\_ y ​​los retiros de efectivo deben depositarse en esa cuenta.*
+
+*Utilizo la billetera de hardware \_\_\_\_\_ para almacenar claves para la mayoría de mis tenencias de bitcoin y ether. Para acceder a los fondos, necesitará el PIN y el dispositivo en sí. Si no puede encontrar el dispositivo o el PIN, también puede acceder a los fondos usando la semilla de respaldo de billetera y ​​usando la función ""restaurar"" para poner las llaves en otro dispositivo Trezor o billetera de software. Si necesita utilizar esta función de restauración, probablemente necesite ayuda. Contacte algún ayudante de la lista.*
+
+*Utilizo también billeteras móviles para almacenar cantidades más pequeñas de bitcoin y otras monedas. Para acceder a estos activos, necesitará el PIN de mi teléfono y el PIN de mi aplicación. Si no puede acceder a mi teléfono, tendrá que usar el backup. Con la copia de seguridad de la billetera, puede usar una función de restauración para recrear esta billetera en otro dispositivo. Si necesita hacer esto, probablemente necesitará ayuda. Contacte algún ayudante de la lista.*
+
+*También consultar por la mejor forma de liquidar los activos si es que eso es lo que prefiere. De los contrario si no necesita el dinero le recomiendo hacer como yo y mantener los activos, ya que se tienden a apreciar en el tiempo.*
+
+*Esta carta se actualizó por última vez el {insertar la fecha de hoy}.*
+
+*Firma: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_*
+
+*Aclaración:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_*
+
+&#x200B;
+
+# Paso 5: Localización del Plan de Herencia
+
+Una vez que hayamos seguido todos los pasos nos vamos a encontrar con un simple pero efectivo plan de herencia cripto, para que nuestros seres queridos accedan a nuestras criptomonedas. Ya tenemos un documento con la carta introductoria, el inventario con nuestros activos y backups y una lista de posibles ayudantes de confianza. 
+
+**Ahora tenes que tomar una decisión: ¿qué haces con el plan de herencia?** Una opción sería dárselo directamente a tu pareja, a tu papá o a tu hijo, pero esto implicaría que ellos pueden acceder a tus criptomonedas mientras estés en vida, si eso quisieran. Como alternativo podés dejarlo oculto mezclado entre cosas personales, o en algún lugar que nadie vaya a revisar normalmente. En el caso de tu muerte es muy probable que algunos de tus seres queridos se pongan a ordenar tus pertenencias y lo encuentren. Otras personas prefieren mencionarle a sus herederos que existe un plan de herencia pero sin dar detalles, de esa manera cuando lo encuentren sabrán que es. **Esta es una decisión personal que tenés que tomar basada en tu relación y la confianza en tus herederos. Lo más importante es que nadie externo a tu círculo de confianza pueda acceder a este plan y que tus seres queridos lo encuentren en el caso de que te pase algo.** 
+
+ 
+
+# Paso 6: Revisión y actualización
+
+Como ya mencionamos brevemente, es extremadamente importante que tu plan de herencia este relativamente actualizado. No es necesario actualizar todas las monedas que vas comprando o vendiendo día a día. **Sin embargo, una vez al año deberías revisar todo el plan: ver si empezaste a usar una billetera o plataforma nueva, chequear que los backups estén en su lugar, chequear que el plan esté en su lugar y actualizar la lista de ayudantes si es necesario.** Esto, aparte de asegurarte de que tus herederos puedan acceder en un futuro a todas tus criptomonedas, te va a servir a vos para mantener tu portfolio organizado y seguro.
+
+**Lo más importante de un plan de herencia es tener un plan de herencia.** La gran mayoría de la gente falla en este punto. Si decidimos tener soberanía financiera, es decir, ser los únicos dueños de nuestro dinero y no depender de terceros esta es una responsabilidad que debemos tomar. El planeo y ejecución de un plan de herencia puede parecer una tarea pesada, es por eso que conviene separarlo en simples pasos e ir haciéndolos de a poco. 
+
+Espero que les sirva mi humilde aporte al sub! Me parece un tema importantisimo del que no se habla mucho y esta bueno discutir.
+
+Si les interesa saber un poco mas de este tema hay un podcast de lunaticoin muy bueno dedicado a esto:
+
+[https://www.youtube.com/watch?v=yI\_JP1loEtk&t=4663s](https://www.youtube.com/watch?v=yI_JP1loEtk&t=4663s)",ramaguys,merval,118,0.98,36,2021-09-20 14:29:42,https://www.reddit.com/r/merval/comments/przke5/como_hacer_un_plan_de_herencia_cripto_paso_a_paso/,/r/merval/comments/przke5/como_hacer_un_plan_de_herencia_cripto_paso_a_paso/,True,post
+pwptlh,Cuenta comitente en HSBC para comprar Dólar MEP.,"Buenas, gente. Les hago una consulta. Resulta que mi viejo tiene una cuenta en el Banco HSBC y abrió una cuenta comitente para comprar dólares MEP. En todas las guías / tutoriales en internet veo que se utilizan plataformas como Bull market, o tienda dolar, pero mi viejo me dice que no hace falta usar algo así porque el banco ya te permite hacer todo esos trámites sin necesidad de usar servicios externos mediante el uso de la cuenta comitente. El tema es que no encuentro nada de información que explique como usarla y comprar dólar MEP. ¿Alguien tiene una idea de donde conseguir esta información?
+
+Edit: Gente, gracias a todos por las respuestas. Efectivamente voy a abrir una cuenta con algún broker y realizar todo a través de ella. ",Fvnes,merval,0,0.5,15,2021-09-27 17:29:09,https://www.reddit.com/r/merval/comments/pwptlh/cuenta_comitente_en_hsbc_para_comprar_dólar_mep/,/r/merval/comments/pwptlh/cuenta_comitente_en_hsbc_para_comprar_dólar_mep/,True,post

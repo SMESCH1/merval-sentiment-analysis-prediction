@@ -1,0 +1,780 @@
+id,text,author,subreddit,score,created_utc,parent_id,link_id,type
+j9c1woo,Falta unidades y escala logaritmica en el eje Y,HwanZike,merval,29,2023-02-20 17:45:39,t3_117ja59,t3_117ja59,comment
+j9bxs52,"Conclusiones rapidas, si en diciembre del 2015 compraba dólares, hoy tendría 2601 pesos, si los metía en un plazo fijo y seguía renovando hoy tendría 2270, no obstante hay etapas donde  conviene ahorrar en plazo fijo, es curioso cuando el dólar toca la linea del plazo fijo da la sensación que se disparara
+
+Edit: Paso las fuentes y link de descarga por si les interesa:
+
+[https://www.bcra.gob.ar/PublicacionesEstadisticas/Principales\_variables\_datos.asp](https://www.bcra.gob.ar/PublicacionesEstadisticas/Principales_variables_datos.asp)
+
+[https://www.ambito.com/contenidos/dolar-informal-historico.html](https://www.ambito.com/contenidos/dolar-informal-historico.html)
+
+[https://www.transfernow.net/dl/20230220ICbzo6wJ](https://www.transfernow.net/dl/20230220ICbzo6wJ)
+
+Edit de Edit: Como sugirió un user si ademas hacemos trabajar los dólares bajo el colchón de una manera ""Tranqui"" los rendimientos en pesos se multiplican de una manera importante, por ejemplo asumiendo una tasa del 10% anual de renta se paso de los 2600 pesos a 5320.",Round_Cantaloupe_372,merval,28,2023-02-20 17:18:53,t3_117ja59,t3_117ja59,comment
+j9cb08h,Bueno a ver si ahora dejan de preguntar si les conviene plazo fijo o dolar,Metal_Zero_1,merval,10,2023-02-20 18:45:15,t3_117ja59,t3_117ja59,comment
+j9c4j0h,Buen laburo! Pregunta..Hiciste el cálculo considerando reinvertir el total de los intereses ?,Alex_Pay,merval,8,2023-02-20 18:02:46,t3_117ja59,t3_117ja59,comment
+j9c7m2b,"Si, es sabido, pero igual gracias por el gráfico porque cada tanto se discute. Y encima esto es un gráfico con los dolares bajo el colchon que igual da retornos reales negativos, si los invertis en algo, se va a la estratosfera.",BNeutral,merval,7,2023-02-20 18:22:58,t3_117ja59,t3_117ja59,comment
+j9c83c0,"""El que apuesta al dólar, pierde""",Malavero,merval,8,2023-02-20 18:26:06,t3_117ja59,t3_117ja59,comment
+j9cyy5n,"Esán más o menos ahi, al final de cuentas y al final de todos los calculos lo que queda más claro es que en este pais si no sabes por lo menos un mínimo de economía estas al horno, el pobre ciudadano que trabaja, ahora en pesos, usa la tarjera y se apalanca para compras diarias pierde peor que en la guerra.",Zennichimaro,merval,5,2023-02-20 21:34:42,t3_117ja59,t3_117ja59,comment
+j9ckdly,"Interesante, dejo un ward para volver más tarde",nicodearg,merval,4,2023-02-20 19:49:19,t3_117ja59,t3_117ja59,comment
+j9cerld,"Me habia hecho un modelo parecido sobre el 2022 y me daba que el PF ganaba, por lo menos durante el 22. Tenes idea en que se diferencian los modelos? Probablemente le pifie en algo.
+
+https://docs.google.com/spreadsheets/d/1isomj93BPHl2wxG4fwFU0SHIIAvuFjhy/htmlview",pampa_13,merval,2,2023-02-20 19:10:48,t3_117ja59,t3_117ja59,comment
+j9g709b,Plazo fijo que seria? la tasa nominal? Lo calculaste con el Plazo fijo reinvirtiendo los intereses?,pae88,merval,2,2023-02-21 15:14:59,t3_117ja59,t3_117ja59,comment
+j9d0gaz,Esto toma en cuenta la inflación del propio dolar?,tektelgmail,merval,2,2023-02-20 21:46:02,t3_117ja59,t3_117ja59,comment
+j9cdyy5,"De cuánto es la duración de los plazos fijos?
+
+También hay otros instrumentos que trackean mejor la inflación (algún bono CER que venza este año, aunque con la corrida pre-salida de Guzmán ahí tendrías un dip importante)",CrastersKip,merval,2,2023-02-20 19:05:20,t3_117ja59,t3_117ja59,comment
+j9dfya8,Me encanto el nuevo *Plazo Fijo Moving Average.*,diyexageh,merval,1,2023-02-20 23:45:30,t3_117ja59,t3_117ja59,comment
+j9cn6u0,eso seria el dolar oficial? el que está barato pero que no te venden?,PatagonicoMan,merval,0,2023-02-20 20:08:40,t3_117ja59,t3_117ja59,comment
+j9fmfvq,"esta mal conceptualmente ya, pone algun rendimiento de bonos en USD en la comparacion",_santiagos_,merval,0,2023-02-21 13:02:27,t3_117ja59,t3_117ja59,comment
+j9cpy24,"También habría que ajustar el dólar por inflación, lo cual te baja el rendimiento real.
+
+1 dólar de dic de 2015 tiene el mismo poder de comprar que 1.28 dólares de hoy, razón por la cual guardar dólares bajo el colchón es una pésima idea.
+
+Los intervalos de 30 días entre los PF los rellenaste de forma lineal?",EmployerWide8912,merval,-4,2023-02-20 20:28:15,t3_117ja59,t3_117ja59,comment
+j9ck04i,Seria bien,Blastilismo,merval,1,2023-02-20 19:46:47,t3_117ja59,t3_117ja59,comment
+j9cz4k2,De donde obtenes la data? Me gustaría hacer algo similar y compartir acá,Varsoviadog,merval,1,2023-02-20 21:36:05,t3_117ja59,t3_117ja59,comment
+j9d6s6v,"Osea que realmente no es tan malo el plazo fijo, pero tenés que tener skill viviendo en Argentina",[deleted],merval,1,2023-02-20 22:34:33,t3_117ja59,t3_117ja59,comment
+j9gkkfw,"Ídolo, muy bueno!
+Quizás una serie de los últimos 90 días sería lo más interesante para ver.
+A la larga usd. Pero en el corto que está conviniendo?",No-Mulberry4307,merval,1,2023-02-21 17:15:03,t3_117ja59,t3_117ja59,comment
+j9kw55q,Falta la tasa de tranquilidad mental de no estar en pesos,Iskelion,merval,1,2023-02-22 15:49:34,t3_117ja59,t3_117ja59,comment
+j9c3if5,"El eje Y esta en pesos, [https://www.transfernow.net/dl/20230220ICbzo6wJ](https://www.transfernow.net/dl/20230220ICbzo6wJ) por si queres modificarlo, si sacas alguna conclusion compartila",Round_Cantaloupe_372,merval,6,2023-02-20 17:56:05,t1_j9c1woo,t3_117ja59,comment
+j9c3ne3,"Creo que es porque cuando cambian las tasas tenes un mes, quizás 2 que rinde mas momentaneamente. Ahora pasado ese plazo vuelve a convenir comprar dolares, entonces todo lo que estaba en plazo fijo se dispara. Si te interesa el tema fijate la ultima vez que aumentaron la tasa al 75, los primeros dos meses rindio mas, pero al tercero cuando el dolar supero cuando iban venciendo los pfs la gente dolarizaba y ahí el dolar se acomodo.  
+PD: toma mi analisis con pinzas soy una cuenta de memes berretas",magahrdonna,merval,21,2023-02-20 17:56:59,t1_j9bxs52,t3_117ja59,comment
+j9bzw32,en este pais siempre a largo plazo convino el dolar,Fernesaso,merval,5,2023-02-20 17:32:34,t1_j9bxs52,t3_117ja59,comment
+j9ez9u9,"> asumiendo una tasa del 10% anual de renta se paso de los 2600 pesos a 5320
+
+Cabe aclarar que una tasa de 10% anual en dolares es una tasa muy alta. Mas sentido tendria una tasa del 3-5% anual en dolares.",bannedinlegacy,merval,4,2023-02-21 10:08:30,t1_j9bxs52,t3_117ja59,comment
+j9h68fr,">ajo el colchón de una manera ""Tranqui"" los rendimientos en pesos se multiplican de una manera importante, por ejemplo asumiendo una tasa del 10% anual de renta se paso de los 2600 peso
+
+cómo laburar los dólares de manera tranqui? complejo para el argentino medio ignorante de las finanzas y economía personal (yop)",Conurbantati,merval,3,2023-02-21 20:09:00,t1_j9bxs52,t3_117ja59,comment
+j9c1gxz,"Parece ser una trend que arranco en el COVID?
+
+De casualidad podrías separarlo en 2 y comparar (supongo que sabrás que, y supongo que tiene que ver con el área entre ambas funciones?)
+
+Curiosidad absoluta igual xd",FeelTheFish,merval,2,2023-02-20 17:42:45,t1_j9bxs52,t3_117ja59,comment
+j9cm8cx,También en varios momentos el MEP estuvo menos q el blue (como ahora) y sacas más diferencia.,FerDeath,merval,2,2023-02-20 20:01:59,t1_j9bxs52,t3_117ja59,comment
+j9cnsn2,Trabajar los dólares bajo el colchón? Cómo sería eso. Si están en el colchón están en el colchón. Gracias,rally2000,merval,2,2023-02-20 20:12:53,t1_j9bxs52,t3_117ja59,comment
+j9c4we7,"Muchas gracias, me salto la duda sobre esto porque ahora se me vence un PF y estoy viendo si seguirlo o comprar dólares. Si se considera reinversión de todos los intereses y ganancias, ahi pase el excel por si te interesa la metodología",Round_Cantaloupe_372,merval,6,2023-02-20 18:05:13,t1_j9c4j0h,t3_117ja59,comment
+j9c9azg,"Es interesante lo que mencionas, se me ocurre que se le podría agregar una tasa anual de ganancias esperadas y ahi lo podemos comparar con otros instrumentos.
+
+Edit: hice ese ejercicio con una estimación de renta del 10% anual en dólares y se fue de 2600 a 5320",Round_Cantaloupe_372,merval,7,2023-02-20 18:34:01,t1_j9c7m2b,t3_117ja59,comment
+j9dbljo,En la escuela deberían enseñar eso,Round_Cantaloupe_372,merval,3,2023-02-20 23:11:54,t1_j9cyy5n,t3_117ja59,comment
+j9ftehc,"Hay bastante diferencia la verdad, en el PF tenes un costo de oportunidad mientras que en el dolar seguis liquido. No tiene sentido apostar al PF a la larga, pero si banco utilizarlo como una herramienta más. 
+Por ejemplo después de que se dispara el dolar vender y hacer tasa en plazo fijo unos meses y re comprar dolares.",Pankoh,merval,3,2023-02-21 13:48:16,t1_j9cyy5n,t3_117ja59,comment
+j9cfio4,"es verdad que durante 2022 ganan plazo fijo, hice el ejercicio desde que asumió Massa (Día siguiente) con una inversión de 100 pesos, tendrías 149 si hubieras hecho PF y 128 si eligieras dólares",Round_Cantaloupe_372,merval,4,2023-02-20 19:16:00,t1_j9cerld,t3_117ja59,comment
+j9dbfdq,"No, solo toma en cuenta la cotización ARS/USD, ahí están los datos por si queres modificar algo",Round_Cantaloupe_372,merval,3,2023-02-20 23:10:36,t1_j9d0gaz,t3_117ja59,comment
+j9cf8l4,"mmmm capaz ahi meti algun error en la duración de los PF, considere renovación diaria, lo que implicaría mayor TEA, no obstante como relativamente no son tasas muy grandes capaz no haya mucho error. Propuse PF porque es lo que conozco, pero si se consiguen los datos del variación del valor del instrumento que propongas se puede hacer",Round_Cantaloupe_372,merval,5,2023-02-20 19:14:04,t1_j9cdyy5,t3_117ja59,comment
+j9dby4d,Todo con blue,Round_Cantaloupe_372,merval,3,2023-02-20 23:14:36,t1_j9cn6u0,t3_117ja59,comment
+j9gfm4t,El gráfico es sin rendimientos en usd,Round_Cantaloupe_372,merval,1,2023-02-21 16:34:45,t1_j9fmfvq,t3_117ja59,comment
+j9dbovg,Si los periodos entre datos de PF están estimados de forma lineal,Round_Cantaloupe_372,merval,4,2023-02-20 23:12:36,t1_j9cpy24,t3_117ja59,comment
+j9fvvbv,">1 dólar de dic de 2015 tiene el mismo poder de comprar que 1.28 dólares de hoy
+
+¡¡¿Y 1 peso argentino de 2015 tiene el mismo poder de compra?!!!
+
+>guardar dólares bajo el colchón es una pésima idea.
+
+Coincido pero, aún perdiendo 20% anual es más seguro que ahorrar en pesos porque en pesos, de un día para el otro, hacen una corrida y perdiste 20% como si nada.",BoredMerengue,merval,1,2023-02-21 14:04:11,t1_j9cpy24,t3_117ja59,comment
+j9dbjag,"Ahí están en el primer comentario las fuentes, lo saque del código de fuente de esas páginas, los datos procesados están en el Excel también compartido",Round_Cantaloupe_372,merval,3,2023-02-20 23:11:25,t1_j9cz4k2,t3_117ja59,comment
+j9dbbe6,"La respuesta correcta sería que depende de las políticas del gobierno de turno, durante Macri convenía PF, durante Alberto Dolar, ahora si a esos dólares en el colchón los haces trabajar el PF se queda atras",Round_Cantaloupe_372,merval,3,2023-02-20 23:09:45,t1_j9d6s6v,t3_117ja59,comment
+j9coujg,"Ojo con la escala. Por la inflación los montos son cada vez más grandes lo que impacta en la escala. Del lado izquierdo del gráfico las diferencias parecen pocas pero en realidad lo que está pasando es que como la escala es absoluta, esos montos a la izquierda quedan muy pequeños y el grueso de línea no te deja ver bien el gráfico.
+
+Creo que por eso te recomendaron usar una escala logartimica",lonchonazo,merval,3,2023-02-20 20:20:26,t1_j9c3if5,t3_117ja59,comment
+j9c480s,"Por ahi puede ir, también el análisis debería ser en función de las políticas del momento, por ejemplo me di cuenta que durante el gobierno de Macri ganaba el PF casi siempre",Round_Cantaloupe_372,merval,5,2023-02-20 18:00:46,t1_j9c3ne3,t3_117ja59,comment
+j9c3kw4,"Te lo paso para que lo modifiques a gusto, si sacas alguna conclusión compartida [https://www.transfernow.net/dl/20230220ICbzo6wJ](https://www.transfernow.net/dl/20230220ICbzo6wJ)",Round_Cantaloupe_372,merval,4,2023-02-20 17:56:32,t1_j9c1gxz,t3_117ja59,comment
+j9c6i2w,cuando arranco Alberto más que el covid,roberp81,merval,3,2023-02-20 18:15:39,t1_j9c1gxz,t3_117ja59,comment
+j9dc16w,"Cierto, para comparar con otros activos debería encontrar los datos",Round_Cantaloupe_372,merval,1,2023-02-20 23:15:15,t1_j9cm8cx,t3_117ja59,comment
+j9dbwng,"Perdón si me expresé mal, para trabajarlos hay que sacarlos del colchón y hacerlos ccl mep o cripto",Round_Cantaloupe_372,merval,3,2023-02-20 23:14:17,t1_j9cnsn2,t3_117ja59,comment
+j9ftywp,Si no reinvertis los intereses el dólar siempre va a ganar al PF.,BoredMerengue,merval,2,2023-02-21 13:51:59,t1_j9c4we7,t3_117ja59,comment
+j9flot7,"Despues compartilo el grafico (si queres) pero considerendo que reinvertis con los intereses cada 30 dias (porque ahi la tasa anual se va por encima del 100%), seria re interesante verlo",Thalinaa,merval,1,2023-02-21 12:57:26,t1_j9c4we7,t3_117ja59,comment
+j9fssm7,"Creo que 10% es mucho igual, no hay inversiones con ese rendimiento con un riesgo igual al de un PF. Creo que un 5% anual sería un rendimiento real para una inversión en dólares con retornos asegurados y seguros",Pankoh,merval,8,2023-02-21 13:44:22,t1_j9c9azg,t3_117ja59,comment
+j9heu5f,Liquido pero en negro. No es poco eso para sumas importantes,moebiuz,merval,2,2023-02-21 21:08:19,t1_j9ftehc,t3_117ja59,comment
+j9dipie,Ni en pedo pero la verdad es que así el gráfico se puede interpretar como que el dólar es la mejor inversión y no lo es,tektelgmail,merval,-1,2023-02-21 00:07:26,t1_j9dbfdq,t3_117ja59,comment
+j9grf5u,">¡¡¿Y 1 peso argentino de 2015 tiene el mismo poder de compra?!!!
+
+yo nunca dije eso, yo siempre estoy hablando en dólares.
+
+A lo que voy es que los gráficos hay que ajustarlos por inflación y que guardar dinero bajo el colchón como muchos creen no es una inversión. Los dólares los tenés que poner a trabajar en bonos, ETFs, acciones, etc, ya que a mediano plazo perdés plata.
+
+Que perdés con el peso es algo que no es necesario ni aclararlo, se cae de maduro.",EmployerWide8912,merval,1,2023-02-21 18:33:48,t1_j9fvvbv,t3_117ja59,comment
+j9ct5b6,"En ese caso, tendria que ajustar por rendimiento o contra peso ajustado por inflación pero son otros gráficos
+
+Acá simplemente está poniendo cuantos pesos ganaste a tal momento
+
+Dejen de pedir siempre escala logarítmica por favor",Gandalior,merval,7,2023-02-20 20:51:31,t1_j9coujg,t3_117ja59,comment
+j9c4qsh,"Uf gracias! Buena punta para meterme en esto, se bastante de finanzas/economia y programación pero nunca probé quant.
+
+Si tenés alguna punta de modelos que se suelan usar o librito agradecería 
+
+
+Mañana me entretengo, gracias!",FeelTheFish,merval,1,2023-02-20 18:04:12,t1_j9c3kw4,t3_117ja59,comment
+j9c7mot,"True, a veces pienso muy macro xd
+
+Tiene más sentido, igualmente el mundo entro en caos económico en ese periodo y no se puede atribuir solamente al gobierno de turno (pese a que sean una manga de inútiles)",FeelTheFish,merval,0,2023-02-20 18:23:04,t1_j9c6i2w,t3_117ja59,comment
+j9e98bf,"Aura, sí...",rally2000,merval,1,2023-02-21 04:37:44,t1_j9dbwng,t3_117ja59,comment
+j9gfjok,"Ya lo subí al Excel, link en algún comentario!",Round_Cantaloupe_372,merval,2,2023-02-21 16:34:08,t1_j9flot7,t3_117ja59,comment
+j9gfguo,Se me fueron las expectativas con el 10% entonces jajaja,Round_Cantaloupe_372,merval,2,2023-02-21 16:33:24,t1_j9fssm7,t3_117ja59,comment
+j9djsei,"El concepto es que si comprabas 100 pesos en usd en 2016 hoy tendrías 2600 pesos y si ponías 100 en PF hoy tendrías 2200, ese análisis es independiente a la inflación del USD",Round_Cantaloupe_372,merval,8,2023-02-21 00:16:13,t1_j9dipie,t3_117ja59,comment
+j9zrm6g,[deleted],[deleted],merval,1,2023-02-25 16:40:51,t1_j9grf5u,t3_117ja59,comment
+j9c5vo0,"Disculpa que es quant? todos los datos los saque desde esas paginas analizando el código de fuente, haciendo que chat gpt me de códigos para sacar las tablas y procese los datos en Excel",Round_Cantaloupe_372,merval,4,2023-02-20 18:11:36,t1_j9c4qsh,t3_117ja59,comment
+j9wsal8,"No sé qué dólar está tomando, no presté tanta atención, pero más que Alberto presidente o el Covid, mi hipótesis es que estás viendo el efecto distorsivo del impuesto PAIS.",Naurglim,merval,1,2023-02-24 23:57:28,t1_j9c7mot,t3_117ja59,comment
+j9nf803,Gracias! Te aviso que se lo voy a mostrar a mis alumnos cuando les de economía (si no tenes problema) jajajaja,Thalinaa,merval,1,2023-02-23 02:30:12,t1_j9gfjok,t3_117ja59,comment
+j9fukwj,"No te gastes, no hay peor ciego que aquel que no quiere ver.",BoredMerengue,merval,1,2023-02-21 13:55:54,t1_j9djsei,t3_117ja59,comment
+j9zusmb,"Que sabes si recién arranco? Estoy en el tema de la inversiones desde hace más de 10 años. El tema de la inflación de las monedas duras es algo que hay que tener **siempre** presente.
+
+Además el OP habla de ""rendimiento"". Lo correcto seria dolarizar ambas curvas en dólares constantes de por ejemplo 2023.
+
+Esta mas que claro que el PF perdió, pero la curva azul es solo una victoria aparente, ambas son negativas en la practica.",EmployerWide8912,merval,1,2023-02-25 17:02:22,t1_j9zrm6g,t3_117ja59,comment
+j9c707w,"Gosh no esperaba esto. Y eso que lo vengo usando jajajaj 
+
+Nada, es llevar eso que hiciste un paso adelante e intentar sacar conclusiones con modelos estadísticos en base a hipótesis financieras l/ datos visualizados. (Quantitative financial modeling)
+
+Asumí que lo eras porque mucha gente que hace estos gráficos los hace con esos propósitos",FeelTheFish,merval,1,2023-02-20 18:18:59,t1_j9c5vo0,t3_117ja59,comment
+j9ogl04,"Ningún problema!! Por cierto tema de reinversión está considerada diaria, lo idea hubiera sido cada 30 días como decís pero me di cuenta tarde",Round_Cantaloupe_372,merval,2,2023-02-23 10:06:31,t1_j9nf803,t3_117ja59,comment
+j9zw3yy,[deleted],[deleted],merval,1,2023-02-25 17:11:23,t1_j9zusmb,t3_117ja59,comment
+j9c7qh1,Uff si interesante para aprender eso,Round_Cantaloupe_372,merval,1,2023-02-20 18:23:45,t1_j9c707w,t3_117ja59,comment
+j9zxa7t,"No se da en este caso, pero si solo las dolarizas podrías hasta tener incluso rendimientos positivos en dólares de forma nominal, pero estar perdiendo de forma real.
+
+Lo que propongo es dolarizarla en dólares constantes usando el CPI, lo ideal es usar lo que deje abajo pero es un quilombo y no vale la pena.
+
+[https://es.wikipedia.org/wiki/D%C3%B3lar\_internacional](https://es.wikipedia.org/wiki/D%C3%B3lar_internacional)",EmployerWide8912,merval,1,2023-02-25 17:19:21,t1_j9zw3yy,t3_117ja59,comment
+j9zyepv,[deleted],[deleted],merval,1,2023-02-25 17:27:03,t1_j9zxa7t,t3_117ja59,comment
+ja001xr,"Ya se que saco rendimientos en pesos. A lo que voy es que una comparación nominal en pesos no aporta mucho y por esa misma razón estoy proponiendo algunas modificaciones para que sea más útil.
+
+Habría que hacer una comparación con diferentes productos o bienes. Por ejemplo cuantos paquetes de fideos te comprabas en 2015 con esos 100 pesos vs. con lo que te dio el PF/blue. Como dato anecdótico hoy la leche esta reglada en dólares.
+
+Por que tan agresivo?",EmployerWide8912,merval,1,2023-02-25 17:38:17,t1_j9zyepv,t3_117ja59,comment
+ja00o0f,[deleted],[deleted],merval,1,2023-02-25 17:42:29,t1_ja001xr,t3_117ja59,comment
+j9g0mj6,"Cuando vea una publicación diciendo ""que caros están los X "" Le voy a mandar link a tu publicación junto con la respuesta ""es tu sueldo el que perdió y no X que aumentó""",[deleted],merval,18,2023-02-21 14:34:31,t3_1186ygh,t3_1186ygh,comment
+j9gjtxx,"el viejo ""los precios suben por ascensor y los sueldos por escalera""",ZurditoBagley,merval,14,2023-02-21 17:09:36,t3_1186ygh,t3_1186ygh,comment
+j9fwmo2,"Ahí la vi, es muy buena. Ojalá este tipo de webs sirva para darnos cuenta que así no se puede vivir. Pues una web como la tuya no tendría sentido en un pais serio con políticas y funcionarios responsables en sus decisiones.",Temporary-Dig-4242,merval,29,2023-02-21 14:09:03,t3_1186ygh,t3_1186ygh,comment
+j9gfjiu,"Buen post, siempre se dijo que la inflación es dibujada y que los sueldos no se mantienen, pero decirlo con los números exacto es mas divertido",NerBog,merval,13,2023-02-21 16:34:06,t3_1186ygh,t3_1186ygh,comment
+j9jieey,"No quiero asustarte Bart, pero siendo año electoral, puede que la inflación sea del 250 % antes de octubre, aún tratandose de un gobierno peronista",Gsuitetdf,merval,5,2023-02-22 09:39:04,t3_1186ygh,t3_1186ygh,comment
+j9hriew,"Y si. Mientras la gente siga aceptando salarios y precios en pesos en vez de equivalentes en dolares, va a seguir así la cosa.  
+
+
+Lo triste es que los que pueden negociar buenos salarios de afuera, un tiempo se quedan, y después muchos directamente se van a la mierda tras lidear con un gobierno que les quiere quitar 75% del sueldo para que sean igual de pobres que el resto.",BNeutral,merval,6,2023-02-21 22:39:46,t3_1186ygh,t3_1186ygh,comment
+j9lldwm,"A ver si te sigo:   
+
+indicador 1 = inflación en pesos.     
+
+indicador 2 = salario en pesos. 
+
+Hasta ahí voy bien no? 
+
+El poder de compra, eso de donde lo sacas? 
+Es decir, 
+en 2010 con 2 pesos me hacía un alto guiso. 
+Y ahora para un alto guiso me hacen falta 250 pesos. 
+Mi salario subió pero no tanto. No? 
+
+ 
+La pregunta que me viene a la mente, y aprovecho que te tengo a mano.  
+es por que  si querías comunicar algo para informar, lo hiciste complejo? Sabes matemáticas? Programación? Esto para vos no es complejo? Hablas así con el kiosquero de la esquina? 
+El impuesto? Cual sería?   
+
+Para mi la idea cuando uno comunica algo, y no es una crítica, sino porque me interesa saber que pensas, sin ánimo de bardo. 
+
+Es algo que llamo la “renuncia de los intelectuales”, 
+no bajarlo a lenguaje humano, es también fallar al comunicarlo.     
+
+Y te celebro que intentes hacerlo asi, una página web, la fórmula, etc  
+
+aún así, me da curiosidad por que no pusiste un indicador que fuese fijo al lado de los que elegiste para que fuera bien evidente la diferencia a ojo de buen cubero?   
+
+Onda un salario te comprabas un 100 Big Mac! 
+Y ahora te compras 50 Big Mac!   
+El Big Mac puede tener más o menos lechuga es cierto, pero sigue siendo un Big Mac.   
+
+En fin, si me lees; espero sea útil mi comentario",Moriantago,merval,2,2023-02-22 18:23:14,t3_1186ygh,t3_1186ygh,comment
+j9itelh,"Hace 6 años mi salario equivalia a mil dolares, hoy estoy en los 800 dolares (si lo saco al valor del MEP) claramente mi salario se devaluo un monton.",damadeltiempo,merval,1,2023-02-22 04:21:44,t3_1186ygh,t3_1186ygh,comment
+j9j9q7q,Igual el salario mínimo es un chiste. No creo que nadie trabaje por esa guita,Biblos1980,merval,-1,2023-02-22 08:02:58,t3_1186ygh,t3_1186ygh,comment
+j9jw1ei,[removed],[deleted],merval,-2,2023-02-22 11:29:34,t3_1186ygh,t3_1186ygh,comment
+j9j0dv8,"Che probé la calculadora y me tira perdida negativa, está bien eso?
+Además que mi salario no aumenta por mes y si a cada tanto, funciona igual? Como lo relleno en ese caso",OhSWaddup,merval,1,2023-02-22 05:53:34,t3_1186ygh,t3_1186ygh,comment
+j9j94q4,Pregunta sería: me podes decir cómo se define la inflación que están calculando?,E_v_a_n,merval,1,2023-02-22 07:55:21,t3_1186ygh,t3_1186ygh,comment
+j9jatcy,No si está perfecto y no lo pongo en duda.,Biblos1980,merval,1,2023-02-22 08:16:40,t3_1186ygh,t3_1186ygh,comment
+j9ji5n6,"Argentina es siempre una paradoja, sobre todo en materia económica: paritarias bajas, inflación alta, atraso cambiario en el dolar, salarios mínimos irrealmente bajos, planes sociales altos, etc.",Gsuitetdf,merval,1,2023-02-22 09:36:48,t3_1186ygh,t3_1186ygh,comment
+j9tqi8n,"El análisis puede estar bien hecho pero el título es una exageración.
+
+Si consideras un salario mínimo de $65.000 (aprox.) y decis que perdió $1.600.000 entonces tendría que estar en $1.665.000. No hay forma de que eso tenga algun sentido en al realidad más allá de los números.
+
+El salario perdió un montón de poder de compra, cierto. Pero dudo que la gran mayoria de la gente hoy este viviendo con menos de la mitad (en cosas reales, no números) de lo que tenía hacer 5 años.
+
+Yo te reconozco que tengo menos poder de compra, no podría ponerle un número exacto, pero seguro está entre 70% / 80% de lo que tenía en mi mejor momento, aún considerando aumentos nominales.",iy73xk,merval,1,2023-02-24 11:29:08,t3_1186ygh,t3_1186ygh,comment
+j9ut4i3,"Hice un experimento con esto, puse el salario de un empleado de comercio desde septiembre de 2019 al presente y me dice que perdió $240 mil en este período, esto que significa? Que un empleado de comercio debería ganar $240 mil MAS? O $240m?",namast397,merval,1,2023-02-24 15:39:53,t3_1186ygh,t3_1186ygh,comment
+j9jhi4r,Aldo Pignanelli usaba mucho esa frase,Gsuitetdf,merval,1,2023-02-22 09:30:25,t1_j9gjtxx,t3_1186ygh,comment
+j9fx4kj,"Gracias, coincido al 100%!",MarianoMontiel,merval,8,2023-02-21 14:12:13,t1_j9fwmo2,t3_1186ygh,comment
+j9i09m3,"Unpopular opinion: no lo leo porque no tiene sentido ni aporta mucho. Salario mínimo de 150 USD, ya tenés todo lo que necesitas saber. Único lugar en el mundo junto con Venezuela. Es realmente una miseria, esas estadísticas en pesos no mueven la aguja, la realidad es que un cajero acá cobra y accede a 3 veces menos cosas que cualquier semejante en la vecindad, más allá de las conclusiones que saquemos comparándonos a nosotros mismos.",ScienceAndRock,merval,3,2023-02-21 23:44:28,t1_j9fwmo2,t3_1186ygh,comment
+j9gflte,Totalmente!,MarianoMontiel,merval,1,2023-02-21 16:34:40,t1_j9gfjiu,t3_1186ygh,comment
+j9jm47l,"Y... es una tirada de dados, habria que ver como manejan el deficit. Igualmente la inflación siempre tiene efecto retardado",MarianoMontiel,merval,1,2023-02-22 10:12:28,t1_j9jieey,t3_1186ygh,comment
+j9ht93w,"Es que otra no queda porque para hacerlo tenes que dolarizar un pais entero y hacerlo en negro porque por derecha no se puede.
+
+Totalmente... Eso se suma a que vivis en un pozo y no sabes si mañana no te matan cuando salis a comprar fruta. Hoy el que puede tiene los ojos afuera",MarianoMontiel,merval,5,2023-02-21 22:52:48,t1_j9hriew,t3_1186ygh,comment
+j9lrdr0,"> Mi salario subió pero no tanto. No? 
+
+Correcto. Mas que ""subir"" cayó en términos reales 
+
+>es por que si querías comunicar algo para informar, lo hiciste complejo? Sabes matemáticas? Programación?
+
+Estoy estudiando programación, y he estudiado ingeniería varios años y me interesan mucho las finanzas!
+Y si, fue bastante complejo de crear! Quise crear una herramienta que sea útil y práctica de usar para mucha mas gente
+
+>aún así, me da curiosidad por que no pusiste un indicador que fuese fijo al lado de los que elegiste para que fuera bien evidente la diferencia a ojo de buen cubero? 
+
+Perdón pero acá te perdí un poco. Ahora le agregué varios gráficos para facilitar la comprensión. No se si con eso respondo tu respuesta!
+
+>En fin, si me lees; espero sea útil mi comentario
+Coincido. En principio empezó como un chiste para medir cuanto se devalúa nuestro salario mensualmente. Y nada a partir de ahí me pase de manija, se me fue mucho la mano y terminé creando este pequeño monstruito 😬",MarianoMontiel,merval,1,2023-02-22 19:00:07,t1_j9lldwm,t3_1186ygh,comment
+j9jiv9b,"Y vos tuviste suerte, yo perdí casi el 50% 
+
+Cobraba 600 y ahora con suerte son 300 y algo",GatoNinjaVolador,merval,3,2023-02-22 09:43:31,t1_j9itelh,t3_1186ygh,comment
+j9jl28q,"Que suerte. Yo tuve que irme con un juicio porque de 1200 paso a 500. Algo de lo que me robaron pude recuperar con eso pero igual es una cagada, es imposible proyectar un futuro así.",Sifflion,merval,2,2023-02-22 10:03:22,t1_j9itelh,t3_1186ygh,comment
+j9j3np8,Y... si asumimos que después de 6 años tendrías que esperar también un aumento real en tu salario perdiste bastante mas que un 20%,MarianoMontiel,merval,1,2023-02-22 06:40:19,t1_j9itelh,t3_1186ygh,comment
+j9ja90o,"Si, mas o menos... Mucha gente labura full time por 70-80 lucas... De todos modos es para ilustrar otra caracteristica",MarianoMontiel,merval,3,2023-02-22 08:09:34,t1_j9j9q7q,t3_1186ygh,comment
+j9kdehw,Anda a cualquier peatonal de zona sur y en cualquier negocio te ofrecen incluso menos.,damadeltiempo,merval,1,2023-02-22 13:55:21,t1_j9j9q7q,t3_1186ygh,comment
+j9lz4u3,"El sueldo medio en negro está abajo del mínimo.
+
+La mitad de los trabajadores están en negro.",[deleted],merval,1,2023-02-22 19:50:16,t1_j9j9q7q,t3_1186ygh,comment
+j9jywju,"Curioso mensaje el tuyo. Viste el gráfico y las fechas del mismo?
+
+Esta página no habla mal del gobierno de Alberto, sino del de Macri. Lo que no quiere decir que este gobierno sea mejor que el de Macri, solo que estás malinterpretando la información que se te presenta.",Alakdae,merval,3,2023-02-22 11:49:50,t1_j9jw1ei,t3_1186ygh,comment
+j9ssya9,Tu comentario fue eliminado por no cumplir con las reglas del sub. Por favor leerlas antes de postear de vuelta.,merval-ModTeam,merval,1,2023-02-24 05:22:01,t1_j9jw1ei,t3_1186ygh,comment
+j9j3d2m,"Buenas. Si seleccionaste el período correcto y los numeros están bien significa que tu salario le ganó a la inflación y que los aumentos compensaron los posibles atrasos que hayas tenido. Ojo que la coma de decimales es un punto
+
+Si te resulta raro habría que analizar tu caso particular, pero desde ya te digo que las cuentas están bien hechas!
+
+Si estás convencido de que hay algo raro me podes mandar los números que usaste por privado y reviso que no haya ningún bug raro!",MarianoMontiel,merval,2,2023-02-22 06:36:11,t1_j9j0dv8,t3_1186ygh,comment
+j9jaexh,"La inflación se calcula a partir de la tasa compuesta de la inflación de todos los meses.
+
+ejemplo
+
+Inflación mes 1 =6%
+
+Inflación mes 2 =6%  
+Inflación mes 3 =6%
+
+inflación total acumulada = 1,06\^3 ó 1,06\*1,06\*1,06.
+
+Una vez con ese indice mensual de inflaciones acumuladas correspondientes a cada mes se multiplica a los salarios!",MarianoMontiel,merval,1,2023-02-22 08:11:38,t1_j9j94q4,t3_1186ygh,comment
+j9jm0t7,Yes,MarianoMontiel,merval,1,2023-02-22 10:11:40,t1_j9ji5n6,t3_1186ygh,comment
+j9tr3vz,No. Lo que yo destaco es la perdida acumulada en todo el periodo no cual tendria que ser el salario minimo salario (serian supuestos 96kARS). Cuanta guita de tu salario se fue comiendo la inflacion en todo ese periodo,MarianoMontiel,merval,1,2023-02-24 11:33:28,t1_j9tqi8n,t3_1186ygh,comment
+j9utz4g,"No entiendo porque la gente se confunde tanto con esto. Hasta tienen el grafico abajo de la supuesta evolución del salario indexado a la inflación. 
+
+Me gustaría ver como hacer para que no haya mas confusión al respecto porque no se si es culpa mía por un error de diseño.
+
+Es perdida ACUMULADA en todo el periodo. Eso mismo es lo que dice el texto",MarianoMontiel,merval,1,2023-02-24 15:45:14,t1_j9ut4i3,t3_1186ygh,comment
+j9i0mzq,"Poderse se puede, el tema es que es la famosa ""carrera hacia abajo"". Mientras exista gente que labura por salarios que no sirven para nada salvo para quejarse de que ""trabajas e igual sos pobre"", no vamos a ir a ningun lado. Mientras el salario minimo no sea algo coherente que se actualiza atuomaticamente, tampoco. Idem si no podes subir los precios al mismo ritmo que se imprime dinero desde el gobierno, ya sea por restricciones legales o porque los competidores no acompañan.
+
+Los grupos que historicamente luchaban por estas cosas estan todos alineados con el gobierno y haciendo nada. Seguramente al gobierno que siga le hagan la vida imposible. Yo personalmente no le veo ningun futuro al país, gobierne quien gobierne.",BNeutral,merval,3,2023-02-21 23:47:14,t1_j9ht93w,t3_1186ygh,comment
+j9luk3l,"Eso es lo que vi, el monstruito, y me alegra que estés estudiando, noto tu inteligencia, te advertía de algo que me pasa con algunos equipos que colaboran conmigo. 
+Tenes que poder bajarlo a lenguaje humano. 
+Sino todo lo que sabes, no es útil.   
+
+Eso no te lo enseñan en ningún lado, lo aprendes a los golpes, preguntándote porque si soy más inteligente en esto  y hay cosas que no entienden, y les estoy avisando, me golpean :)   
+  
+Donde te perdí, mal yo, soy el responsable, el que comunica lo es.  
+
+Imagínate que le decís a un tipo el auto va a 100 km/h en relación a la velocidad gravitacional de la tierra? 
+Si va a Estados Unidos desde argentina pero si está cruzando de europea a asia eso cambia. 
+Te parece que es fácil de calcular? 
+A mi no.   
+
+Por eso me permitía más allá de lo bueno que está lo que estás haciendo, que lo hagas entendible, y elimines lo demás, aunque lo sepas.   
+
+Sino es fácil, ágil, rápido, entendible, si me hace pensar en cosas que no quiero, entonces no es útil. 
+Un consejo que no me pedis, pero que me daría si estuviese con algunos años menos.   
+
+Todo lo mejor para las próximas ideas. 
+Gracias por leerme y tu respuesta.   
+
+Saludos desde ciudad gótica",Moriantago,merval,1,2023-02-22 19:20:23,t1_j9lrdr0,t3_1186ygh,comment
+j9kuev7,"Que culpa tenía el empleador que tu sueldo se devalúe en dólares? Pregunto sin ofender, quiza leí mal tu mensaje.",uspace,merval,1,2023-02-22 15:39:00,t1_j9jl28q,t3_1186ygh,comment
+j9jz4ga,[removed],[deleted],merval,-2,2023-02-22 11:51:23,t1_j9jywju,t3_1186ygh,comment
+j9jakzx,"Si, pero de donde sacas ese porcentaje 6%?",E_v_a_n,merval,1,2023-02-22 08:13:48,t1_j9jaexh,t3_1186ygh,comment
+j9jj4jh,"Pero por qué estás multiplicando los índices mensuales? No sé si entendí bien el procedimiento.
+
+Mes 0= 100$
+Mes 1=6% (106$)
+Mes 2=6% (112,36$)
+Mes 3= 6% (119,01)
+
+La inflación acumulada es de un 19,01% y estaría lejísimos de un 6³",AMR-Mattos,merval,1,2023-02-22 09:45:56,t1_j9jaexh,t3_1186ygh,comment
+j9v19b2,"El término ""perdida"" implicaría que tenía eso y ahora no lo tiene, lo cual no podría ser cierto porque de ninguna forma el salario mínimo podría haber tenido $1.6M 
+
+Una forma un poco menos rigurosa seria como cuando dicen que alguien ""perdió de ganar"", para lo cual el salario mínimo tendría que haber podido ganar hoy ese montó y no lo hizo.
+
+En ningun caso es razonable pensar que hoy el salario mínimo podría tener 1.6M más de lo que tiene, ni con el valor del peso de hoy ni con el de hace años.
+
+Intentando hacer las cuentas rápido aca (perdón si escribo una burrada):
+
+El salario mínimo en 2017 era de ARS 8k (aprox.) hoy es de ARS 65k (aprox).
+
+La relación es 65 / 8 = 8.12,
+
+el coeficiente de ajuste de la inflación desde 2017 a 2023 (según la primer página que econtré), es de 11.8
+
+Entonces la pérdida sería de 11.80 - 8.12 = 3.68 (un 30% aprox)
+
+Con lo cual, para no haber perdido con la inflación, el salario tendría que ser de 65 \* 11.80 = 94.4
+
+En ARS de hoy perdió unos 30k
+
+Tiene sentido lo que hice?",iy73xk,merval,1,2023-02-24 16:32:08,t1_j9tr3vz,t3_1186ygh,comment
+j9ly15x,">Tenes que poder bajarlo a lenguaje humano. Sino todo lo que sabes, no es útil.
+
+Si coincido totalmente! Es lo que traté, obviamente a veces cuesta mucha cabeza o se necesitan varias iteraciones hasta que se tiene un ""producto"" que es de facil uso y comprensión. Obviamente hoy se ve el trabajo ""terminado"" pero no te das una idea cuantas iteraciones y versiones de esta pagina hubo jajajja
+
+Es como decis vos. No es algo que se enseña per se, y tiene mucho de esa intuición que calculo se va desarrollando con la práctica y la experiencia!
+
+>Por eso me permitía más allá de lo bueno que está lo que estás haciendo, que lo hagas entendible, y elimines lo demás, aunque lo sepas.
+
+Claro entiendo. Obviamente trato de no dejar cosas innecesarias y de agregar cosas que solo aporten a facilitar la comprensión de lo que se calcula. Pensé que agregando graficos eso mejoraba pero quizá me equivoqué! Mi logica fue que a  veces la gente no entiende el trasfondo de las cuentas que les devuelve la calculadora y algún apoyo visual es más entendible.
+
+Voy a tomar tu consejo y eliminar ciertas cuestiones que sean más complejas y sean suceptibles de confusión
+
+>Sino es fácil, ágil, rápido, entendible, si me hace pensar en cosas que no quiero, entonces no es útil. Un consejo que no me pedis, pero que me daría si estuviese con algunos años menos.  
+  
+Todo lo mejor para las próximas ideas. Gracias por leerme y tu respuesta.
+
+Muchisimas gracias a vos por tomarte todo el tiempo de leerme y darme terrible feedback! No te puedo explicar lo gratificante que es para mí cuando creo algo y recibo feedback de cualquier tipo!
+
+&#x200B;
+
+De nuevo gracias y te saludo desde Peronia! Buena semana!",MarianoMontiel,merval,1,2023-02-22 19:42:59,t1_j9luk3l,t3_1186ygh,comment
+j9kvzxv,"No tiene la culpa, pero no fue nuestro acuerdo inicial. Mas allá de eso sin contexto es dificil de interpretar, pero abusaron de pagarme en negro ( como un boludo entre en su momento para no garpar ganancias ) y la situación se fue de control. Llego un punto que me cansé y fuí por lo legal, porque nunca quisieron reestablecer mi sueldo a lo que yo pretendía, ni aún a lo que deberían.",Sifflion,merval,1,2023-02-22 15:48:40,t1_j9kuev7,t3_1186ygh,comment
+j9jz8cq,Gracias.,Alakdae,merval,2,2023-02-22 11:52:07,t1_j9jz4ga,t3_1186ygh,comment
+j9ssxe7,Tu comentario fue eliminado por no cumplir con las reglas del sub. Por favor leerlas antes de postear de vuelta.,merval-ModTeam,merval,1,2023-02-24 05:21:42,t1_j9jz4ga,t3_1186ygh,comment
+j9jbgkl,Datos oficiales del INDEC,MarianoMontiel,merval,1,2023-02-22 08:24:27,t1_j9jakzx,t3_1186ygh,comment
+j9jlvz7,"Buenas. Ojo no es 6^3 es 1,06^3
+
+En realidad nunca se usa la potencia y se calcula mes a mes porque la inflación va cambiando. Pero era para realizar una explotación breve",MarianoMontiel,merval,1,2023-02-22 10:10:33,t1_j9jj4jh,t3_1186ygh,comment
+j9v30ee,"Repito. 1.6 M es el atraso acumulado. Es el atraso mes a mes ajustado a la inflación y sumado.
+
+Decir perdió de ganar hubiera sido un error en mi opinión 
+
+>Entonces la pérdida sería de 11.80 - 8.12 = 3.68 (un 30% aprox)
+
+368%
+
+Si tiene sentido! Es exactamente lo mismo que se puede ver en los graficos que te devuelve la pagina cuando haces los calculos",MarianoMontiel,merval,1,2023-02-24 16:43:31,t1_j9v19b2,t3_1186ygh,comment
+j9jd0c3,"Ah ok, entonces ese porcentaje **no** es la inflación, es el índice de aumento general de precios.
+
+La inflación es el aumento general de precios (índice de INDEC) **acompañado** por la pérdida de poder adquisitivo (puede ser el salario, mejor ajustado en dolares cómo lo hicieron; se puede usar otras métricas, no es estándar)
+
+En economías donde han decidido no tener aumentos de salarios (o muy pequeños cada tanto), el índice de precios corresponde de forma general a la inflación. Pero no en todos los países se puede equiparar el índice de precios con la inflación.
+
+Tu gráfico probablemente muestra la inflación (o la puede mostrar, tengo que ver los cálculos), pero la inflación corresponde en la pendiente de las curvas (podes hacer una polynomial o de promedio corriente). Es muy útil tu calculadora porque lo hace mes a mes comparando sumas de pesos en vez de porcentajes (cómo hacen otras calculadoras), pero el resultado es la pendiente.
+
+En breve, durante todo el periodo analizado el aumento de precios  (y la devaluación de la moneda) sucedió con la misma velocidad, pero en la primera mitad los salarios no cambiaron (alta inflación). En la segunda mitad los salarios han aumentado pero prácticamente manteniendo el poder adquisitivo (baja inflación).
+
+El otro día calculaba con los últimos datos de INDEC los precios de productos seleccionados que en esa canasta habían aumentado 2000 pesos en total desde diciembre 2022. En general tengo que comprar 3 veces esa cantidad por mes (6000-7000 pesos mas) y en el mismo periodo mí sueldo aumentó 10000 pesos. En mí  burbuja financiera no hubo inflación.
+
+Es sostenible eso? No lo sé, pero probablemente **no** en el contexto politico-social del momento.
+
+Entonces, si, nos están mintiendo sobre la inflación ó no saben que es. No sé que es peor.",E_v_a_n,merval,3,2023-02-22 08:42:41,t1_j9jbgkl,t3_1186ygh,comment
+j9jfn98,">La inflación es el aumento general de precios (índice de INDEC) acompañado por la pérdida de poder adquisitivo (puede ser el salario, mejor ajustado en dolares cómo lo hicieron; se puede usar otras métricas, no es estándar)
+
+No, la inflación es el aumento nominal de los precios. Los salarios van por otro lado, poder adquisitivo y demás.",HwanZike,merval,1,2023-02-22 09:11:31,t1_j9jd0c3,t3_1186ygh,comment
+j9jhn6m,">No, la inflación es el aumento nominal de los precios.
+
+Si, en muchos paises el aumento nominal de los precios refleja la inflación. Pero no siempre.",E_v_a_n,merval,2,2023-02-22 09:31:48,t1_j9jfn98,t3_1186ygh,comment
+j7q16lu,"Gracias por la data, pero cierro el post por ser bastante offtopic y muy controversial para discutir aca.",galapag0,merval,1,2023-02-08 13:29:49,t3_10x29td,t3_10x29td,comment
+j7pydb9,Creo que fue el rant mas bizarro que lei en mi vida,CvaFanton,merval,400,2023-02-08 13:11:27,t3_10x29td,t3_10x29td,comment
+j7pzltt,Leí hasta la mitad y no podía evitar ver a micky vainilla en mi cabeza.,wcarlaso,merval,220,2023-02-08 13:19:36,t3_10x29td,t3_10x29td,comment
+j7py5rf,"Te quejás de que no pronuncian la S y vos escribís para el orto.
+
+O el post es bait o sos muy salame, además no lo veo demasiado relacionado al sub. Andá a r/Argentina y ponelo en thread diario de rant, de última",KeyDrixk,merval,197,2023-02-08 13:10:03,t3_10x29td,t3_10x29td,comment
+j7py2i7,"Che, se te escapo un poco de comentario en medio de tu clasismo.
+
+&#x200B;
+
+Que pena que te tengas que mudar a recoleta o barrio norte.
+
+&#x200B;
+
+Mamita, lo que hay que leer.",xerns,merval,159,2023-02-08 13:09:27,t3_10x29td,t3_10x29td,comment
+j7pzc6a,"Si me parecen algunas partes discriminatorias de tu comentario peeeerooo, lo que pasa es que hoy en día drogarse está bien visto. Ese pensamiento llegó a todas las clases sociales, y te diría que en la clase alta es peor. 
+
+Tengo primos de clase media y de clase alta. Algunos estudiaron en Buenos Aires y otros en Córdoba o el NOA. Todos drogones. Incluso uno internado por adicción a la merca. En la facultad, mis compañeros de todas las clases sociales, mínimo marihuana.
+
+Con respecto a la prostitución, eso no debería estar ocurriendo ni en público ni en privado es donde vivís. Tranquilamente podrían hacerlo en otro lado. 
+
+Finalmente con respecto a la clase social, creo que a todo el mundo le gusta juntarse masomenos con gente como uno. El tema es que la gente que era como vos dejó de serlo.",Imaginary_Passage431,merval,31,2023-02-08 13:17:51,t3_10x29td,t3_10x29td,comment
+j7py6xy,"Que hables de gente con nuestro nivel y clase es completamente discriminatorio. Por otro lado los cabezas siempre lo fueron y tomaron el pais, no solo puerto madero, no es ninguna novedad que el nivel educativo es pesimo.",pomelorosado,merval,42,2023-02-08 13:10:17,t3_10x29td,t3_10x29td,comment
+j7q00pm,+1,[deleted],merval,26,2023-02-08 13:22:16,t1_j7pydb9,t3_10x29td,comment
+j7q00ag,"No consumo ese humor gracias a dios, devuelta aclaro que no soy racista, es la realidad del barrio.",dedoenlayaga,merval,-125,2023-02-08 13:22:12,t1_j7pzltt,t3_10x29td,comment
+j7pzwr4,Pensé que era una parodia,SwizItalo,merval,70,2023-02-08 13:21:34,t1_j7py2i7,t3_10x29td,comment
+j7pzrvg,"No, la clase alta que yo pertenezco jamas vio con buenos ojos esto, tal vez el nuevo rico grasa si, esos son los peores.",dedoenlayaga,merval,-67,2023-02-08 13:20:41,t1_j7pzc6a,t3_10x29td,comment
+j7pze5t,"Me parece que perteneces a la generación de cristal, toda la vida de los inicios de la civilización existieron las clases sociales. Me haces acordar a 1 que dijo una vez, que es ""estigmatizante"" medir la probreza...",dedoenlayaga,merval,-40,2023-02-08 13:18:12,t1_j7py6xy,t3_10x29td,comment
+j7q05cu,No. Claro. Y lo tuyo es un look. Y te gusta el pop.,wcarlaso,merval,178,2023-02-08 13:23:06,t1_j7q00ag,t3_10x29td,comment
+j7q0vrj,"Para vos lo sea así, pero para la gente que compro y la estafaron, le cagaron la vida, si esto sigue así va terminar como constitución el barrio, intransitable. 
+
+Abría que poner como en muchos barrios privados derecho de admisión y verificar en detalle a los nuevos inquilinos, y si es en lo posible colocar barreras en los puentes de acceso.",dedoenlayaga,merval,-114,2023-02-08 13:27:51,t1_j7pzwr4,t3_10x29td,comment
+j7q0kyc,No se. Creo que toda la sociedad en su conjunto se degradó. A veces pienso en mudarme a esos países asiáticos donde te dan perpetua si te encuentran droga.,Imaginary_Passage431,merval,13,2023-02-08 13:25:54,t1_j7pzrvg,t3_10x29td,comment
+j8nskg2,"Faltaría un poco de info sobre tus productos, pero lo que veo son dos caminos.
+
+
+Uno es ir por el lado de hacer una marca. No sé lo que vendes pero la idea es hacer un nombre de empresa, conseguir clientela fija y que cuando digan tu marca sepan quién sos, que haces y que sos de confianza, diferenciandote del resto. Esto más que nada es con mucho marketing, un buen target de gente y darle para adelante. Con el tiempo te va a permitir tener tu propia tienda (no depender de ML), ampliar los márgenes (la gente paga más por marcas conocidas) y ser un referente del sector si sos bueno en el rubro. 
+
+
+Y la otra es seguir con lo que estás haciendo, agregando más productos. Por ahí podés probar con escalar a otros países del mercosur con ML, pero salvo que consigas un buen empujón económico, te puede llegar a desangrar sino tenés espalda. 
+
+
+Igual yo vería el tema de no depender tanto de ML, si bien te funciona, va a llegar un tiempo que puede ser una complicación. 
+
+
+Por lo menos es un poco mi apreciación.
+
+
+Si tú tema es por inversiones y que hacer con la plata, 10k por mes es un vuelto para inversiones interesantes.",Potoqueado,merval,14,2023-02-15 14:52:20,t3_113320d,t3_113320d,comment
+j8o4pn8,"te va ir mejor preguntando en FIRE (subreddit  de jubilacion temprana), esta todo en ingles pero  te van a aserorar mejor (dudo que la mayoriade este subreddit este condiciones de dar consejos estando en esa posicion de jubilacion temprana). La mitad ya la tenes, que es un ingreso alto, lo 2do es saber invertir, eso viene con tiempo pero estas en camino. Bonos, FCi, Indices, Acciones con dividendos, mientras vas aprendiendo vas a ir de conservar valor a incrementarlo. Suerte.",decimecano,merval,8,2023-02-15 16:10:40,t3_113320d,t3_113320d,comment
+j8q46m9,"Soy ingeniero industrial, si te interesa las estrategias y los conocimientos que puedo aplicar para optimizar tu empresa. Escribime y te hago un presupuesto para la consultoría. Saludos",Fran_clarotti,merval,9,2023-02-16 00:27:25,t3_113320d,t3_113320d,comment
+j8nxdhs,"Tantos miles de dolares al mes y en vez de buscar asesoria profesional andas pidiendo consejos en reddit??
+
+Muy trucho.",Magnus8857,merval,51,2023-02-15 15:23:25,t3_113320d,t3_113320d,comment
+j8o1bzl,"Hmmm, lei por ahi que tenes un mercado nicho. ¿Tenes idea mas o menos cuanto es el mercado de eso en Argentina (asumiento que trabajas solo en argentina)? 
+
+Primero intentaría entender donde estan parados, porque capaz que tu mercado no tira para mucho más o crecer todavía más es un bardo costoso.
+
+Capaz esto te sirva para pensar algo: https://hbr.org/2022/05/when-your-business-needs-a-second-growth-engine",cTemur,merval,7,2023-02-15 15:48:53,t3_113320d,t3_113320d,comment
+j8ongej,"Ya te lo dijeron varias veces...mi humilde opinión también, intentá generar tu marca. Vas a necesitar inversión, en marketing principalmente, ver a donde queres apuntar estratégicamente, publicidad aunque sea en tu nicho, etc...pero si logras diferenciarte y posicionar la marca, vas a poder ampliar tu margen a largo plazo y despegar. Hoy por hoy, por lo que estas contando, si bien tenes un negocio al que le va relativamente bien, tu único diferencial quizás sea el precio por comprar directo de fabricante y hacer una diferencia ahí en la competencia. Pero en concreto, no dejas de ser un intermediario sin agregar demasiado valor. Si logras diferenciarte en marca y asociar la marca a calidad/satisfacción, yo creo que vas a poder despegar. También en algún lado vi que hablaste de ""qué hacer con el cashflow"". En principio lo invertis en mercadería lo cual no está mal...peeeeero, esto que te voy a decir no es nuevo, no sé qué costos tenes de almacenamiento, hay muchos negocios exitosos que hicieron una diferencia reduciendo el stock y costos de almacenamiento. Y ahí viene el tema, qué haces con el cash excedente. Hay mil millones de opciones en el mercado financiero, estoy seguro que lo sabes...y todo va a depender de cuanto riesgo estés dispuesto a tomar. Y si no amigo...estamos en Argentina...a comprar deptos del pozo y luego hacer alguna diferencia vendiendo (en 3 años podes tener un retorno del 40% en USD cuando el mercado se mueva), o te los quedas y te armás un flow fijo de ingresos por los alquileres, que igualmente, es la peor inversión financiera del mundo (los retornos son una garompa)...pero si tu objetivo es jubilarte antes de los 30, te puede llegar a servir, dependiendo del nivel de vida al que aspires obviamente. Nada...suerte...yo creo que es cuestión más que nada de definir estratégicamente a donde queres ir con tu negocio...pero vas a necesitar ayuda de alguien que sepa, o sea, invertir en alguna consultora que te de una mano.",I_am_javier,merval,5,2023-02-15 18:08:42,t3_113320d,t3_113320d,comment
+j8p8fo5,Tenes que lograr que el negocio no te necesite y que camine solo. Si haces eso te jubilas al toke,vinilero,merval,4,2023-02-15 20:28:59,t3_113320d,t3_113320d,comment
+j8o1wxx,De que se trata tu negocio?? Que productos vendes??,SnooHabits8657,merval,5,2023-02-15 15:52:36,t3_113320d,t3_113320d,comment
+j8o9x0c,"Si te querés jubilar jóven no sería mejor invertir algo que te deje renta fija más o menos segura? Tipo inmuebles que puedas alquilar a partir de tus 30 años, y luego vender si suben su valor para usar ese capital como pasivo hasta tu muerte. Si consumis 400usd/mes para vivir, con dos deptos en el conurbano levantas eso por mes.",Lechowski,merval,4,2023-02-15 16:44:26,t3_113320d,t3_113320d,comment
+j8ot5pe,[removed],[deleted],merval,4,2023-02-15 18:44:35,t3_113320d,t3_113320d,comment
+j8oue66,"Para mí, vende tu parte y con eso lo invertido en la bolsa de usa (siendo conservador podés tener un retorno promedio del 10% anual) o te llevas la plata afuera y armas un negocio en usa",hansenyeast,merval,4,2023-02-15 18:52:20,t3_113320d,t3_113320d,comment
+j8qlja0,Estudia como bajar los pagos de impuestos. Contador y abogado en mano para asesorarte bien en este ámbito. Fuera de eso seguro alguien te va a poder ayudar más.,hernangwork,merval,4,2023-02-16 03:11:37,t3_113320d,t3_113320d,comment
+j8r6hwy,"Digamos que ya hiciste lo más difícil. Por como lo veo tenés dos opciones: 
+-dejar de crecer para empezar a ""tomar ganancias"". Esto sería decir que ya te conformaste con el tamaño de tu empresa, y que ya no vas a comprar maquinaria, mudarte a locaciones más grandes, etc. Y que toda ganancia neta va a salir de la empresa para ir a tu bolsillo. Esto no necesariamente es una decisión definitiva, podés poner el pie en el freno por unos meses, desviar las ganancias a instrumentos financieros (bonos, acciones, etc) que de paso funcionan como salvavidas si a tu empresa le va mal. Y después de unos meses volver a la senda del crecimiento.
+-empezar a tener una administración financiera más activa. Esto es lo que hacen la mayoría de las empresas, por dar un ejemplo, si pagás al día, empezá a pagar con cheques a 30 días, y pone la guita en PF. Si los sueldos los pagás el 1 día hábil, empezá a pagar el 5 y pone la guita en FCI money market. Si el viernes tenés guita en la cuenta, que no vas a usar, pone una caución hasta el lunes. En semejante volúmen de guita, y con la inflación que tenemos, cualquier interés que le saques a la plata de la caja va a ser más que significativo.
+Saludos!",porco_rex,merval,4,2023-02-16 07:55:06,t3_113320d,t3_113320d,comment
+j8rkqwv,"Replanteate eso de jubilarte a los 30, yo empecé con la misma idea y llegué a un punto parecido al que estás vos hoy, quizás como a los 25, y también me estanqué un poco en esa zona de ingresos, en mí caso mí complicación para escalar era una cuestión de personal, dificultad para conseguir gente idónea y que estuviera dispuesta a hacer el tipo de trabajo. Pero me pasó que mí negocio literalmente murió en la pandemia, y cuando digo murió me refiero a se fue de 100 a 0, lo primero en caer y lo último en levantarse. No me fue tan traumático (a todo el personal los pude ayudar a encontrar otros laburos con amigos o conocidos, y yo tenía ahorros suficientes para varios años sin trabajar...) En ese tiempo sin mí negocio me di cuenta que me sobraban demasiadas horas al día, aproveche y viaje cuando las restricciones me lo permitieron, hasta hice algo de caridad... En fin la experiencia me permitió ver qué me resultaba difícil llenar tanto tiempo ocioso... Hoy con mí negocio en marcha otra vez estoy trabajando en que funcione mejor sin tanta necesidad de estar tanto tiempo presente. Pero no con la idea de jubilarme sino de poder trabajar solo cuando quiero y dedicar mí tiempo a intentar nuevos proyectos que me sean más significativos espiritualmente. 
+
+Además creo que el secreto para escalar está en crear los sistemas y la cultura del negocio. Ese manual de operaciones, o conjunto de conocimientos y reglas que sea lo suficientemente práctico para que reemplace gran parte de tu tiempo de trabajo. En este país inestable es difícil pero se puede.
+
+Y otra clave para pegar grandes saltos es el networking. Siempre me costó relacionarme con gente y hacer contactos, pero aprendí que te pueden abrir puertas impresionantes e impensadas...
+
+No pierdas de vista que te podes pegar un palo a los 29 así que la vida hay que disfrutarla por el camino. Y no es un consejo del tipo: trabajá menos, sino que pásala bien mientras laburas, en mí caso en mí negocio no hay lugar para nadie conflictivo ni mala onda, es el primer requisito para ser parte del negocio. Humildad compañerismo y buen trato con los demás.
+
+
+Suerte Crack ojalá te sirva",exerov,merval,5,2023-02-16 10:26:16,t3_113320d,t3_113320d,comment
+j8sc5j3,Soy abogado. Trabaje con seguros y compañias q hacen venta telefonica. La clave esta en conseguir los datos de los futuros clientes. Es decir. Insertarse en el circuito de empresas que intercambian informacion. Que venden la info de sus clientes. Dps depende del rubro. Algo clave es siempre tener un speech bien estudiado sobre como vender el producto. La diferencia que logres hacer en la efectividad de la venta es impresionante. Me interesa. Yo trabajo dentro de un juzgado pero tmb tengo mis cosas por fuera. Podriamos hablar. Saludos,rnst77,merval,3,2023-02-16 13:40:22,t3_113320d,t3_113320d,comment
+j8nq105,"En 3 meses duplicaron las ventas, o sea no se que mas queres, segui por ese camino",[deleted],merval,6,2023-02-15 14:36:05,t3_113320d,t3_113320d,comment
+j8nxk79,"preguntale a chatgpt.
+
+en serio.",DarkGhost999,merval,9,2023-02-15 15:24:37,t3_113320d,t3_113320d,comment
+j8onhse,"Ya te lo dijeron varias veces...mi humilde opinión también, intentá generar tu marca. Vas a necesitar inversión, en marketing principalmente, ver a donde queres apuntar estratégicamente, publicidad aunque sea en tu nicho, etc...pero si logras diferenciarte y posicionar la marca, vas a poder ampliar tu margen a largo plazo y despegar. Hoy por hoy, por lo que estas contando, si bien tenes un negocio al que le va relativamente bien, tu único diferencial quizás sea el precio por comprar directo de fabricante y hacer una diferencia ahí en la competencia. Pero en concreto, no dejas de ser un intermediario sin agregar demasiado valor. Si logras diferenciarte en marca y asociar la marca a calidad/satisfacción, yo creo que vas a poder despegar. También en algún lado vi que hablaste de ""qué hacer con el cashflow"". En principio lo invertis en mercadería lo cual no está mal...peeeeero, esto que te voy a decir no es nuevo, no sé qué costos tenes de almacenamiento, hay muchos negocios exitosos que hicieron una diferencia reduciendo el stock y costos de almacenamiento. Y ahí viene el tema, qué haces con el cash excedente. Hay mil millones de opciones en el mercado financiero, estoy seguro que lo sabes...y todo va a depender de cuanto riesgo estés dispuesto a tomar. Y si no amigo...estamos en Argentina...a comprar deptos del pozo y luego hacer alguna diferencia vendiendo (en 3 años podes tener un retorno del 40% en USD cuando el mercado se mueva), o te los quedas y te armás un flow fijo de ingresos por los alquileres, que igualmente, es la peor inversión financiera del mundo (los retornos son una garompa)...pero si tu objetivo es jubilarte antes de los 30, te puede llegar a servir, dependiendo del nivel de vida al que aspires obviamente. Nada...suerte...yo creo que es cuestión más que nada de definir estratégicamente a donde queres ir con tu negocio...pero vas a necesitar ayuda de alguien que sepa, o sea, invertir en alguna consultora que te de una mano.",I_am_javier,merval,3,2023-02-15 18:08:55,t3_113320d,t3_113320d,comment
+j8pwzbr,"El ejecutivo eficaz. Peter Drucker. 
+
+La semana laboral de 4 horas, Tim Ferris. 
+
+1000 true fans, Kevin Kelly",Old_Meeting6112,merval,3,2023-02-15 23:31:47,t3_113320d,t3_113320d,comment
+j8u5u0n,"Estas ganando un 13% a tus productos, MercadoLibre se lleva mínimo el 14% mas plata fija y los envíos, si no haces las cuentas bien, puede ser que ese 13 que te lleves no sea exacto si no menor. Primero eso, en segundo lugar aprovechar betas de venta que tu competencia no tenga con lo que tenes hoy en día, en tercer lugar conseguir otro tipo de productos, para ampliar el público al que vendes. Hay muchas cosas para hacer y crecer, si queres contáctame y arreglamos un zoom y te doy un par de típs para crecer, yo en enero aumenté un 50% las ventas siendo el mes más flojo por vacaciones, hay mucho para hacer pero lo primero son los números y productos",CoconutUnable2873,merval,3,2023-02-16 20:35:39,t3_113320d,t3_113320d,comment
+j8npccg,Pero nosotros tendríamos que preguntarte a vos como hacer. Que vendes? Fabricas algo?,bbexx,merval,2,2023-02-15 14:31:39,t3_113320d,t3_113320d,comment
+j8orwi9,No le pagues un peso al fisco de este pais de chorros. Saludos,crystalhodler,merval,2,2023-02-15 18:36:44,t3_113320d,t3_113320d,comment
+j8pdbnu,Podes empezar a vender por Amazon FBA a Estados Unidos y a Europa,comex_1,merval,2,2023-02-15 21:04:36,t3_113320d,t3_113320d,comment
+j8piv26,[deleted],[deleted],merval,2,2023-02-15 21:45:50,t3_113320d,t3_113320d,comment
+j8q4bb8,"Si podes genera una marca con una web con carrito y suscripción a newsletters. Ofrece a tus clientes de Mercadopago un cupón de descuento para tu web al suscribirse gratis al newsletter. Pone MercadoPago y transferencia como opciones de pago y fíjate bien el tema de costos de envío, quizás con integración de Andreani/oca/correo argentino.
+Al mismo tiempo create cuenta en Facebook e Instagram y postea dos veces por semana (aunque sea lo mismo en ambas), pone atención por Whatsapp también desde la web.
+Fíjate si por la web te conviene vender por.menor y mayor.
+
+Si te interesa hago webs y puedo hacerte una propuesta por privado. Sino pedí presupuestos a empresas de desarrollo web..No te respondí para hacerme chivo",nosoymilhouse,merval,2,2023-02-16 00:28:28,t3_113320d,t3_113320d,comment
+j8nytao,"Contratame(?)
+
+&#x200B;
+
+Hablando en serio, inverti en un edificio en capital, para que tu marca se vea más, fijate de empezar a crear publicidad. Falta un poco de datos.",Angelsndv,merval,2,2023-02-15 15:32:37,t3_113320d,t3_113320d,comment
+j8o71li,Unpopular opinion: no se que tanto capital tenes hundido ni cuáles son tus costos fijos pero estás facturando 75 para que te queden 10 me parece poco. Tendrás posibilidad de laburar en alguna mejora por ese lado? Si se complica la cosa y se te da vuelta la balanza capaz te vas al tacho rápido,ibergera,merval,0,2023-02-15 16:25:56,t3_113320d,t3_113320d,comment
+j8ry8yk,"Mira. Lo más legal y menos riesgoso que hago yo con mis pequeños remanentes de sueldo, el aguinaldo o extras. Es ponerlo en un plazo fijo, es lo que más ganancia me deja.
+Debe haber mil estrategias más, más o menos arriesgadas. 
+Como para q te des una idea el tna está a 75% con 100 Lucas ahí, le sacas 6 x mes. 
+No soy experta pero tener tanto % mercadería me parece un monton. Creo que haría más inversiones en brokers o en el banco.
+De más esta decirte, pero x ahí a otro le sirve. Estudien y lean bien donde se meten. No se dejen estafar.
+y no olviden q es un año electoral se puede ir todo a la mierda o no.",[deleted],merval,0,2023-02-16 12:07:56,t3_113320d,t3_113320d,comment
+j8npccr,"10mil dólares por mes re quedan en la empresa?
+Y queres mas?
+No seas tan ambicioso cheeee
+Es una banda deberías calmarte 
+El que mucho abarca poco aprieta",[deleted],merval,-7,2023-02-15 14:31:39,t3_113320d,t3_113320d,comment
+j8nz3i5,"Si es verdad, lo que realmente te recomiendo es buscar el curso sobre negocios exitosos de la Academia SC. 
+Es una inversión de dinero tier 1 para el conocimiento práctico que te llevas (ya que querés incursionar en algo más, hacelo en aprender).",prazmowski,merval,1,2023-02-15 15:34:29,t3_113320d,t3_113320d,comment
+j8olw3d,Parte al Merval? Yo hice eso,Fedesan01,merval,1,2023-02-15 17:58:55,t3_113320d,t3_113320d,comment
+j8ordzt,"Hola, sabiendo la edad que tenés y lo que ya has logrado, cuánto te tomo llegar a dónde estás ahora con tu empresa? Serías distribuidor ?",PatagonMan,merval,1,2023-02-15 18:33:28,t3_113320d,t3_113320d,comment
+j8pxdrg,"Te recomiendo sumarte a un grupo tipo mastermind, por ejemplo Vistage o Adiras.",alejandrops,merval,1,2023-02-15 23:34:48,t3_113320d,t3_113320d,comment
+j8sec52,Que es lo que vendes ? Alimentos no perecederos? Pero los fabricas vos o como va la mano? Es un mercado ultra competitivo que te hizo ser diferente? Pregunto porque tengo tu edad y me interesa como arrancaste,zJoeCool,merval,1,2023-02-16 13:54:20,t3_113320d,t3_113320d,comment
+j8nt8ba,"Justamente estábamos pensando sacar nuestra propia marca, pero siendo realizas es realizable dentro de aproximadamente unos 2 años.
+Tema franquicias lo mismo…
+Estamos apuntando a hacer venta telefónica, ya que tenemos clientes en todo el país, pero el problema está en que al manejar márgenes más chicos, y ser a otras provincias, el pago es por transferencia e impositiva mente no me conviene… alguna idea para esta última parte?",ingenierossj,merval,4,2023-02-15 14:56:38,t1_j8nskg2,t3_113320d,comment
+j8rkwjs,"Amigo, es un vuelto, parece mucho pero no lo es.
+Nunca viste cuanto genera una verdu ? Una distribuidora?",K-A-R-L-I,merval,2,2023-02-16 10:27:40,t1_j8nxdhs,t3_113320d,comment
+j8nz7zk,No hace falta ser profesional para tener un negocio que venda… y lo que para uno es mucho para otro es poco. Es real la info. Si tenes un consejo lo tomo.,ingenierossj,merval,1,2023-02-15 15:35:16,t1_j8nxdhs,t3_113320d,comment
+j8ryx4y,"Es joven y ambicioso. No quiere vivir como los lastres que estamos muleando. Me parece bien que se calze los guantes y le ponga huevo, es eso o irse del país como hacen algunos de su edad. 
+Para mi no hay falta de oferta, falta voluntad y visión. El tema es que pocos tienen esa mirada, de encontrar un hueco y meterse a probar suerte.",[deleted],merval,1,2023-02-16 12:12:33,t1_j8nxdhs,t3_113320d,comment
+j8o1gnz,3 de cada 10 argentinos consume en mi “nicho”.,ingenierossj,merval,2,2023-02-15 15:49:42,t1_j8o1bzl,t3_113320d,comment
+j8o1yrk,Más tarde le hecho un ojo al link y te digo que me pareció.,ingenierossj,merval,0,2023-02-15 15:52:55,t1_j8o1bzl,t3_113320d,comment
+j8pbnr9,"Actualmente no trabajo mucho, entre comillas. He trabajado mucho más en el pasado.
+Pero eso no te lleva para adelante😬",ingenierossj,merval,3,2023-02-15 20:52:26,t1_j8p8fo5,t3_113320d,comment
+j8pb9ld,Vendo comida no perecedera. Hay un % que si lo es pero en su mayoría no.,ingenierossj,merval,1,2023-02-15 20:49:34,t1_j8o1wxx,t3_113320d,comment
+j8pauy0,La idea sería llevar un mejor estilo de vida de más grande…. No quisiera vivir como ahora siempre 😬😬,ingenierossj,merval,2,2023-02-15 20:46:36,t1_j8o9x0c,t3_113320d,comment
+j8pbi9i,Estuve pensando incorporarme en esos grupos empresariales para absorber experiencia de otros y hacer alianzas… gracias por la respuesta lo voy a tener más en cuenta,ingenierossj,merval,4,2023-02-15 20:51:20,t1_j8ot5pe,t3_113320d,comment
+j8pbl57,"Me come la inflación en dólares a mi parecer…
+La del negocio en USA me gusta pero no vendiendo todo acá…",ingenierossj,merval,-1,2023-02-15 20:51:55,t1_j8oue66,t3_113320d,comment
+j8sdj5i,"Vengo de familia de estudio contable… Pago lo menos que puedo de todo, Haceme caso… Jajajaja.
+Menos no puedo pagar😬😬",ingenierossj,merval,-2,2023-02-16 13:49:14,t1_j8qlja0,t3_113320d,comment
+j8sbpls,"Gracias chabon. Lo voy a tener en cuenta!! Es verdad, de un día para otro cambia todo… esperemos que haya algo más de estabilidad.",ingenierossj,merval,3,2023-02-16 13:37:30,t1_j8rkqwv,t3_113320d,comment
+j8sh4d6,De que trata tu negocio?,zJoeCool,merval,1,2023-02-16 14:12:18,t1_j8rkqwv,t3_113320d,comment
+j8nsqcg,"No puedo hacer ningún otro negocio con el cash flow? O alguna estrategia cuando ya tenes el nivel de empresa que tengo…. La verdad es mi primer empresa y si bien me doy maña, no soy experto.",ingenierossj,merval,1,2023-02-15 14:53:23,t1_j8nq105,t3_113320d,comment
+j8ob31j,"creo que varios le hicimos ese tipo de preguntas jajaj. 
+
+Las respuestas posta son todas cosas que no son muy viables en argentina. Cosas como invertir en inmuebles que generan renta (inviable el retorno menor al 2% anual), o invertir en REITs (en yankees te sacuden el 30% por la forma en que se distribuyen en forma de dividendos, y aca casi que no existen).",opticoin,merval,6,2023-02-15 16:51:50,t1_j8nxk79,t3_113320d,comment
+j8nzbxl,Ya lo hice. No sirvieron sus respuestas😬😬,ingenierossj,merval,3,2023-02-15 15:35:59,t1_j8nxk79,t3_113320d,comment
+j8nsi8i,Vendo insumos alimenticios y alimentos no perecederos. Solo trabajo con productores/fabricantes directos. Nada de intermediarios.,ingenierossj,merval,3,2023-02-15 14:51:57,t1_j8npccg,t3_113320d,comment
+j8pbf0e,Le pago bastante más de lo que me gustaría al fisco😬,ingenierossj,merval,2,2023-02-15 20:50:40,t1_j8orwi9,t3_113320d,comment
+j8py7b7,"Si te soy sincero no estoy armado a semejante escala.
+Tema alimento complicado. Mi pregunta es: hay gente que compra alimentos por Amazon?",ingenierossj,merval,0,2023-02-15 23:40:53,t1_j8pdbnu,t3_113320d,comment
+j8pxnr4,"Primero consumí lo más comercial (aunque hoy en día también me gusta).
+-Shark Tank USA/MEXICO
+-Historias que inspiran
+
+TikTok la verdad es muy surtido. De vez en cuando están esas frases de filósofos que te hacen darle una vuelta de tuerca a un problema de la semana quizá.
+
+Respecto a PodCast escuché
+-De emprendedor a empresario 
+-Empresarios argentinos 
+
+Respecto a texto, recomiendo (los típicos tristemente jaja)
+-Hábitos atómicos
+-Padre rico Padre pobre
+-Como hacer amigos e influir sobre las personas
+-Las 48 leyes del poder
+
+También me gustaba mucho (aparte)
+-Escuchar charlas TED (americanas y argentinas)
+-Charlas de economistas (nada de saraza, todo panorama a futuro realista con fundamento)
+En eso de recomiendo a Claudio Zuchovicky.
+
+Si bien, apuntas a hacer negocios, la cabeza es mucho más que eso y para que te vaya bien creo que debes nutrirla en varios aspectos.
+
+Hacer ejercicio y escuchar audiolibros también garpa, también podcast o charlas.
+
+Para empezar al menos eso está bien.
+Igualmente lo que más recomiendo es: estar en un buen feeling con uno. Buen karma. No cagar a nadie y entenderse como es uno. Apuntar a cambiar para bien.
+Muchas veces queremos hacer Plata o negocios, pero no estamos bien nosotros, ya sea con otros o con nosotros mismos.",ingenierossj,merval,2,2023-02-15 23:36:52,t1_j8piv26,t3_113320d,comment
+j8sh5xc,"1. Esto me parece interesante. Cuanto te cobra mercadolibre? Si haces un mercadoshop o una web con carrito cuanto podes bajar ese margen de costo?
+2. Por otro lado en un lado decis que vendes mucho por mercadolibre, pero en otro que no queres vender al resto de las provincias porque te pagan por transferencias y eso baja los margenes. Pero el margen de vender en mercadolibre es mucho menor por sus comisiones, o no?",emmanuel____e,merval,1,2023-02-16 14:12:35,t1_j8q4bb8,t3_113320d,comment
+j8pc18d,"Planeábamos abrir locales con atención al público directa…
+Estimó que dentro de 1-2 años ya estaré en la calle. Si la pego prometo hacer un post😬",ingenierossj,merval,3,2023-02-15 20:55:08,t1_j8nytao,t3_113320d,comment
+j8o9s0q,[deleted],[deleted],merval,6,2023-02-15 16:43:33,t1_j8o71li,t3_113320d,comment
+j8pccg5,"Deberías tener en cuenta que no le doy valor agregado a ningún producto… Solo distribuyó…
+Apenas tengo logística propia.
+Yo creo que si pudiera darle valor agregado podría estar más cerca del 18/20%, aunque con más costos fijos y capital puesto obviamente…",ingenierossj,merval,2,2023-02-15 20:57:24,t1_j8o71li,t3_113320d,comment
+j8qc6sj,Es un excelente margen...,Background-Advice-80,merval,1,2023-02-16 01:35:48,t1_j8o71li,t3_113320d,comment
+j8o9dpt,"Teniendo en cuenta que son dos dueños, son 5k USD/mes para cada uno para el día que quieran cerrar la empresa. Si el pibe quiere jubilarse a los 30 probablemente se quede corto. Un dev hace esa plata por mes, aunque obviamente en negro.",Lechowski,merval,5,2023-02-15 16:41:02,t1_j8npccr,t3_113320d,comment
+j8nsloh,Mi rubro es dentro de todo “nicho”. Ya tengo planeadas cosas para la empresa pero mientras tanto me gustaría incursionar en algo más…,ingenierossj,merval,2,2023-02-15 14:52:33,t1_j8npccr,t3_113320d,comment
+j8pt66z,De los 5k dice que vive con 0.4K y reinvierte: no es mucha guita,dinovfx,merval,0,2023-02-15 23:03:00,t1_j8npccr,t3_113320d,comment
+j8o02rg,"Cuando recién empecé me veía documéntales o videos de mis competidores… Una serie que me gustaba era “historias que inspiran” o algo así se llamaba. Te cuenta la historia de los negocios, cómo nacieron y donde están hoy.",ingenierossj,merval,2,2023-02-15 15:40:45,t1_j8nz3i5,t3_113320d,comment
+j8o07ce,"Hoy en día además de estudiar mi carrera, leo bastante…
+Pero la realidad es que ninguna carrera te enseña a hacer negocios exitosos…
+Hasta ahora he aprendido más de podcast, TikTok y libros que de cualquier otro lado…",ingenierossj,merval,1,2023-02-15 15:41:33,t1_j8nz3i5,t3_113320d,comment
+j8pbdvc,"Soy distribuidor oficial de unas 10 empresas aprox aunque no vendo tanto como otros distribuidores más grandes…
+Me tomo aprox 2,5 años… originalmente la empresa no se iba a dedicar a lo que nos dedicamos.",ingenierossj,merval,1,2023-02-15 20:50:26,t1_j8ordzt,t3_113320d,comment
+j8t6y6t,"No fabrico nada. Solo distribuyó. De ahí el margen tan pequeño.
+Me hizo ser diferente (esto ya es una opinión), que cualquier otra persona no hubiera trabajado 16hs x día para qué salga todo bien sin pagarle a alguien.
+Además, siempre trate de presentarme aparentando ser más grande lo que en realidad soy…
+De esa forma te toman más en serio y te dan los mejores precios de una.
+También negocio TODOS los precios. Nunca me conformo con un precio de una lista, ni de una promo.
+
+Además, consideró que la mayoría de gente, no tiene la velocidad y conocimiento en números que tengo yo… suena súper engreido pero en la escuela yo era promedio 9/10 sin estudiar en casa…
+Además de eso, no me quedo en la teoría… Yo sabía con 17/18 años (antes de la moda crypto), operar con crypto, hacer transferencias, cheques, facturas, liquidar iva, sueldos, hacer un balance, crear presupuestos económicos o financieros, cashflow, etc….
+Conozco gente que con 25/30/40 años no sabe hacer nada de eso… y esa era mi base, imagínate.
+
+Te recomiendo educarte, aprender, pero en serio. No cursitos. Poner en práctica.
+
+Saludos",ingenierossj,merval,-1,2023-02-16 16:53:19,t1_j8sec52,t3_113320d,comment
+j8nvrwp,"Es que eso es lo importante de la marca. No competir. 
+
+
+Ahora tenés pocos márgenes porque sos uno más que vende los productos. Entonces si subís el precio ya no te compran. 
+
+
+Pero si pasas a ser una marca referente del sector, podés cobrar un 30% más caro que los demás (por dar un número) e igual la gente te va a comprar porque sabe que tú marca tiene un respaldo/significado/trayectoria y no es un genérico. 
+
+
+Y ahí los márgenes te van a dar mejor por lejos. 
+
+
+Lo de venta telefónica ni idea, pero si ustedes creen que les sirve delen para adelante. Yo apostaría más por una web propia bien hecha, pero de nuevo, no sé que venden. 
+
+
+Y salvo que puedas hacer que te paguen por efectivo, o uses cripto o algún procesador de pagos extranjero (se me ocurre, no he probado), la transferencia sigue siendo lo que más te conviene. Lamentablemente el país no ayuda para nada en eso. 
+
+
+Por eso yo, al menos en tu lugar, tu mejor inversión ahora es hacer que tú empresa/marca despegue y se asiente. Porque es la que va a crecer exponencialmente comparado a cualquier otra inversión. Después cuando tengas mejores márgenes y ganancias podés ver si poner locales, hacer inversiones en otras empresas, etc, pero ahora no estás muy sobrado de números, por lo menos para el estilo de inversión empresarial por decirlo así.",Potoqueado,merval,10,2023-02-15 15:13:07,t1_j8nt8ba,t3_113320d,comment
+j8o577u,"Si tenés ganas algún día hacete un post contando cómo empezaste, cómo se te ocurrió la idea, sería muy copado escuchar tu historia.",dougie_cherrypie,merval,22,2023-02-15 16:13:50,t1_j8nz7zk,t3_113320d,comment
+j8o25qv,¿Cuánto te costaría aumentar esa participación? ¿Vale la pena? ¿Tu posición actual es floja o firme? ¿Tenes marca o dependes de canales externos? ¿Qué onda la competencia? ¿Hacia donde quieren ir como empresa (las 4 estrategias de Porter)?,cTemur,merval,14,2023-02-15 15:54:09,t1_j8o1gnz,t3_113320d,comment
+j8v8knm,Una vez que no laburas tanto o tu negocio no depende de vos arrancas otra cosa/negocio,vinilero,merval,1,2023-02-17 01:37:00,t1_j8pbnr9,t3_113320d,comment
+j8pxkh4,"Y en mercadolibre no te rompen las bolas con el tema comida? permisos y esas cosas?. O por mercadolibre no vendes comida? o quizas las marcas te joden, no se.",Supergato77,merval,2,2023-02-15 23:36:11,t1_j8pb9ld,t3_113320d,comment
+j8q7vb9,">Amazon FBA
+
+es un producto complicado para exportar a eeuu..  tiene muchas normativas  tanto de la EPA como de organismos de control fitosanitario y bromatologicos",[deleted],merval,2,2023-02-16 00:57:42,t1_j8pb9ld,t3_113320d,comment
+j8pcnj8,De cuánto fue tu inversión inicial OP?,wayne2099,merval,1,2023-02-15 20:59:39,t1_j8pbi9i,t3_113320d,comment
+j8petcc,"Si invertis le ganas a la inflación de usa, muy tranquilo. Invertir afuera si tenés capital es lo mejor, xq tenés muchos beneficios y ni hablar cdo tenés acceso al credito",hansenyeast,merval,5,2023-02-15 21:15:40,t1_j8pbl57,t3_113320d,comment
+j8shd28,Hago gastronomía en festivales y eventos masivos,exerov,merval,1,2023-02-16 14:13:52,t1_j8sh4d6,t3_113320d,comment
+j8q8e4j,y lo mas dificil... como conseguiste los primeros clientes?,[deleted],merval,3,2023-02-16 01:02:07,t1_j8nsi8i,t3_113320d,comment
+j8nzlfd,"Yo quiero armar mi empresa ya tengo la idea, solo me faltan los malditos fabricantes, de dónde se consiguen estos? En google está difícil",[deleted],merval,1,2023-02-15 15:37:40,t1_j8nsi8i,t3_113320d,comment
+j8q09d3,"No necesitas vender en gran escala para empezar, podes mandar a amazon de a cajas por courier.
+En Estados Unidos no es complicado, solamente tenes que gestionar un FDA por cada envío.
+En europa puede ser un poco más complicado. Si consultas con un courier te deberían asesorar al respecto dependiendo al tipo de alimento.
+La gente compra de todo por Amazon, si tu productos puede llegar a tener éxito o no depende de que investigues y pruebes",comex_1,merval,3,2023-02-15 23:56:28,t1_j8py7b7,t3_113320d,comment
+j8r4smj,Y como te decidiate por el rubro alimento no perecedero y específicamente por ese nicho(no sé si es algún tipo en particular de producto o varios),PatagonMan,merval,1,2023-02-16 07:31:38,t1_j8pxnr4,t3_113320d,comment
+j8u94hw,">Esto me parece interesante. Cuanto te cobra mercadolibre? Si haces un mercadoshop o una web con carrito cuanto podes bajar ese margen de costo?  
+>  
+>Por otro lado en un lado decis que vendes mucho por mercadolibre, pero en otro que no queres vender al resto de las provincias porque te pagan por transferencias y eso baja los margenes. Pero el margen de vender en mercadolibre es mucho menor por sus comisiones, o no?
+
+Hola!!  
+
+
+1) Al conectar el cobro de MercadoPago con una web con Woocommerce ponele el costo depende de cuando querés la plata
+
+El momento 6.39% + IVA  
+  
+10 días 4.29% + IVA  
+  
+18 días 3.39% + IVA  
+  
+35 días 1.79% + IVA",nosoymilhouse,merval,1,2023-02-16 20:58:42,t1_j8sh5xc,t3_113320d,comment
+j8pm79g,"Que lindo, muchísima suerte!",Angelsndv,merval,1,2023-02-15 22:10:32,t1_j8pc18d,t3_113320d,comment
+j8obj4k,"Mas teniendo en cuenta que es mucha venta online, ahi te meten la mano los impuestos groseramente, dentro de toco complicado de negrear.",opticoin,merval,5,2023-02-15 16:54:36,t1_j8o9s0q,t3_113320d,comment
+j8obcss,"Opino completamente al revés, justamente el premium de riesgo argentino tiene que pagar más.
+Esto no aplica si tu negocio fue de baja inversión/bajo costo fijo, ahí salís fácil.
+Pero como desconozco industria/producto y mucha más info puede que no tenga sentido lo que digo.",ibergera,merval,2,2023-02-15 16:53:31,t1_j8o9s0q,t3_113320d,comment
+j8pdcrv,Dev re contra senior?o semi senior también?,wayne2099,merval,1,2023-02-15 21:04:50,t1_j8o9dpt,t3_113320d,comment
+j8o3fbd,Me gustaría que nos cuentes cono aprendiste a hacerlo,[deleted],merval,1,2023-02-15 16:02:19,t1_j8nsloh,t3_113320d,comment
+j8o6q9v,"Con las respuesta que me diste debo considerar que ni te tomaste 3 minutos para ver qué tal la academia, de qué trata, ni los módulos del curso en si. Me alegro que, hasta ahora, hayas podido aprender de tiktoks, pero estoy tratando de ayudar a responder tu pregunta en el post
+
+>como puedo pegar el boom e irme para arriba?
+
+Mira si no te interesa pagar un curso [también tiene contenido valioso en youtube](https://youtu.be/b8Pi8UbfR4E)",prazmowski,merval,3,2023-02-15 16:23:55,t1_j8o07ce,t3_113320d,comment
+j8pbqqy,"Bueno, supongo que tal vez te harás un tema contando todo pero si no, pero al principio comenzaste con un capital grande o fue poco a poco la cosa?",PatagonMan,merval,5,2023-02-15 20:53:03,t1_j8pbdvc,t3_113320d,comment
+j8pap8n,Son las preguntas que necesitaba… gracias por la respuesta.,ingenierossj,merval,5,2023-02-15 20:45:29,t1_j8o25qv,t3_113320d,comment
+j8pxy94,Todo cuenta con los permisos correspondientes. Repito que es no perecedero. Dura en el tiempo. No me la juego sin permisos😬,ingenierossj,merval,3,2023-02-15 23:39:01,t1_j8pxkh4,t3_113320d,comment
+j8pd3fx,$45.000 ARS de enero del 2020.,ingenierossj,merval,1,2023-02-15 21:02:53,t1_j8pcnj8,t3_113320d,comment
+j8slb0i,Ósea las comidas de los eventos?,zJoeCool,merval,1,2023-02-16 14:38:56,t1_j8shd28,t3_113320d,comment
+j8sdrnv,Publicidad de facebook e Instagram. Conocidos míos también.,ingenierossj,merval,1,2023-02-16 13:50:43,t1_j8q8e4j,t3_113320d,comment
+j8o0d32,Primero metete aunque sea con malos costos. De ahí vas escalando… igualmente yo conseguí bastante yendo a google… tambien google maps si conoces donde se fabrica.,ingenierossj,merval,4,2023-02-15 15:42:36,t1_j8nzlfd,t3_113320d,comment
+j8scut7,"Originalmente empecé gracias a mi ex novia que era vegana/vegetariana…
+Me quiso convertir a mi y no pudo… Pero yo pienso siempre en negocios así que acá estoy😅",ingenierossj,merval,2,2023-02-16 13:44:53,t1_j8r4smj,t3_113320d,comment
+j8pdjfo,"Según lo que veo en LinkedIn, dev senior puede llegar a levantar eso por mes, pero yo nunca trabaje de contractor, siempre en relación de dependencia.",Lechowski,merval,1,2023-02-15 21:06:12,t1_j8pdcrv,t3_113320d,comment
+j8pbsih,"Mi ex novia me recomendaba que consumiera esos alimentos xq se había hecho vegana vegetariana.
+De ahí me introduje (siempre me gustó investigar cosas), y le mande para adelante.",ingenierossj,merval,3,2023-02-15 20:53:24,t1_j8o3fbd,t3_113320d,comment
+j8qbalr,"Consulta of-topic, que contenido consumís en tiktok seguís algún hashtag o creador/a de contenido? Por qué ya leí varias veces que puede ser una herramienta de utilidad y yo siempre lo ví como un lugar para perder el tiempo... Gracias!!!",beg420,merval,2,2023-02-16 01:27:29,t1_j8o6q9v,t3_113320d,comment
+j8pb7te,"Estuve trabajando sinceramente y se me quedo sin batería el celu… planeaba analizar todas las respuestas más tarde en mi casa😬
+Respecto a que el curso sea de pago, no hay problema con eso, yo de hecho me pago la facultad privada…",ingenierossj,merval,1,2023-02-15 20:49:13,t1_j8o6q9v,t3_113320d,comment
+j8pcz86,"Fue súper poco a poco. Laburaba 14-16hs x día (laburo pesado de mover bastante mercadería y armar muchos pedidos).
+El salto más grande lo pegue en los últimos 9 meses.
+
+Empecé con mi primer y único sueldo sueldo ($30.000 en enero 2020).
+Y aparte me financié con una tarjeta unos $15.000 (de enero del 2020) en herramientas.
+
+De hecho empecé comprando en mayoristas péquelos incluso almacenes cuando lo necesitaba…",ingenierossj,merval,5,2023-02-15 21:02:01,t1_j8pbqqy,t3_113320d,comment
+j8pd6dp,"En ese momento al ser yo solo, de lo que vendía ganaba el 30%/40%. (No vendía x ML todavía).",ingenierossj,merval,1,2023-02-15 21:03:30,t1_j8pd3fx,t3_113320d,comment
+j8sltju,"Claro, pero no en fiestas privadas. Vendo al público en festivales, en algún que otra fiesta privada también pero poco.",exerov,merval,1,2023-02-16 14:42:10,t1_j8slb0i,t3_113320d,comment
+j8qwbaa,Y por dónde vendias?No es lo más fácil vender por MercadoLibre?,wayne2099,merval,2,2023-02-16 05:30:01,t1_j8pd6dp,t3_113320d,comment
+j8sd9e1,"No es tan facil vender en MercadoLibre… te ponen muchas condiciones, tiempos de entrega, márgenes chicos, y demás…
+Mucho gasto publicitario también y más cosas.",ingenierossj,merval,1,2023-02-16 13:47:28,t1_j8qwbaa,t3_113320d,comment
+j6x0p14,"Para consultas basicas o que se repiten seguido, tenemos un post general para evitar spam. Por favor busca en el subreddit antes de postear para ver si tu consulta ya fue discutida. Si no encontras una respuesta, publicá esto en el posteo general sobre preguntas y pedidos de ayuda del día que se encuentra como sticky en el sub. Gracias!",merval-ModTeam,merval,1,2023-02-02 11:26:18,t3_10rq6ix,t3_10rq6ix,comment
+j6wyx86,"Todo depende del objetivo que tengas en mente:
+
+* Si estas 100% seguro que te vas a ir del país, y no te importa poder justificar gastos para en un futuro comprar algo en el acá, yo no me preocuparía tanto, seguí como estas... A lo sumo no mezcles las wallets donde guardas todo con la que usas de intermediario para pasar a Lemon. También si te deja más tranqui capaz podes sacar una extensión de alguna tarjeta de tus viejos y hacer los gastos ahí.
+* Si te deja más tranquilo facturar tus gastos, tenes 2 caminos de monotributo: Factura E o C local. A mi me dejaría más tranquilo el segundo, hay cuevas que te resuelven todo (a quien facturar, cobrar los USD, etc.) me contó un amigo! Calculá que lo que quieras facturar se te van a ir unos 10% + los gatos de Monotributo y IIBB
+
+Nadie sabe a ciencia cierta que es riesgoso y que no, a menos que te regales haciendo cosas que no hay que hacer. Mientras seas prolijo no tenes por que tener miedo.",dariogz,merval,14,2023-02-02 11:13:25,t3_10rq6ix,t3_10rq6ix,comment
+j6wygzg,"Si facturaras tendrías más opciones de inversión que cripto y colchón. Y tu tesis de que cripto es ""jugársela un poco"" es un error garrafal. Es ""jugársela toda"". Lo que tenés que hacer diversificar. Y para tener opciones tenes que facturar. Podés hacér facturas a consumidor final o algo medio gris. También podés traer 12.000 USD al año legalmente y en blanco.",ivanreddit,merval,6,2023-02-02 11:10:02,t3_10rq6ix,t3_10rq6ix,comment
+j6wy4ek,"Si no vas a declarar nada lo mejor seria que salgas mediante una cueva en efectivo (ya sea dolares o pesos), y pagas TODO en efectivo.  
+No hay respuesta 100% cierta respecto a si te va a caer la AFIP o no, no son montos muy altos, pero el riesgo siempre existe.  
+Si facturas es hacerte un monotributo y las facturas las haces al maximo actual que puedas sin meter datos personales. Si el maximo es 30k y vos gastas 70k podrias hacer 3 facturas por 30k cada una, asi de paso tenes margen de movimientos y nunca te pasas.  
+Por la regulacion es sencillo asociar una transferencia de cierto address a un exchange y como es centralizado te pueden bloquear los fondos si hay pedido judicial, de ahi a que suceda hay un largo tramo de cosas que no creo que hagas.",DeadProfile,merval,5,2023-02-02 11:07:28,t3_10rq6ix,t3_10rq6ix,comment
+j6wyxhl,Sugerencia algo tenés que facturar por lo menos para cubrir gastos.esta todo informado y lo que puede pasar es que pongan multa por lo evadido.cualquier duda soy contadora.,Nearby-Post3112,merval,2,2023-02-02 11:13:28,t3_10rq6ix,t3_10rq6ix,comment
+j6wxnq4,"- Podés, igual lo considero un gasto bajo como para hacerlo, buen debate. Yo creo que no lo haría en ese caso.
+
+- Suponiendo que te anotaste, lo más simple es delegar a contador y que te facture todo mientras fumás(?. Igual hay varios caminos, en merval tenés mucho material para interiorizarte.
+
+- Relacionado al primero, creo que es muy poco gasto para que afip le interese, pero bueno, el riesgo siempre está para todos.",[deleted],merval,2,2023-02-02 11:03:57,t3_10rq6ix,t3_10rq6ix,comment
+j6wz52f,"Gracias por el consejo, messirve.   
+Respecto a lo de los 12.000, desde mi ignorancia creo que es mejor mantenerse alejado de eso, tiene pinta de trampa cazaboludos mas que de otra cosa, en los papeles es demasiado bueno, facil y barato como para que no te la pongan en un futuro.",Fantastic_Cold6102,merval,6,2023-02-02 11:15:02,t1_j6wygzg,t3_10rq6ix,comment
+ja7x9k7,"Es normal que la tarjeta te pesifique gastos.
+
+Fijate si al final de todo no aparece una sección que dice DB IMP PAIS, IVA RG 4240 y DB RG 4815. Esos son los impuestos que se pagan sobre los gastos en dólares.
+
+Si estan y aparece el mismo monto que en Steam, te pesificaron pero igual te cobran como si fuesen dólares.",[deleted],merval,26,2023-02-27 11:46:35,t3_11dcwec,t3_11dcwec,comment
+ja7xqbv,Es normal. Hay algunas tarjetas que viene en dólares otras te pesifican el valor del dólar.,juankorn,merval,9,2023-02-27 11:49:58,t3_11dcwec,t3_11dcwec,comment
+ja7y7pb,"En los ajustes del home banking te debería dejar elegir cómo querés que te cobren (en USD o conversión a pesos en el momento), puede que no salga porque los de Galicia son unos inútiles, pero Brubank lo tiene por ej. De última, calculo que si llamás podés averiguar directamente con ellos, el punto es que es un feature soportado por el emisor de la tarjeta.",Tank_Gloomy,merval,7,2023-02-27 11:53:27,t3_11dcwec,t3_11dcwec,comment
+ja7uuwo,Hasta donde tengo entendido hace desde el 2017 que cobra en pesos,moltresxd,merval,7,2023-02-27 11:28:50,t3_11dcwec,t3_11dcwec,comment
+ja91d7e,A mí me cobran en pesos xq la conversión la hace automáticamente. Igual siempre hay que calcularle un 2x a lo que te tira steam en pesos...,ElGuillo77,merval,2,2023-02-27 16:08:17,t3_11dcwec,t3_11dcwec,comment
+ja7utmh,"Tu tarjeta hace la conversion a pesos automaticamente. Eso pasa con las billeteras virtuales/digitales. Si es tarjeta de credito de un banco, normalmente viene el importe en dolares y luego lo convierten a pesos con el impuesto PAIS incluido y ganancias si queres cancelar antes  en pesos o podes cancelar con dolares que es lo que casi nadie hace.",EndDangerous9319,merval,3,2023-02-27 11:28:34,t3_11dcwec,t3_11dcwec,comment
+ja87q77,Larga el delivery y ponete a cocinar. Esos juegos no se pagan solos rey,Background-Advice-80,merval,2,2023-02-27 12:58:46,t3_11dcwec,t3_11dcwec,comment
+ja7x8nm,Siempre me cobró asi Steam con Visa. No asi con Mastercard.,CrimsonArgie,merval,1,2023-02-27 11:46:24,t3_11dcwec,t3_11dcwec,comment
+ja87522,Otros juegos te aclara el monto en dólares pero steam directamente en moneda local. No me preguntes por qué jaja,[deleted],merval,1,2023-02-27 12:54:55,t3_11dcwec,t3_11dcwec,comment
+ja8kfdx,[removed],[deleted],merval,1,2023-02-27 14:21:51,t3_11dcwec,t3_11dcwec,comment
+ja8n2gm,yo compro usando la tarjeta de brubank y me sale todo en pesos,densets,merval,1,2023-02-27 14:38:32,t3_11dcwec,t3_11dcwec,comment
+ja93ols,"feature soportado, oh la la señor frances",Physical-Mistake89,merval,4,2023-02-27 16:22:58,t1_ja7y7pb,t3_11dcwec,comment
+ja84xmh,"Nop, desde hace años te cobra en dolares y tu banco/emisor de tarjeta te pesifica el gasto, pero igual te cobran los impuestos al dolar (75%).",Confiscador1996,merval,6,2023-02-27 12:40:14,t1_ja7uuwo,t3_11dcwec,comment
+ja9wdxs,"Exacto, el ultimo juego que compre figuraba 999 pesos argentinos, en el reaumen entre el impuesto Pais y compra en Moneta extrangera se me fue a 1800 pe 😅",Metalwingore,merval,2,2023-02-27 19:24:53,t1_ja91d7e,t3_11dcwec,comment
+ja7w056,"Es una visa Galicia signature. Siempre me entraron los consumos en dólares, tanto de steam como de viaje.",pipona505,merval,-1,2023-02-27 11:37:24,t1_ja7utmh,t3_11dcwec,comment
+ja87x33,"es una adicción, pude dejar la falopa pero rappi es imposible.",pipona505,merval,4,2023-02-27 13:00:03,t1_ja87q77,t3_11dcwec,comment
+ja8xfuw,"Cuando pagas el resumen de la tarjeta pagas con dolares? Hasta donde se eso no pasa, el importe te lo ponen en dolares y se paga a la cotizacion del dia en pesos siempre",[deleted],merval,1,2023-02-27 15:43:34,t1_ja8kfdx,t3_11dcwec,comment
+ja9qyum,Y como se dice?...,efmariani,merval,2,2023-02-27 18:49:16,t1_ja93ols,t3_11dcwec,comment
+ja93xj7,Entonces Steam ya cobra en pesos con los impuestos incluidos.,EndDangerous9319,merval,-1,2023-02-27 16:24:31,t1_ja7w056,t3_11dcwec,comment
+ja8du32,Username checks out.,[deleted],merval,3,2023-02-27 13:39:53,t1_ja87x33,t3_11dcwec,comment
+ja91wzb,[removed],[deleted],merval,1,2023-02-27 16:11:47,t1_ja8xfuw,t3_11dcwec,comment
+jaabqfv,característica?,Physical-Mistake89,merval,3,2023-02-27 21:11:03,t1_ja9qyum,t3_11dcwec,comment
+ja9jeej,"nope, no te cobra los impuestos steam.  
+Hace poco compre un juego, estaba a 11.999,00$ y 15.748,25$ me llego en la tarjeta despues de los impuestos. Steam te cobra X y la tarjeta te saca X+Imp",Ok-Spray-3892,merval,1,2023-02-27 18:01:41,t1_ja93xj7,t3_11dcwec,comment
+ja9mox4,"Por favor decime que no estás haciéndote de USD para pagar la tarjeta O.o
+
+Pedí el débito automático del total, ponés los pesos en la cuenta, y listo. Se cobran los dólares en pesos a la cotización del día de pago.",LinksPB,merval,1,2023-02-27 18:22:15,t1_ja91wzb,t3_11dcwec,comment
+ja9qpgk,Ahi se cobra entonces por la tarjeta impuesto a los servicios digitales +IVA+ ingresos brutos segun la provincia creo,EndDangerous9319,merval,1,2023-02-27 18:47:36,t1_ja9jeej,t3_11dcwec,comment
+j8e69o9,"Como te respondieron estas mezclando dos cosas, el W8BEN le indica al broker que vos sos residente en argentina y vas a pagar los impuestos ahi, para que ellos no te retengan. De ahi a que vos lo declares o no aca es un tema tuyo, igual si dentro de esa plata hay dividendos o intereses, esa cuenta entra en el nuevo convenio y la van a reportar, solo FYI.",martindelia,merval,17,2023-02-13 14:30:05,t3_111dhqi,t3_111dhqi,comment
+j8e4112,"El formulario es para desligarte de pagar en USA, poné ""W8-BEN"" en el buscador.
+
+EDIT: Cierro, ya se respondió la consulta y veo que el OP no tiene mucha intención de colaborar con las reglas.",HwanZike,merval,22,2023-02-13 14:14:03,t3_111dhqi,t3_111dhqi,comment
+j8e1ppv,15? Estoy casi seguro que es 30%,Parking_Purpose3550,merval,8,2023-02-13 13:55:43,t3_111dhqi,t3_111dhqi,comment
+j8e09id,"Hay q pagar señor, todo el mundo paga impuestos por cualquier actividad comercial, porque usted no quiere pagar?",SergioP75,merval,-10,2023-02-13 13:46:06,t3_111dhqi,t3_111dhqi,comment
+j8e61d5,Que irritante es cuando usan ese spanglish a lo cubano...,Magnus8857,merval,-11,2023-02-13 14:28:31,t3_111dhqi,t3_111dhqi,comment
+j8eb8aa,"No hay dividendos. Intereses creería que tampoco, cual es la definición legal de intereses en stocks? Compre bajo y vendí más alto, consideras que van a reportar?",HomoSapien-sa,merval,0,2023-02-13 15:03:05,t1_j8e69o9,t3_111dhqi,comment
+j8eaw50,"Ahh osea me desligo de USA pero no mi ligo a Arg con ese formulario, onda despues si yo pago o no en Arg al IRS le chupa un huevo, entiendo bien? 
+
+Básicamente pago solo si decido declarar en Arg que gané plata tradeando acciones, cosa que obviamente no voy a hacer",HomoSapien-sa,merval,-4,2023-02-13 15:00:48,t1_j8e4112,t3_111dhqi,comment
+j8ecmqs,Also.. sabes cuales son las repercusiones que puede acarrear no reportar en Arg?,HomoSapien-sa,merval,-3,2023-02-13 15:12:26,t1_j8e4112,t3_111dhqi,comment
+j8e8ajl,"Porque son excesivos, injustos ya que esa plata la arriesgaste y si perdías nadie te daba nada y además se usan de manera nefasta los fondos recaudados. Evadir impuestos es moralmente superior",RelationMysterious90,merval,16,2023-02-13 14:43:32,t1_j8e09id,t3_111dhqi,comment
+j8eaexu,"Qué es lo spanglish que hay en el post? La palabra ""form""?",psyke1,merval,5,2023-02-13 14:57:38,t1_j8e61d5,t3_111dhqi,comment
+j8ecd42,"No eso no es interes, pero por ejemplo muchos brokers te remuneran los saldos liquidos en tu comitente (ej IBKR) eso cuenta como ingresos financieros en USA y es pasible de ser reportado si suman mas de 10 usd por año.",martindelia,merval,2,2023-02-13 15:10:40,t1_j8eb8aa,t3_111dhqi,comment
+j8ecyi9,"No soy experto, googleá ""penas por evasión de impuestos en argentina"" o preguntale a un contador amigo",HwanZike,merval,14,2023-02-13 15:14:38,t1_j8ecmqs,t3_111dhqi,comment
+j8e9ukn,"No, es competencia desleal con los que si pagan, es moralmente injusto de tu parte pretender que los demas paguen y vos no. Todos los que emprenden algo se arriesgan, que te hace tan particular????",SergioP75,merval,-14,2023-02-13 14:53:53,t1_j8e8ajl,t3_111dhqi,comment
+j8ecku0,"Ufff safé entonces, joyaaa. Cuales son las repercusiones que puede acarrear no reportar en Arg?",HomoSapien-sa,merval,0,2023-02-13 15:12:06,t1_j8ecd42,t3_111dhqi,comment
+ja7jav0,"Para consultas basicas o que se repiten seguido, tenemos un post general para evitar spam. Por favor busca en el subreddit antes de postear para ver si tu consulta ya fue discutida. Si no encontras una respuesta, publicá esto en el posteo general sobre preguntas y pedidos de ayuda del día que se encuentra como sticky en el sub. Gracias!",merval-ModTeam,merval,1,2023-02-27 09:50:07,t3_11d8luc,t3_11d8luc,comment
+ja78ukk,"Buscaste antes de preguntar? Hay literalmente un tutorial en el subreddit de como hacer, paso por paso",GetToThePointPlease,merval,13,2023-02-27 07:47:20,t3_11d8luc,t3_11d8luc,comment
+ja78vqr,https://wise.com/ar/blog/como-fondear-transferwise-argentina,angrydeanerino,merval,4,2023-02-27 07:47:46,t3_11d8luc,t3_11d8luc,comment
+ja7hp6x,A mí me anduvo con Global66,No_Cold5079,merval,4,2023-02-27 09:34:11,t3_11d8luc,t3_11d8luc,comment
+ja7izuz,Binance p2p,marianolinx,merval,1,2023-02-27 09:47:07,t3_11d8luc,t3_11d8luc,comment
+ja02x8b,"Muchos de los servicios que te abren la LLC te dan asesoria contable y juridica si se las contratas. Hablar de ""gerenciadora de patrimonios"" para abrir una LLC es como muy fuerte en el 2023. Si hay cosas a tener en cuenta (si le vendes principalmente a yanquis en el estado, nexus) pero nada que no puedas googlear un poco o recibir guia en el mismo servicio que te la abre. Mandale nomas que hoy el mundo es mucho mas plano. Y recorda el tip, todo ingreso en dolares que vos tengas en la LLC y que vos declares en Ganancias y BBPP es a DOLAR OFICIAL y en junio del otro año, hint hint :)",martindelia,merval,6,2023-02-25 17:57:59,t3_11bhfks,t3_11bhfks,comment
+j9z2v93,"Tu parte de la empresa (tus shares) son un bien para la afip, y los dividendos, sueldos, honorarios, lo que sea que percibas de ella, son una ganancia.
+
+Dependiendo los montos que manejes, quizas tengas que declararlos.
+
+Busca un estudio contable y anda a explicales todo tu plan de negocio, ellos te van a decir bien que obligaciones y lios vas a tener.
+
+Tambien vas a necesitar buscar un estudio en ee.uu. para que ellos te expliquen sus obligaciones y lios",lichatrovero,merval,2,2023-02-25 13:57:56,t3_11bhfks,t3_11bhfks,comment
+j9yyncc,Muy amplio para discutir por aca. Consultá con una gerenciadora de patrimonios que se dedican a eso.,TinchoMerval,merval,1,2023-02-25 13:30:10,t3_11bhfks,t3_11bhfks,comment
+j9z30fn,">gerenciadora de patrimonios
+
+Nunca escuche ese termino. Que vienen a ser?",lichatrovero,merval,3,2023-02-25 13:58:54,t1_j9yyncc,t3_11bhfks,comment
+j9zcwq5,"Estudio jurídico contable con presencia a ambos lados de la frontera que entre otras cosas se dedican al armado de estructuras societarias y sus implicancias impositivas, etc",TinchoMerval,merval,3,2023-02-25 15:03:51,t1_j9z30fn,t3_11bhfks,comment
+j9ttl7s,"Para consultas basicas o que se repiten seguido, tenemos un post general para evitar spam. Por favor busca en el subreddit antes de postear para ver si tu consulta ya fue discutida. Si no encontras una respuesta, publicá esto en el posteo general sobre preguntas y pedidos de ayuda del día que se encuentra como sticky en el sub. Gracias!",merval-ModTeam,merval,1,2023-02-24 11:51:07,t3_11as578,t3_11as578,comment
+j9tnuln,Capaz mi respuesta no es la más fundamentada pero entiendo que pagando con debito en dólares te cobran a razón de 1 dólar por dólar.,cerditoLoco,merval,15,2023-02-24 11:09:38,t3_11as578,t3_11as578,comment
+j9to121,El impuesto es sobre pesos.,NerBog,merval,5,2023-02-24 11:10:59,t3_11as578,t3_11as578,comment
+j9tste3,"Pagar en dolares un consumo de dolares, no hay conversion ni ningun cambio implicito.",martindelia,merval,3,2023-02-24 11:45:40,t3_11as578,t3_11as578,comment
+j9tovca,"Que seria dolar qatar si pagas en dolares? El dolar qatar es la conversion de dolares a pesos que se hace. si se paga en dolares no hay conversion, asi que 1 dolar que gastas se paga con 1 dolar de tu cuenta. Capaz hay minimas comisiones por la tarjeta, etc, pero basicamente eso.",brunonicocam,merval,2,2023-02-24 11:17:14,t3_11as578,t3_11as578,comment

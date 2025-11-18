@@ -1,0 +1,76 @@
+id,title,text,author,subreddit,score,upvote_ratio,num_comments,created_utc,url,permalink,is_self,type
+yymbq1,Escapando a la nominalidad del plazo fijo a tasa fija: calculo de retornos reales y análisis de riesgos,"Muchos inversores cuando ven las tasas de los plazos fijos elevadas, empiezan a hacer las tipicas cuentas de ""con lo que paga de intereses puedo vivir / pagar la cuota"", etc. Voy a mostrar algunas cuentas sencillas que podemos hacer para calcular el retorno real del plazo fijo y asi tener una herramienta mas al momento de decidir donde poner la plata.
+
+Empecemos por la distinción mas importante:
+
+* Retornos nominales: son los retornos en la moneda original de la inversión, sin ningún ajuste.
+* Retornos reales: son los retornos nominales ajustados por cualquier variables de referencia. Las mas comunes son el CER (ajuste por inflación) y el dolar; generalmente MEP o blue, pero puede ser cualquier dependiendo de nuestra situación.
+
+La formula para el calculo de retorno real es: `R = (1+T)/(1+A) - 1`
+
+Donde: T = tasa de retorno nominal, A = variación de tasa de ajuste.
+
+*^(NB: utilizar el mismo periodo temporal para ambas variaciones!)*
+
+Veamos un ejemplo con números mas o menos actuales. Supongamos que coloque $1000 en un plazo fijo a 30 días el día 01/08/22. La TNA es de 75%, por lo que la tasa directa en 30 días va a ser \~ 75%/365\*30 \~ 6.16%. Este es nuestro retorno nominal directo.
+
+Haciendo los números, $1000 se convirtieron en $61.6 + $1000 = $1061.6 nominalmente. Notar que no importa cuanto es de capital y cuanto es de intereses, estamos tomando el monto total inicial y final.
+
+Veamos ahora como calculamos el retorno real, para ver si nuestros pesos compran mas o menos cosas (o dolares). En ese mismo periodo, del 01/08/22 al 30/08/22, el CER pasó de 54 a 57.215 UVAs: esto es una variación directa de 5.95%. Si enchufamos todo en la formula para R obtenemos: `(1+0.0616)/(1+0.0595) - 1 ~ 0.2%`
+
+Por lo tanto, en ese periodo podemos decir que obtuvimos un retorno real ajustado por CER del 0.2%. ""Ganamos"" 0.2% en poder adquisitivo, medido en CER. Es una TNA de 2.4% y una TEA similar de 2.42%.
+
+Esta misma cuenta la podemos hacer para cualquier periodo donde sepamos los rendimientos nominales obtenidos y la variación del coeficiente de ajuste. Hagamos el mismo ejercicio pero ajustando por la variación del dolar MEP.
+
+Para el periodo en agosto, el dolar MEP pasó aprox. de $274 a $283 \~ 3%. En este caso, nuestro retorno real ajustado por dolar MEP es `R = 1.0616/1.03 - 1 ~ 3%`. Esto significa que obtuvimos un rendimiento directo mensual de 3% en dolares MEP. Es una TNA de 36% y una TEA de 42%.
+
+Si tomamos el periodo de septiembre, donde el MEP paso de $278 a $300, una variación de aprox. 8%, vemos que el retorno real entonces sería `R = 1.06/1.08 - 1 ~ -1.8%`. Esto es una TNA de -21% y TEA de casi -24%.
+
+En este ultimo ejemplo es cuando empezamos a ver que estos retornos no se corresponden con operaciones de ""bajo riesgo"" como mucha gente supone, tratando al plazo fijo como una opción conservadora. El plazo fijo superficialmente parece conservador ya que no vemos la volatilidad nominalmente del día a día, pero cuando analizamos los retornos reales, vemos que tienen valores muy altos (o muy bajos), dándonos una dispersión de retornos reales posibles muy alta.
+
+*Felicitaciones si llegaste hasta acá, ahora entendes la mecanica basica de lo que se denomina ""****carry trade****"" (conocido en la jerga como hacer carry): aprovechar una tasa alta en 'otra' moneda, para generar rendimientos y luego convertirlos a la moneda original. Si, por ejemplo, la tasa mensual del plazo fijo en pesos es de 6% y el dolar financiero (digamos CCL o MEP) se mantiene por debajo de esa tasa (especialmente si se queda en 0 o menos), podemos obtener retornos en dolares muy altos de corto plazo, gracias a esta operación. Para calcular el retorno exacto nos remitimos a la formula anterior, lo dificil es que no sabemos cuanto va a variar la tasa de referencia de antemano! Por otro lado, desde la política monetaria este tipo de operatoria se 'fomenta' quierase o no cuando las tasas en pesos están altas, ya que la idea es sacar pesos de circulación para frenar la inflación: los pesos que van a plazo fijo no van a consumo o a dolar.*
+
+Hay que remarcar que la dispersión de resultados posibles es mas notable cuando ajustamos por dolares ya que el dolar es una variable muy sensible, cuando ajustamos por inflación no es tan problemático porque la inflación suele ser mas suave en sus movimientos, mas lenta para reaccionar. Sin embargo, eso es la inflación promedio basada en el IPC y puede afectarnos mas o menos dependiendo de la variación de nuestra canasta de consumo real. Sin embargo, el riesgo de una disparada del dolar y de la inflación, es el peor enemigo del plazo fijo dada su iliquidez. Si tenemos nuestro capital atado a 30 dias y la variable de ajuste sube un 40%, nuestros retornos reales se van a ver destruidos. Veamos ese caso con números, suponiendo que tenemos la plata en nuestro plazo fijo hoy y el dolar se dispara un 25% (por ej, 08/2019 o 07/2022),: `R = 1.06/1.25 - 1 ~ -15%`. Esto es una perdida de -15% directa en dolares.
+
+**Nota al pie: la engaña pichanga tratar por separado el capital y los intereses:**
+
+Es fácil caer en la tentación de considerar a los intereses como ""plata gratis"" o ""ganancia pura"" y olvidarnos del capital hundido. Pero la cuenta termina siendo la misma. Supongamos el escenario original de tasa directa de 6% y una inversión de $500k en un mes de alguien que pretende ""vivir de rentas"" y donde la variable de referencia (dolar MEP) subió 8% ($278 -> $300). En este caso nuestra ganancia directa nominal al final del período es de $30k, es decir $30k / $300 = 100 USD. Pero nuestro capital inicial paso de `$500k / $278 ~ 1800 USD` a `$500k / $300 ~ 1666 USD`. Resumiendo tenemos `+100 USD` de intereses y `-1800+1666 = -134 USD` de capital, es decir una perdida de `-34 USD`.
+
+**Sobre la TNA, TEA y variación de tasa**
+
+A veces las tasas de plazo fijo pueden resultar confusas, hay que prestar mucha atención a la TNA vs la TEA y el periodo de composición de intereses. Una TNA de 75% es una tasa directa mensual de `75% / 12 = 6.25%`, pero si reinvertimos mes a mes con la misma tasa durante un año, la TEA queda `(1.0625 ^ 12) - 1~ 107%`. Ahora bien, para que esta cuenta sea valida, la tasa debe mantenerse igual durante todo el periodo de reinversión de los intereses y capital. Y esto es para un plazo fijo a 30 dias, despues debemos analizar los periodos mas largos para ver qué es conveniente. En este escenario, si nos ofrecieran una TNA de 125% para un plazo de 1 año, sería mas conveniente estrictamente hablando. Pero tenemos que considerar la liquidez.
+
+En este caso se suma un factor nuevo que es el ""riesgo de la variación tasa"", es decir si coloco el plazo fijo a 1 año y las tasas ofrecidas por nuevos plazos fijos bajan durante el periodo voy a obtener potencialmente un retorno superior a ir renovando mes a mes. Caso contrario, si coloco a un año y las tasas suben, me hubiese convenido en retrospectiva colocar a periodos mas cortos e ir renovando hasta llegar al año, con el plus de tener la liquidez de poder cambiar de inversión en el medio.
+
+Por lo tanto la respuesta a la pregunta ""conviene hacer un plazo fijo por todo el periodo o ir renovando"" en general no es tan clara, porque las tasas para los distintos periodos pueden ser distintas y ademas ir fluctuando durante el periodo total. Recordar que estos riesgos se suman a los riesgos que ya vimos de retornos reales volátiles.
+
+**Resumen**
+
+El plazo fijo a tasa fija en pesos es una herramienta de inversión mucho menos conservadora de lo que se la considera normalmente:
+
+1. Una desventaja obvia es la no liquidez: no tenemos opción de salirnos facilmente en caso de querer retirar el capital. Esto nunca es positivo para una inversión.
+2. Al no tener liquidez entre la colocación y fin del periodo, la rentabilidad aparente no parece ser volátil pero si pudiésemos valuar nuestro plazo fijo día a día veríamos que fluctúa de precio, especialmente si lo medimos en retorno real.
+3. Si hacemos un análisis de retornos reales, el plazo fijo es una herramienta mucho mas riesgosa de lo que parece a simple vista ya que vemos retornos reales muy altos o muy bajos
+4. La dispersión de los retornos reales y en particular los saltos discretos e imprevistos en las variables de ajuste para el calculo de retornos reales hace que el plazo fijo sea un instrumento que sufre un escenario potencial muy riesgoso: parece que viene bien, hasta que sale mal y perdemos todo lo ganado e incluso mas.
+
+**Y el plazo fijo UVA? Y en dolares?**
+
+Una alternativa si nos interesa el ajuste por CER, es el plazo fijo UVA. Ahi eliminamos el problema del retorno real, ya que los pesos de capital quedan indexados a la variación CER. La contra vs. la tasa fija es la contracara de no poder obtener un retorno real positivo muy alto, ya que las tasa de los PF UVA suelen ser bajas (CER+1%). Algo similar sucede con los plazos fijos en USD, la tasa es generalmente muy baja.",HwanZike,merval,306,0.99,75,2022-11-18 12:08:41,https://www.reddit.com/r/merval/comments/yymbq1/escapando_a_la_nominalidad_del_plazo_fijo_a_tasa/,/r/merval/comments/yymbq1/escapando_a_la_nominalidad_del_plazo_fijo_a_tasa/,True,post
+z31rai,Alguien que no conozco me transfirió plata.,"Hola, básicamente ayer me llegaron 50 lucas a mercadopago de alguien que no conozco. Me habló la persona en cuestión por Instagram y me solicitó la devolución (no respondí nada por el momento), pero tengo entendido que puede ser una estafa, no? Que pueden sacar un préstamo a mi nombre, o me pueden estar usando para triangular guita. 
+
+Qué hago en este caso? Respondo al Instagram y le digo que le transfiero si me manda una declaración de licitud de origen de fondos con facturas y una declaración jurada que diga cómo se va a efectuar la devolución? Le digo que no puedo hacer nada y que haga la reversión? Lo ignoro? Pongo la guita en un plazo fijo? Me patino 50k en merca?",PoleraBlyat,merval,244,0.98,200,2022-11-23 18:54:53,https://www.reddit.com/r/merval/comments/z31rai/alguien_que_no_conozco_me_transfirió_plata/,/r/merval/comments/z31rai/alguien_que_no_conozco_me_transfirió_plata/,True,post
+yzedot,"Me Bloquearon de Mercado Pago, y quería sacarme unas dudas","Bueno este es mi primer post, quería sacarme un par de dudas, me bloqueron la cuenta de m3rc4d0 p$, y por lo que estube consultando tiene pinta que ya no me la devuelven, ya hice cosas como enviar recibos de sueldo y explicaciones de unas cosas que me preguntaban.
+La consulta son, primero si conoces alguna forma de como se puede pedir que me desbloqueen la cuenta por un medio que no sea la opción de ""contáctanos"" de la app, (por lo que les dije que ya me cansé de pedirle la solución por allí).
+La segunda consulta, en caso de que falle la primera, que apps me recomiendan que sea igual/con las mismas opciones o símil a m3rc4d0 p$.
+Y la última voy a poder seguir comprando por m3rc4d0 l1br3? Porque hasta donde entiendo todos los pagos se efectúan por m3rc4d0 p$.
+Desde ya gracias",Potential-Economist6,merval,0,0.44,7,2022-11-19 12:27:03,https://www.reddit.com/r/merval/comments/yzedot/me_bloquearon_de_mercado_pago_y_quería_sacarme/,/r/merval/comments/yzedot/me_bloquearon_de_mercado_pago_y_quería_sacarme/,True,post
+ys9fub,"Te caen 10.000 usd, que haces?","Hola gente
+
+Para ir al grano: tengo $10.000 USD en una cuenta en el exterior que no necesito en el corto plazo. Tengo perfil de riesgo muy bajo. Hay alguna inversión de low risk/low reward que recomienden? Hoy en dia esta edtacionadisimo
+
+Convertir a ARS y meter en plazo fijo sería un delirio cósmico no?
+Gracias",Paltele,merval,2,0.56,2,2022-11-11 09:45:15,https://www.reddit.com/r/merval/comments/ys9fub/te_caen_10000_usd_que_haces/,/r/merval/comments/ys9fub/te_caen_10000_usd_que_haces/,True,post
+ysiufy,Asistencia al viajero ahora que las tarjetas no la dan,"algunas tarjetas / bancos antes daban asistencia al viajero en el exterior, si bien habrá quien diga yo tengo una Black del banco X y me cubre todo, en mi caso mi combinación tarjeta y banco no me da ni las gracias ya, triste recorte.  
+
+
+Veo varias empresas de asistencia medica al viajero, ninguna me parece barata salvo una que tiene malísimos comentarios y prefiero evitar. Me fijé tanto con el seguro combinado de hogar como del auto (vi algunos que recomendaban eso) y no tienen nada. Assist card me excede.  Alguna recomendación de seguro medico en viaje ""barato""? Pensé también en contratar un seguro medico del exterior directamente, no es más barato tampoco.",yiyotopo,merval,1,0.54,23,2022-11-11 15:35:04,https://www.reddit.com/r/merval/comments/ysiufy/asistencia_al_viajero_ahora_que_las_tarjetas_no/,/r/merval/comments/ysiufy/asistencia_al_viajero_ahora_que_las_tarjetas_no/,True,post

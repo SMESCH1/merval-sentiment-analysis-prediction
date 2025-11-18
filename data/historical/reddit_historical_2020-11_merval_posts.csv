@@ -1,0 +1,166 @@
+id,title,text,author,subreddit,score,upvote_ratio,num_comments,created_utc,url,permalink,is_self,type
+jopqm7,Introducción a la operatoria de títulos en el mercado,"# Introducción
+
+El **mercado** electrónico al que vamos a estar haciendo referencia es la Bolsa de Comercio de Bs. As. En este mercado tenemos los **títulos** que se negocian (acciones, bonos, CEDEARs, cauciones, opciones).
+
+Cada título tiene su propio **""ticker""** o **""simbolo""** que lo identifica. En la negociación de esos títulos participan los inversores, a través de distintos brokers, que permiten acceso al mismo mercado único.
+
+Para **operar** los títulos, durante el **horario** durante el cual el mercado esta abierto (la ""rueda""), los inversores cargan **órdenes** de compra o venta, para el ticker que desean operar. Cada ticker tiene su propia **caja de puntas**, donde podemos ver las ordenes mas prioritarias. La prioridad de las ordenes sigue lo que se llama **Prioridad Precio-Tiempo (PPT)**. Esto significa que las ordenes que ofrezcan un mejor precio tienen mayor prioridad y para el mismo precio, tienen prioridad las ordenes mas viejas.
+
+Veamos una tipica pantalla de la operatoria de un ticker:
+
+
+
+https://preview.redd.it/b9uaxkbz3hx51.png?width=1197&format=png&auto=webp&s=4415ea7825424071d1109f552e57429824fe40d6
+
+Lo primero que vemos es que ticker se está operando es BMA, correspondiente a Banco Macro, en el plazo 48hs (mas sobre eso después **\*nota: el plazo 48hs se eliminó desde que se hizo este post y fue absorbido en la practica por el plazo 24hs\***). Luego tenemos el **precio del ultimo operado** (""EL precio"") y su variación con respecto a la rueda anterior. Otra información útil es la **fecha y hora de la ultima negociación** (momento donde se determinó el último precio operado) y el **volumen** operado en la rueda. El resto es información histórica, como **precio de apertura** de la rueda, precio de la rueda anterior, máximo y minimo de la rueda y **máximos/mínimos históricos**.
+
+Debajo tenemos un gráfico del movimiento del precio **intra-diario** (durante la rueda) y finalmente la parte que mas nos importa ahora, a la derecha abajo tenemos la **caja de puntas.**
+
+# Funcionamiento de la operatoria de oferta y demanda y la caja de puntas
+
+A la izquierda, vemos las ordenes de compra (**bid**), de mayor a menor. Cada linea indica la cantidad seguido por el precio. Notar que las cantidades son agregadas, es decir que pueden venir de mas de una orden (ie, de mas de un inversor), en cuyo caso el que primero llega tiene prioridad.
+
+A la derecha, tenemos las ordenes de venta (**ask**/**offer**). Nuevamente cada linea indica la cantidad a vender, junto al precio. En este caso, el orden es de menor a mayor, ya que tiene prioridad menor precio. De nuevo aplica la agrupación al igual que con las ordenes de compra.
+
+Supongamos la siguiente secuencia de operaciones. El mercado acaba de abrir y vamos a suponer que estamos viendo la caja de puntas de YPF, que la rueda anterior cerró a $95.
+
+1. Se carga una orden de venta (A) de 100 papeles a $100. Como no hay ordenes de compra aun, la orden queda en proceso esperando a su ejecución.
+
+https://preview.redd.it/29487gafzgx51.png?width=265&format=png&auto=webp&s=d06d92e665a186d3631d4871ea1040ad589a8b32
+
+2. Se carga una orden de compra (B) de 50 papeles a $90. Si bien hay una orden de venta, la orden de compra no alcanza el minimo pedido por la orden de venta mas prioritaria entonces esta orden también se queda esperando su ejecución.
+
+https://preview.redd.it/gc4cidotzgx51.png?width=266&format=png&auto=webp&s=4ec348effcf7aeb428f19d5d350f9e59f1f43003
+
+3. Aparece un tercer inversor que impaciente por vender, decide cargar una orden de venta (C) por 10 papeles a $90. Inmediatamente, se ejecuta la orden y el ultimo precio operado pasa a ser $90. El inversor recibe su dinero y el comprador recibe los 10 títulos. Para el inversor (B), ahora su orden esta parcialmente ejecutada, pasando a ser 40 x $90. Puede decidir cancelarla por los papeles que quedan o seguir esperando.
+
+https://preview.redd.it/yq1ebhp70hx51.png?width=265&format=png&auto=webp&s=1d312f8feabd197d0b054e3d8486d18aa05a4993
+
+4. Otro inversor carga una orden (D) de compra de 100 papeles a $90. Su orden de compra se ""agrupa"" con la orden (B), quedando ahora 140 papeles en total a $90. Aca aclaramos que si bien estan agrupadas bajo el mismo precio, la orden (B) tiene prioridad sobre (D) en caso de que aparezca una orden de venta a $90 (o menos).
+
+https://preview.redd.it/vrvn7aop0hx51.png?width=265&format=png&auto=webp&s=abfce7e8593aa86c909d045f0417688dd406e96a
+
+5. Otro inversor con mas apremio que el que esta intentando vender, ve la caja de puntas y decide cargar una orden mas barata (E) de 10 papeles por $95.
+
+https://preview.redd.it/uwbemhe61hx51.png?width=265&format=png&auto=webp&s=9dff8c76178c8338b482ced91e243e36f57b2d5c
+
+6. Finalmente, el inversor dueño de la orden de compra (B), la cancela y decide comprar los 40 a $100. Al ejecutarse la orden, el inversor obtiene 10 papeles de YPF a $95 y los 30 restantes a $100. El precio del ultimo operado cambia a $100 y la caja de puntas luego de esto, queda asi:
+
+https://preview.redd.it/gito9s4x1hx51.png?width=265&format=png&auto=webp&s=55233cd84832371ff294395559f36d105f3be00e
+
+*Una aclaración importante: en estos ejemplos yo no me gasté mucho en inventar las motivaciones por las que los inversores deciden comprar/vender las cantidades y precios a los que deciden, sino que la idea es mostrar la mecánica de como funciona el mercado. En la práctica hay millones de inversores moviendo millones de plata, cada uno con sus motivaciones. Tratar de predecir estos movimientos es un análisis independiente que tenemos que hacer antes de invertir.*
+
+Un ejemplo en vivo de GGAL (48): [https://gfycat.com/acceptablejointcarp](https://gfycat.com/acceptablejointcarp)
+
+**Tipos de ordenes**
+
+Tanto para ordenes de compra como de venta tenemos algunas opciones:
+
+1. **Precio límite**: como venimos mostrando hasta ahora, las ordenes se cargan con el precio máximo (mínimo) que estamos dispuestos a comprar (vender) y la cantidad. Una variación en vez de especificar la cantidad, es especificar el monto a comprar/vender y esto se convierte a cantidad basado en el precio antes de ingresar la orden.
+2. **Precio de mercado**: la orden se carga y se ejecuta consumiendo el precio que pida el mercado. Solo tenemos que especificar la cantidad. Este tipo de ordenes tienen la ventaja de que son inmediatas (se van a ejecutar sin tener que estar viendo a que precio), pero tienen el riesgo de que el precio sea muy alto (bajo) para la compra (venta)
+
+Otra particularidad es que las ordenes que no se ejecutan, por default duran hasta que cierra el mercado (**Good Till Close - GTC**; hasta el cierre). Algunos brokers ofrecen la posibilidad de cargar una orden hasta una fecha de vencimiento o hasta su ejecución, que se renueva cada rueda.
+
+Aunque no son estrictamente órdenes que opera el mercado, muchos brokers permiten cargar ordenes tipo ""**stop loss**"" que significa que si el precio pasa debajo de un umbral, el broker carga una orden de venta. Se utiliza para limitar pérdidas sin tener que estar pendiente del precio. Algunos brokers incluso permiten armar un ""**take profit**"", la contrapartida de un ""stop loss"", para cerrar una posición cuando excede un precio. De cualquier manera, se puede emular esto si simplemente dejamos cargada una orden de venta al precio límite que queremos vender, y que se renueve automáticamente cada rueda.
+
+**Plazo de liquidación (también negociación/concertación)**
+
+La operatoria de acciones, bonos y CEDEARs, bajo el mismo ticker, suele tener distintas posibilidades de plazo de negociación:
+
+1. Contado Inmediato (CI)
+2. 24hs (1 rueda)
+3. 48hs (2 ruedas)
+
+Las opciones siempre se negocian al único plazo de 24hs. Mientras que las cauciones siempre son en contado inmediato.
+
+Por una cuestión legacy, las acciones, bonos y CEDEARs suelen tener mas liquidez en 48hs, cosa que lo convierte en el plazo ""default"" para operar. Que significa este plazo de liquidez? Cuando se cierra la operación, el precio queda fijado y el dinero queda inmovilizado por nuestro broker para garantizar que a las 48hs tengamos el dinero para concertar la operación. Sin embargo, podemos operar la acción como si ya la tuviésemos y venderla en el plazo de 48hs. Lo que no podemos hacer es venderla en contado inmediato, hasta que no pasen las 2 ruedas. La operación inversa (comprar en CI y vender 48hs) si se puede hacer inmediatamente.
+
+Es importante remarcar que que cada plazo de liquidación tiene su propia caja de puntas, asi que queda en nosotros ver donde podemos conseguir mejores precios/liquidez.
+
+Otra cosa interesante es que alguns brokers permiten disponer del dinero ""inmovilizado"" por una compra para su uso en cauciones. Entonces por ejemplo podemos comprar $10k de acciones a 48hs y una vez cerrada la operación, inmeditamente colocar esos $10k en PESOS2.
+
+**Moneda de negociación, arbitrajes y operatoria dolar MEP/CCL**
+
+La operatoria de acciones, bonos, CEDEARs, a su vez se divide en operación en **pesos**, **dólar billete** (para transferir libremente dentro del país) y **dólar divisa** (para transferir libremente al exterior). Estos están distinguidos en el nombre del ticker mismo, es decir hay un ticker para cada moneda. Por ejemplo, el mismo bono AL30, cotiza bajo 3 tickers: AL30 (pesos), AL30D (dólar billete), AL30C (dolar cable). Cada una de estas **especies** tiene su propia operatoria, con oferta/demanda propia.
+
+Para ver un ejemplo de todas las posibilidades que hay para un mismo titulo, sigamos con el bono AL30, posiblemente el titulo con mas liquidez de todo el mercado. Tenemos los siguientes tickers:
+
+* AL30 Contado Inmediato, pesos
+* AL30 24hs, pesos
+* AL30 48hs, pesos
+* AL30D Contado Inmediato, dólar billete
+* AL30D 24hs, dólar billete
+* AL30D 48hs, dólar billete
+* AL30C Contado Inmediato, dólar divisa
+* AL30C 24hs, dólar divisa
+* AL30C 48hs, dólar divisa
+
+Todas estas especies son para negociar exactamente el mismo título, sin importar mediante cual compremos, obtenemos ""AL30"" o ""Bono USD 2030 Step-up de la Republica Argentina"" que es en realidad el nombre mas completo. Una vez que tenemos el bono (y respetando el parking, si aplica), podemos venderlo en cualquiera de estas especies!
+
+Al tener el mismo activo cotizando en distintas monedas, es perfectamente valido comprar en una moneda y vender en otra. Efectivamente usando el activo solo para hacer un cambio de por ejemplo pesos por dólares. Para hacer esta operatoria, tenemos que saber que hay restricciones en este momento (que fueron variando desde fines de 2019). En este momento comprar en dólares y vender en pesos no tiene restricciones, mientras que comprar en pesos nos obliga a tener los títulos en cartera durante 3 ruedas antes de poder vender en dólares. Esta restricción se la conoce informalmente como **parking** y hace que sea menos atractiva la operatoria ya que dependemos de las fluctuaciones del activo entre el momento de la compra y la venta.
+
+El tipo de cambio implícito entre un activo que cotiza en dólar billete y en pesos (AL30D/AL30) se llama ""dólar bolsa"", así como la operatoria de comprar en pesos y vender dólar que se llama hacer **dólar MEP**. En general estos términos se suelen intercambiar. Si la operatoria involucra el dólar divisa, se suele llamar ""**dólar cable o dólar CCL (Contado Con Liquidación)**"" (AL30C/AL30). La operatoria se suele hacer con el bono mas líquido del momento, antes era el AY24 y post restructuración ahora es el bono AL30.
+
+*UPDATE: hay muchas restricciones nuevas dependiendo del titulo, tambien se suelen usar el GD30 y las letras mas proximas a vencer.*
+
+Teniendo en cuenta que un mismo activo puede cotizar en distinta moneda y distinto plazo de liquidación, surgen inevitablemente lo que se llaman posibilidades de arbitraje. Esto significa que podemos encontrar el mismo activo que se negocia a distintos precios. Por ejemplo, podríamos comprar un activo en contado inmediato y venderlo inmediatamente en 48hs a mayor precio, y nos quedaríamos con la diferencia.
+
+Antes de que se manden a tratar de vivir de los arbitrajes, hay que saber que en general estas situaciones no se dan seguido y menos si sumamos los costos de operatoria (comisiones). Es muy difícil encontrar activamente estos arbitrajes ya que hay robots u otras personas contra los que competimos, además de que insume mucho tiempo hacerlo manualmente.
+
+**Cauciones**
+
+La operatoria de cauciones se opera tanto en pesos como en dólares, en contado inmediato únicamente. Cada plazo y moneda tiene su propio ticker, por ej PESOS1, PESOS2, y así hasta PESOS120. Ídem para DOLAR1, DOLAR2, etc. El numero nos indica la cantidad de ruedas por los que estamos caucionando.
+
+La particularidad de la operatoria de cauciones, es que las ordenes son ligeramente distintas: las cantidades son en pesos/dólares y lo que se negocia no es el precio sino la tasa (anualizada). Por ejemplo:
+
+https://preview.redd.it/3welycch3hx51.png?width=598&format=png&auto=webp&s=44b14079a6e38c4ee901e85c8848c8c9c1738b2a
+
+En la columna de la izquierda vemos las ofertas para cauciones tomadoras (pedir plata prestada), donde vemos que hay aprox 15 millones de pesos a 28% de tasa como tomador mas prioritario. En la columna derecha, vemos las cauciones colocadoras (prestar plata), donde la mejor tasa ofertada es de 29.95% por un monto de aprox. 4 millones de pesos.
+
+**Bonos y obligaciones negociables**
+
+Una particularidad de este tipo de activo es que el precio que se muestra es por cada 100 títulos. Entonces si vemos un precio de 90 USD, lo que significa realmente es que cada lamina vale 0.90c de dólar.
+
+Si por ejemplo cargo una orden de compra de 500 bonos a $100, me va a salir $500 (+ comisiones), no $50k pesos, ya que estamos pagando cada bono a $1.
+
+**Horarios de mercado**
+
+El mercado suele tener distintos horarios para los distintos plazos de negociación. Contado inmediato es de 11hs a 16hs, mientras que 24hs y 48hs es de 11hs a 17hs. El mercado solo abre los días hábiles.
+
+**Liquidez**
+
+La liquidez de un papel es una medida de que tan operado es. Es una medida subjetivo, porque la liquidez que le sirva a un inversor puede no servirle a otro, entonces se puede medir de distintas maneras.
+
+Una manera es viendo el volumen diario promedio, para ver si es un volumen mucho mayor a lo que nos interesa operar. Por qué nos puede interesar? A mayor liquidez, menor ""costo"" tenemos que pagar por comprar/vender en el momento. Además, si un activo opera poco volumen y queremos hacer una orden grande, vamos a obtener un precio deformado por nuestra propia operación!
+
+Otra posible medida es el ""bid/ask spread"", la diferencia entre la punta vendedora y compradora. En general, cuanto menor es la diferencia, mayor es la liquidez porque significa que hay mucha gente queriendo comprar y vender. Esta diferencia se puede medir en pesos/usd o en %.
+
+**El broker y el dinero**
+
+Una cosa que hay que aclarar es que todas estas operaciones se hacen desde una cuenta comitente en un broker, donde podemos tener tanto dinero en pesos/usd como nuestros títulos, a diferencia de una cuenta bancaria que solo permite tener dinero (entre otras cosas).
+
+Para fondear los brokers en argentina, la única manera es vía transferencias bancarias. Lo mismo para retirar nuestros fondos. Entonces la operatoria completa seria:
+
+    Dinero en cuenta bancaria -> Transferencia al broker -> Operación de compra/venta de títulos -> ??? -> Profit -> Retiro del broker al banco
+    ---------
+
+Bueno, espero que les sirva y cualquier cosa que no se entienda o que les parezca agregar, me avisan.",HwanZike,merval,187,0.98,46,2020-11-05 16:54:31,https://www.reddit.com/r/merval/comments/jopqm7/introducción_a_la_operatoria_de_títulos_en_el/,/r/merval/comments/jopqm7/introducción_a_la_operatoria_de_títulos_en_el/,True,post
+k0ev26,Y el desplome de la bolsa?,"Hago este post para aquellos que se basaban en analisis tecnicos inservible para pronosticar el inminente crash. Hoy en dia en un alto histórico. 
+
+Principalmente este [user](https://www.reddit.com/user/PandaPaul0/submitted/) que nose donde se habrá metido.
+
+Moraleja: no van a pegarla nunca. 
+
+PD: Ah pero probablemente el crash sea de aca a dentro de 10 años así que wait for the dip bro.",mikKiske,merval,3,0.55,29,2020-11-24 19:03:28,https://www.reddit.com/r/merval/comments/k0ev26/y_el_desplome_de_la_bolsa/,/r/merval/comments/k0ev26/y_el_desplome_de_la_bolsa/,True,post
+jm2q5a,USD colchón,"Hola a todxs, intenté antes de postear, encontrar alguna respuesta anterior en los temas que se ajuste a mi caso. Disculpas si las había y no las vi.
+
+El caso es que estoy 100% en usd colchón. Vivo en una ciudad tranquila lejos de baires. Mi perspectiva laboral no es auspiciosa y ya me resigné a vivir de ahorros hasta que se restablezcan los vuelos y la actividad económica en mi ciudad. La consulta es cómo disponer de mis ahorros sin tener que venderlos al blue, ya que hay un par de vagos que te compran blue en mi ciudad pero no confio tanto en la disponibilidad para poder vivir de ellos sin doxearme y ser victima de asalto. 
+
+Mis opciones son depositar mis usd físicos en el banco y ahí se me acaba la certitud. De ahí deberia fondear para comprar DAI, BTC o qué?. Necesito vivir de ese dinero para mis gastos mensuales, en usd es cada vez menos, pero algo así como 150 por mes. 
+
+La idea es quizás generar algún interés y tener la liquidez necesaria cada mes. Cuáles son sus consejos? Los leo agradecido por responder. Buena semana a todxs",Poincenot,merval,0,0.47,20,2020-11-01 11:04:05,https://www.reddit.com/r/merval/comments/jm2q5a/usd_colchón/,/r/merval/comments/jm2q5a/usd_colchón/,True,post
+jsgg6y,$300.000 pesos arg en cedear .,"Básicamente eso gente , se me liberan el viernes y estaría interesado en meterla en algún cedear con una inversión de aprox 6meses / 1 año . Riesgo medio/ bajo. 
+
+Alguna recomendación?
+Gracias de antemano",ezesea,merval,1,0.55,32,2020-11-11 17:47:28,https://www.reddit.com/r/merval/comments/jsgg6y/300000_pesos_arg_en_cedear/,/r/merval/comments/jsgg6y/300000_pesos_arg_en_cedear/,True,post

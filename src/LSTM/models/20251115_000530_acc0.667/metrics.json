@@ -1,0 +1,41 @@
+{
+  "folds": [
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.8,
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1": 0.8888888888888888
+      }
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.2,
+        "precision": 0.2,
+        "recall": 1.0,
+        "f1": 0.3333333333333333
+      }
+    }
+  ],
+  "summary": {
+    "accuracy": 0.6666666666666666,
+    "accuracy_std": 0.33993463423951903,
+    "precision": 0.6666666666666666,
+    "precision_std": 0.33993463423951903,
+    "recall": 1.0,
+    "recall_std": 0.0,
+    "f1": 0.7407407407407408,
+    "f1_std": 0.2916299212596967
+  }
+}

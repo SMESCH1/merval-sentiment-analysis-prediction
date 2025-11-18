@@ -1,0 +1,53 @@
+id,title,text,author,subreddit,score,upvote_ratio,num_comments,created_utc,url,permalink,is_self,type
+kjm2ik,Cómo diferir impuestos en Argentina de manera legal.,"Hola! 
+
+&#x200B;
+
+Soy miembro de este grupo desde sus inicios pero la verdad que nunca le di mucha bola porque jamás invertí en la bolsa argentina. Pero recientemente vi que hay muchos posts sobre cómo hacer con temas de comercio exterior.  No se si suma este posteo o si va a ser leído, pero aporto mi granito de arena, espero que les sea útil.
+
+&#x200B;
+
+1. **¿Como hago para pagar menos impuestos en la argentina?**
+
+El sistema tributario argentino está basado en la ""Residencia"". El concepto es bastante sencillo de entender, en Argentina se paga impuestos en la medida que seas considerado residente. En caso de ser Residente, se paga por las rentas mundiales (de todo el mundo).
+
+Opciónes para mejorar la carga tributaria:
+
+&#x200B;
+
+* Mudarse de Argentina.
+
+Si te mudas fuera de argentina dejas de pagar impuestos en Argentina. Si te mudas encima a un país que sea territorial (Uruguay) sólo pagas por lo que se produce en dicho país. Además Uruguay ofrece 10 años que te trata como no residente (en criollo no pagas impuestos).  El proceso para mudarse (bien) es largo y tedioso hay que hacer todo lo posible para no dejar dudas que te mudaste fuera de argentina (incluido darse de baja de la tarjeta de descuentos de Jumbo/Coto).
+
+&#x200B;
+
+* Diferir ganancias.
+
+Antiguamente en Argentina, si vos tenías una empresa en el exterior sólo se pagaban ganancias en la medida que esa empresa te pagara dividendos. Es decir, que en la medida que la plata estuviera en la cuenta de la sociedad, uno en argentina no pagaba impuestos (**diferimiento**). En esa época mucha gente aprovecha y constituía sociedades en lugares de baja o nula tributación (BVI, Panamá, Belize, Bahamas, Cayman), facturaban desde esa sociedad y nunca giraba la plata de esa sociedad a su cuenta personal. En la gestión de Macri, hubo una reforma tributaria y se establecieron nuevas reglas de CfC (controlled foreign corporation) en donde no cualquier sociedad te permite no pagar impuestos en  Argentina.
+
+Ahora existen 3 ó 4 formas pero la forma más sencilla de cumplir es constituyendo la sociedad en una país con N° de Identificación tributario (USA/Uruguay) y ser accionista de esa sociedad con 3 o más socios, es decir, tener menos del 50%. De esta forma **no** pagas impuesto a las ganancias en argentina en la medida que la sociedad no te distribuya dividendos.
+
+&#x200B;
+
+* Bienes Personales.
+
+Para Bienes personales existen 2 soluciones fáciles de hacer. La primera es hacer un ""Trust Irrevocable"" [https://www.litwak-partners.com/wp-content/uploads/2017/03/Trusts-Preguntas-frecuentes-1.pdf](https://www.litwak-partners.com/wp-content/uploads/2017/03/Trusts-Preguntas-frecuentes-1.pdf) ahí esta cubierto la mayora.
+
+La más barata y bastante efectiva es cambiar la fecha de cierre del balance. Si cambias la fecha de cierre del balance pagas Bienes Personales un año después y en argentina con la inflación que hay es un ahorro muy interesante. Si cambias la fecha de cierre a otro que no sea el 31/12 para bienes personales se paga el Valor Patrimonial Proporcional (% de PN que te toca) + aportes al cierre de ese ejercicio. Es decir, si cierra en junio vos pagas el VPP de Junio + los aportes que hagas ese año hasta el cierre de tu ejercicio fiscal (31/12). 
+
+&#x200B;
+
+Notas varias:
+
+* Intercambio de información. 
+
+La Argentina es parte del AOEI/CRS y por lo tanto las instituciones financieras comparten información automáticamente con las autoridades de otro país. El único país que no es parte de este CRS es Estados Unidos porque tienen su propio estándar ya funcionando. Estados unidos sólo comparte información con los países que firman un IGA Nivel 2 y los firma con los países que pueden brindar seguridad sobre la información compartida. Argentina no es uno de esos países.
+
+Soluciones como abrir cuenta en suiza, estonia u otros países no sirve porque la información va a ser compartida.",juancmb,merval,225,1.0,37,2020-12-24 17:19:26,https://www.reddit.com/r/merval/comments/kjm2ik/cómo_diferir_impuestos_en_argentina_de_manera/,/r/merval/comments/kjm2ik/cómo_diferir_impuestos_en_argentina_de_manera/,True,post
+kdmhu3,O soy muy boludo o lavan guita,"  En serio, creo que no estoy notando lo indispensable porque no pueden haber tantos pelotudos juntos, pero antes un poco de contexto. Ciertamente, no soy muy partidario de los FCI porque:
+
+1-para perder mi plata, prefiero hacerlo yo
+
+2- la mayoría, si no el 90%, de los FCI ni si quiera son capaces de equiparar al mercado
+
+Y eso solo hablando de los FCI internacionales, porque cuando hablamos de los argentinos, el fondo que más rinde es el colchón de tu abuela. Ni siquiera son capaces de rendir más que la inflación, exceptuando un par de ellos que seguramente en los años siguientes van a estar varios puntos por debajo. Pero bueno, en un sentido, se entiende que la gente ponga plata en ellos porque por lo menos, estos fondos, buscan operar acciones, commodities, futuros o demás instrumentos financieros que requieren tiempo y conocimiento que la gente decide no adquirir.  Pero después de eso, hay unos...unos que ¡¡HAY POR DIOS ME VOY A VOLAR EL MATE CON UN BALLESTER MOLINA!!. Miren esto (https://s3.amazonaws.com/resources.invertironline.com/AssetManagement/FCI/Datasheets/Adcap/Ahorro%20Pesos.pdf) este es el AdCap Ahorro Pesos Fondo de Dinero. ¿Que instrumento de complejidad puede estar operando? ¿acciones? ¿opciones? Uff casi...PUTOS PLAZOS FIJOS, CAUCIONES Y CUENTAS REMUNERADAS, encima, le ponen más porcentaje de capital al instrumento con menor rendimiento...bueno, uno dirá, ""jaja ¿te cobran por hacer algo que hasta un tipo que no termino primaria puede hacer? No debe haber ni un peso ahí""...a día de hoy tiene 8.615.780.580 pesos…MAS DE 8 MIL PALOS EN ESTA MIERDA. No se chicos, ¿hay algo que no estoy viendo? ¿acaso el pelotudo soy yo y no estoy viendo el negocio del siglo? Aclárenme esto por favor, porque estoy tan confuso que me hiero a mi mismo jaja",vmeltrozo,merval,8,0.56,34,2020-12-15 11:17:04,https://www.reddit.com/r/merval/comments/kdmhu3/o_soy_muy_boludo_o_lavan_guita/,/r/merval/comments/kdmhu3/o_soy_muy_boludo_o_lavan_guita/,True,post

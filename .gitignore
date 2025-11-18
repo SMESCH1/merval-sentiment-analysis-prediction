@@ -1,3 +1,13 @@
 .env
 venv/
 logs/   
+.cursor
+
+data/*.jsonl
+data/procesada/*.jsonl
+data/preprocesada/*.jsonl
+
+
+*.log
+*.jsonl
+

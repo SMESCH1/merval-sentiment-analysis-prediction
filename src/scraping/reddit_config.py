@@ -6,8 +6,6 @@ from dotenv import load_dotenv
 # Cargar variables de entorno desde el archivo .env
 load_dotenv()
 
-print(os.getenv('client_id', ''))
-
 # Configuración de Reddit como diccionario
 reddit_config = {
     'client_id': os.getenv('client_id', ''),
@@ -46,15 +44,7 @@ keywords = [
 } """
 
 def get_reddit_config() -> Dict[str, Any]:
-    """
-    Get Reddit configuration with validation.
-    
-    Returns:
-        Dict containing Reddit API configuration
-        
-    Raises:
-        ValueError: If required credentials are missing
-    """
+    """Obtener configuracion de Reddit con validacion."""
     required_fields = ['client_id', 'client_secret', 'user_agent']
     
     for field in required_fields:
@@ -64,12 +54,7 @@ def get_reddit_config() -> Dict[str, Any]:
     return reddit_config
 
 def validate_credentials() -> bool:
-    """
-    Validate that all required Reddit credentials are present.
-    
-    Returns:
-        bool: True if all credentials are present, False otherwise
-    """
+    """Validar que todas las credenciales requeridas esten presentes."""
     try:
         get_reddit_config()
         return True

@@ -1,0 +1,352 @@
+id,title,text,author,subreddit,score,upvote_ratio,num_comments,created_utc,url,permalink,is_self,type
+gx51wp,DeFi: como escapar del peso (y de la AFIP). Capítulo 1,"**Capítulo 1: Introducción**
+
+*Disclaimer: la siguiente guía es una repaso general del movimiento DeFi (Decentralized Finance / Finanzas Descentralizadas), sus servicios y posibilidades. De ninguna manera representa una sugerencia financiera o de inversión. Todos los servicios de los cuáles se habla presentan riesgos tanto financieros como técnicos, y cada uno deberá hacer su propia investigación antes de decidir usarlos.*
+
+*No estoy asociado a ninguno de los servicios que se mencionan, no hay referral links y no obtengo ninguna ganancia de nada de lo que se habla en este texto*
+
+*Cubrir todos los temas acá tratados de manera exhaustiva sería una tarea imposible, por lo que el objetivo es dar a conocer los principios básicos de todo el sistema, para que luego cada uno profundice en lo que más le interesa. Tampoco pretende ser un tutorial paso a paso de ninguno de los servicios mencionados*
+
+&#x200B;
+
+**Lo básico**
+
+DeFi se refiere a todos los servicios que permiten el manejo de inversiones de manera descentralizada, es decir sin un tercero (banco, broker) que maneje los fondos o los activos. En su gran mayoría va a depender de la red Ethereum, que mediante sus smart contracts va a permitir no sólo manejarse con stablecoins (DAI, USDC) sino intercambiar activos, prestar plata o tomar créditos. Las principales ventajas de manejarse de esta manera son las siguientes:
+
+* Mayor transparencia
+* Control: uno nunca pierde el control de sus activos a mano de un tercero
+* Escapar del peso: pueden realizarse inversiones en la moneda que uno decida, y no estar atado al eternamente devaluado peso argentino
+* Menor fricción: una vez posicionado en crypto, tanto enviar y recibir dinero como hacer transacciones es rápido, barato, seguro y sin trabas ridículas.
+* Propiedad: los activos que uno tiene no pueden ser embargados, quitados o congelados por absolutamente nadie, no importa cuanto poder tenga.
+* Privacidad: con un poco de esfuerzo adicional y si uno quiere, se pueden mantener todas las transacciones y tenencias de manera privada, tanto para otras personas como organismos. Lo cuál nos lleva al siguiente punto:
+* Eludir / Evadir impuestos: es posible y relativamente sencillo. Queda a criterio de cada uno.
+
+La motivación de esta guía es ayudar a cuanta gente sea posible a escapar del ridículo corralito financiero argentino. Vivimos en un país en el que ahorrar es muy difícil e invertir con rentabilidad una odisea casi imposible. El sistema esta roto: trabas, regulaciones, cambios de reglas permanentes, inflación, impuestos en cada paso hacen que resguardar y hacer crecer el dinero que uno obtuvo sea, en mi experiencia, casi imposible. 
+
+Comencemos.
+
+&#x200B;
+
+**Stablecoins. La base de todo.**
+
+A grandes rasgos un stablecoin es una criptomoneda atada al valor de una moneda fiat, en general el dólar (aunque puede ser al EUR, GBP, CNY, etc.). Posicionarse en un stablecoin es el primer paso para entrar al mundo DeFi y escapar del peso. Con sólo convertir los pesos o dólares físicos a un stablecoin uno ya comienza a disfrutar de todas las ventajas de este sistema: digitalización, seguridad, transparencia, no-fricción, salida del sistema, entre otros, mientras evita la principal desventaja de las crypto, la volatilidad. Como convertir mis papelitos de colores a un stablecoin? Puede ser a través de un exchange local (Satoshi Tango, Buen Bit, Ripio) o, mejor aún, en una transacción personal. Dicho en criollo: en ""una cueva"" donde manejen crypto. De esta manera uno se asegura ya arrancar todo el proceso de manera privada y sin terceras partes en el medio. Cómo conseguir una *cueva* donde me cambien? Preguntar, pedir referencias, buscar. Hay muchos grupos en varias redes sociales de Bitcoin y crypto en general donde se puede empezar la averiguación. También se puede averiguar en ""cuevas tradicionales"". Se lo dejo a cada uno.
+
+Si uno ya tiene Ethereum u otras cryptos, el pase es mucho más simple: puede hacerlo en un DEX (Decentralized Exchange) o en cualquier servicio online de intercambio de *criptoactivos*
+
+Existen muchas stablecoins, con diferentes características, algunas mas descentralizadas y otras menos, pero acá vamos a hablar de dos: USDC y DAI.
+
+**USDC**
+
+El USDC (USD Coin) es una proyecto de las empresas Coinbase y Circle de USA, que crearon un ERC20 Token en Ethereum donde cada 1 USDC que se emite esta respaldado por 1 USD físico en posesión de estas empresas. De esa manera aseguran la cotización 1 a 1, ya que en sus plataformas pueden ser redimibles por dólares reales. Esto trae algún riesgo adicional: más allá de basarse en una red abierta (Ethereum), los términos y condiciones de la moneda hablan de que podrían bloquear transacciones si se utilizan para fines ilícitos. 
+
+**DAI**
+
+A diferencia del USDC, el DAI está respaldado por otras cryptos, haciéndolo de esta manera totalmente descentralizado (ya que no depende de ninguna empresa u organismo) y más seguro y transparente. La relación de cotización con el dólar se logra con ""política monetaria"" votada por la comunidad, a través de la tasa de interés que se define para crear o prestar DAI. El respaldo (o *collateral*, como le llaman en el sistema) es como decía arriba otras cryptos, actualmente ETH, BAT, USDC y WBTC. Cada DAI emitido esta respaldado (de manera descentralizada via smart contracts) por esas cryptos en un 150%: es decir que 1DAI tiene respaldo por el equivalente a 1.5USD en ETH, BAT, USDC o WBTC.
+
+**Ok. Y ahora?**
+
+Ahora ya tenemos el primer paso, no menor, dado. Estar posicionado en un stablecoin en vez de en dinero físico o en un banco da una sensación de libertad, seguridad e independencia difícil de explicar. Ahora si, cada uno podrá hacer lo que quiera con sus USD sin andar pidiendo permiso ni dando explicaciones a nadie. Podés guardarlo, enviarlo a la otra punta del mundo o invertirlo, a tu manera y según tus propias reglas.
+
+Y todo esto sin la volatilidad habitual de Bitcoin, Ethereum u otras cryptos. Tus USDC o DAI siempre van a valer lo mismo: 1/1USD.
+
+Para quien nunca haya operado en crypto, la recomendación general es ir metiéndose de a poco, con montos que signifiquen poca plata para esa persona, para ir probando el sistema. Es un mundo completamente nuevo, con conceptos nuevos que se deben aprender y cierta complejidad técnica. Una vez superado este paso, el siguiente es la inversión. No vamos a tocar acá la inversión en Cryptos como por ejemplo comprar Bitcoin, Ethereum o cualquier otra altcoin. El objetivo de esta guía es dar a conocer el equivalente (o lo más cercano posible) a las inversiones tradicionales en el mundo crypto.
+
+Cuando hablo de inversiones me refiero a la \*\*búsqueda de un retorno en dólares\*\*. Estar posicionado en USD (mediante USDC y DAI) no es una inversión en si misma sino simplemente el punto de partida, ya que no tiene un rendimiento, a menos que se mida contra el ARS, que no debería ser siquiera considerado moneda. 
+
+Que opciones de inversión existen entonces? Vamos a hablar de dos: *Lending* y *Derivatives*
+
+Siguiente capítulos:
+
+* Lending (préstamos): donde se explicará cómo prestar tus USDC/DAI de manera segura y obtener una renta a cambio.
+* Derivatives: cómo invertir en metales, forex, acciones, todo en el blockchain y de manera descentralizada, mediante Synthetix",jreddredd,merval,504,0.99,77,2020-06-05 10:57:29,https://www.reddit.com/r/merval/comments/gx51wp/defi_como_escapar_del_peso_y_de_la_afip_capítulo_1/,/r/merval/comments/gx51wp/defi_como_escapar_del_peso_y_de_la_afip_capítulo_1/,True,post
+gxqcnm,GUIA DE COMO INVERTIR - LEE ANTES DE PREGUNTAR EN EL SUB!!,"Esta es una guía de como invertir escrita por los usuarios
+
+**EN QUÉ INVERTIR:**
+
+* [ARMADO DE CARTERA Y DEFINICIONES BÁSICAS - ES UNA CARTERA SIMULADA Y UN PAR DE REVISIONES](https://www.reddit.com/r/merval/comments/eqk2k1/etapa_1_inversiones_colaborativa_%C3%ADndice_poronga/)
+* [INVERTIR EN CEDEARS (APPLE, GOOGLE, ETC) - CARTERA SIMULADA Y UN PAR DE REVISIONES](https://www.reddit.com/r/merval/comments/gru30z/garant%C3%ADas_legales_cedear/)
+* [PÁGINAS PARA SACAR DATOS](https://www.reddit.com/r/merval/comments/gopfpe/p%C3%A1ginas_para_sacar_datos_de_forma_gratiuta/)
+* [CÓMO VALUAR UNA EMPRESA](https://www.reddit.com/r/merval/comments/euacya/c%C3%B3mo_evaluar_una_acci%C3%B3n_caso_luckin_coffe_el/)
+
+ver más ingresando al tag  [TUTORIAL & DEFI](https://new.reddit.com/r/merval/search?sort=new&restrict_sr=on&q=flair%3A%22TUTORIAL%20%26%20DEFI%22) y por ideas sobre activos a  [ACCIONES Y BONOS](https://new.reddit.com/r/merval/search?sort=new&restrict_sr=on&q=flair%3A%22ACCIONES%20%26%20BONOS%22)
+
+**BANCA INTERNACIONAL & BROKERS**
+
+* [LA MEJOR GUIA DE COMO ABRIR UNA CUENTA EN EL EXTERIOR - SON VARIOS CAPITULOS](https://www.reddit.com/r/merval/comments/ckfh3y/banca_internacional_01_compliance_y_ground_rules/)
+* [CÓMO FONDEAR BROKER EN EL EXTERIOR (HAY MUCHAS NOTAS MÁS)](https://www.reddit.com/r/merval/comments/gxx0gb/fondear_cuenta_ameritrade/)
+
+ver más ingresando al tag  [BANCOS & FINTECH](https://new.reddit.com/r/merval/search?sort=new&restrict_sr=on&q=flair%3A%22ACCIONES%20%26%20BONOS%22)
+
+**EMIGRAR DEL PAIS Y RESIDENCIA FISCAL:**
+
+* [EXCELENTE GUIA DE TRAMITES PARA EMIGRAR, SACAR LA RESIDENCIA FISCAL Y ELEGIR TU PARAISO FISCAL - SON VARIOS CAPITULOS](https://www.reddit.com/r/merval/comments/gse1d1/banca_en_el_exterior_miniserie_tomo_3/)
+
+**CRIPTOMONEDAS**
+
+* [GUIA DE COMO USARLAS](https://www.reddit.com/r/merval/comments/gx51wp/defi_como_escapar_del_peso_y_de_la_afip_cap%C3%ADtulo_1/)
+
+**ENVIAR / TRAER DINERO DEL EXTERIOR - COBRAR SERVICIOS ETC.**
+
+* [RECIBIR DINERO DEL EXTERIOR - 1](https://new.reddit.com/r/merval/comments/hk4cqf/consulta_recibir_dinero_del_exterior/)
+* [COBRAR COMO FREELANCER](https://new.reddit.com/r/merval/comments/gyrbpy/cobrar_desde_europa_en_argentina_como_freelancer/)
+
+**REGLAS DEL SUB y WIKI lo tenes en el menú.**
+
+&#x200B;
+
+https://preview.redd.it/pzaywpbefd351.jpg?width=700&format=pjpg&auto=webp&s=eaac63a6b0e77c4466a1aa3f5244bf0a10ad67ed",valhalaman,merval,246,1.0,33,2020-06-06 09:46:36,https://www.reddit.com/r/merval/comments/gxqcnm/guia_de_como_invertir_lee_antes_de_preguntar_en/,/r/merval/comments/gxqcnm/guia_de_como_invertir_lee_antes_de_preguntar_en/,True,post
+gxqcsq,DeFi: como escapar del peso (y de la AFIP). Capítulo 2,"Capítulo anterior: [Introducción](https://www.reddit.com/r/merval/comments/gx51wp/defi_como_escapar_del_peso_y_de_la_afip_cap%C3%ADtulo_1/)
+
+**Capítulo 2: Lending**
+
+*Aplica mismo disclaimer que el capítulo anterior*
+
+Existen varias plataformas que permiten tomar créditos en USD digital (USDC, DAI, etc) dejando como respaldo otras cryptos en un porcentaje mayor al que se se toma prestado (*over collateralization*), asumiendo una tasa de interés. Por ejemplo yo podría *bloquear* (dejar en garantía) 1 ETH (\~240usd) y con eso llevarme 150DAI. Cuando quiera, devuelvo los 150DAI + el interés, y con eso me desbloquean mis ETH. Todo esto puede hacerse de manera automática, sin intermediarios y mediante smart contracts.
+
+La contraparte de este sistema son quienes aportan eso DAI para prestar. Al igual que como *en teoría* funciona el sistema bancario, otras personas depositan sus DAI, los cuáles son prestados, y cambio reciben un interés mensual, diario o hasta incluso cada segundo (ver en vivo como se reciben intereses por segundo es una linda experiencia). La seguridad de los depositantes está dada en que el sistema esta ""sobrecolateralizado"", es decir que hay mas activos bloqueados como garantía que los prestados. A diferencia de los bancos que trabajan con reserva fraccional.
+
+Las tasas de interés para tomar créditos o prestar van variando según diferentes circunstancias del mercado. El sitio [LoanScan](https://loanscan.io/) es un buen comienzo para saber que pagan en diferentes plataformas por prestar tus crypto, que pueden ser las tradicionales (BTC, ETH) o stablecoins (USDC, DAI). Es importante diferenciar entre las plataformas centralizadas, es decir aquella a las cuáles se les transfiere los activos y estos quedan en su custodia, de las descentralizadas, en las cuáles no hay un actor o empresa a quien se le deposite, sino que todo se maneja mediante smart contracts y no existe el riesgo de que la empresa funda o la hackeen y desaparezcan los fondos. Otra (gran) diferencia es que en las centralizadas vas a tener que crear una cuenta, pasar por un proceso de KYC, presentar documentación, etc., mientras que en las otras todo esto no es necesario, ya que se maneja directamente desde la wallet propia.
+
+&#x200B;
+
+https://preview.redd.it/1gooaloxca351.png?width=850&format=png&auto=webp&s=ab947cbfd38df27323297946eec86ae59d1650a5
+
+En esta captura de LoanScan se pueden ver las tasas de interés que pagan los préstamos en USDC y DAI. Actualmente en las plataformas centralizadas se está pagando mejor, pero esto puede variar con el tiempo. Vamos a tomar algunas como ejemplo:
+
+**BlockFi**
+
+[Blockfi](https://blockfi.com/) es una empresa de USA que se dedica a prestar cryptos y permite a otros usuarios financiar esos préstamos [obteniendo a cambio una tasa de interés](https://blockfi.com/rates/). Actualmente pagan 6% por BTC, 4.5% para ETH y 8.6% para las stablecoins (USDC incluído). Con sólo crear una cuenta en este sitio y depositar algunos USDC, estos van a empezar a generar intereses sin necesidad de hacer nada más. Los pagos se realizan el primer día del mes por lo acumulado en el mes anterior. Ej: si deposito 100USDC, a fin de mes me van a depositar 0.71USDC de interés. Ese monto se suma al que uno tiene adquiriendo interés, y el mes siguiente el interés será sobre 100.71USDC (interés compuesto). Uno puede elegir si recibir el interés en la misma moneda que lo genera (en BTC si tengo BTC y ETH si tengo ETH) o todo en una, al tipo de cambio correspondiente (por ej. puedo tener BTC, USDC y ETH depositados y cobrar todo el interés en USDC).
+
+**Nexo**
+
+[Nexo](https://nexo.io/) es un sitio muy similar, basado en Suiza, donde también se pueden depositar varios tipos de cryptos. En este caso aparte de USDC se puede depositar DAI. La tasa para estos stablecoins es de 8%, y los intereses se pagan todos los días, a la medianoche de Europa.
+
+El funcionamiento de ambos es básicamente el mismo, y los riesgos también: al tener depositados los fondos en esas empresas, estos siempre pueden ser bloqueados, trabados, robados, fundidos, etc. como en cualquier banco o broker tradicional. Las ventajas: una curva de aprendizaje mucho menor, no hay muchos tecnicismos ni cuestiones complejas que entender. Simplemente le prestas tu plata a una empresa, y esta te paga un interés. La creación de una cuenta es muy simple, no tienen restricciones de países y es un proceso 100% online de sólo unos minutos.
+
+**Exchanges**
+
+Existen algunos exchanges (Poloniex, Bitfinex entre otros) que también brindan la posibilidad de prestar crypto y pagan un interés. En este caso los fondos los usan quienes operan con *leverage* (margin trade), donde también tienen que *colateralizar*su posición y eso disminuye el riesgo de no pago. Las tasas van variando según la cantidad de oferentes y demandantes y lo que esté dispuesto a recibir y pagar cada uno.
+
+Comparten estas empresas información fiscal por los tratados de intercambio de información automática? No lo sé, y si alguien lo sabe sería bueno que lo comente. Lo único que me puede dar una pista es el país en el que esta registrada cada una. Lo que no se puede evitar en estos casos es tener que registrarse con los datos personales reales presentando documentación, al igual que un broker o banco tradicional, aunque mucho más fácil y rápidamente.
+
+**Servicios Descentralizados**
+
+Son aquellos en los que no hay una empresa que custodia y administra lo prestado, sino que funcionan directamente mediante protocolos (o smart contracts) que gestionan todo.
+
+**Oasis Save**
+
+Maker DAO (DAO es una organización autónoma descentralizada) opera la moneda DAI y tres servicios en su plataforma [OASIS](https://oasis.app/): Trade, Borrow, Save. Con Oasis Save uno puede *bloquear* sus DAI, los cuáles son a su vez prestados a otros en Borrow, y obtener un interés a cambio. La tasa de interés esta definida por los participantes de esta organización autónoma mediante una votación, y se usa para incentivar o desincentivar la demanda de DAI, y con eso mantener el *peg* 1:1 con el USD. En términos generales, si el DAI cotiza por debajo de 1USD, se sube la tasa de interés, y si este opera encima del dólar, se baja. 
+
+Para participar únicamente es necesario ingresar a Oasis, loguearse con la wallet propia y decidir cuántos DAI bloquear en Save. Automáticamente se empezarán a recibir intereses por *cada segundo que transcurra* con tu dinero prestado. Los DAI nunca son transferidos a nadie, simplemente son bloqueados en un smart contract, por lo que mientras estén ahi no los vas a poder transferir ni usar para otra cosa. Para salir, lo único que hay que hacer es retirar los fondos, lo cuál va a hacer que se deje de recibir el interés.
+
+Hoy la tasa de interés de DAI Save es de 0%, lo que hace que obviamente no tenga sentido participar, pero esto cambia permanentemente. Al estar DAI cotizando por encima del USD (aprox. 1.02) se fue bajando la tasa de interés hasta llegar a 0%. Hoy esta cotizando nuevamente a $1, por lo que es probable que se vuelva a subir en el corto plazo.
+
+**Aave, Fulcrum, Compound, dYdX** 
+
+Asi como Oasis es la plataforma nativa de DAI, existen muchas otras que funcionan básicamente de la misma manera, operando como un intermediario (aunque es sólo código) entre prestamistas y tomadores de deuda.
+
+[Aave](https://aave.com/), [Fulcrum](https://fulcrum.trade/) y [Compound](https://compound.finance/) son tres de las principales, aunque hay muchas otras. En las tres se encuentran opciones para prestar diversas cryptos, manejando cada una su tasa de interés que puede ser fija o variable. [dYdx](https://dydx.exchange/) es un exchange descentralizado, donde los prestamos son para traders utilizando leverage, al igual que lo descripto arriba con Bitfinex o Poloniex, aunque sin un tercero que administra todo.
+
+Al momento de escribir esto, si uno tiene DAI y quiere prestarlos, le convendría depositarlos en dYdX que ofrece una tasa del 3.24% y si tiene USDC la mejor opción sería Aave, que rinde 3.68%. Pero esto puede cambiar en cualquier momento, siendo la mejor ventaja de operar con crypto que moverse de una plataforma a otra puede hacerse en cuestión de minutos y por un costo muy bajo. Incluso hay *robots* que se pueden usar para administrar los fondos y que te los vaya moviendo adonde mas convenga en cada momento (lo trataremos en otro capítulo)
+
+**Pool Together**
+
+Otro proyecto interesante es [Pool Together](https://www.pooltogether.com/), al que ellos definen como una lotería en la que no se puede perder. Participar de este juego requiere depositar DAI en un *pool* al que también aportan otras personas, luego ese pool se invierte y se obtiene un interés y al final de la semana se sortea ese interés adquirido entre todos los participantes con chances proporcionales a lo aportado. Es decir que si tengo 100DAI, en vez de invertirlo por mi cuenta puedo participar de este pool y tener la posibilidad de ganar un interés mucho más grande generado por un pozo mayor. A todos los que no ganan se les devuelve lo aportado, de ahi que nunca se pierde el capital inicial.
+
+**Conclusión**
+
+Lo más interesante de lo explicado en esta última parte es que todo esto se gestiona sin una persona o empresa intermediaria en la cuál haya que confiar, sino simplemente con código que se ejecuta según las reglas predefinidas en el protocolo. La clave de estos servicios descentralizados es que son **non-custodial**, es decir que nadie (más que uno mismo) custodia los fondos, y por lo tanto uno en ningún momento se pierde el control de ellos ni tiene que transferirlos, simplemente los *bloquea* en un smart contract bajo su control.
+
+Según lo explicado en el capítulo anterior y este, uno podría pasar sus pesos de papel a DAI en una operación con otra persona para luego invertirlos en alguno de estos protocolos descentralizados. Pasaría a estar recibiendo un interés en una moneda atada al dólar que puede reinvertir, guardar o transferir adonde quiera, sin permisos ni papeles, formularios o burocracia alguna. Toda esta operación es privada, sin nadie que pueda intervenir, opinar si es correcto o no, definir si podes hacerlo según si anteriormente participaste de otro mercado o patalear porque *fuga de capitales* o idioteces semejantes. 
+
+En la vereda de enfrente están los servicios centralizados, regulados por el estado como entidades financieras, y donde uno debe siempre enviar sus datos personales para poder operar. Lo más prudente en estos casos a mi criterio es asumir que toda esa información es compartida con el fisco, ya sea de manera automática o bajo pedido. Esto aplica tanto para un exchange (en Argentina Ripio, Buenbit, etc.) como a las plataformas de lending descriptas arriba.
+
+El Lending permite prestar tu dinero de manera segura y obtener un interés a cambio. Para poner un equivalente que todos conocen, sería algo asi como tener un bono pero en vez de estar emitidos por estados o empresas, son otras personas las que toman la deuda. Y vos también podés hacerlo si necesitas liquidez y no querés vender tus activos.
+
+Próximo capítulo: Synthetix y como obtener exposición a cualquier activo del *mundo real*.",jreddredd,merval,185,0.99,75,2020-06-06 09:46:54,https://www.reddit.com/r/merval/comments/gxqcsq/defi_como_escapar_del_peso_y_de_la_afip_capítulo_2/,/r/merval/comments/gxqcsq/defi_como_escapar_del_peso_y_de_la_afip_capítulo_2/,True,post
+hek3c2,FAQ del dólar oficial/solidario/MEP/blue/crypto/lo que dé,"Actualizado al: 13/7/2020  
+Hola lobos y lobas del Merval! Dada la inmensa cantidad de consultas que tenemos en el sub casi todos los días por este tema, tomo esta iniciativa para que podamos linkear a este post en casos futuros, o lo puedan leer antes de preguntar algo ya respondido.
+
+**Disclaimer:** Esto es Argentina y es 2020, las reglas están cambiando todo el tiempo, así que puede que no siempre estén actualizadas todas las respuestas con las últimas medidas. No soy experto en nada, así que siéntanse libres de corregirme si pifio en algún punto o ven que falta información. Hacemos lo que podemos :) .
+
+**Si ya compré mis 200 USD solidarios oficiales...**
+
+**...** **puedo comprar MEP?** No. La nueva reglamentación se creó justamente para que sólo puedas acceder al dólar por una de las dos vías (oficial/bolsa). Si compraste el solidario, no podés **vender** ningún activo liquidado en **dólares** hasta que se renueve el período de gracia (90 días) que te da el BCRA.Del mismo modo, **si ya operaste MEP o CCL** (compra de bono en pesos -> venta de bono en dólar) no podés acceder al dólar solidario por 90 días, pero podés seguir operando MEP o CCL.
+
+... **puedo vender MEP?** Sí. Podés comprar un título con dólares y venderlo contra pesos. La normativa no es muy clara, pero no lo prohíbe expresamente. Esto es lo que se llama ""MEP inverso"", o sea, terminás con pesos en la mano. Hay que tener en cuenta que tenés el parking de 5 días desde la liquidación de la compra del bono.
+
+**... o sea que puedo comprar los 200 solidarios y vender MEP?** Sí, podés hacer una pequeña bicicleta/puré y quedarse con los pesos de diferencia entre la cotización oficial y MEP. El problema es que al final del día te quedás en pesos, pero si a vos te sirve...
+
+**... para volver a comprar el mes siguiente, tengo que esperar 30 días corridos o es por mes calendario?** Mes calendario. Al primer día hábil del siguiente mes ya deberías poder comprar solidario de vuelta.
+
+**... puedo comprar y vender DAI en buenbit y transferirme los dolares?** ~~Sí, podés.~~ No, BuenBit anunció que a partir del minuto 1 del 15 de julio, suspende la operatoria en dólares. Podés retirar los dólares que ya tengas en la cuenta pero no vas a poder depositar más dólares ni hacer compra/venta de DAI con dólares.
+
+**... puedo comprar CEDEARs?** Sí. Los CEDEARs cotizan en pesos tanto para la compra como para la venta. Al día de hoy no están alcanzados por esta restricción.
+
+**... puedo operar plazo fijo/caución/FCI/acciones del Merval/bonos u ONs en pesos/licitar algún bono/comprar cosas del exterior con tarjeta?** Sí, *por ahora* estas operaciones no están restringidas.
+
+**... puedo cobrar dividendos o cupones en dólares?** Sí. Los dividendos de acciones/Cedears, y los cupones y amortizaciones de bonos son la renta que te corresponde por tener esos activos en cartera a la fecha de pago. No surgen de la venta de esos activos contra dólares, que lo que restringe la normativa.
+
+**... puedo conseguir CCL para girar al exterior?** No. Por los próximos 90 días no vas a poder vender nada contra dólar cable (especie C, por ejemplo AY24C).
+
+**... puedo retirar los billetes del banco?** Sí, se pueden retirar por ventanilla siguiendo las normas de la transacción (hay que sacar turno, ir en horario bancario, etc). Puede pasar que si es una sucursal chica o muy alejada de la casa matriz, no tengan mucho efectivo y tengas que sacar de a tandas, o que la gente del banco tenga un mal día y te empiece a hacer preguntas, pero oficialmente no hay ninguna norma que te impida retirar los billetes.
+
+**... puedo pedirle a algún familiar/amigo/zombie que compre sus U$200 y me los deposite?**  
+El régimen penal cambiario no permite comprar moneda extranjera por fuera de las instituciones autorizadas (bancos, casas de cambio, etc). El banco puede pedirte que justifiques el origen de los fondos si ve montos o patrones de transferencias poco frecuentes en tus cuentas. Por eso conviene no hacer demasiados movimientos de este tipo juntos ni juntar todo en una misma cuenta. Si tu único ingreso en blanco son 40 lucas al mes, no recibas 127 depósitos de 200 dólares en una semana porque probablemente te van a pedir explicaciones. Si decidís hacer esto, lo mejor es hacerlo por fuera del sistema bancario, con efectivo. Lo ilegal no es recibir ni hacer transferencias, sino saltarse el cepo.
+
+**Se puede hacer el rulo con MEP? Lo vi hace un tiempo en el diario.**  
+No, hace rato que no se puede. El rulo se podía hacer cuando había cupo de U$10.000 mensuales y no había parking. Lo máximo que podés hacer ahora es un ""mini rulo"" con U$100 y 5 días de parking y quedarte con los pesos de diferencia, o un ""puré"" con cryptos. En mi humilde opinión no vale la pena, la ganancia que le podés sacar es muy poca. Justamente toda esta batería de medidas se tomaron en buena parte para parar la operatoria del rulo.
+
+**Antes podía comprar dólares en el broker y ahora no, qué pasó?**  
+A partir de junio los brokers tuvieron que adecuarse a las restricciones y ya no venden dólar oficial. La única que queda es el home banking o casa de cambio autorizada. Y sí, garrón, sale un par de pesos más que en el broker.
+
+**Ya fue, voy a comprar blue, no me importa nada. Dónde voy?**  
+El dólar blue es ilegal y no te podemos decir dónde comprarlo ni venderlo. Ya hay otro post explicando en detalle cómo se hace esa operación ilícita.
+
+**Cómo es la onda de comprar dólares con cryptos o cryptos con dólares y mandarlas afuera y las stablecoins? Qué crypto me conviene? Qué plataforma uso?**  
+Las cryptos no están alcanzadas por las regulaciones de la CNV o el BCRA, así que podés operarlas independientemente del dólar. Buscá un poco en el foro que hay bastantes consultas y varios posts detallados sobre el mundo crypto. \[Dejo este espacio para insertar los tips que alguien quiera aportar\].
+
+Eso es todo lo que se me ocurre por ahora, si tienen algún aporte o corrección, bienvenido sea. Cuídense y cuiden sus ahorros!",ElCelta,merval,131,1.0,47,2020-06-23 15:30:09,https://www.reddit.com/r/merval/comments/hek3c2/faq_del_dólar_oficialsolidariomepbluecryptolo_que/,/r/merval/comments/hek3c2/faq_del_dólar_oficialsolidariomepbluecryptolo_que/,True,post
+gz0jae,DeFi: como escapar del peso (y de la AFIP). Capítulo 3,"Capítulos anteriores:
+
+[Introducción](https://www.reddit.com/r/merval/comments/gx51wp/defi_como_escapar_del_peso_y_de_la_afip_cap%C3%ADtulo_1/)  
+[Lending](https://www.reddit.com/r/merval/comments/gxqcsq/defi_como_escapar_del_peso_y_de_la_afip_cap%C3%ADtulo_2/)
+
+**Capítulo 3: Derivados**
+
+*Aplica mismo disclaimer que el capítulo 1*
+
+En esta oportunidad vamos a analizar oportunidades de inversión en activos físicos a través de tokens en Ethereum.
+
+**Synthetix**
+
+[Synthetix](https://www.synthetix.io/) es un protocolo que permite comprar y vender ""activos sintéticos"" o dicho de otra manera, lograr exposición a activos del ""mundo real"" mediante el trading de *Synths*. Todo *on-chain*, sin intermediarios o terceros que controlen las operaciones.
+
+Los Synths son tokens basados en Ethereum que proveen exposición a activos como el oro, plata, monedas (USD, GBP), commodities, índices de stock markets y próximamente incluso a acciones individuales. Estos tokens cotizan como el activo que representan y van siguiendo el precio según el mercado real de ese activo. Aunque lejos esta de ser lo mismo, sería como un ETF tipo GLD que ""sigue"" el precio del oro físico. Algunos de los Synths que hoy están disponibles son:
+
+* sBTC/ETH/BNB y otros, que siguen la cotización de esas y otras cryptos
+* sXAU representa una onza de oro
+* sXAG lo mismo pero de plata
+* sUSD/EUR/JPY/GBP y otras, para las monedas fiat
+* sNIKKEI el índice Nikkei 225 de Japón
+* sFTSE el índice FTSE 100 de UK
+
+y ya están anunciados el lanzamiento de commodities como el barril de petróleo Brent (sBZ) o acciones individuales (sAAPL, sTSLA, etc.)
+
+De esta manera uno puede, con sus USDC o DAI, comprar por ejemplo sXAU y de esa manera tener un *criptoactivo* que representa una onza de oro, generando exposición a su fluctuación de precio. O diversificarse en varias monedas y armar una cartera con Euros, Libras y Francos Suizos para no estar únicamente expuesto al Dólar. Siempre con la posibilidad de hacerlo en fracciones (0.045 sXAU) y sin restricciones, reglamentaciones, trabas, burocracia y todo el listado que venimos repitiendo en estas guías.
+
+[La cotización de sXAU con respecto al dólar \(sUSD\) en el último mes](https://preview.redd.it/r4b64lhy6p351.png?width=1190&format=png&auto=webp&s=719f7105186da0bd5943d10f0ab1d2da5a0afee3)
+
+En poco tiempo, a medida que se vayan lanzando nuevos synths, uno podría armarse una cartera de inversiones de la misma manera que lo hace en un broker tradicional con acciones de diferentes empresas o ETFs compuestos de mercados enteros como el S&P500. 
+
+Para empezar a usar Synthetix no hace falta nada más que un wallet y tener disponibles [sUSD](https://coinmarketcap.com/currencies/susd/), que puede comprarse en varios exchanges o en la misma plataforma de Synthetix. Luego ingresar al [exchange](https://synthetix.exchange/) e intercambiar por el Synth que se quiera. Ese Synth se puede vender en cualquier momento en el mismo exchange por sUSD, que luego podrá ser intercambiado por la crypto que se quiera (o mantener en sUSD que representa al dólar, al igual que USDC o DAI).
+
+Hoy cada Synth sigue al precio de su activo mediante un *Oracle*, que es un servicio centralizado que informa el precio. Ese es hoy el ""punto débil"" del sistema, ya que ese Oracle podría ser hackeado o intervenido, pero ya se está trabajando en utilizar ChainLink (otra blockchain descentralizada) para informar los precios y poder deshacerse de los Oracles. El proyecto y todos los synths están garantizados por el token SNX que es guardado como *collateral*, aportado por gente que por bloquear (*""staking""*) sus SNX en la plataforma recibe a cambio ingresos por los trading fees del exchange. Hoy el proyecto está sobrecolateralizado en un 820%.
+
+Synthetix es uno de los proyectos más innovadores en el espacio y el segundo en volumen de operación después de Maker DAO (donde se crean los DAI). Hoy todavía es limitado en la diversidad de Activos o Synths que se pueden comprar, pero de a poco van agregando más cantidad y variedad (acciones, commodities, forex). La promesa de la plataforma es llegar a un momento donde una persona pueda invertir *on-chain* y de manera descentralizada con exactamente las mismas posibilidades y oportunidades que en un broker tradicional. 
+
+Leer más: [AMA con el fundador de Synthetix, Kain Warwick y su CTO Justin Moses](https://messari.io/c/blog/messari-ama-kain-warwick-founder-of-synthetix-and-justin-moses-cto) (en inglés)
+
+**RealT**
+
+Otro proyecto interesante para participar de la economía real vía blockchain es [RealT](https://realt.co/). Antes que nada es importante aclarar la diferencia con Synthetix: esta plataforma tiene un nivel de centralización muchísimo mayor, depende de un administrador central que gestiona la inversión mediante diferentes vehículos legales en USA, consiste en la inversión en activos físicos y varias cuestiones más que la convierten en un *híbrido* que igualmente me parece que es interesante evaluar.
+
+RealT permite participar de manera fraccionada de un negocio inmobiliario real en USA (por ahora, en Detroit), a través de tokens en Ethereum. Está apuntado a pequeños inversores internacionales, permitiendo de una manera muy sencilla y con poca inversión ser parte de la compra de una propiedad y luego de sus ingresos por el alquiler. Sería algo asi como una réplica digital de invertir en un REIT en el mercado tradicional (como siempre aclaro, con sus obvias diferencias). 
+
+RealT ofrece distintas propiedades fraccionadas en partes de aproximadamente 0.1% de su valor. Hoy por ejemplo se puede comprar por $53.13 un token de una propiedad de $74.389, que va a generar $5.88 por año de ingresos por el alquiler (después de fees), rindiendo un 11.06%. Se pueden comprar cuantas tokens se deseen, y se puede participar de varias propiedades para diversificar. Lo interesante de todo esto es que la participación implica la compra de un token en Ethereum (RealToken), y a partir de ahi quien tenga ese token recibirá los dividendos en forma diaria en DAI. Esto quiere decir que también existe un mercado secundario, ya que los RealTokens pueden luego transferirse y venderse, ya sea a través de su sitio o en Uniswap. Para participar en una compra es necesario registrarse en el sitio y pasar por el proceso KYC presentando documentación, y las direcciones ETH adonde se transfiere el token deben ser *whitelisteadas* con la comprobación de identidad (los puristas de la descentralización se están arrancando los ojos al leer esto)
+
+Es posible ver la actividad de cada propiedad en el blockchain ([ejemplo](https://etherscan.io/token/0xbecaea7aa3629d4b7ddccf3a973bef09ff34d4b6)), con sus transferencias, pagos, etc. Desde el lado legal, para cada propiedad se crea una LLC, donde los dueños son los tenedores del token, y estas LLC son independientes de la quien las administra (RealT). Sin dudas es el proyecto más riesgoso de los que venimos comentando por su alto nivel de centralización, pero por otro lado ofrece un rendimiento anual muy alto y la posibilidad de diversificar en un negocio distinto y atado a la *economía real*.
+
+Próximo capítulo: robots de inversión",jreddredd,merval,126,1.0,32,2020-06-08 11:39:18,https://www.reddit.com/r/merval/comments/gz0jae/defi_como_escapar_del_peso_y_de_la_afip_capítulo_3/,/r/merval/comments/gz0jae/defi_como_escapar_del_peso_y_de_la_afip_capítulo_3/,True,post
+h8k0pa,Como comprar dólares billete físicos en una cueva,"Bueno, les voy a explicar como una persona compraría dólares físicos en una cueva, es una pregunta que sale mucho en diferentes grupos.
+
+Este es un trabajo de FICCIÓN Y NO DEBERÍAMOS HACERLO PORQUE ES ILEGAL, nuestros amados líderes supremos saben lo que es mejor para nosotros, y lo mejor para nosotros según su infinita sabiduría es ahorrar en pesos. Así que muchachos apuesten al peso que van a ganar seguro.
+
+Lo que sigue a continuación es una **obra de ficción narrativa novelesca costumbrista porteña y jamás deberían imitarlo en la vida real.**
+
+Todo se hizo en un circuito controlado con dobles de riesgo profesionales. Cualquier similitud con la realidad es pura coincidencia.
+
+
+---
+
+**Comienza la novela**
+
+**¿Podés ir preso si te atrapan comprando dólar blue?**
+
+Ni, técnicamente si, pero es muy raro, tenés que ser el más salado del condado.
+
+La AFIP realiza allanamientos y persigue la venta ilegal de divisas. 
+
+**Cómo debe darse la detención**   
+
+El Banco Central (BCRA) tiene la facultad de trasladar al supuesto infractor por la policía o la fuerza pública que intervenga en el operativo para asegurar la comparecencia y declaración.
+
+Es decir que, en el marco de un procedimiento con intervención judicial, se podría detener a quien comprara las divisas, como si se tratara de cualquier otro delito. 
+
+**Las penas que impone la ley**
+
+Quienes compran o vendan ilegalmente divisas pueden ser sancionadas, según la ley, con multas de hasta 10 veces la operación de la infracción, si se tratara de la primera vez que se viola esta norma. 
+
+Mientras tanto, si fuera la primera vez que se reincide, la ley contempla penas de 1 a 4 años de prisión, o multas de 3 a 10 veces el monto de la operación.
+
+Finalmente, la pena de prisión podría ser de 1 a 8 años, si se reincidiera por segunda vez. La multa, en este caso, podría agregarse a la condena. 
+
+¿A quién alcanza la ley? Según el Régimen Penal Cambiario (Ley 19.359 y 22.338), serán sancionadas las personas que hagan “toda negociación de cambio sin intervención de institución autorizada para efectuar dichas operaciones” y quienes operen “sin estar autorizado a tal efecto”. De esta forma, quien compre o venda sin permiso queda en ojo de los organismos de control y de la Justicia.
+
+**La aventura verde, en busca de la lechuga**
+
+Empieza la aventura del pequeño ahorrista desconfiado del peso
+
+Vamos primero a asumir varias cosas:
+
+1. Estamos en un futuro donde ya paso la pandemia, por un momento vamos a imaginar que ya podes salir libremente de tu casa. Esta guía servirá en el futuro. O incluso ahora si te las ingenias para salir de tu casa.
+2. Tenes acceso a una ciudad grande, idealmente Capital Federal, y mas concretamente el centro Porteño. Esta guía funciona en otras ciudades grandes pero es mas complicado. Si vivís en el medio del monte chaqueño, se te va a complicar…
+
+**Donde comprar**
+
+En Capital Federal, tenes que ir a la zona peatonal, mas concretamente el área de Florida y Lavalle, y alrededores. Ver mapa acá. [https://osm.org/go/Mnx6y5v4](https://osm.org/go/Mnx6y5v4)
+
+Vas a ir caminando por ahí, y vas a ir atento, escuchando que hay gente que dice “cambio, cambio”; esos son los **arbolitos**. Les dicen así por que tienen hojitas verdes (los dólares).
+
+Ademas de haber casas de cambio oficiales donde podes comprar los miseros 100 dólares oficiales en efectivo, tenes las casas de cambio no-oficiales mas conocidas como “cuevas”. Normalmente son una joyería, o una casa de cambio con una parte arriba o atrás (en los 70s la famosa casa Piano te hacia subir a un cuartucho arriba y ahí cambiabas, los mas viejos se acordaran), negocios de pieles también, en fin, la casa de cambio puede tener una fachada cualquier o ser un negocio legitimo que maneja dólares de turistas y ademas tiene este negocio paralelo de cambiar divisas.
+
+Si no estas en Capital Federal, deberías estar en alguna de las grandes ciudades del interior, las capitales provinciales todas tienen cuevas, ídem grandes ciudades como Bahía Blanca, Azul, Olavarría, Rosario, las ciudades de frontera con Brasil, Paraguay, y Bolivia. Sera tu tarea encontrar esas casas de cambio preguntando por ahí, observando, los productores rurales de la zona normalmente conocen alguien que hace de cambio y también cambia cheques, etc (el famoso prestamista local).
+
+**Como comprar**
+
+Bueno, ya caminaste por la zona, te familiarizaste con la zona peatonal. Ahora tenes que consultar a los arbolitos, de manera discreta “a cuanto vendes? / a cuanto compras?” depende de la operación que quieras hacer. La cotización la podes negociar si vas a cambiar mucho, eso es cuestión de que lo hables con el tipo, que normalmente es un representante, digamos el tipo anuncia en la calle, pero la operación no va a suceder en la calle. Donde aceptes cambiar, te va a hacer seguirlo a algún lado, o te va a dar una tarjeta… vas a ir a ese lugar y ahí va a ocurrir la operación de cambio.
+
+**Billetes falsos**
+
+TENES QUE PRESTAR MUCHA ATENCIÓN A ESTO, los billetes viejos es mas fácil que te encajen falsos por que tienen menos medidas de seguridad. Familiarizarte con los dólares ANTES de ir a comprar. Si nunca tuviste un dólar real en tus manos, primero te recomiendo comprar en un banco para familiarizarte. Mira videos de como detectar dólares falsos… lamentablemente hay unos “superdolares” que son imposibles de detectar, pero no deberías preocuparte por ellos, por que son tan buenos que si te dan uno de esos, pasa en todos lados (los hace Corea del Norte, antes los hacia Libia, etc.… busca superdolares en Google para mas info).
+
+Es conveniente probar comprar en diferentes cuevas pequeñas cantidades (100 U$S) hasta que encuentres una que te gusta, que te atiendan bien, que no te pongan vueltas, buena cotización, una vez que encuentres esa joyita, te haces cliente de ellos y listo.
+
+Muchas cuevas tienen **delivery!** Pregunta por eso también !
+
+**Cabeza chiquita / cabeza grande / billetes diferentes a 100**
+
+Bueno, si tenes billetes viejos, deteriorados, o de otra denominación que no sea 100 (50,20,10,5,2,1 ; ojo fijate que no tengas un billete coleccionable !! ) seguramente te van a querer pagar menos si vas a vender, o directamente no los van a querer aceptar.
+
+¿Avivada argentina? SI, y en otros países también pasa, no en todos, yo por eso esos billetes NO los cambio en Argentina, ni tampoco los acepto si me los quieren dar en una cueva, o les pido rebaja. Esa negociación queda en vos…
+
+Si tenes monedas, no creo que las puedas cambiar en Argentina, guardalas para cuando viajes al exterior, muchas lavanderías en hoteles funcionan con monedas de cuarto dólar, lo mismo otro tipo de maquinas tipo snacks y así… fijate, de nuevo, que no sea una moneda coleccionable primero antes de gastarla!
+
+**Seguridad personal**
+
+Bueno, estas llevando plata, y peor … volviendo con dólares… o al revés, llevando dólares… sea como sea, la **SEGURIDAD** tuya es primordial. Mi recomendación es no cambiar mas de 1000 dólares por operación. Ir preparado, ser un poco paranoico, fijarte que no se te haga muy tarde, el micro-centro de noche se pone pesado, mucho personaje donde empieza a caer el sol y cierran las oficinas… ademas que no te sigan, que nadie te venda, no le cuentes a nadie lo que vas a hacer… si es posible spray de pimienta y bastón plegable, obviamente si te pelan un arma de fuego dales todo… un truco bueno es la doble billetera, es decir llevar una billetera falsa con billetes falsos, los chorros no se van a poner a verificar la autenticidad del billete… en fin, mucha precaución con la seguridad.
+
+Eso es todo amigos!!
+
+Hay que derribar este cepo!!
+
+*Mr Gorbachev, tear down this wall!* 
+
+Y vivieron felices para siempre encendido habanos con billetes de cien dólares
+
+~fin~",maschetoquevos,merval,118,0.98,36,2020-06-13 22:03:47,https://www.reddit.com/r/merval/comments/h8k0pa/como_comprar_dólares_billete_físicos_en_una_cueva/,/r/merval/comments/h8k0pa/como_comprar_dólares_billete_físicos_en_una_cueva/,True,post
+gv3ycn,r/merval starterpack,,PresentRow5,merval,113,0.9,21,2020-06-02 06:12:25,https://i.redd.it/zut0fae9rg251.jpg,/r/merval/comments/gv3ycn/rmerval_starterpack/,False,post
+gzqb1j,Mercados le pegan una monumental y merecida patada en el orto a Argenzuela y Alberso,,DazzlingDisploomer,merval,0,0.49,25,2020-06-09 13:19:11,https://i.redd.it/3hju8c4stw351.jpg,/r/merval/comments/gzqb1j/mercados_le_pegan_una_monumental_y_merecida/,False,post
+hd275f,Duda Dolar MEP y Blue,"Hola... les ruego me den una mano con esta duda... Qué pasa si compro dólar mep (con toda la restricción del parking y etc), lo saco en físico, lo vendo en blue... y vuelvo a comprar mep.? técnicamente para la afip yo debería tener dólares para atesoramiento y pagaré bienes personales x eso... pero que otro riesgo tiene la operación? Si me cebo y hago el rulo varias veces... q puede pasar?
+Perdón si es muy chota la pregunta 🙏
+Muchas gracias",DamonComeOn,merval,0,0.43,28,2020-06-21 03:37:13,https://www.reddit.com/r/merval/comments/hd275f/duda_dolar_mep_y_blue/,/r/merval/comments/hd275f/duda_dolar_mep_y_blue/,True,post

@@ -1,0 +1,249 @@
+id,title,text,author,subreddit,score,upvote_ratio,num_comments,created_utc,url,permalink,is_self,type
+p6clye,Tomando perspectiva del constante aumento de restricciones a inversiones en moneda extranjera en estos últimos años,"Cronología mas o menos de restricciones cambiarias, sin fecha porque no tenia tantas ganas y el orden probablemente esté mal en algunos detalles pero es para tomar perspectiva del nivel de dificultad en el que estamos jugando este juego.
+
+1. Limitación de 10k por mes en el MULC
+2. Obligación de liquidar ingresos de divisas por exportaciones
+3. Bloqueo de transferencias internacionales a cuentas no propias
+4. ""Parking"" a la operatoria MEP/CCL
+5. Parking a transferencia/liquidación de títulos (Bonos/ADRs/CEDEARs)
+6. Bloqueo de tarjetas de credito para uso en fintech del exterior fondeo de exchanges, paypal, etc.
+7. Limitación de 200 USD por mes en MULC
+8. Impuesto PAIS (+30% dolar oficial)
+9. Retención ganancias (+35% dolar oficial)
+10. Gastos con tarjeta en USD consumen cupo compra USD
+11. Restricciones de SWIFT e interoperabilidad de solidario y MEP/CCL (90 días exclusividad de operaciones)  + bloqueo acceso a mercados por beneficios estatales (IFE, ATP, créditos)
+12. Restricciones a las carteras de FCIs, para evitar cuotapartes en monedas distintas a la de los instrumentos del fondo. Valuación de tenencias a dolar oficial.
+13. Restricciones acceso al MULC para empresas => reestructuraciones (ie defaults) forzados de bonos corporativos en USD
+14. Limitación en cantidad de transferencias en USD, 1 x mes
+15. Limitación en apertura de cajas de ahorro en USD
+16. Límite en operatoria (cupo máximo por semana) MEP/CCL con bonos legislación local (AL30), luego internacional (GD30)
+17. Limitación de operatoria MEP/CCL a menos que tengas cuenta bancaria local/internacional respectivamente
+
+https://preview.redd.it/fbpvnp8jhzh71.png?width=450&format=png&auto=webp&s=5ff79cdb8b9b66f41b02e64f91177dd51a747cb4
+
+La verdad que es jugar en modo ultra-hard. Y todavía quedan **por lo menos** 2 años mas de este paradigma. El panorama pinta jodido y nuevamente queda demostrado que invertir en/desde Argentina es mucho riesgo y potencialmente poco beneficio, si uno trata de hacer las cosas bien. No quiero desalentar a los que estén leyendo esto, pero realmente poner todas las trabas que se fueron dando hace reflexionar sobre qué podemos esperar a futuro en el corto, mediano y largo plazo.
+
+[Preparandonos para cuando llegue el hombre de la bolsa a romper los huevos que pusimos en nuestras canastas.](https://preview.redd.it/wvk9s80phzh71.png?width=727&format=png&auto=webp&s=251c801caaa810e2c1546ec8b7aafa0f848b1c73)
+
+Como segunda reflexión, siempre diversificar. Hay que ser humilde y reconocer que las cosas pueden cambiar muy rápido de un día para el otro y lo mejor que podemos hacer es estar preparados. El fondo de emergencia, la diversificación en tipos de activos, monedas, brokers, exchanges, residencias, países, y demás es la mejor arma contra estos escenarios y aunque cueste mas tiempo y dinero, se recupera en tranquilidad a la hora de dormir. Suerte en la próxima aventura.
+
+\-----------------------------------------------------------
+
+*Qué opciones quedan fuera de la órbita para los que todavía invertimos desde acá pero no quieren tener exposición al riesgo local?*
+
+1. *CEDEARs\* (riesgo regulatorio?)*
+2. *Cryptos*
+3. *Operar afuera directamente, mediante cuenta bancaria afuera y/o broker afuera.*
+
+*Si todavía te interesa el riesgo local:*
+
+1. [Bonos en pesos, tasa fija, dolar linked o inflation linked (CER)](https://www.reddit.com/r/merval/comments/kpaffw/introducci%C3%B3n_a_renta_fijabonos_parte_1/)
+2. [Bonos soberanos y corporativos en USD](https://www.reddit.com/r/merval/comments/kpaffw/introducci%C3%B3n_a_renta_fijabonos_parte_1/)
+3. *Acciones argentinas*
+4. [Cauciones/plazos fijos](https://www.reddit.com/r/merval/comments/kpaffw/introducci%C3%B3n_a_renta_fijabonos_parte_1/)
+5. [FCIs con combinaciones de lo anterior](https://www.reddit.com/r/merval/comments/jcnzpw/introduccion_a_los_fondos_comunes_de_inversion_fci/)
+6. [FCIs LATAM en USD.](https://www.reddit.com/r/merval/comments/jcnzpw/introduccion_a_los_fondos_comunes_de_inversion_fci/)
+
+*PS: para los que recién arrancan, recomiendo* [*esta guía*](https://new.reddit.com/r/merval/comments/jiptks/punto_de_partida_para_newbies_en_inversiones_por/)*.*",HwanZike,merval,151,0.97,77,2021-08-17 18:09:27,https://www.reddit.com/r/merval/comments/p6clye/tomando_perspectiva_del_constante_aumento_de/,/r/merval/comments/p6clye/tomando_perspectiva_del_constante_aumento_de/,True,post
+oymxwb,Introducción motivacional a opciones financieras,"Les presento un post dando algo de motivación para los que nunca se interesaron o se animaron al tema de opciones financieras. La idea no es salir con todas las herramientas listo para operar, sino tratar de disparar el interés con conceptos básicos y algunos ejemplos sencillos.
+
+# Por qué opciones?
+
+Antes de empezar con las definiciones, vamos a listar algunas cosas que podemos hacer con las opciones.
+
+1. Nos permiten cubrirnos ante la baja de un activo. Es decir, si tenemos una acción pero queremos limitar las perdidas en caso de que la acción baje.
+2. Nos permiten obtener una ganancia asegurada (pero limitada) llamada ""hacer tasa"", al permitirnos financiar a los que quieran tomar la contraparte mas arriesgada de nuestra posición (generalmente cediendo ganancias al alza, la inversa del ejemplo anterior).
+3. Apostar a la suba de un activo, apalancándonos pero con perdidas acotadas.
+4. Nos permiten apostar a la baja de un activo, con perdidas acotadas. Esto es importante, porque la manera tradicional es [shorteando](https://www.reddit.com/r/merval/comments/l6us3g/apostando_a_la_baja_short_o_estar_en_corto/) (cosa que ni siquiera es viable en el mercado local).
+5. Combinando estrategias podemos apostar a escenarios de volatilidad o de no-volatilidad, y ganar plata sin importar la dirección.
+
+Algo que quiero aclarar que es que cómo ven en los casos de uso, las opciones se pueden usar para cosas muy arriesgadas y también para operatorias de disminución de riesgo. Esto lo aclaro para echar luz sobre el mito de que las opciones son pura timba o que son super avanzadas. La realidad es que es una herramienta mas que se puede usar para gestionar el riesgo, y si bien tienen sus complicaciones, pueden ser usadas muy básicamente y para disminuir riesgo, así como pueden ser usadas para apalancarse y subir el riesgo.
+
+# Qué son las opciones?
+
+Las opciones son contratos que nos dan la **opción** (de ahí el nombre) de comprar/vender un **activo subyacente,** a un **precio determinado**, antes de una **fecha de vencimiento**. De aquí se desprende los atributos que definen una opción:
+
+* **Activo subyacente**: sobre qué activo nos permite operar, por eso se llama ""derivado"", porque su precio deriva (entre otras cosas), del activo subyacente.
+* **Tipo**: **call** (compra) o **put** (venta)
+* **Strike price** (precio de ejercicio): el precio al que nos permite comprar/vender.
+* **Vencimiento**: fecha de vencimiento de la opción. En el mercado local se especifica solo con el mes y expiran el 3er viernes de dicho mes.
+
+Las opciones tienen un mercado ""primario"" que es cuando se lanzan y luego comienzan a circular, donde se pueden comprar/vender libremente como otros títulos. El ticker de una opción tiene toda la información de la definición que vimos anteriormente:
+
+Supongamos que tenemos la siguiente opción:
+
+    GFGC180.0FE
+
+Activo subyacente: se codifica con una abreviación, ej GGAL -> **GFG**
+
+Tipo: **C** = call (compra), V = put (venta)
+
+Strike: **180.0**
+
+Vencimiento: **FE** por febrero.
+
+Poniendo todo junto: **GFG+C+180.0+FE = GFGC180.0FE.**
+
+Como ejercicio les dejo algunas opciones para que las 'decodifiquen'.
+
+    ALUC31.0AG
+    YPFC840.0AG
+    GFGV145.0OC
+    MELC3800AG
+
+De cualquier manera no es necesario estar adivinando, los listados de opciones son rígidos y siguen una tabla de opciones autorizadas que BYMA va publicando cada tanto para las nuevas opciones que se van habilitando. Algo que vale la pena aclarar es que en general solo los meses pares son los que tienen operatoria en el mercado.
+
+# Qué operaciones base se pueden hacer?
+
+Ya vimos un poco la definición de qué es una opción. Vamos ahora a ver qué se puede hacer con las opciones. Estas operaciones nos van a permitir luego armar estrategias, que vamos a tratar mas adelante.
+
+**Compra/venta de opciones**
+
+La operación básica que podemos hacer con opciones, es comprarlas y venderlas. Tenemos que tener en cuenta que cada opción nos habilita a comprar 100 acciones siempre. Por convención, el precio de las opciones se especifica x 1, pero en realidad cuando vamos a operar hay que multiplicar x 100. Veamos un ejemplo de una caja de puntas:
+
+[Información de la opción GFGC160.OC](https://preview.redd.it/c3m3sqbq7kf71.png?width=1480&format=png&auto=webp&s=c06504f641ff64558a8b2d48221d428a14ee948c)
+
+Cómo vemos, estamos mirando la cotización de de una opción de compra de GGAL, a 160 pesos con vencimiento en octubre. En este caso si quisiéramos comprar 1 opción, la punta vendedora mas barata es de $10.8, por lo que tendríamos que pagar $1080.
+
+*Atención! No confundir el precio de ejercicio (strike price) de una opción, con su precio en el mercado. Para distinguir ambos precios, se suele usar ""strike"" o ""precio"" para hablar del precio de ejercicio y se habla de ""****prima****"" para el precio de negociación de la opción. Este es un punto de mareos muy común para principiantes así que repitan conmigo.* ***Strike price*** *= precio de ejercicio de la opción,* ***prima*** *= precio que se paga por comprar/vender una opción.*
+
+*Notar también que las opciones tienen un plazo de liquidación único a 24hs (o T+1).*
+
+Para repasar, si compramos 1 x **GFGC160.OC** tenemos una opción que tiene:
+
+* Prima: $1080
+* Activo: GGAL
+* Tipo: call (compra)
+* Strike: $160
+* Vencimiento: OC (3er viernes => 21/10/2021)
+
+Por ahora no especificamos el por qué haríamos esto, pero lo vamos a dejar para mas adelante.
+
+**Ejercicio de opciones**
+
+Como dijimos al principio las opciones son contratos que se pueden ejercer. En el mercado local las opciones se pueden ejercer en cualquier momento antes del vencimiento (se denomina ""modelo americano""). Qué necesitamos para ejercer una opción? Dos cosas: las opciones que queremos ejercer y el capital necesario para hacerlo.
+
+Sigamos con nuestro ejemplo anterior, tenemos en nuestra posesión  1 opción de GFGC160.OC y la queremos ejercer. Esto implica comprar 100 acciones de GGAL a 160, por lo que necesitamos $16000 (mas comisiones). Luego del ejercicio, la opción desaparece y nos quedamos con 100 acciones de GGAL.
+
+Notar que la prima que pagamos fue de $1080, mientras que lo que pagamos por las acciones fue $16000, un total de $17080. Si vemos la cotización de GGAL en este momento, está $146.30. Esto significa que si vendemos las 100 acciones ganaríamos: $14630. Poniendo todo en la mesa $14630 - $17080 = -$2450. Perdimos $2450 pesos por hacer esta operatoria.. claramente no conviene ejercer las opciones en este momento. En este momento uno pensaría ""por qué haría algo tan ridículo, si quiero 100 acciones voy y las compro y encima me sale mas barato"". Y tendría razón, pero mas adelante vamos a armar un modelo para entender que está pasando.
+
+*Aclaración: en la práctica es raro ejercer una opción, es mas común venderlas antes de la expiración porque suele ser mas barato.*
+
+**Lanzamiento**
+
+Vimos que las opciones se pueden comprar y vender, pero de dónde salen inicialmente? Así como las acciones las emite una empresa, y los bonos cualquier entidad que quiera tomar plata prestada, en el caso de las opciones, las emite cualquiera que quiera. Entonces cuando escuchemos ""lanzamiento"" pensemos ""emisión"" o ""creación"". Para lanzar se debe elegir la cantidad y el ticker de la opción, que determina el subyacente, tipo, strike y vencimiento de nuestro lanzamiento.
+
+En general cuando se trata de lanzamientos, la operación mas básica es el lanzamiento ""cubierto"" de opciones de compra. Qué significa ""cubierto""? Que las nuevas opciones están respaldadas por acciones, entonces si se ejerce la opción (para comprar el subyacente por el precio de strike), las acciones *están*.
+
+El broker es el encargado de que si se ejerce una opción, el activo subyacente esté y se entregue al que ejerció la opción. Pero no necesariamente tienen que hacerlo forzando al cliente a que tenga las acciones en cartera. Lanzar opciones respaldadas por margen, como cash u otros títulos, es una operatoria común aunque avanzada. Esto se llama lanzamiento ""descubierto"" (o naked en inglés).
+
+En el caso de lanzamiento de puts la operatoria se complica mas porque el que lanza tiene que tener cash y no un activo. Esto se debe a que ejercer una opción de venta implica tener los títulos y recibir dinero a cambio, por lo que el lanzador debe tener el dinero para comprar los títulos que nos están ejerciendo. Lo bueno es que es un monto fijo. Por ejemplo si lanzamos 1 x GFGV180.OC, sabemos que necesitaríamos tener exactamente 180\*100 = $18000 en caso de que se ejerza la opción.
+
+**Cerrar posición**
+
+Al lanzar opciones entramos en lo que se llama una posición ""abierta"", ya que estamos atados al potencial ejercicio de las opciones que lanzamos. Si queremos cerrar esa deuda, podemos recomprar las opciones que lanzamos. A esta operatoria se la llama ""cerrar la posición"". Se puede hacer parcial, o totalmente, dependiendo de la relación entre opciones lanzadas y recompradas.
+
+# Estrategias: vamos a los bifes!
+
+Veamos ahora en la práctica algunas estrategias con mas detalle.
+
+# Cobertura a la baja
+
+Supongamos que tenemos 100 acciones de GGAL que compramos a $146 y queremos cubrirnos ante una potencial baja. En este caso lo podemos pensar como un seguro, con fecha de expiración. Para hacer esto, lo único que tenemos que hacer es comprar un PUT de GGAL. Ahora tenemos que elegir la cobertura que mas nos cierre, teniendo en cuenta que cuanto mas paguemos, mas nos va a cubrir ante movimientos negativos y viceversa. Para tomar algún valor, supongamos que usamos 1 opción **GFGV140.OC**. Esta opción nos permite vender nuestras acciones a un precio garantizado de $140. Por lo que cualquier baja del precio de GGAL por debajo de $140, estaríamos cubiertos. Obviamente esto aplica siempre que la opción no haya expirado.
+
+Para comprar dicha cobertura, vemos que la prima anda en alrededor de $4.4 por opción. Entonces, nuestro put nos sale $440. Veamos dos escenarios que pueden pasar.
+
+**Escenario 1**: la acción se desploma la semana que viene y su precio se va a $130. Sin la cobertura, nuestra perdida sería de (146-130)=16\*100 = $1600. Sin embargo, con la cobertura nuestro precio inferior limite es de 140, por lo que la perdida es de (146-140)=6\*100 = $600. A esta perdida le tenemos que sumar el costo de comprar el put, por lo tanto la perdida total es de $600+$440 = $1040, que es menor a $1600. Lo interesante de esta estrategia es que no importa a qué precio se va la acción, una vez que está debajo de $140. Esto lo podemos ver en un gráfico especializado (llamados ""options payoffs chart"") que analiza nuestra posición total en función de lo que haga el precio del activo subyacente:
+
+[En el eje X tenemos el precio del subyacente, en el eje Y nuestra profit\/loss total. Podemos ver como nuestras pérdidas están limitadas en -$1040. Para conseguir esto pagamos nuestro seguro por $440, que nos afecta nuestras ganancias potenciales.](https://preview.redd.it/5ritkhn8gkf71.png?width=1439&format=png&auto=webp&s=fdffb35e7707da384323fa9e6a9d51b8b3312c22)
+
+**Escenario 2**: la acción sube a $180, pasa octubre. La opción expira, ya que no tiene sentido ejercerla (¿Por qué venderíamos a $140 si podemos vender a $180?). Nuestra ganancia es de (180-146)=34\*100 = $3400. Pero a esta ganancia le tenemos que restar el costo de la opción ($440), por lo que la ganancia neta es de $3400-$440 = $2960. Aca vemos el costo de nuestro seguro, si no hubiésemos pagado el put, tendríamos mayor ganancia. Como dice la expresión, *there's no free lunch*!
+
+# Lanzamiento cubierto
+
+Supongamos que queremos ganar plata, apostando a que nuestra tenencia no va a subir en los próximos meses. Entonces, tenemos nuestras 100 acciones de GGAL y nos proponemos a lanzar un call. La idea es que la venta de este call lanzado nos va a generar un ingreso extra, por el cual sacrificamos el upside de nuestra tenencia. Veámoslo en el gráfico, asumiendo que habíamos comprado GGAL a $146 y lanzamos **GFGC170.OC** a una prima de $7.7.
+
+[Vemos como en este escenario las ganancias están limitadas, pero obtenemos una prima inmediatamente al momento de lanzar.](https://preview.redd.it/xbzvbcvshkf71.png?width=1452&format=png&auto=webp&s=d1f9b5d727911746a23c0f4fd9b02824d37fbc98)
+
+Nuevamente tenemos dos escenarios, si nos ejercern o no. Recordemos que en este caso estamos del lado del que lanzó el call!
+
+**Escenario 1**: el precio de la acción se va a $180 antes de la expiración y nos ejercen. Recibimos $170\*100 = $17000 + la prima por lanzar de $770 = $17770. La ""pérdida"" en este caso es por el costo de oportunidad: Si hubiésemos mantenido la acción, ahora tendríamos $180\*100 = $18000, por lo que nos perdimos de $230 de ganancia. Esto se acentúa a mayor el precio de la acción. Sin embargo, mirando el gráfico vemos que tenemos un P/L total (incluyendo el costo de comprar las 100 acciones a $146) de $3170!
+
+**Escenario 2**: el precio de la acción se mantiene alrededor de $150 y la opción que lanzamos expira. Nos quedamos con las acciones y con la prima. Mas allá de nuestra posición por la acción, nos quedamos con $770 de prima que sirve para amortiguar eventuales caídas (si la acción valiese menos que lo que la pagamos) o darnos un plus (si la acción sube pero no arriba del strike que lanzamos).
+
+*Tip: para determinar que strike, vencimiento y prima usar, se suele usar la TNA obtenida por el lanzamiento y el % de cobertura que nos brinda.*
+
+# Como determinar cuanto pagar (la ""prima"") por una opción?
+
+A grandes rasgos hay dos componentes que hacen a la suma del valor de la prima de una opción. Se los denomina valor intrínseco y valor extrínseco. **Prima = valor intrínseco + valor extrínseco**. El valor intrínseco, deriva de un valor que sale únicamente por la diferencia entre el strike price de la opción y el precio del subyacente.
+
+Supongamos que estamos mirando una opción de compra con strike price $140, cuyo subyacente esta a $150. Esta resta entre strike price y precio del subyacente nos da un valor ""**intrínseco**"", ya que la opción nos permite comprar la acción por debajo de su valor actual, la prima debería ser de por lo menos esa diferencia ($10 en este caso). Si consiguiésemos esa opción a una prima menor que $10, tendríamos un arbitraje, ya que podemos comprar la opción, ejercerla, vender las opciones y ganar una diferencia en el momento!
+
+La relación entre strike price se puede clasificar en tres grupos:
+
+* **Out of the money** (OTM): el strike es mayor que el precio del subyacente.
+* **At the money** (ATM): el strike price está alrededor del precio del subyacente.
+* **In the money** (ITM): el strike price es menor que el precio del subyacente.
+
+*Todo esto fue asumiendo que estamos hablando de un call, para el caso de un put OTM y ITM se invierten.*
+
+Notar que para un call, una opción OTM tiene valor intrínseco 0. Pero si vamos al mercado, vamos a ver calls OTM que cotizan a mas de $0. Esto es porque la prima es la suma del valor intrínseco y el valor extrínseco. Qué compone el valor extrínseco? Lo mas importante es el valor tiempo, que va decreciendo a medida que nos vamos acercando a la fecha de expiración. Una manera de pensarlo es el ""changui"" de que la opción de repente pase de OTM a ITM, simplemente por la revalorización del activo. Esto aplica incluso para opciones que ya están ITM, el valor extrínseco se suma al valor intrínseco de base. Un opción con valor intrínseco 0, tiene su prima dada en su totalidad por su valor extrínseco.
+
+Por otro lado, existen modelos de pricing que toman ingredientes como el precio del subyacente, volatilidad implícita histórica, tasa de interés y otros números, para determinar un precio ""justo"". Un buen punto para arrancar es el modelo [Black-Scholes](https://www.investopedia.com/terms/b/blackscholes.asp). También hay modelos para estudiar las variaciones de precios en opciones y cuantificar riesgos, conocidos por usar letras griegas para los distintos parámetros (""the greeks""): delta, theta, gamma, vega. No vamos a ahondar en esto ahora porque esto es una guía introductoria, pero lo tiro para el que le interese profundizar.
+
+# Apostando a la suba con apalancamiento
+
+Supongamos que queremos apostar a la suba de GGAL pero no queremos comprar 100 acciones porque es demasiado capital ($14600 a $146 cada una). Una posibilidad es comprar una opción de compra. Supongamos que decidimos ir por la **GFGC170.OC** y pagamos una prima de $7.5 = $750 pesos en total para tomar la posición. En este caso nuestra opción esta OTM, por lo que su valor intrínseco es 0 y nuestra perdida será total a menos que la acción suba. Veamos nuestro payoff:
+
+[El precio donde el P&L se hace 0 se conoce como el \\""breakeven\\"" price. Es decir, en que precio salimos hechos. En este caso \~ $177. En este ejemplo no se están teniendo en cuenta las comisiones! Ver como al vencimiento, la prima de una opción es exactamente su valor intrínseco, ya que su valor extrínseco es exactamente 0.](https://preview.redd.it/zm7f6ggpkkf71.png?width=1457&format=png&auto=webp&s=687c4a20c860a8bdc62f097e4b7f98d6fcfeb1a0)
+
+Como vemos, nuevamente tenemos dos escenarios, que se pueden dar porque perdimos o porque ganamos. Esto va a depender de la fecha de expiración (pasada esta fecha si no vendimos o ejercimos, perdemos los $750!). Supongamos entonces:
+
+**Escenario 1**: la acción sube a $175. Como vemos en este escenario, si bien la acción subió, nuestra ganancia con la opción no alcanza para cubrir nuestro costo ya que quedamos debajo del breakeven. En el caso de tener las acciones, hubiésemos tenido una ganancia de (170-146)=24\*100=$2400. Por el contrario, con las opciones pagamos $750 y recuperamos $500 por el valor intrínseco, por lo que quedamos $250 abajo.
+
+**Escenario 2**: la acción sube a $190. En este caso nuestro P&L es de $1250. Esto sale de que el valor instrínseco queda en (190-170)=20\*100 = $2000. Si restamos nuestro costo inicial de $750, nuestra ganancia neta es es de $1250. Como vemos, es una ganancia porcentual de 166%!
+
+Para comparar, en el caso de tener las acciones, hubiésemos tenido una ganancia de (190-146)=44\*100=$4400, que si bien es mayor en términos netos, tuvimos que poner mucho mas capital (de ahí el apalancamiento) y en términos porcentuales es un 30%. Por supuesto si hubiésemos puesto toda la plata que pusimos para comprar acciones en comprar calls, nuestra ganancia total hubiese sido mucho mayor (\~$24000 vs $4400!). La contra cara de esto es que las perdidas en el caso de una baja al momento de tener la acción serían mucho menores, mientras que en el caso de las opciones sería potencialmente de todo el capital invertido! Podemos entender esto gráficamente si vemos el payoff de comprar las acciones únicamente:
+
+[Gráfico de payoff para buy and hold de acciones. La relación es 1:1 entre precio del subyacente y profits\/loss!](https://preview.redd.it/rkinwpt6nkf71.png?width=1442&format=png&auto=webp&s=7ddf32094e1c8228d51a0eff944cad3a8ffa3690)
+
+*Aclaración: esta estrategia también aplica para la baja, en analogía inversa.*
+
+*Aclaración #2: en los gráficos estamos viendo el resultado de la estrategia esperando al vencimiento, pero recordemos que podemos comprar/vender opciones en cualquier momento antes de su expiración, por lo que podemos salirnos antes con ganancias/perdidas mayores/menores que las teóricas al vencimiento.*
+
+**Algo que es muy importante respecto a este punto sobre la valuación de la prima de las opciones, es que dependiendo de que tan OTM o ITM esté una opción, sus fluctuaciones diarias de precio pueden ser muy violentas al amplificar el movimiento del subyacente, tanto al alza como a la baja.**
+
+[Ejemplo de volatilidad diaria de un call. Subas y caidas de mas de 10&#37; en un día no son raras!](https://preview.redd.it/umxk294hllf71.png?width=1393&format=png&auto=webp&s=ebff382e60d6bfc42b27da98bf9a7b1a31b0c421)
+
+Una manera de entender por qué una opción puede ser tan volátil es pensar en el siguiente ejemplo. Asumamos que una opcion tiene su prima dada unicamente por su valor intrínseco, una aproximación razonable a medida que nos acercamos al vencimiento. Supongamos que nuestra acción subyacente cotiza a $100. Evaluamos el precio de un call con strike $99. Su prima tiene que ser de por lo menos $1. Supongamos que al día siguiente la acción pasa a $101 (+1%). En ese caso, la prima del call con strike $99 tiene que ser de por lo menos $2, una variación del 100% con respecto a $1!
+
+Esta simplificación permite entender dos cosas al mismo tiempo:
+
+1. La importancia del ""moneyness"" de una opción (que tan ITM o OTM está, recordemos: la relación entre strike price y precio del subyacente). Para nuestro mismo caso si la opción tenia un strike de $50, la misma variación de $1 en el subyacente hubiese pasado la prima de $50 a $51, una ""amplificación"" (o apalancamiento) de x2 (de +2% vs +1%), en vez de x100 como en el caso original, de +100% vs +1%, con respecto a la variación de la acción.
+2. La importancia del valor extrínseco y el intrínseco. Es mas volátil operar cerca de la fecha del vencimiento y viceversa.
+
+&#x200B;
+
+*Un complicación mas: como todo,* [cuando pasa el tiempo, el dinero pierde valor, ya sea por inflación o simplemente por el risk free rate](https://www.reddit.com/r/merval/comments/kpah40/introducci%C3%B3n_a_renta_fijabonos_parte_2/)*. Este factor también afecta al valor extrínseco y al P&L de nuestra posición.*
+
+# Dame mas info, quiero arrancar a timbear!
+
+Antes de que arranques a timbear en el mercado loca, hay que entender que el volumen es muy pobre y esencialmente el único papel que tiene liquidez razonable es GGAL. Después hay algo de volumen en otros papeles como YPF, ALUAR, COME, TXAR, pero es ínfimo en comparación.
+
+En los mercados de EEUU el volumen es varios ordenes de magnitudes mayor y tenemos opciones incluso sobre ETFs. Una estrategia muy comun es operar opciones sobre SPY, para apostar a la suba o baja, o cobertura, volatilidad, etc, del ""mercado"" como un todo.
+
+Un último tip: siempre tengan presente las comisiones al momento de operar opciones, porque suelen ser bastante mas elevadas que la operatoria de compra/venta de acciones/bonos/etc.
+
+**Bibliografia**
+
+* ""Opciones financieras: Estrategias para operar en el mercado argentino"" - Mariano Pantanetti, Germán Marín
+* ""Aprenda y gane dinero en la bolsa argentina"" - Alejandro Daniel Romero Maidana
+* [Mejores Inversiones - Conceptos basicos de opciones](https://www.youtube.com/watch?v=B21PQOmuwHg&list=PLzHSjG0J0MWMNyvNVpMSDuecYBxKZtOBC)
+* [Mejores Inversiones - Estrategias con opciones](https://www.youtube.com/watch?v=biG7mLwtb4A&list=PLzHSjG0J0MWP8iD2blfFVp1xdBW0vUY4X)
+
+*PS: para generar los gráficos de payoff usé* [*está pagina*](https://optioncreator.com/)*.*",HwanZike,merval,113,0.98,31,2021-08-05 14:11:06,https://www.reddit.com/r/merval/comments/oymxwb/introducción_motivacional_a_opciones_financieras/,/r/merval/comments/oymxwb/introducción_motivacional_a_opciones_financieras/,True,post
+p9hmwy,A la gente no le importa el blockchain solo le importa el precio de Bitcoin,"aca dejo un screen de las busquedas entre ""price bitcoin"" y ""blockchain""
+
+&#x200B;
+
+https://preview.redd.it/0m277s62ayi71.png?width=1211&format=png&auto=webp&s=adeec6ab31515ad390a5bf9efdd12c37c247ac79",tarantulapillin,merval,0,0.47,11,2021-08-22 15:13:19,https://www.reddit.com/r/merval/comments/p9hmwy/a_la_gente_no_le_importa_el_blockchain_solo_le/,/r/merval/comments/p9hmwy/a_la_gente_no_le_importa_el_blockchain_solo_le/,True,post

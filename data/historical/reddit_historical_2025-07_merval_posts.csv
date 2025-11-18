@@ -1,0 +1,509 @@
+id,title,text,author,subreddit,score,upvote_ratio,num_comments,created_utc,url,permalink,is_self,type
+1lygr5u,Llegue a mis primeros 10k usd,"Asi, como dice el titulo. 
+Llegue a mis primeros 10k usd en ahorros (100% invertidos en cedears). 
+Solo queria comentar esto, muy orgullo de mi mismo. Aunque gaste por momentos en cosas que despues me arrepenti, pude llegar a mi objetivo del año.  
+Para los que estan comenzando a ahorrar e invertir, sigan cada monedita que sumen sirve. Cometan errores pero comiencen. 
+Ya son 4 años inviertiendo, crecio muy despacio al comienzo. 
+
+Uno se va volviendo más ambicioso al pasar el tiempo, lo veia como algo super complejo y lo logre. 
+Ahora el proximo obejtivo son los 20k, poco a poco se va a llegar. Va a llegar el momento en el que sean mas de 50k, espero que sea pronto. Voy a hacer lo imposible para llegar a los 100k.
+
+Hay cosas que me vuelan la cabeza y es que ES POCA GUITA, 100k usd vale un depto lindo bien ubicado.
+
+Si uno quiero tener 100k usd ahorrados y ademas un depto lindo. El esfuerzo que tiene que hacer es mucho. 
+Y aun asi eso es poca guita!! 
+A lo que me refiero es que es muy poca guita para un patrimonio pripio, saliendo de familia clase media. 
+La verdad que lo veo muy sacrificado si es que tengo que esperar hasta los 40 (ahora tengo 25) para lograr eso.
+Lograr objetivos financieros en relación dependencia (mas en argentina) es complicado. 
+
+La verdad que no veo la hora de tener un negocio propio.
+
+¿Ustedes como la ven?",Spiritual_Bottle_926,merval,571,0.98,228,2025-07-12 22:35:18,https://www.reddit.com/r/merval/comments/1lygr5u/llegue_a_mis_primeros_10k_usd/,/r/merval/comments/1lygr5u/llegue_a_mis_primeros_10k_usd/,True,post
+1lyum7r,Hice una página para llevar el control de inversiones en CEDEARs,"Buenas a todos!
+
+&nbsp;
+
+
+Hace poco empecé a invertir en CEDEARs y noté que llevar control del rendimiento real en dólares era más complicado de lo que esperaba.
+Los brokers no muestran bien esa info y, si bien podía usar un Excel, prefería tener algo dedicado, así que hice [micartera.com.ar](https://micartera.com.ar).
+
+&nbsp;
+
+Podés cargar tus compras con:
+
+- Fecha
+- CEDEAR
+- Ratio
+- Cantidad
+- Precio del dólar y del CEDEAR en ese momento
+- Comisiones e impuestos
+
+&nbsp;
+
+
+Ingresás el precio actual del activo en USD, y la app calcula automáticamente:
+
+- Por cada compra:
+
+    - Cantidad real del activo subyacente
+    - Valor de compra y valor actual
+    - Días desde la operación
+    - Variación desde la fecha de compra
+    
+
+- Por CEDEAR (compras agrupadas):
+
+    - Cantidad real del activo subyacente
+    - Precio promedio de compra
+    - Valor comprado y valor actual
+    - Porcentaje que representa en la cartera
+    - Variación
+
+- Cartera total:
+
+    - Capital total (valor actual y valor invertido)
+    - Rendimiento en USD
+    - Distribución por CEDEAR
+
+&nbsp;
+
+
+También se puede:
+
+- Ordenar por cualquier columna
+- Filtrar por CEDEAR
+- Exportar/importar desde Excel
+
+&nbsp;
+
+
+La app no contempla dividendos ni ventas de posiciones, pero es algo que me gustaría agregar más adelante. La idea es seguir mejorándola de a poco según lo que vaya necesitando (o lo que sugieran). La hice para mí, pero me pareció buena idea compartirla por si le sirve a alguien más.
+
+&nbsp;
+
+Cualquier crítica, idea o mejora es más que bienvenida!
+
+&nbsp;
+
+PD: Todo se guarda en el navegador. No hay servidor ni base de datos (por ahora), así que hagan copias de seguridad regularmente.",Pans0,merval,244,1.0,60,2025-07-13 11:48:30,https://i.redd.it/1qjs528zjncf1.png,/r/merval/comments/1lyum7r/hice_una_página_para_llevar_el_control_de/,False,post
+1lzvc4m,"IPC Junio: 1,6% (2025)",,arithmetic_mean,merval,199,0.94,125,2025-07-14 16:04:48,https://i.redd.it/1er00dpd1wcf1.png,/r/merval/comments/1lzvc4m/ipc_junio_16_2025/,False,post
+1m1a8jy,Ya está disponible la nueva versión de Mi Cartera (trackeo CEDEARs),"Buenas!
+
+Hace unos días compartí acá [micartera.com.ar](http://micartera.com.ar), una app para llevar control de mis inversiones en CEDEARs.
+
+Varios de ustedes la probaron y me dejaron comentarios útiles, así que estuve laburando bastante y saqué una versión nueva con varias mejoras:
+
+* Sincronización entre dispositivos: Ahora te podés registrar para sincronizar tus datos entre dispositivos. Ya no hace falta mantener copias de seguridad manual importando y exportando a hojas de Excel (aunque es posible, si así lo quieren).
+* Uso anónimo: Si bien es posible crearse una cuenta, no es necesario. La aplicación se puede usar sin registrarse. Si en algún momento querés crear tu cuenta, vas a seguir teniendo acceso a todas tus transacciones.
+* Ratios automáticos: Ya no hace falta ingresar el ratio de los CEDEARs manualmente, la app lo hace de forma automática. De todas formas, este campo es modificable ante cualquier eventualidad.
+
+También intenté hacer la interfaz más clara para que sea más fácil de usar.
+
+Cualquier crítica, error encontrado o sugerencia me sirven muchísimo.
+
+Gracias a todos los que se coparon en probarla!",Pans0,merval,126,0.98,34,2025-07-16 08:35:56,https://i.redd.it/z91mn9gg08df1.png,/r/merval/comments/1m1a8jy/ya_está_disponible_la_nueva_versión_de_mi_cartera/,False,post
+1m7o9sr,Tasa de cuenta FIMA se fue casi al doble,Hace unos días había caído por debajo de la inflación. Hoy se fue para arriba. ¿Alguien sabe qué pasó y si puede ser sostenible a largo plazo?,nrctkno,merval,112,0.97,106,2025-07-23 20:08:58,https://i.redd.it/zz1qdkz5hpef1.png,/r/merval/comments/1m7o9sr/tasa_de_cuenta_fima_se_fue_casi_al_doble/,False,post
+1mdnuz4,5 nuevos CEDEARs de ETFs,"$USO – United States Oil Fund
+Este ETF sigue la evolución del precio del petróleo crudo WTI a través de contratos de futuros. Representa una alternativa para quienes buscan exposición directa a la dinámica del mercado energético, muy sensible al contexto geopolítico global.
+
+$EFA – iShares MSCI EAFE ETF
+Invierte en acciones de grandes y medianas empresas de países desarrollados, excluyendo Estados Unidos y Canadá. Abarca mercados de Europa, Australia y Asia, y permite posicionarse en economías estables fuera del eje norteamericano.
+
+$IEMG – iShares Core MSCI Emerging Markets ETF
+Brinda exposición a acciones de mercados emergentes, con una fuerte ponderación en Asia (China, India, Corea del Sur), además de participación relevante en América Latina y África. Es ideal para quienes apuestan al crecimiento de estas regiones.
+
+$ACWI – iShares MSCI ACWI ETF
+Este fondo invierte en acciones de todo el mundo, incluyendo tanto países desarrollados como emergentes. Su estrategia busca replicar el comportamiento del mercado accionario global en su conjunto, ofreciendo una cobertura total con una sola posición.
+
+$GDX – VanEck Gold Miners ETF
+Incluye empresas mineras dedicadas a la extracción de oro. A diferencia de un ETF que replica directamente el precio del metal, este se mueve en función de los márgenes de las compañías productoras, lo que lo vuelve más volátil pero también con mayor potencial de rendimiento en ciclos alcistas del oro.",armonicoenfuga,merval,106,0.98,76,2025-07-30 21:55:56,https://www.reddit.com/r/merval/comments/1mdnuz4/5_nuevos_cedears_de_etfs/,/r/merval/comments/1mdnuz4/5_nuevos_cedears_de_etfs/,True,post
+1mavfu1,"Mi tío se enteró que estoy en la timba y quiere que le maneje plata, que hacer?","Eso
+Ya hace tiempo que le interesa lo que hago y hoy casi que me transfiere plata en el almuerzo de domingo.
+
+Contexto, tengo 24 años soy estudiante y como hobby y casi fuente de ingreso principal opero mercado hace unos años. No soy un pez gordo ni en pedo, tengo una cuenta con 5kusd propios aprox y en los últimos meses vengo consistente sacándole un 5-10% mensual que me alcanza para los vicios 
+
+Mi tío hace rato viene tanteandome en el tema, siempre me saca charla del tema de la plata y se ve que le interesa que yo le cuente sobre macroeconomía y esas cosas. No es del palo de las inversiones, es laburante pero igual le interesa el mundo digamos, su perfil de inversión es como el argentino promedio y un poquito más: comprar dólares, hacer plazo fijo de una, creo que ha metido plata en fondos del banco, sabe lo que son cedears o bitcoin por ejemplo pero me parece que no le metió a eso.
+
+El tema es que hace varios findes me viene tirando charla de que quiere hacer más plata y me pregunta a mí que hacer, donde invertirla y tal. Resumiendo a esta parte yo le expliqué que, en mi perspectiva, teniendo por ejemplo sp500 haciendo máximo tras máximo estamos más cerca de la sobrecompra que de la sobreventa digamos, entrar ahora con perspectiva a corto plazo es arriesgado, y le digo que yo estoy desarmando más posiciones que armando (esto es en mi estrategia, discutible si quieren pero no es el fin del post)
+Entonces me dice, y vos como seguís haciendo plata? Le respondo que opero futuros y ahí atinó a transferirme plata para que haga lo mismo y le gestione a él un capital. Trató de enviarme primero 1000usd después 500 pero el banco no le dejó por ser domingo creo. 
+Ahí quedó la charla pero me dijo que mañana probaba de nuevo. 
+
+
+En fin, que hacer en este tipo de situaciones? Porque la verdad, si puedo hacerlo pero yo ya tengo mi experiencia y mi aversión al riesgo, cuando gano una operación estoy contento y cuando no agacho la cabeza y sigo, pero como transmitir lo mismo a otra persona? Porque yo soy un simple inversor no un gestor de fondos…
+
+Debería tomar la responsabilidad de operar con plata ajena? O mejor me corro? 
+
+Díganme cómo puedo llevar la situación 
+Gracias 
+",Trvisx,merval,94,0.84,178,2025-07-27 16:38:14,https://www.reddit.com/r/merval/comments/1mavfu1/mi_tío_se_enteró_que_estoy_en_la_timba_y_quiere/,/r/merval/comments/1mavfu1/mi_tío_se_enteró_que_estoy_en_la_timba_y_quiere/,True,post
+1lpzheb,Recategorización monotributo Julio 2025," 
+
+ 
+
+Mis estimados: desde el martes 15 de julio, si son monotributistas, les toca hacer la recategorización sí o sí. ¡Es obligatorio, eh!
+
+¿Por qué ahora? Bueno, es porque el INDEC va a sacar el 14 de julio cuánto subieron los precios (el famoso IPC), y eso es lo que va a mover los topes de cuánto podés facturar y lo que pagás de impuesto (onda, lo decide ARCA en base a ese dato).
+
+La idea es que todo se actualice por lo que subió la inflación en la primera mitad del año. Si en julio el IPC queda en un 2%, el ajuste final sería de un 15,3% (esto lo calculan según la data del INDEC, que es la que usa ARCA para ajustar).
+
+Para que te des una idea de los números nuevos (si el ajuste es del 15,3%, claro):
+
+·       La categoría A (la más chica) pasaría de poder facturar unos $7.813.063,45 a casi $9.008.462,16, y el impuesto que pagás de $3.633,98 a unos $4.189,97.
+
+·       Y la categoría K (la más alta) iría de unos $82.370.281,28 a casi $94.972.934,3 de tope de facturación anual. (Esto lo fija ARCA con los nuevos valores).
+
+Tienen tiempo para hacer esta recategorización semestral hasta el 5 de agosto. Y lo que tengan que pagar de más (o de menos) por el cambio empieza a correr desde agosto (esto es una disposición de ARCA).
+
+Ojo, que es obligatoria para todos, incluso si al final siguen en la misma categoría de siempre. ¡No es como antes que si no cambiabas no hacías nada! (Así lo pide la Ley 27.843 y ARCA).
+
+La buena noticia es que ARCA te la va a hacer más fácil: va a haber un sistema simplificado que te muestra cuánto facturaste y te propone dónde encajás. Pero también hay una opción más detallada donde podés ver más cosas, como lo que gastaste en compras, con tarjeta o tus depósitos en el banco (son opciones que te da la plataforma de ARCA).
+
+La mala noticia es que, si bien ARCA te tira una ayuda, esa información que muestra (compras, depósitos, etc.) es la que **usa para controlarte**. Esto significa que si hay algo que no cierra, te pueden recategorizar de oficio y aplicarte multas pesadas. Por eso, mi consejo es que, para evitarte dolores de cabeza y asegurarte de que todo esté en regla, **contrates a un buen contador**.
+
+¡Y atención con esto! Si no hacés la recategorización, el fisco (o sea, ARCA) te puede recategorizar solo y encima te clava una multa del 50% de lo que tenías que pagar. 
+
+Estas son preguntas que siempre veo para estas fechas. Espero haberlos ayudado!
+
+",ContadorCarbone,merval,76,0.91,60,2025-07-02 12:54:10,https://www.reddit.com/r/merval/comments/1lpzheb/recategorización_monotributo_julio_2025/,/r/merval/comments/1lpzheb/recategorización_monotributo_julio_2025/,True,post
+1m8m8yz,"A mi viejo le quedan 10 años para jubilarse y no tiene ningún ahorro pero quiere empezar a guardar e invertir, qué sugieren hacer?","Lo que dice el título, a mi viejo le quedan 10 años como trabajador en relación de dependencia y en los 30 que lleva trabajando no logró ahorrar ni un solo peso, incluso a día de hoy sigue con una pila de deudas, pero dentro de pocos meses se terminan algunos gastos grandes y calculamos que va a poder ahorrar de $50k a $100k al mes. Queremos aprovechar lo que le queda de vida laboral para a guardar e invertir y hacerle un fondito jubilatorio para no depender sólo del estado. Por la edad que él tiene ya no sé si convenga exponerlo a mucho riesgo o volatilidad con acciones y CEDEARs, pero puedo estar errado.
+
+La pregunta es, dónde depositamos ese monto del que él puede disponer mensualmente para dejarlo trabajando y generarle un rendimiento aceptable en los próximos 10 años para una jubilación un poco mejor que la básica que da el estado? Nos conviene una opción estable a cambio de una menor rentabilidad como una billetera virtual (que sé que tienen un límite de monto invertido) o sería más oportuno ponerlo en algún FCI, bonos o letras?
+
+Me he intentado meter en todo el tema de la bolsa y he hecho algunas inversiones básicas pero todavía no sé muy bien cómo identificar un instrumento potable, según el test del inversor yo soy de perfil moderado y mi viejo es conservador así que buscamos algo medianamente estable y con un rendimiento que le siga el ritmo a la inflación más un plus, aunque sea pequeño.
+
+Aunque obviamente sé que el mercado a veces sube y a veces baja, me da un poco de cosa que mi viejo quiera sacar todo y diga que no funciona apenas vea que los números empezaron a bajar o al ver que en períodos donde el mercado está planchado sus inversiones no suben nada o suben muy poco. Además, preferiríamos tener la mayor liquidez posible para solventar gastos necesarios que nos puedan surgir. ¿Existe algún instrumento o grupo de instrumentos que tengan estas tres características (rendimiento plus inflación, estabilidad, liquidez pronta)?
+
+Aguardo sugerencias, gracias de antemano.",Marshall_Black,merval,77,0.99,48,2025-07-24 22:27:41,https://www.reddit.com/r/merval/comments/1m8m8yz/a_mi_viejo_le_quedan_10_años_para_jubilarse_y_no/,/r/merval/comments/1m8m8yz/a_mi_viejo_le_quedan_10_años_para_jubilarse_y_no/,True,post
+1ls6lpg,Cuanto tiempo estaremos con dolar devaluado? será la nueva realidad?,"Para el que no esté al tanto. El dolar en los últimos 4-5 meses fue devaluado al menos en un 15%. En teoría para hacer más competitivo a EEUU con su producción que quiere exportar.
+
+El Euro, la libra esterlina, etc, todas las monedas se fortalecieron frente al dolar.
+
+Esta realidad dicen que durará sólo este año, o este mandato de Trump, o será algo que intentarán mantener así por siempre?
+
+Obvio no se puede saber al 100% pero qué piensan al respecto y por qué? saludos buen sabado.",former_farmer,merval,73,0.75,131,2025-07-05 07:14:08,https://www.reddit.com/r/merval/comments/1ls6lpg/cuanto_tiempo_estaremos_con_dolar_devaluado_será/,/r/merval/comments/1ls6lpg/cuanto_tiempo_estaremos_con_dolar_devaluado_será/,True,post
+1lu63eo,Banco Macro elimina comisiones en transferencias desde el exterior,"[https://www.cronista.com/finanzas-mercados/banco-macro-elimina-comisiones-en-transferencias-desde-el-exterior/](https://www.cronista.com/finanzas-mercados/banco-macro-elimina-comisiones-en-transferencias-desde-el-exterior/)
+
+**Banco Macro** anuncia que a partir de hoy las personas físicas que elijan Banco Macro para recibir [**transferencias en dólares**](https://www.cronista.com/finanzas-mercados/transferencias-cuales-estan-exentas-y-cuales-pagan-impuestosenargentina/) **desde el exterior**, estarán exentas del pago de **comisiones bancarias**.
+
+Esta iniciativa, que aplica a montos de hasta u$s 10.000, responde al compromiso de Banco Macro de ofrecer soluciones concretas y eficientes que se adapten a las necesidades reales de sus usuarios.
+
+Macro comprende que la globalización y la creciente interconexión demandan una banca ágil y transparente. Por ello, ha eliminado este costo para que cada dólar recibido, ya sea por honorarios profesionales, ayuda familiar o cualquier otro ingreso en moneda extranjera, llegue a la cuenta sin descuentos inesperados. 
+
+La premisa es clara y directa: ""**Quienes reciban dólares en sus cuentas no pagarán ningún tipo de comisión. Cada dólar que llega, queda en la cuenta**"".
+
+La medida no solo facilita el ingreso de fondos desde el extranjero, sino que también reafirma el objetivo de Banco Macro de mejorar continuamente la experiencia de sus clientes.
+
+Banco Macro además de la eliminación de comisiones, continúa brindando herramientas robustas para que **esos fondos puedan ser aprovechados al máximo**.
+
+Pensando en el futuro y la proyección de sus clientes, Banco Macro ofrece la posibilidad de **invertir esos dólares fácilmente**, con una de las tasas más competitivas del mercado para plazos fijos en moneda extranjera. El objetivo es que el dinero no solo llegue completo, sino que también crezca y genere valor.
+
+# ¿A quiénes está dirigida esta operatoria?
+
+# Profesionales y Freelancers con Clientes Internacionales
+
+Uno de los grupos más claramente beneficiados por esta medida son los **profesionales independientes y freelancers** que ofrecen sus servicios a clientes ubicados fuera de Argentina. En un mundo cada vez más globalizado, es común que diseñadores gráficos, programadores, youtubers, consultores, traductores, creadores de contenido y otros especialistas cobren honorarios en moneda extranjera por sus trabajos. Anteriormente, estas transferencias **solían estar sujetas a comisiones bancarias** que reducían el monto final percibido por el profesional.
+
+Con la eliminación de estas comisiones por parte de Banco Macro, cada dólar facturado y enviado desde el exterior llega íntegramente a la cuenta del beneficiario, maximizando así sus ingresos.
+
+Esto representa un ahorro significativo y un incentivo para **seguir expandiendo sus horizontes profesionales** a nivel internacional.
+
+# Grupos familiares o individuos que Reciben Ayuda Económica del Exterior
+
+Otro grupo importante al que apunta esta iniciativa son **las familias que reciben ayuda económica o remesas de parientes residentes en el extranjero**. Al eliminar estas comisiones, Banco Macro asegura que el monto total enviado llegue a destino, facilitando el apoyo familiar y garantizando que cada dólar cumpla su propósito.
+
+Asimismo, para aquellos que necesitan adquirir dólares, la comodidad y seguridad son primordiales. Por ello, la compra de moneda extranjera puede realizarse de manera rápida y segura a través de sus canales digitales: **App Macro, Banca Internet y Banco Chat**. Acceso fácil y sin complicaciones, sin importar la ubicación del cliente.
+
+Para Banco Macro la confianza de sus clientes es su mayor activo. Por eso, día a día trabaja para estar cerca de las personas, acompañándolas en sus proyectos y brindándoles el respaldo necesario para que puedan construir, crecer y pensar en su futuro. ",shiobi,merval,63,0.98,61,2025-07-07 18:07:56,https://www.reddit.com/r/merval/comments/1lu63eo/banco_macro_elimina_comisiones_en_transferencias/,/r/merval/comments/1lu63eo/banco_macro_elimina_comisiones_en_transferencias/,True,post
+1lvkwdf,Me llego una notificacion de arca,Buenas! Como va? Me llego esta notificacion de Arca y no se porque. Trabajo en relacion de dependencia y las unicas transferencias que recibo son de amigo o familia cuando pago algo entre todos. Justo ahora por primera vez me iban a pasar dolares y me da miedo que me retengan el 8%. Que deberia hacer?,tomytoka,merval,61,0.91,29,2025-07-09 11:56:25,https://i.redd.it/itf3idxi4vbf1.png,/r/merval/comments/1lvkwdf/me_llego_una_notificacion_de_arca/,False,post
+1mbsy9m,"Mercadopago ""dinero plus"" interés 0% a 28 días, dónde está la trampa?","Tengo un negocio y cobro con el pos de MP, veo que me prestan 3 palos con 0% interes y estaba pensando en simplemente pedirlo para dejarlo en cuenta o un plazo fijo y generar algo de rendimiento al menos para cubrir los gastos que me genera el pos, estoy diciendo una boludez o es así de sencillo?
+
+Edit: Acá está la simulación de 1.000.000 para los que no creen perdón por responder tan tarde
+
+https://i.imgur.com/VcwzF48.jpeg",picardia,merval,48,0.97,42,2025-07-28 18:27:55,https://www.reddit.com/r/merval/comments/1mbsy9m/mercadopago_dinero_plus_interés_0_a_28_días_dónde/,/r/merval/comments/1mbsy9m/mercadopago_dinero_plus_interés_0_a_28_días_dónde/,True,post
+1lrmh9w,Opiniones y conclusiones sobre cartera de inversiones,"¡Buenas tardes a todos!
+
+Sé que es un posteo bastante común y básico pero quería pedir opiniones en referencia a mi cartera de inversiones y si mis conclusiones son medianamente acertadas. Anteriormente sólo compraba dolar MEP y hasta hace un año decidí empezar a probar el mundo de invertir en CEDEARs y acciones.
+
+Actualmente tengo casi 4 millones de pesos invertidos, que no es mucho pero con mi trabajo actual y 23 años hago lo posible por ahorrar 200 a 300 USD por mes y se compone de la siguiente forma:
+
+- SPY500 50%
+- GOOGLE 15%
+- YPF 15%
+- MELI 5%
+- TESLA 5%
+- TECO 5%
+- LOMA 5%
+
+Mis conclusiones o dudas consisten en lo siguiente ya que me gustaría seguir aprendiendo y entendiendo cada vez más:
+
+- SPY es mi inversión más segura pero entiendo que hay overlap al tener invertido también en Google y Tesla, ¿recomiendan sacar estas dos últimas o como el porcentaje es bajo no está mal?
+- Viendo que hay un 10% de incremento en SPY, ¿sería mejor sacarlo ahora para generar ganancia y reinvertirlo cuando vuelva a bajar? Sé que eso va un poco en contra justamente de que es una inversión a largo plazo, pero tampoco sabría definir cuánto es un buen porcentaje de aumento.
+- TECO está cayendo en picada pero tengo la esperanza de que en Agosto haya novedades con el próximo informe.
+- Con el tema de la causa YPF, ¿es lo mejor vender todo e invertirlo en otro lado?
+
+Abrazo y gracias",Professional_Pen3311,merval,49,0.9,56,2025-07-04 13:07:26,https://i.redd.it/acnt4tymsvaf1.jpeg,/r/merval/comments/1lrmh9w/opiniones_y_conclusiones_sobre_cartera_de/,False,post
+1m92xa3,Tengo dolares en BBVA y quiero transferirlos a Payoneer,"Se que suenta totalmente extraño, pero tengo entre 1400$ dolares y los quiero enviar a payoneer, para usar la tarjeta mastercard de payoneer y comprar en BestBuy, ya que si compro usando los dolares de mi cuenta de banco me cobran el 30% de impuestos en la compra y es mucha plata, como hago yo para pasar esos dolares a payoneer?",Holbreak,merval,2,0.58,28,2025-07-25 12:55:28,https://www.reddit.com/r/merval/comments/1m92xa3/tengo_dolares_en_bbva_y_quiero_transferirlos_a/,/r/merval/comments/1m92xa3/tengo_dolares_en_bbva_y_quiero_transferirlos_a/,True,post
+1lp43zr,"Facturas ""A"" - Se reducen los requisitos para poder emitir este tipo de comprobantes (RG 5716 ARCA)","Estimados, les comparto la introducción a un paper explicativo de esta importante RG de ARCA que reduce los requisitos para todos los nuevos inscriptos en el IVA que puedan emitir FC A.   
+  
+No me estoy haciendo publicidad (aclaro). Espero ayudar con esto. El artículo completo está en mi web y se puede descargar en formato PDF.
+
+  
+INTRODUCCIÓN
+
+La Resolución General (ARCA) 5716, publicada el 27 de junio de 2025, establece modificaciones sustanciales al régimen de habilitación de comprobantes fiscales, particularmente en lo que refiere a la autorización para emitir comprobantes tipo “A”, “A con leyenda” y “M”. Sustituye parcialmente el esquema previsto por la RG (AFIP) 1575 y revisa criterios de asignación establecidos por la RG (AFIP) 4132-E.
+
+Uno de los principales avances introducidos por la Resolución General (ARCA) 5716 consiste en la flexibilización de los requisitos formales y patrimoniales para acceder a la habilitación de comprobantes tipo “A”. Este cambio no solo responde a una necesidad de simplificación administrativa, sino que se vincula con principios estructurales del sistema tributario como la equidad horizontal, la capacidad contributiva efectiva y la neutralidad fiscal. Entre ellos podemos mencionar:
+
+**(a) Importancia de reducir los requisitos de acceso a la factura tipo “A”**
+
+La reducción de condiciones para la emisión de comprobantes clase “A” es relevante dado que disminuye las barreras de entrada al circuito económico formal, especialmente para pequeños y medianos contribuyentes que inician actividades o no cuentan con estructuras patrimoniales robustas. Limitar la emisión de facturas tipo “A” en función de umbrales de bienes personales (tal como hacía la normativa anterior) generaba una presunción de riesgo fiscal no siempre justificada, con efectos distorsivos sobre la actividad económica.
+
+Adicionalmente consideremos que desde una perspectiva constitucional, un esqeuma como el anterior podría colisionar con el principio de razonabilidad (art. 28 CN) y el derecho a ejercer toda industria lícita (art. 14 CN), en tanto impone restricciones que no se sustentan en conductas objetivas de incumplimiento, sino en parámetros patrimoniales que no reflejan necesariamente la voluntad ni la capacidad de evasión[\[1\]](applewebdata://DC328566-14A6-4C72-B845-109D74AC3F47#_ftn1)
+
+**(b) Función estructural de la factura “A”: transparencia y neutralidad del IVA**
+
+Las facturas clase “A” permiten desagregar el impuesto al valor agregado (IVA) en cabeza del emisor, lo cual facilita su cómputo como crédito fiscal por parte del adquirente. Este mecanismo no es solo una formalidad contable, sino que constituye un eje de funcionamiento del impuesto sobre el valor agregado en tanto tributo plurifásico, técnico y neutral.
+
+Cuando se impide a un contribuyente emitir facturas “A”, el adquirente no puede tomar el crédito fiscal, lo que encarece artificialmente la transacción, distorsionando precios relativos y desplazando al emisor fuera del circuito competitivo. Por ello, negar el acceso a la factura “A” equivale, en los hechos, a imponerle una sanción sin proceso, como han advertido algunos fallos judiciales[\[2\]](applewebdata://DC328566-14A6-4C72-B845-109D74AC3F47#_ftn2):
+
+**(c) Retenciones como anticipo nocivo de impuestos**
+
+Otro aspecto crítico del régimen previo era que, ante la imposibilidad de emitir factura “A”, los contribuyentes quedaban sujetos a retenciones agravadas del IVA (100%) y del Impuesto a las Ganancias (6%), generando una absorción anticipada de ingresos que impactaba en su capital de trabajo.
+
+Desde el punto de vista económico, estas retenciones funcionan como una transferencia forzada de liquidez al Fisco, sin que medie una obligación tributaria devengada en firme. La jurisprudencia ha señalado que, en ausencia de incumplimientos graves, este tipo de medidas resultan desproporcionadas[\[3\]](applewebdata://DC328566-14A6-4C72-B845-109D74AC3F47#_ftn3)
+
+En este sentido, la posibilidad de realizar evaluaciones preventivas y subsanaciones anticipadas reduce la discrecionalidad de la Administración y evita situaciones de confiscatoriedad indirecta, cumpliendo con los estándares constitucionales que exige el art. 17 CN.
+
+Con esto en mente corresponde ahora adentrarnos en el estudio de la cuestión de fondo, es decir, la RG 5716 ARCA.
+
+Artículo completo en mi web.
+
+Espero haber ayudado
+
+ ",ContadorCarbone,merval,5,0.63,4,2025-07-01 12:08:32,https://www.reddit.com/r/merval/comments/1lp43zr/facturas_a_se_reducen_los_requisitos_para_poder/,/r/merval/comments/1lp43zr/facturas_a_se_reducen_los_requisitos_para_poder/,True,post
+1lt1t25,¿Que onda con comprar propiedades con dólares del colchón?,"Eso, ya se puede sin problema? Saben de alguien que lo haya hecho y le haya salido bien? Es viable a futuro?
+
+Pregunto porque tengo entendido que con el plan de reparación histórica de los ahorros ahora como que no se informa cuando se compra una propiedad, o algo así 👀 
+
+Pregunto por el amigo de un amigo de un amigo",MrVulpe,merval,17,0.7,48,2025-07-06 10:54:14,https://www.reddit.com/r/merval/comments/1lt1t25/que_onda_con_comprar_propiedades_con_dólares_del/,/r/merval/comments/1lt1t25/que_onda_con_comprar_propiedades_con_dólares_del/,True,post
+1m5kaw0,Que se hace si el dolar llega cerca del maximo de banda?,"Buenas gente, es de mis primeras veces operando y la verdad no se que deberia hacer si llega a valores cercanos a 1400. Deberia vender y esperar la correccion del gobierno?
+
+Saludos
+
+  
+\* Edit: Gracias por sus respuestas sobre las bolas de cristal, muy amables. Supongo que mi pregunta bien formulada seria algo mas como: Que tan factible es que el gobierno cumpla su palabra sobre mantener el dolar en este rango?",SpaceHangover,merval,24,0.72,20,2025-07-21 11:24:53,https://www.reddit.com/r/merval/comments/1m5kaw0/que_se_hace_si_el_dolar_llega_cerca_del_maximo_de/,/r/merval/comments/1m5kaw0/que_se_hace_si_el_dolar_llega_cerca_del_maximo_de/,True,post
+1lto87m,"""Cálculo estimado de impuestos por cobrar"" no era que no existia mas esto? AMAZON","estoy intentando comprar un reloj que en amazon esta 35 dolares y aca, 100.   
+el envio costaria 20 dolares, pero hay una tasa que no entiendo cual es que cobra 34 usd y otra 20?  
+no era que no habia mas impuestos para compras inferiores a 50 usd? o solo el 21 del iva? lo devuelven? ",Saintpant,merval,0,0.31,12,2025-07-07 04:49:14,https://www.reddit.com/r/merval/comments/1lto87m/cálculo_estimado_de_impuestos_por_cobrar_no_era/,/r/merval/comments/1lto87m/cálculo_estimado_de_impuestos_por_cobrar_no_era/,True,post
+1lt7hhu,"Argentina, Lock, The Fuck, In","Bueno, este año hasta ahora ha sido duro, no se gana plata gratis en el merval y estamos viendo los primeros tests fuertes en la solidez de la tendencia alcista Argentina, vamos a ser realistas GGAL en 11 billion con como estaba la situacion hace 7 meses era falopa, simplemente no era tan facil de verlo en ese momento. 
+
+Hoy la situacion es muy distinta, el dolar parece que esta buscando un rebotin interesante dejando el spot pro primera vez encima de 1200 de manera continua. Asimismo el estado de las acciones se encuentra letargico con YPF buscando bajas luego del fallo en contra de Argentina en las cortes internacionales, y todo aparentaria que nos esta costando llegar a la meta de reservas acordada con el fmi. A todo esto se le agrega un reporte del Macro research de JP Morgan recomendando tomar ganancias en las curva de pesos.
+
+Y ahora? De que nos pintamos?!!! ( CURVA DOLARES / PESOS )
+
+Con todo lo que acabo de decir la imagen puede aparentar mas negativa que positiva, y la realidad es que una gran parte del mercado, especialmente en Equities lo esta viendo asi, pero donde se encuentra el dinero real, renta fija en dolar, series Globales y Bopreal la realidad es otra, el riesgo pais sigue comprimiendo, la tir de los bonos esta bajando y la paridad Cable Mep sigue siendo casi 1, lo que implica que no hay un exit fuerte de dolares del pais. Esto nos puede llevar a la conclusion de que los hedge funds que tienen posiciones en Argentina no estan pensando en liquidar y siguen acumulando titulos.
+
+Eso fue con respecto a la curva de dolares, si lo vemos desde el punto de vista de la renta fija en pesos, el objetivo principal inamovible de estos muchachos sigue siendo bajar la infleta. Esto que significa? Chupar pesos a lo pelotudo en todas las licitaciones y mantener las tasas reales bien positivas, de esa manera no hay manera de que la inflacion de upticks importantes porque no hay la suficiente cantidad de guita circulando por el dia a dia de la economia, lo mismo con el dolar. Durante la semana pasada estuvo muy Atractivo TTD26 rindiendo 35% fijo con la posibilidad de ser hedgeado con tamar, hoy esas tasas ya comprimieron, pero en mi opinion jugar dual a ese plazo es un buen trade por como se esta perfilando la curva de tasas y la inflacion en el pais.
+
+
+EQUITIES
+
+Duele, arde y bastante el merval viene 26% abajo desde principios de año mientras que el spy ya supero el ATH que habia marcado antes de la debacle de tarifas, nos quedamos afuera del rally, si, y no solo nos quedamos afuera de ese rally, tambien nos quedamos afuera del de emerging markets con el Ewz ( Brazil ) siendo la estrella buesatil de este año. 
+
+Hoy los equities Argentinos, en mi opinion estan siendo sobre golpeados, el mercado de bonos te esta dando buenas noticias para el pais, y usualmente ese es el indicador principal que nos interesa, el flujo real pasa por ahi, y hoy es de entrada. El problema es que en acciones se mueve mas con menos, y hay mucho inversor que tomo ganancias de los ultimos años con miedo a que se vaya todo a la mierda, esto, sumado a todo el sentimiento negativo nos esta dejando el merval en un punto premium para un comeback. Se vienen las elecciones, el trade electoral, ademas pueden mejorar las expectativas, el emae sigue dando alto y la inflacion printeando bajos mas bajos desde 2020. 
+
+Para mi quedarse afuera del rally de EEUU esta mal, y no aprovechar la oportunidad de Brazil tampoco me parece correcto, por esta razon considero que estar all in Argy es un error, pero estar completamente afuera tambien lo es, los precios de hoy dan buenas oportunidades de compra, y si bien el riesgo es importante el beneficio es mucho mayor.
+
+Personalmente en Argy hoy lleve una buena cantidad de opciones dado que me parece que puede haber un rebote violento de corto plazo + posiciones en GGAL y YPF, el objetivo es empezar a encontrar ese piso y ver el momento en el que el merval puede llegar a pegar la vuelta uniendose al rally del mercado internacional
+
+Espero sus opiniones y views a futuro, personalmente creo que la correcion en Argentina deberia terminar pronto, pero hay que ser precavido por si hay que empezar a tirar papeles por la ventana. 
+
+Para finalizar les deseo mucha suerte, es un año un poco mas complicado y hay que ver bien si donde estamos pisando hay estabilidad y en caso de que no haya saber saltar bien lejos.
+
+",JFSM01,merval,43,0.79,52,2025-07-06 14:55:08,https://www.reddit.com/r/merval/comments/1lt7hhu/argentina_lock_the_fuck_in/,/r/merval/comments/1lt7hhu/argentina_lock_the_fuck_in/,True,post
+1m7if29,Alguno invirtió con Emerald Capital?,"Ultimamente estaba pensando en invertir por primera vez. Estuve informándome y estaba entre PPI y Balanz, aunque ya tengo una cuenta en IOL. 
+
+Pero en Linkedin, una tal Elena Financiera o algo así me estuvo saliendo toda la semana como publicidad, hablando de cauciones bursátiles y cómo en estos momentos precisamente es conveniente invertir en eso. 
+
+
+Alguno usó ese broker? No he visto información por acá en /merval. ",Rack676,merval,1,0.6,13,2025-07-23 16:18:38,https://www.reddit.com/r/merval/comments/1m7if29/alguno_invirtió_con_emerald_capital/,/r/merval/comments/1m7if29/alguno_invirtió_con_emerald_capital/,True,post
+1m8kbdi,Cuál broker me recomiendan Bull Market o IOL ?,"Estoy buscando un nuevo broker.
+
+Estoy entre Bull Market o IOL. Pero no se cuál es mejor entre esas dos opciones.
+
+Ustedes que opinan maquinas ?
+
+Cuál me recomiendan ?
+
+",Argentinotriste,merval,9,0.76,37,2025-07-24 20:56:13,https://www.reddit.com/r/merval/comments/1m8kbdi/cuál_broker_me_recomiendan_bull_market_o_iol/,/r/merval/comments/1m8kbdi/cuál_broker_me_recomiendan_bull_market_o_iol/,True,post
+1lu5avx,Estudiaron alguna carrera universitaria o cómo se metieron al mercado?,"Leí personas diciendo que hicieron hasta maestrías, pero salen fortunas mal (arriba de 10k USD) no sería mejor ir invirtiendo eso de a poco hasta que vas entendiendo distintos instrumentos paso a paso?",[deleted],merval,6,0.75,48,2025-07-07 17:37:29,https://www.reddit.com/r/merval/comments/1lu5avx/estudiaron_alguna_carrera_universitaria_o_cómo_se/,/r/merval/comments/1lu5avx/estudiaron_alguna_carrera_universitaria_o_cómo_se/,True,post
+1m7vel9,Conocen algún broker local que se puede operar acciones de usa y Europa?,"Hola, hay varias acciones que me gustaría tener pero no tienen cedear, saben algún broker que tenga esto en su versión usa? Y que se pueda comprar en fracciones ",Far_Slide_3690,merval,9,0.92,16,2025-07-24 01:58:25,https://www.reddit.com/r/merval/comments/1m7vel9/conocen_algún_broker_local_que_se_puede_operar/,/r/merval/comments/1m7vel9/conocen_algún_broker_local_que_se_puede_operar/,True,post
+1m6l0a2,Estoy invirtiendo en acciones individuales en IBKR. Cuando vienen los problemas de impuestos?,"Vine fondeando IBKR desde dolarapp (con plata en blanco) y otra parte que fui fondeando fue de negroni, mediante movidas crypto.
+
+No estoy nada ducho con el tema de los impuestos, que si generan dividendos, etc. No alcance a encontrar un post sobre como tratar este tema. Y cuando le pregunto al contador medio que está perdido con el tema internacional. Tengo algunas acciones que me fueron generando dividendos, y quería seguir fondeando pero no quiero mandarme cagadas!",HugeIntroduction8707,merval,11,0.87,83,2025-07-22 14:52:41,https://www.reddit.com/r/merval/comments/1m6l0a2/estoy_invirtiendo_en_acciones_individuales_en/,/r/merval/comments/1m6l0a2/estoy_invirtiendo_en_acciones_individuales_en/,True,post
+1lx8fut,Bienes Personales. Análisis de cartera para optimización impositiva.,"He leído el día de ayer que a veces por inquietud propia o por lo que les dice un asesor a veces les llegan recomendaciones de basuras y con la excusa de ""optimizar bienes personales"" les recomiendan cualquier basura.
+
+**BIENES PERSONALES.**
+
+Vamos por partes, no es un tema fácil el tema impositivo. Partiendo de la base que la forma en la que están programados los servicios webs de afip/arca dan a entender que ni ellos tienen bien en claro las normativas, incluso en los ABC a veces no son claros, o incluso quedan desactualizadas la informaciones, incluso con errores. Sí, AFIP muchas veces en sus ayudas tipo FAQ tienen errores. No comunmente, de vez en cuando. Pero sobre todo en temas complejos.
+
+Obligaciones negociables: Las ON están exentas cuando son emitidas en moneda nacional para bienes personales, las denominadas en dólares, cuando empezamos a sacar la cuenta, vamos a ver que el rendimiento real si somos pasibles del impuesto porque por nuestro patrimonio nos toca, que no es un gran negocio el rendimiento neto de impuesto. Pero bueno, fueron el instrumento favorito para muchos por ser manijeado como ""conservador"". En serio? Que te deba dinero en moneda extranjera es conservador? Más habiendo historial de reestructuración de deuda, lo que comunmente se denomina DEFAULT.
+
+CEDEARs: Están gravados en bienes personales, así que, es coherente armar posición de cedears si tiene una estrategia y si conoce el tamaño de su patrimonio en bienes personales, sino, hay que entender que impuestos te tocará pagar, al menos calcularlo estimativamente.
+
+Acciones Argentinas con y sin ADRs y bonos argentinos soberanos: No están gravados.
+
+Acciones del exterior: Gravadas. Ojo con algunos contadores, pidan los borradores antes de que los envíen y revisen todo, si no están en tema meten todo como gravado en bienes personales.
+
+FCI: Sólo aquellos que cumplen la ley para su exención, tienen que tener el 75% de sus inversiones en instrumentos locales. Hay brokers que ofrecen bonos argentinos y un 25% de bonos de EEUU, lo cual está muy interesante. Hay FCI que aun siendo gravados vale la pena tomarlos en cuenta, como aquellos que tienen bonos de LATAM, con y sin Arg.
+
+Bonos de Bolivia: Exentos tenencia.
+
+Bonos de Brasil:  Exenta la renta, no la tenencia. Nunca tuve un caso, pero entiendo es así, me puedo equivocar.
+
+Ahora...
+
+**""OPTIMIZAR""**
+
+No es algo estático, para que se den una idea el período fiscal 2019 era USD 33.500, en 2020 el mínimo no imponible para bienes personales era USD 23.823, para el 2021 era USD 58.525, en el 2022 el mínimo era USD 64.421, en 2023 era USD 124.154 y en 2024 fue recien USD 284.737. Ustedes que creen que va a pasar en el futuro? Yo no tengo idea del mínimo no imponible en los próximos cinco años.
+
+Tenes que prepararte para pagar el impuesto, y sólo si la inversión lo amerita, sólo si vas a tener certeza de que vas a pagar, planificar como pagar menos, o como pagar al momento de pagar efectivamente el mismo o bien tomar impuestos que te sean retenidos en el pago de rentas o dividendos.
+
+Hay que planificar de manera dinámica, pero también mirando todo el panorama que nos rodea, no es lo mismo planificar si tenes USD 50.000 invertidos que si tenes USD 400.000. Vas a pagar bienes personales inevitablemente, quizas puedas planificar pagar un poquito menos, sí, bien. Pero ¿A qué costo?
+
+En fin, es algo para siempre conversar. Tema interesante, porque la renta de la inversión se conoce a año cerrado y siempre después de impuestos. Otro día hablaremos de ganancias.
+
+Les mando un saludo, leo comentarios, sumen si les parece data de experiencias que hayan tenido o consultas.
+
+",armonicoenfuga,merval,30,0.94,18,2025-07-11 11:32:34,https://www.reddit.com/r/merval/comments/1lx8fut/bienes_personales_análisis_de_cartera_para/,/r/merval/comments/1lx8fut/bienes_personales_análisis_de_cartera_para/,True,post
+1lx7nw6,Bull market brokers problema,"Buenas gente, tengo una consulta. Yo ayer compre una cierta candidas de acciones a $14950 me figuraba comprobante pendiente y hoy por la mañana cuando veo se cambió el precio a $15054, me pueden explicar a qué se debe esto? Cómo podria congelar el precio que l compro sin que despues me aumenten, soy algo nuevo en esto. Tiene algo que ver con comprar 24hs o C.I?",Choice-Paramedic-465,merval,6,1.0,9,2025-07-11 11:00:52,https://www.reddit.com/r/merval/comments/1lx7nw6/bull_market_brokers_problema/,/r/merval/comments/1lx7nw6/bull_market_brokers_problema/,True,post
+1lt7a6v,Inversión Personal y Plan a Futuro,"Buenas! Estoy arrancando con esto de las inversiones y quería compartir mi plan para ver qué opinan, si les parece razonable, y si me recomiendan ajustar algo.
+
+Mi objetivo es invertir todos los meses durante más de 10 años. La idea es hacer aportes constantes, durante al menos una vez cada mes. Me interesa el crecimiento a largo plazo, no la especulación ni el corto plazo.
+
+No sé mucho sobre acciones individuales, y realmente tampoco me interesa estar todos los días analizando el mercado, viendo qué comprar, qué vender o en qué momento hacerlo. Quiero algo simple y pasivo, sin tener que dedicarle demasiado tiempo.
+
+Por eso me interesan los ETF de índices diversificados a través de CEDEARs, que me parecen una buena forma de exponerse a muchos activos. La cartera que tengo en mente sería algo así:
+
+    SPY ~40%
+
+    QQQ ~30%
+
+Y el otro 30% estoy dudando entre otras opciones:
+
+    EEM (mercados emergentes): para diversificar fuera de EE.UU., pero no sé si vale la pena.
+
+    ARKK (innovación/tecnología disruptiva): me gusta el concepto, pero creo que es muy volatil y especulativo.
+
+    VEA (mercados desarrollados): por diversificación geográfica, aunque lo veo muy correlacionado a EE.UU.
+
+    GLD (oro): como activo refugio, pero no sé si tiene sentido en una cartera de largo plazo.
+
+Mi duda es si vale la pena agregar alguno de estos para diversificar, o si es mejor simplificar con solo SPY + QQQ. Ustedes cómo lo ven?
+
+Tema impuestos: entiendo que con CEDEARs no hay impuesto a las ganancias ni PAIS, solo bienes personales si se supera cierto monto (27M). Es correcto?
+
+Agradezco cualquier sugerencia y opinión que tengan!",LongjumpingPea1464,merval,10,0.92,10,2025-07-06 14:46:54,https://www.reddit.com/r/merval/comments/1lt7a6v/inversión_personal_y_plan_a_futuro/,/r/merval/comments/1lt7a6v/inversión_personal_y_plan_a_futuro/,True,post
+1m98loa,Que conviene más? Comprar un departamento(en pozo o no) para alquilar o comprar bonos de usa ??,"Buenas, me llegó esa duda, porque cada uno tiene sus pro y sus contras pero me gustaría escuchar respuestas, me refiero para un plazo aprox de 10 años o más ",Far_Slide_3690,merval,29,0.9,122,2025-07-25 16:33:21,https://www.reddit.com/r/merval/comments/1m98loa/que_conviene_más_comprar_un_departamentoen_pozo_o/,/r/merval/comments/1m98loa/que_conviene_más_comprar_un_departamentoen_pozo_o/,True,post
+1m86ioq,Plataforma que usen para bonos del tesoro de USA,"Buenas. Usan alguna plataforma como Buenbit o LB Finanzas para comprar bonos de USA? Otra? Busco escapar de los FCI money market que solo dan 2% anual y poner plata que necesito dentro de los proximos 6 meses. También de paso preguntar si vale la pena, teniendo en cuenta que se deben pagar impuestos (creo que ganancias y bbpp).",wVultuRe,merval,9,1.0,9,2025-07-24 11:52:59,https://www.reddit.com/r/merval/comments/1m86ioq/plataforma_que_usen_para_bonos_del_tesoro_de_usa/,/r/merval/comments/1m86ioq/plataforma_que_usen_para_bonos_del_tesoro_de_usa/,True,post
+1m41c38,¿Se pueden comprar bonos estadounidenses desde Argentina?,"Quiero empezar a invertir más en renta fija, pero no confío mucho en los bonos soberanos argentinos. Tengo algunas ONs de empresas confiables, pero me gustaría también comprar bonos de EE.UU. (y otros países si es posible). ¿Cómo debería hacer?",PancuterM,merval,22,0.96,45,2025-07-19 14:05:46,https://www.reddit.com/r/merval/comments/1m41c38/se_pueden_comprar_bonos_estadounidenses_desde/,/r/merval/comments/1m41c38/se_pueden_comprar_bonos_estadounidenses_desde/,True,post
+1lweiiy,¿Dónde puedo ver las curvas de rendimiento de las ON?,"Antes las publicaba el IAMC cada cierto tiempo, pero ya dejó de actualizarlas. En Rava solo hay de bonos. ¿Dónde puedo encontrar algo así? Son tantas obligaciones negociables que es muy dificil analizarlas una por una para ver cual se ajusta más a mis necesidades.",PancuterM,merval,10,1.0,7,2025-07-10 11:43:23,https://www.reddit.com/r/merval/comments/1lweiiy/dónde_puedo_ver_las_curvas_de_rendimiento_de_las/,/r/merval/comments/1lweiiy/dónde_puedo_ver_las_curvas_de_rendimiento_de_las/,True,post
+1mdmw5t,Ayuda para iniciar a invertir,"Buenas, me presento y doy un poco de informacion basica rapido  
+\-Yo durante años me he informado para invertir pero nunca empiezo por que siempre me dio miedo invertir en un lugar donde una persona interesada me venda el verso de invertir y pierda plata al pedo, asi que entiendo conceptos basicos pero nunca inverti nada
+
+tengo 26 años  
+**objetivo:**  
+empezara invertir plata todos los meses, sin deseo de ganancia inmediata, sino lo contrario, quiero empezar a acumular plata para de aca a 10 o 20 años haber acumulado buena plata y haberla aprovechado en vez de gastarla toda todos los meses o simplemente dejarla bajo el colchon ( como hago ahora)
+
+**Pregunta mas concreta:**  
+Quiero invertir en el S&P 500, pero no se como y donde, tampoco se cual es el riesgo ( segun donde), conozco que hay que diversificar, pero es necesario que lo haga siendo el S&P 500? considerando que ya esta diversificado ? o deberia diversificar en brokers tambien ? supongo que no  
+Tengo bbva de banco pero no encuentro opcion para invertir en el S&P 500  
+  
+Ah por cierto, tengo alrededor de 3k dolares guardados, y mi plan seria invertir unos 200 dolares cada mes, tambien no se si meter los 3k dolares de una al S&P, invertirlos de a poco, o directamente dejarlos guardados como plata de emergencia fuera del S&P 500
+
+Estoy abierto a leer consejos, o que me manden a leer/ ver videos informativos sin problemas
+
+TL;DR  
+quiero invertir en el S&P 500, no se por donde hacerlo, no se si deberia diversificar aun mas  
+Acepto que me avisen de riesgos, que me den cosas para leer/ver videos para informarme que crean utiles  
+",pelado365,merval,10,0.86,4,2025-07-30 21:10:29,https://www.reddit.com/r/merval/comments/1mdmw5t/ayuda_para_iniciar_a_invertir/,/r/merval/comments/1mdmw5t/ayuda_para_iniciar_a_invertir/,True,post
+1mayksd,Duda de un ignorante ¿A donde ponen a rendir sus dolares?,"Basicamente lo que dice ahi arriba. No me interesa tener un interes gigante pero tengo dolares en mi caja de ahorro, y no se donde ponerlos de forma segura para que me genere un interes, por mas minimo que sea. Veo que en Cocos te puede generar un 4% anual pero tambien leo que no es muy recomendable meter guita ahi",Mc-bedoya,merval,41,0.98,113,2025-07-27 18:47:54,https://www.reddit.com/r/merval/comments/1mayksd/duda_de_un_ignorante_a_donde_ponen_a_rendir_sus/,/r/merval/comments/1mayksd/duda_de_un_ignorante_a_donde_ponen_a_rendir_sus/,True,post
+1m7q1zz,Pregunta de las cauciones,"https://preview.redd.it/vbshbz3vupef1.png?width=1385&format=png&auto=webp&s=98024a21f12c407e8240c7235c24bb4641abb806
+
+
+
+la variacion diaria es la TNA? porque no entiendo muy bien, **PESOS-3007-U-CT-ARS** 60% seria la TNA(me parece altisimo)? porque despues hay algunas que estan en negativo:  
+
+
+https://preview.redd.it/l1l59ne3vpef1.png?width=1397&format=png&auto=webp&s=216fec66880be542576ad46ac7c4147e4f3d4f0a
+
+eso significaria que pierdo plata a esa tasa porcentual? ",weener69420,merval,14,0.9,21,2025-07-23 21:29:41,https://www.reddit.com/r/merval/comments/1m7q1zz/pregunta_de_las_cauciones/,/r/merval/comments/1m7q1zz/pregunta_de_las_cauciones/,True,post
+1m1rr1d,Cobrar un dineral de la nada,"Buenas que tal, me siento muy ignorante por lo que voy a preguntar pero me vendria bien una mano. Existe la posibilidad de que cobre una plata de una herencia en algun momento cercano (15 millones aprox), que no es mucho pero me genera inseguridad pensar si voy a poder disponer de la plata de forma segura. 
+
+Pregunto porque tengo una cuenta abierta pero es una que me hicieron mis viejos hace años y bueno siempre la segui usando (ademas de mp, brubank, etc.), pero nunca tuvo mucha plata ni nunca compre dolares o cosas por el estilo (y me dice que no estoy habilitado). En el hipotetico caso que de la nada me caiga esa plata, que puede pasar? 
+
+Supongamos que me abro una cuenta nueva en un banco tipo naranjaX para transferirle todo y comprar dolares desde ahi por ejemplo, o desde ahi mandar la plata a otras billeteras/inversiones (xq buscaria asesorarme para invertirla en lo posible), me pueden hacer algun quilombo burocratico que me haga perder tiempo con los pesos ahi clavados? O cobrarme una comision muy alta? Que deberia tener en cuenta? Gracias de antemano!",scabioni,merval,6,0.81,21,2025-07-16 20:16:59,https://www.reddit.com/r/merval/comments/1m1rr1d/cobrar_un_dineral_de_la_nada/,/r/merval/comments/1m1rr1d/cobrar_un_dineral_de_la_nada/,True,post
+1lzpske,Operatoria USD BCRA Homebanking,"Gente les tengo una consulta un poco rara
+
+  
+A un amigo lo inhabilitaron desde el central para operar dolares por homebanking hace 4 años
+
+  
+Ahora ya lo habilitaron de vuelta oficialmente por el central
+
+  
+Pero sigue sin poder comprar dolares por los bancos privados (Santander, Galicia, Provincia, etc) a pesar de que ya le levantaron la suspensión desde el BCRA
+
+  
+Ya se aburrió de reclamar en cada banco. 
+
+Alguno pasó por algo similar?? Alguna idea donde reclamar?",ginescarp,merval,4,1.0,0,2025-07-14 12:41:45,https://www.reddit.com/r/merval/comments/1lzpske/operatoria_usd_bcra_homebanking/,/r/merval/comments/1lzpske/operatoria_usd_bcra_homebanking/,True,post
+1lzmcgf,y ahora en qué se invierte?,"buenas... lo del titulo, estoy un poco desorientado, siento que me perdí un buen rally porque tenia inversiones en nvidia pero no tan altas, así q gané poquisimo, bitcoin estaba esperando que haga correción dsp de un pico de precio y subió muchisimo mas, asi que nada, acá andamos, con ganas de q caiga una gotita de agua de todo ese diluvio(?
+
+Igual la pregunta es... y ahora qué? Estoy en pampa y las vias honestamente, no sé en que invertir, está todo en maximos historicos. Rebalancé y compré apple no más, pero después no veo oportunidades de entrada, ustedes estan en la misma o solo soy yo que tengo que seguir aprendiendo más para ver nuevas oportunidades? 
+
+Sinceramente, la unica estrategia que se me ocurrió es holdear en dolares y esperar hasta agosto/septiembre las correciónes del mercado. Qué opinan?",franco6652,merval,35,0.9,104,2025-07-14 10:25:56,https://www.reddit.com/r/merval/comments/1lzmcgf/y_ahora_en_qué_se_invierte/,/r/merval/comments/1lzmcgf/y_ahora_en_qué_se_invierte/,True,post
+1lu045a,Cobro USD por wallet - Contractor,"Buenas, alguno me podria ayudar/orientar como esta la situacion actual y que cosas deberia tener en cuenta si cobraria el sueldo en dolares en una wallet con una modalidad de contractor? Por ejemplo si conviene o no pagar monotributo, obra social, comisiones, caso si prefiero hacerlo todo en negro, etc.
+
+Se que esto se pregunta mucho en el sub, pero quisiera saber como esta la situacion actual con la info actualizada y las politicas del gobierno. Quizas lo que convenia hace 6 meses ya no lo es.",pepeeargento,merval,2,0.67,9,2025-07-07 14:20:19,https://www.reddit.com/r/merval/comments/1lu045a/cobro_usd_por_wallet_contractor/,/r/merval/comments/1lu045a/cobro_usd_por_wallet_contractor/,True,post
+1lxp5u0,Opiniones sobre mi cartera y consejos sobre liquidez,"Buenas noches gente. Para empezar aclarar que mi idea de inversion es a ultra largo plazo (exceptuando algunas que ya voy a aclarar) jubilación podríamos decir ya que por mi trabajo no voy a tener otra que no sea la que arme yo, unos 40 años aproximadamente. 
+
+Cartera actual para jubilarme: (70% del total)
+Spy500 (70%)
+JPM (20%)
+Ko (10%)
+
+Cartera de aca a 7 años aprox: (20% del total)
+PAMP (70%)
+GGAL (30%)
+Y me gustaria meter MELI. 
+
+Renta fija: (10% del total)
+Voy metiendo lecaps y stacking de usdt. Esta parte es mas que nada ahorro 
+
+Me gustaria saber que piensan de la distribución y se aceptan consejos, no puse números pq algun mes ahorraré mas y otro menos pero intento mantener esos %, como para darles la idea.
+
+Y mi duda sobre la liquidez viene a que no estoy pudiendo acumular, lo de jubilación simplemente compro independientemente del precio, la cartera a 7 años aprox casi que lo mismo pero por que las estuve viendo a buen precio. Debería frenar algun mes para juntar liquidez? Tiene sentido? 
+
+Gracias de antemano! 
+
+",Gambito-1574,merval,9,1.0,21,2025-07-11 23:18:40,https://www.reddit.com/r/merval/comments/1lxp5u0/opiniones_sobre_mi_cartera_y_consejos_sobre/,/r/merval/comments/1lxp5u0/opiniones_sobre_mi_cartera_y_consejos_sobre/,True,post
+1lw97v1,Fondo inversión cocos %40,Hola a todos me gustaría saber que opinan de la cartera de cocos que rinde un 40% en pesos si alguien lo esta usando y que mejores opciones conocen?,Chesscoli,merval,37,0.84,36,2025-07-10 07:24:32,https://i.redd.it/n4s5jugxw0cf1.jpeg,/r/merval/comments/1lw97v1/fondo_inversión_cocos_40/,False,post
+1lpxtb0,Reconfigurando mi plan de inversión - Dudas,"[\*Esta\*](https://preview.redd.it/qg4qiqq14haf1.png?width=1156&format=png&auto=webp&s=763fe45f73b47d97affe34a62c61bd1f7ab1dded)
+
+Hola buenas, hago update de mis anteriores post respecto a mi tabla de organización financiera y de paso me gustaria despejar algunas dudas con ustedes que saben mas que yo 100%.
+
+1- Si mi objetivo es ahorrar para jubilacion, conviene comprar solo un etf para eso o diversificar un poco esta bien? (digamos, 2 etf para protegerme del SPY x las dudas, x dar un ejemplo)
+
+2- que otro instrumento consideran mejor para ahorro de emergencia además del moneymarket (ya sea meli, iol, naranjax etc)? que tenga liquidez inmediata obvio.
+
+3- qué tan viable es moneymarket en ARS? mis mm son todos en USD... desconozco mucho el tema peso en inversión de renta fija
+
+4-mi objetivo es llegar al 20% y de ahí rescatar ganancias e invertirlas en algo tranqui, para que después cuando vea una oportunidad, vender y usarlo para la oportunidad, quiero llegar a 3k usd en cartera para inversión en cedears alternativo a mi objetivo de jubilación a largo plazo. Opinan que va? Ultimamente estoy dudando mucho sobre este tema porque analizando, el % de retorno a largo plazo en ETF es increible, realmente vale la pena quemarse analizando empresas para invertir, sabiendo q hay un % de q te salga mal?
+
+Si bien, me está yendo MUY BIEN en terminos de % de retorno de inversion (manejo montos chicos igual así que no gano taaanto), siento que podria meter toda esa cash en ETF y chau, ya que a largo plazo pienso que es mas efectivo etf y nos vimos, estoy en lo correcto en mi pensamiento?
+
+Me encanta igual invertir, jugarmela un poco, investigar, etc, pero que se yo, a largo plazo me interesa mi jubilación... así que estoy en una crisis existencial jaja",franco6652,merval,11,0.93,26,2025-07-02 11:49:10,https://www.reddit.com/r/merval/comments/1lpxtb0/reconfigurando_mi_plan_de_inversión_dudas/,/r/merval/comments/1lpxtb0/reconfigurando_mi_plan_de_inversión_dudas/,True,post
+1m3kgy0,S29Y6 Progreso después de 1 mes,"Buenas noches, casi me olvido de actualizar. Ya paso 1 mes desde que compre 1 millón de pesos en la letra S29Y6, por el momento solamente bajo pero no me preocupa, es normal al principio, ya me paso con otras letras.
+
+Saludos!!!",Mr_B4n4nO,merval,9,0.8,13,2025-07-18 23:02:14,https://www.reddit.com/gallery/1m3kgy0,/r/merval/comments/1m3kgy0/s29y6_progreso_después_de_1_mes/,False,post

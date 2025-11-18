@@ -1,0 +1,131 @@
+id,title,text,author,subreddit,score,upvote_ratio,num_comments,created_utc,url,permalink,is_self,type
+117ja59,"Back testing Dolar Blue vs Plazo Fijo de 100 pesos el 16/12/15, que opinan?",,Round_Cantaloupe_372,merval,149,0.99,74,2023-02-20 17:16:24,https://i.redd.it/bu6bs49mieja1.png,/r/merval/comments/117ja59/back_testing_dolar_blue_vs_plazo_fijo_de_100/,False,post
+1186ygh,El salario minimo registra una perdida acumulada de $1.652.201 respecto de la inflación en los últimos 5 años según INDEC y posiblemente sea muchisimo más.,"Cree una pagina para calcular el impuesto inflacionario que venimos pagando ([impuestazo.com.ar](https://impuestazo.com.ar)) y mientras la probaba **descubrí que el salario minimo registra una perdida acumulada respecto de la inflación de al menos  $1.652.201 y me temo que podría ser aún muchisimo más**.
+
+Resulta que mientras realizaba los calculos para el periodo *(los cuales pueden hacer ustedes mismos en la pagina)* me encontré con una caracteristica que podría ser indicativa de que la inflación acumulada en los últimos 5 años es mucho mayor que la acumulada que nos muestran los indicadores del indec de un 1201.4% (posiblemente un 200-300% mayor).
+
+**¿Como lo se?** Sencillo...
+
+Como demuestro en la seccion [¿Como realizamos los calculos?](https://www.impuestazo.com.ar/funcionamiento.html) Luego de calcular los atrasos mensuales respecto de la inflación para el salario minimo vital y movil. Procedí como siempre a ajustar todos los salarios pasados al valor presente usando los datos brindados por el INDEC y acá es donde la cosa se pone rara... Primero una breve explicación.
+
+**¿Que significa esto?**
+
+Si teniamos $100 en enero del año pasado y tuvimos 100% de inflación en un año yo se que efectivamente esos $100 hoy valen $50. Lo mismo pasa si yo quiero realizar el calculo inverso. Y si en cambio yo quiero saber a cuanto equivalían esos $100 en poder de compra pasado al día de hoy tendría que sumarle a esos 100$ un 100%, es decir, un total de $200.
+
+**Eso significa que $100 el año pasado hoy equivalen, en teoría, a $200 pesos.**
+
+El problema es que cuando se realiza ese ajuste por inflación para los calculos en todo el periodo entre 2017 y 2022. Se observa que la diferencia entre el último salario ajustado por inflacion y el primero es de un 300%!!!!
+
+https://preview.redd.it/tzpq1qq29kja1.png?width=600&format=png&auto=webp&s=43457f0d348665d945072c5a0f366fd8c6988c52
+
+**Este grafico que acá debería ser lo más cercano a una linea horizontal pero está muy lejos de ser así!**
+
+Y es mucho más facil de observar que los numeros no cierran cuando se realiza la conversion en valor a dolares de un salario pasado al salario presente. Si bien devaluación no es lo mismo que inflación en este pais se puede seguir cierta correlación y en consecuencia usar para obtener al menos cierto grado de precision en algunas cuentas.
+
+El **salario minimo en enero de 2017** eran $8060 ($482 USD) y hoy el salario de enero **ajustado por inflación del INDEC** son (261.4 USD) es una diferencia abismal (184%), claramente los numeros no cierran!
+
+&#x200B;
+
+¿**Que opinan?**
+
+Si les gustaría probar la calculadora los invito a entrar a [impuestazo.com.ar](https://impuestazo.com.ar)! El feedback es siempre bienvenido",MarianoMontiel,merval,125,0.95,53,2023-02-21 12:51:31,https://www.reddit.com/r/merval/comments/1186ygh/el_salario_minimo_registra_una_perdida_acumulada/,/r/merval/comments/1186ygh/el_salario_minimo_registra_una_perdida_acumulada/,True,post
+10x29td,ATENCIÓN INVERSORES: Estafas Inmobiliarias Reiteradas en Puerto Madero por Omisión de Información y Juicios Eternos. Vivo en PUERTO MADERO y Este barrio ya se convirtió en un Prostíbulo Vip a cielo abierto y una Grasada total llena de provincianas mal operadas y tilingas fuma porros y Transas.,"Escribo esto por que ya varios nuevos propietarios han iniciado juicio a los Vendedores y a las Inmobiliarias por omitirles este detalle, para que no caigan ninguno más y advertirles de esta Estafa Amoral Gravísima que han sufrido mucha gente de bien lamentablemente.
+
+La situación del barrio ya se a vuelto insostenible e intolerable con la convivencia, se ha salido de control y convertido en una “Villa Gesell”.
+
+**YA HUBO MUCHAS GENTE DAMNIFICADAS QUE GASTO EL AHORRO DE SU VIDA ACÁ, POR CULPA DE AGENTES INMOBILIARIO QUE NO LE ACLARARON LA REALIDAD QUE VIVE EL BARRIO Y QUE LO SABÍAN MUY BIEN ACTUANDO DELIBERADAMENTE DE MALA FE. Y AHORA ESTÁN EN JUICIOS ETERNOS SIN GRANDES CHANCES DE ÉXITO.**
+
+Vivo en Puerto Madero desde el Año 2003, cuando me mude con mi familia tenía 12 años. En aquel entonces el barrio era una urbe “TOP”, nueva, moderna, con glamour, clase y estilo. Pero esto ya dejo de ser a si hace un tiempo lamentablemente.
+
+Hoy en día el barrio en el que yo crecí y me crie en la adultez dejo ser algo con “Clase y Estilo” y el lugar se lleno de pendejos de dudosa procedencias que realizan fiesta todos los días con música al Máximo volumen generando ruidos molestos a todos los vecinos y de Prostitutas Vip que alquilan sus departamentos en las torres y los utilizan como prostíbulos o “privados” para atender a sus clientes, generando inseguridad y malos tratos.
+
+Ya a la pileta del edificio no se puede ir por que esta todo el día lleno de estas pendejitas “Escorts” provincianas mal habladas con micro tangas o haciendo topless y fumando marihuana a la vista del todo el mundo en un ambiente familiar.
+
+No se les puede decir nada por que enseguida se ofenden y te insultan, muchas ni siquiera pronuncian las ""S"" cuando hablan, imagínense el nivel Socio-Cultural de estas personas.
+
+No es solo 1 edificio, es en todos los edificio de Puerto Madero esta lleno de Prostitutas, conozco a casi todas las torres del barrio por que vivo ahí, mi familia también, amigos, abuelos y conocidos y es todo lo mismo, ni que hablar lugares súper prostibularios como el “HOTEL FAENA” o el “COMPLEJO ZENCITY”, son lugar de pura prostitución y drogadicción y de minas que andan prácticamente en bolas todo el día al a vista de todos.
+
+Una vez una vecina nueva en mi edificio, que sabemos que trabaja de “escort vip” ya que pública en un página de encuentros con la cara pixealeada \[En su instagram se hace la empresaria, pobre piensa que la gente es tonta y hueca como ella\] y que cobra US$ 400, no sabiendo que había cámaras de seguridad en el ascensor, hizo pis en él, una asquerosidad total.
+
+En que se convirtió Puerto Madero por favor, antes era gente de bien, profesionales, empresario, personas con Estatus Social respetada, ahora ya no es esto lamentablemente, te hacen pis hasta en el ascensor, parece la Villa 31.
+
+Por más que te vayas a quejar a la administración se lavan las manos y dicen que no pueden hacer nada mas que señalar su error. Con Respecto a la marihuana en muchos complejos esta prohibido fumar en público esa basura pero igual lo hacen y tampoco hacen nada. También esta prohibido hacer Topless por que hay niños pero tampoco hacen nada, osea hay reglas pero nadie las hace cumplir, al pedo..
+
+Hay otra vecina en mi edificio que también es Famosa y Escort y tiene una página de “ONLYFANS”, cuando fui al sauna cerca de la medianoche hace unos días, se estaba cogiendo a otra mina y a un pibe y filmándolo para sus redes, una orgía en pleno lugar de usos común sin importarles un carajo si entraban chicos o no.
+
+Les dije que eso esta mal y no se puede hacer, a lo que ella muy prepotente con un acento muy tilinga de provincia y pasada de drogas me insulto de arriba abajo diciendo “**Put# ortiv# que te pones la gorra**” y comentarios de esa índole bien de negra cabeza.
+
+No se por que me tengo que andar soportando todo esto y vivir con esta gente que **no pertenece a mi clase social y que solo esta acá por que se prostituye o venden drogas**, si drogas ya varios sabemos que varias hacen eso además de prostituirse en sus depto en las torres \[Una persona de confianza fue de encubierto por sus servicios y comprobó todo\].
+
+Luego también paso con otras de estas chicas del Conurbano que tienen el ego muy alto por vender la cajeta cara y te miran con desprecio por arriba de los hombros \[Pobre se hace la importante la tilinga, por que tiene un Sugar que la mantiene\], se robo un enorme Jarrón de Mármol de adorno que estaba en el hall del edificio y cuando fueron a reclamarle los de seguridad, porque obvio hay cámaras y quedo grabada \[Tilinga y Tonta\], empezó a basurearlos a los pobres empleados diciéndoles a los gritos adjetivos totalmente despectivos sobre su condición social, cuando todos sabemos que ella proviene exactamente del mismo lugar o peor.
+
+**UN ASCO LAS NUEVAS CLASES DE PERSONAS QUE HABITAN ESTAS TORRES. Además ni necesitad tenia de robarse ese Jarrón, por que su pareja es millonario, el ADN CABEZA lo lleva en la sangre por lo que se ve.**
+
+Un amigo que vive en otra torre y tiene un deportivo de alta gama estacionado en el subsuelo del edificio, los gatos se la pasan acosándolo, una que vive ahí hasta le toco la puerta, por que pregunto en la administración donde vivía del hombre del tal auto y fue y la caradura prácticamente quería la saque a pasear para subir fotos a las historias de su Instagram. ES DE TERROR TODO ESTO!.
+
+**Los lugares MÁS DANGER sin dudas son 2, que recomiendo NO IR a toda costa, NI COMPRAR PROPIEDADES o ALQUILAR ahí por que lo van a lamentar \[Esto NO TE LO DICE el que te quiere vender o alquilar la propiedad obvio\]. Que son el Hotel Faena y Complejo ZenCity.**
+
+Ni Rambo se atreve a entrar al HOTEL FAENA, una Sábado a la noche con una bolsa de “WISKAS” debajo del brazo, por que lo masacran las michis, lo devoran vivo, no tendría ni la mínima chance de sobrevivir.
+
+Rambo no es tonto, se mete a la selva para pelear contra el Vietcong en Vietnam, se fue a pelear contra los Soviéticos y Talibanes en Afganistan, con los Narcos en México, pero no le pidas que vaya al FAENA un Sábado a la noche con una bolsa de Wiscas!, es Loco y Kamikaze pero no BOLUDO!.
+
+**El lugar esta lleno de pies a la cabeza de prostitutas, muchas de ellas famosas que alquilan los cuartos como vivienda y atienden a sus clientes ahí**, una orgía entre el mal gusto y grasas que nadie saben de que laburan. Y ni que hablar los rastros de semen que quedan en los cuartos de alquileres por la floja limpieza...
+
+\[Otro aviso y por tu salud, **NUNCA** pero **NUNCA** Pidan o Usen los vasos de vidrios de esos cuartos por que las **escorts los utilizan para depositar el semen de sus clientes y luego bebérselos** de ahí, nadie me lo contó, lo viví en carne propia, salvo que quieras tomar Coca Cola con sabor a leche de cualquiera\].
+
+El otro es “**ZENCITY**”, de lejos de lo peor que hay en el barrio, muchas drogas, transas y prostitutas en todos los pisos. Sin Contar los ruidos molestos insoportables todos los días de la semana hasta cualquier hora de la madrugada y **pendejitas inmaduras prostitutas que pintan todo el tiempo con el Labial rojo los vidrios del ascensor**, colocando frases vacías o hasta su IG haciéndose las rebeldes y vandalizando todas las cosas ...
+
+Debido a toda esta fauna que empezó a llegar al barrio, mucha gente que estuvo acá desde el comienzo volvió a migrar a otros barrios muchos mas tradicionales de CABA, como Recoleta o Barrio Norte, una pena todo.
+
+Solo paso para advertirles que no se muden a este barrio, ya no es lo que era, el gronchaje lo usurpo por completo como lo hicieron con Mar del Plata cuando era un balneario de Elite hasta que lo tomaron los cabezas y nos tuvimos que mudar a Punta del Este o José Ignacio para disfrutar de la playa con gente de nuestro nivel y clase.
+
+No soy racista que quede bien expresado. No es para herir Susceptibilidades esto, pero es la verdad soy sincero. Que nos les vendan el perro, sepan donde compran un Departamento. Todo es mi humilde experiencia viviendo acá desde los inicios, no se claven. Espero que les sirva la info.
+
+**Otros ya se clavaron sin saberlos y ahora están en juicios eternos. No son pocos, solo en mi edificio se sabe que unos 29 iniciaron acciones civiles contra los Brokers Inmobiliarios o Vendedores. Así que dense una idea, ya se volvió un modo de obrar de los Agentes Inmobiliarios  no decirle las cosas a los compradores estafandolos...**",dedoenlayaga,merval,71,0.57,16,2023-02-08 13:00:23,https://www.reddit.com/r/merval/comments/10x29td/atención_inversores_estafas_inmobiliarias/,/r/merval/comments/10x29td/atención_inversores_estafas_inmobiliarias/,True,post
+113320d,Tengo mi propia empresa (y una duda),"Hola, cómo están? Soy el IngenieroSSJ. Tengo 21 años, estudio contador público y tengo mi propia empresa.
+En noviembre vendía 40k usd por mes.
+Hoy en día estoy vendiendo 75k usd por mes.
+A la empresa en total le quedan limpios 10k usd por mes (limpio de impuestos)
+El 99% de lo que vendo es venta online, siendo un 70% MercadoLibre.
+Tengo un socio que posee la mitad de la empresa.
+Gasto poco, vivo con 400 usd por mes aprox. El resto lo reinvierto todo (sin quererlo) en la empresa.
+Siempre me demanda herramientas, maquinarias, mudarnos, mercadería, entre otras cosas.
+La mercadería que vendo es tanto nacional como importada, aunque al ser commodities de alguna forma, su precio está casi dolarizado.
+
+Mi pregunta es la siguiente:
+Cómo puedo pegar el boom e irme para arriba? Tanto en venta, como ingresos?
+
+Quisiera poder hacerla salir adelante pero no se bien cómo…. O mismo orientándome a otro tipo de inversiones.
+Tengo el 90% de mi capital en mercadería. Obvio que puedo de vez en cuando agarrar un remanente de efectivo y destinarlo a algo… la pregunta es a qué.
+
+Fun fact: Planeo jubilarme antes de mis 30 por si alguien tiene la duda.
+
+Escucho todo tipo de críticas, preguntas, know hows y consejos. Gracias a todos.",ingenierossj,merval,7,0.55,104,2023-02-15 14:16:17,https://www.reddit.com/r/merval/comments/113320d/tengo_mi_propia_empresa_y_una_duda/,/r/merval/comments/113320d/tengo_mi_propia_empresa_y_una_duda/,True,post
+10rq6ix,Facturar o no facturar? programador,"Hola como va.
+
+Les cuento un poco mi situacion, tengo 20 recien cumplidos, estoy trabajando de programador hace 6 meses para una empresa de afuera ganando \~3k usd.
+
+Me pagan por Deel y lo que hago es Deel -> Coinbase -> Self-custody wallet (despues de lo de FTX no confio en ninguna empresa). Vivo con mis padres asi que tengo practicamente 0 gastos mas alla de salir a comer/salir de joda los findes o entresemana, para lo cual me paso los BTC a Lemon y gasto directamente de ahi, como maximo 60/70k pesos por mes.
+
+Mis preguntas son las siguientes: 
+
+* Conviene anotarme en monotributo para blanquear algo? teniendo en cuenta que por el proximo año/dos años pienso seguir inviertiendo casi la totalidad en criptos, teniendo casi nada de gastos. Tambien esta entre mis opciones irme un tiempo a españa, pero nada definido aun.
+* Si la respuesta a lo anterior fue si, a quien tendria que hacerle factura y de que forma tendria que enviarme la plata?
+* Es riesgoso gastar esa cantidad de plata por mes con lemon? Me da miedo que de alguna forma AFIP relacione mi cuenta de lemon con mi cuenta de Coinbase y eso con Deel. (entiendo que es una suma insignificante para afip pero me da un poco de miedo por el hecho de estar 100% en negro actualmente).
+
+Aclaracion: me gusta la idea de invertir en criptos, no las uso como mecanismo para traerme los dolares mediante cueava. Es algo riesgoso pero al no tener ninguna responsabilidad economica me parece lo mejor jugarmela un poco ahora que soy chico, en lugar de tener los dolares debajo del colchon sin hacer nada.",Fantastic_Cold6102,merval,0,0.5,7,2023-02-02 10:45:40,https://www.reddit.com/r/merval/comments/10rq6ix/facturar_o_no_facturar_programador/,/r/merval/comments/10rq6ix/facturar_o_no_facturar_programador/,True,post
+11dcwec,"Steam cobrando en pesos, alguien mas le paso? es un bug?",,pipona505,merval,0,0.42,26,2023-02-27 11:17:02,https://i.redd.it/6xic8ja7pqka1.png,/r/merval/comments/11dcwec/steam_cobrando_en_pesos_alguien_mas_le_paso_es_un/,False,post
+111dhqi,Impuesto a las ganancias por Tradear stocks,"Gané 2.000 usd en tradestation y ahora que quiero retirar la guita me están pidiendo llenar el w8 form que es para pagar taxes en mi país. Ni me la vi venir ésa...según tengo entendido es como un 15% de lo que haya ganado, en éste caso 300 USD de impuestos me clavarían, una pija. 
+
+Alguien sabe de esto? Hay forma de evitar este impuesto? Es mucho bardo llenarlo? necesito esta guita urgente...",HomoSapien-sa,merval,0,0.42,14,2023-02-13 13:36:44,https://www.reddit.com/r/merval/comments/111dhqi/impuesto_a_las_ganancias_por_tradear_stocks/,/r/merval/comments/111dhqi/impuesto_a_las_ganancias_por_tradear_stocks/,True,post
+11d8luc,Verificar y activar cuenta Wise sin cuentas en el extranjero.,"Hola a todos. Resulta que tengo esta oferta de trabajo bastante buena que solamente me puede pagar a través de Wise. Por lo que averigüé, en Wise te piden un primer depósito para ""activar"" la cuenta pero no aceptan bancos ni tarjetas argentinas. ¿Hay alguna alternativa sin tener cuentas en el exterior? Gracias.
+
+Se me ocurre por ejemplo en [Saldo.com.ar](https://Saldo.com.ar) transferir de mi cuenta bancaria a mi cuenta Wise. Pero no sé si la cuenta debería estar ya activada para eso, digamos. ",SirMatango,merval,1,0.53,5,2023-02-27 07:27:28,https://www.reddit.com/r/merval/comments/11d8luc/verificar_y_activar_cuenta_wise_sin_cuentas_en_el/,/r/merval/comments/11d8luc/verificar_y_activar_cuenta_wise_sin_cuentas_en_el/,True,post
+11bhfks,Empezar una empresa en US,"Estoy pensando tener personería jurídica en US. De esta forma puedo usar stripe, bancos, vender allá (más fácil).
+Me imagino que el downside es la parte impositiva y la paja mental que eso refiere.
+Tengo claro lo que tendría que hacer allá.
+
+Pero alguien sabe que implica tener una empresa en usa para la AFIP? Que otros líos tengo que hacer?",abiaus,merval,1,0.54,5,2023-02-25 07:01:00,https://www.reddit.com/r/merval/comments/11bhfks/empezar_una_empresa_en_us/,/r/merval/comments/11bhfks/empezar_una_empresa_en_us/,True,post
+11as578,Se paga el dolar qatar si pagas con tarjeta de débito usando tu caja de ahorro en dólares?,"Buenas! Voy a viajar y estoy viendo como evitar pagar un dolar a $400. Hasta donde sé, todos los impuestos al dolar se pagan si pagas el resumen de tu tarjeta de crédito con pesos o si pagas con débito asociada a tu CA en ARS.
+
+Pero me agarró esa duda, capaz me conviene usar la tarjeta de débito, asociarla a mí CA en USD y listo. Alguien tiene data sobre este tema?",Xeoneid,merval,0,0.44,5,2023-02-24 11:03:50,https://www.reddit.com/r/merval/comments/11as578/se_paga_el_dolar_qatar_si_pagas_con_tarjeta_de/,/r/merval/comments/11as578/se_paga_el_dolar_qatar_si_pagas_con_tarjeta_de/,True,post

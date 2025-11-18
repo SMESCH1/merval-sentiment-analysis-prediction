@@ -1,0 +1,324 @@
+id,title,text,author,subreddit,score,upvote_ratio,num_comments,created_utc,url,permalink,is_self,type
+m3ters,"Paysera, una fintech de Lituania que vale la pena conocer","Hola, buenas noches a todos.
+
+Tenía ganas, desde hace un tiempo, de hacer un thread acerca de una fintech no tan conocida por el público en general. Es de Lituania y tiene ciertas similitudes con Revolut y Wise. Se llama Paysera.
+
+Quiero comenzar por esto: es una excelente fintech europea que tiene **todas sus funciones habilitadas para argentinos**. ¿Qué quiero decir con esto? Que no hay restricciones en cuánto a su uso. Esto me parece algo para destacar. Normalmente las fintechs del viejo continente siempre tienen algún tipo de restricción para residentes argentinos: Wise no manda la tarjeta de débito ni ofrece su cuenta de negocios para argentinos, Crypterium tampoco manda su tarjeta para acá (ni permite que la reciban terceros, les pregunté y me dijeron que está prohibido), Wirex que es una de las startups más populares de España acá está semi-bloqueada, ofreciendo solamente unas pocas cuentas en criptomonedas pero estando prácticamente inutilizable para nosotros, y Revolut/N26/Vivid Money directamente están bloqueadas. Tenés que ser residente europeo.
+
+Es por esto que valoro tanto a Paysera, que tiene similitudes con las entidades anteriormente mencionadas, pero también sus diferencias. Voy a empezar por lo más básico:
+
+&#x200B;
+
+* **¿Qué es Paysera?:** Es una billetera virtual con licencia del Banco de Lituania para operar con dinero electrónico. No son un banco, por más que tengan todas las funcionalidades de uno. Se encargan de aclararlo tanto en su página web como en las redes sociales. Yo por las dudas les pregunté, y me confirmaron de que no lo son. Dígamos que son el Mercado Pago/Ualá de Lituania, pero con muchísimas más funciones que las fintechs argentinas.
+
+&#x200B;
+
+[También se lo puede definir como uno de los sistemas de pago más avanzados de Europa, cuya misión es hacer que los pagos electrónicos no tengan fronteras y sean simples, rápidos y accesibles para todos](https://preview.redd.it/x8mwaejyfpm61.jpg?width=800&format=pjpg&auto=webp&s=b7b9bbfb52703750e47cf3bdfe777d65229bbb93)
+
+&#x200B;
+
+¿Cuáles son sus ventajas?
+
+&#x200B;
+
+* **Billetera multidivisa:** soportan hasta 31 monedas. USD (dólar estadounidense) - EUR (euro) - GBP (libra esterlina) - CHF (franco suizo) - CAD (dólar canadiense) - AUD (dólar australiano) - NZD (dólar de nueva zelanda) - JPY (yen japonés) - CNY (yuan chino) - HKD (dólar de hong kong) - SGD (dólar de singapur) - SEK (corona sueca) - DKK (corona danesa) - NOK (corona noruega) - MXN (peso mexicano) - RUB (rublo ruso) - ILS (nuevo shekel de israel) - TRY (lira turca) - PLN (zloty polaco) - HUF (florín húngaro) - RON (leu rumano) - CZK (corona checa) - HRK (kuna croata) - BGN (lev búlgaro) - GEL (lari georgiano) - RSD (dinar serbio) - ZAR (rand sudáfricano) - INR (rupia india) - THB (bath tailandés) - BYN (nuevo rublo de bielorrusia) y KZT (tenge de kazajistán). Están las mejores del mundo, algunas que son muy consideradas como las rupias indias, las coronas checas y los zlotys polacos, y otras muy exóticas como los dinares serbios, los baths tailandeses, los nuevos rublos de Bielorrusia y los tenges de Kazajistán. Tienen más divisas que Dukascopy (los suizos llegan hasta las 23) y un par son tan raras que es muy difícil que encuentres a otra entidad que te permita ahorrar en esas monedas. Siendo residente argentino, diría que otra opción no hay.
+
+https://preview.redd.it/t8mgvt13xom61.png?width=3730&format=png&auto=webp&s=a105b4243ed091b8db7a42dbbae94ccce60f3093
+
+* **Tipos de cambio reales:** Paysera te permite ahorrar con todas utilizando el tipo de cambio de Wise (con una comisión ínfima) o el tipo de cambio de Google, si intercambias las divisas usando montos grandes. Por ejemplo: yo tenía 1 euro y quería adquirir 1 franco suizo. Gasté 0.91 euros. Me fijé en Google y el tipo de cambio era 1 CHF = 0.90 EUR. El cambio de divisas me terminó saliendo 1 centavo de EUR de comisión, exactamente igual que con Wise. Otro ejemplo... con 3 USD quería comprar el equivalente en euros. Hice el cálculo con Wise y me salía lo siguiente: con 3 dólares podía comprar 2.50 EUR. Después procedí a hacer lo mismo con Paysera... Y el resultado fue igual! 3 USD = 2.50 EUR. Ambas fintechs te cobran fijo 1 centavo de comisión que no es nada. Si la tasa intercambiada supera los 5000 EUR, el sistema aplica automáticamente un descuento. Pueden mirarlo acá: [Conversión de divisa en línea](https://www.paysera.com/v2/es-GB/tasas/calculadora-de-conversion-de-divisa#/).
+
+https://preview.redd.it/uvucufbkxom61.png?width=2800&format=png&auto=webp&s=dc22764c582a222dd06c050cf6fbe71616c44643
+
+* **Cuenta gratuita:** no tenés que pagar nada por la apertura ni por el mantenimiento de la cuenta. Los requisitos son mínimos, ya que solo te piden el DNI o el pasaporte argentino. Te dan un IBAN de Lituania con el cuál ya podés comenzar a operar. A medida que vas verificando tu cuenta, vas aumentando los límites hasta poder pedir montos ilimitados para todo. Para eso necesitas realizar una segunda verificación por Skype.
+
+https://preview.redd.it/kzhqjgcmxom61.png?width=1000&format=png&auto=webp&s=ecada57dd4c25a06ac3a3e2631ba5c06233c737b
+
+* **Transferencias favorables en euros:** ofrecen transferencias ilimitadas, gratuitas e instantáneas todos los días del año en euros. Las transacciones que vos recibas desde países de la SEPA y Kosovo hacia tu cuenta de Paysera son gratuitas y siempre lo van a ser, mientras que las transacciones que vos recibas desde otros países van a tener un 0% de comisión para las primeras 50 del mes y si son más de 50 se te va a aplicar un fee de 0.10 EUR. Esto es así las 24 hs del día y los 7 días de la semana. Mientras que para transferir desde Paysera hacia cualquier banco de la zona SEPA y Kosovo, sólo es aceptada su ejecución entre las 8 AM y las 8 PM y puede llegar a tardar hasta 1 día laborable (salvo que la ejecutes antes de las 15:45 HS, en ese caso llega al destinatario el mismo día). Es gratuito siempre para los residentes del área SEPA y Kosovo, mientras que para los no residentes son gratuitas las primeras 5 y a la sexta te cobran una comisión de 0.50 EUR. Si sos privilegiado de vivir dentro de la zona y usar Paysera, además podés ejecutar la opción de SEPA Instant hacia otro banco que sea también de ahí para que le lleguen los euros en segundos. Podés hacerlo hasta en un monto de 10.000 euros. Las transferencias entre usuarios de Paysera son gratuitas, instantáneas e ilimitadas en todas las monedas, solamente necesitando el número de teléfono o el correo electrónico del receptor (hasta llegar a las 50 transferencias mensuales, si te excedes en el mes se te aplica un fee de 0.10 EUR).
+
+https://preview.redd.it/rgqogy0pxom61.png?width=980&format=png&auto=webp&s=b295f539cdc153bf099ea2173b79c46458ce871d
+
+* **Transferencias internacionales favorables:** podés realizarlas con las 31 monedas en las que operan. Si transferís euros hacia bancos que no sean de la zona SEPA y Kosovo, las primeras 5 transferencias del mes tienen un 0% de comisión y a la sexta transacción se te cobra un fee de 0.50 EUR. Cuando es a la inversa, las primeras 5 transferencias que recibas son gratuitas y a la sexta se te cobra una comisión por recepción de 0.10 EUR. Para el resto de las divisas, cada caso es diferente. Recomiendo chequearlo acá: [Tasas por transferencias internacionales](https://www.paysera.com/v2/es-GB/tasas/transferencias-en-otras-monedas#explanation).
+
+https://preview.redd.it/su20o7orxom61.png?width=2190&format=png&auto=webp&s=63eb530ea132bfad273eb28e84da3496150fea31
+
+* **Múltiples funciones:** podés crear todas las cuentas que vos quieras dentro de la aplicación. Por ejemplo, yo tengo una cuenta de ahorros en el cuál almaceno todas las divisas en las que quiero ahorrar y otra cuenta que es la de tarjeta (creada automáticamente cuando la pedís y sólo en euros). Si quiero, también puedo crear una cuenta compartida con otra persona (un amigo, una pareja, etc) para dividirnos los gastos y planificar nuestras finanzas juntos (para cada cuenta se te asigna un IBAN diferente, lo cuál es un golazo). También puedo establecer objetivos de ahorro en la divisa que yo quiera (ejemplo, viaje a Croacia - establezco como divisa el HRK) y crear pagos periódicos para el día a día, para la semana y para todo el mes. Puede ser para el pago de un alquiler, hasta para cubrir transferencias globales o entre cuentas de Paysera.
+
+https://preview.redd.it/gtfcdbwtxom61.png?width=1000&format=png&auto=webp&s=806378bee43c34ed41dd33d3539904425d6d0f3f
+
+* **Posibilidad de retirar y depositar dinero sin ir a una sucursal bancaria:** bueno, esta opción es muy interesante. Paysera tiene convenios con múltiples locales de entretenimiento, catering, juegos de bolo y gasolineras (entre otros rubros) que te permiten tanto pagar con código QR, como generar un mismo código QR para depositar o retirar efectivo. Estos lugares se encuentran en Lituania, Letonia, Estonia y Kosovo. Cada lugar tiene sus propias tarifas y sus propios límites, así que también recomiendo chequearlo por este link: [Cargos por transacciones en efectivo](https://www.paysera.com/v2/es-GB/tasas/operaciones-de-efectivo). Tanto el deposito como el retiro del efectivo en estos locales se realizan en euros. Si vas a la sucursal de Paysera en Vilnius, también podés depositar y retirar en USD, GBP, RUB Y PLN. El deposito en euros es siempre gratis y en otras monedas conlleva una tasa del 0,50%. El retiro en efectivo es gratuito por 3 operaciones y hasta alcanzar un importe de 1000 EUR mensuales. Después de exceder los 1000 EUR, 0,35% del importe excedente pero sin ser menor a 1 EUR por operación. Los retiros en USD, GBP, RUB Y PLN son gratuitos sin límite de ningún tipo. También podés realizar otras operaciones en efectivo, como intercambiar divisas en la misma sucursal aplicando el mismo criterio que cuando lo haces desde la aplicación.
+
+https://preview.redd.it/tymn2pivxom61.png?width=1182&format=png&auto=webp&s=b1c30a62831574fe47bd5ad8b019895010e76bd2
+
+&#x200B;
+
+* **Tarjeta de débito visa:** ellos ofrecen una tarjeta de débito visa para todos los clientes de Paysera, independientemente de donde estén radicados. Esto quiere decir que si vos vivís en Argentina y querés la tarjeta, podés tenerla. Lo único es que solo la mandan a países del Espacio Económico Europeo. Desde la misma empresa te recomiendan que si tenés un amigo o familiar que viva en Europa, que pidas la tarjeta a la dirección de esa persona para que después te la reenvie para acá. Otras fintechs como Wise, Revolut y N26 prohíben este tipo de maniobras y si te descubren haciéndolo perdiste tu cuenta, mientras que en Paysera está abiertamente permitido. Es una tarjeta contactless, compatible con sistemas como Google Pay, Apple Pay, Samsung Pay, PayPal y Amazon. Está equipada con la tecnología 3D Secure para mayor protección a la hora de hacer compras online, podés pedirla en varios colores (azul claro, naranja y plata) y solicitar hasta 5 tarjetas adicionales. La emisión de la tarjeta principal cuesta entre 3 y 10 euros (según el tipo de envio que elijas... a mí me costó 4 euros cuando la pedí) y la cuota mensual es de 0.75 EUR (las adicionales, si las pedís, no tienen costo de mantenimiento). La única divisa de la tarjeta es el euro, no se pueden pedir en otras divisas. Tienen un beneficio especial con Bulgaria, ya que si vos pagás en tiendas de ese país con levs búlgaros no se te cobra absolutamente nada, aunque la divisa de la tarjeta sea el EUR. Al mismo tiempo, si vos querés retirar efectivo del cajero automático en euros en estados miembros de la eurozona, se te cobra una comisión fija de 1 EUR independientemente del monto que retires (el límite de extracción diario es de 600 EUR). Lo mismo aplica si querés retirar levs búlgaros en Bulgaria. Para mirar el resto de las cuotas, chequearlo acá: [Cargos por tarjeta de débito](https://www.paysera.com/v2/es-GB/tasas/tasas-de-tarjetas-de-pago). Pedirla es optativo, si elegís no hacerlo porque no querés afrontar el costo mensual de la tarjeta, no se te cobra nada de mantenimiento. En ese sentido son iguales a Dukascopy.
+
+https://preview.redd.it/2f63cxswxom61.png?width=600&format=png&auto=webp&s=4d34ab2886b688ae2682d7da8e2d5ab0ab04324a
+
+* **Opciones de inversión:** Paysera te da la posibilidad de comprar y vender oro, tanto a través de la aplicación como del sitio web. Podés también transferir oro a otro usuario de Paysera con solo el número de télefono o el mail de la otra persona, cómo si se tratara de moneda fiat. Además, también podés ir a buscar los metales preciosos a la sede de Paysera, en Vilnius. Para la comodidad del cliente, en breve van a agregar la opción de llevarte el oro a domicilio (no recomendable utilizar esto si vivís, por ejemplo, en el conurbano bonaerense). Más específicamente, podés comprar barras de oro en 11 pesos distintos (desde 1 gramo hasta 1000 gramos) y el único modelo que se ofrece hasta ahora es el lingote de oro Valcambi, de Suiza. Después tenés 6 monedas de oro distintas para comprar, que son la American Eagle de Estados Unidos, la Filarmónica de Austria, la Krugerrand de Sudáfrica, la hoja de arce de Canadá, la Britannia del Reino Unido y la Buffalo de Estados Unidos, y por último la onza de oro tradicional (XAU). Paysera apenas te cobra una pequeña tarifa por la adquisición de los metales preciosos y si vas a buscarlo a los dos días hábiles de la compra, quedás exento de la tasa de almacenaje. Las comisiones varían según el lingote y la moneda de oro en cuestión: [Comercio de oro en línea](https://www.paysera.com/v2/es/metales-preciosos). Próximamente van a sumar el XAG (la plata) y el XPT (el platino) como opciones de resguardo del poder adquisitivo.
+
+https://preview.redd.it/st1gbb0yxom61.png?width=561&format=png&auto=webp&s=0d714a2e290c651199144e4110c372aee228477b
+
+Dicho todo esto, quizás vos te preguntarás... ¿Pero es seguro Paysera?: Desde el 2012 que son una institución autorizada para operar con dinero electrónico. Están más tiempo en el mercado que empresas híper conocidas como Revolut y N26, que nacieron en el 2015 y 2013, respectivamente. También son una alternativa mucho más transparente y económica que agentes de pago como Payoneer. Acá podés encontrar toda la información al respecto: [Paysera - la primera institución de dinero electrónico con licencia en Lituania](https://www.paysera.com/v2/es/seguridad).
+
+&#x200B;
+
+[El certificado del Banco Central de Lituania](https://preview.redd.it/26hwa030yom61.png?width=373&format=png&auto=webp&s=34d590ee237c0501f752866fda2f746592f809a6)
+
+También es ideal utilizarlo para negocios. Ofrecen soluciones de pago para e-commerce, juegos online, portales de entretenimiento, cafés, restaurantes y POS. Con su pasarela de pagos ""[Paysera Checkout](https://www.paysera.com/v2/es/payment-gateway-checkout)"" tenés múltiples posibilidades de cobrar por tu trabajo, a través de distintos bancos, distintas tarjetas y distintas monedas. Acá no quiero profundizar tanto porque estamos hablando de un mundo muy amplio, en el que te ofrecen la chance de cobrar por SMS, por tarjetas de las marcas más reconocidas (Visa, Mastercard, Maestro, etc), en efectivo, mediante pagos individuales generando una orden de cobro única para el comprador o por otros sistemas de pago si tus productos/servicios están destinados al mercado internacional (WebMoney, Trustly, Giropay, etc), además de poder utilizar un sistema POS para lugares comerciales físicos. Ofrecen tantas posibilidades de cobro que lo mejor es terminar de mirarlo acá: [Soluciones de pago para negocios](https://www.paysera.com/v2/es/soluciones-de-negocios).
+
+https://preview.redd.it/sniouy23yom61.png?width=2659&format=png&auto=webp&s=4b830f4bb346ba87c244c0e210f025f95a6dca4a
+
+Por último y para terminar, quiero agregar las siguientes virtudes de esta fintech:
+
+&#x200B;
+
+* **Buen soporte:** podés chatear en vivo con ellos todos los días y a toda hora (solo en inglés). Los mails los contestan rápido y además tienen dos números de teléfono a disposición, que los podés ver desde la app (al igual que el mail).
+* **Gran desarrollo para Android:** no podía dejar pasar esto. El desarrollo que tienen de su aplicación para Android es espectacular. Da gusto utilizar la app. Si pudiera contactarme con los desarrolladores, no me quedaría más que felicitarlos por el trabajo bárbaro que hicieron. Entre la cartera de idiomas tienen el español y lo mismo se puede decir para el sitio web (en total son 14, incluyendo el inglés, francés, alemán, ruso, polaco, rumano, búlgaro, lituano, letón, estonio, ucraniano, albanés y árabe). Aparte tienen incorporado el modo oscuro, que se activa y se desactiva siguiendo la configuración del sistema.
+
+[La tarjeta de Paysera está perfectamente integrada con Google Pay, lo que te permite poder agregarla al sistema de pagos de Google sin necesidad de bajarte la aplicación del gigante estadounidense](https://preview.redd.it/pgnyth7h1r671.png?width=1000&format=png&auto=webp&s=14dd087ec50fefc53e1ff76c2a8a6815c126f5eb)
+
+* **Sistema de entradas:** tienen un sistema de entradas llamado ""Paysera Tickets"", en el cuál vos tenés la posibilidad de crear y administrar eventos diversos (desde conciertos y teatros, hasta deportes y seminarios). Si organizás un evento gratuito, podés utilizar el sistema sin cargo alguno. Las entradas pueden estar a la venta para cualquier persona de cualquier país del mundo, esto se debe a que Paysera está conectado con bancos y sistemas de pago internacionales en diferentes países que facilitan todo el proceso. El dinero por la venta de entradas se acredita en tiempo real, apenas el comprador te paga por el evento. También tenés la función de recopilar datos adicionales de tus clientes si es necesario, obligándolos a rellenar un formulario para que participen del evento. Podés agregar nuevos tipos de tickets, cambiar los precios, activar códigos de descuento, publicar diversas campañas y analizar tu desempeño. Si lo necesitás, tienen la función de aumentar tu venta de entradas aplicando un sistema avanzado de descuento. Y lo más interesante es que hace poco sumaron las entradas multi-uso, que son tickets hechos a la medida para membresías de gimnasios, clases de baile, cursos de muchas clases o varias horas de natación en un club, entre otras infinitas posibilidades. Si vos escaneas los boletos con código QR, podés chequear el tiempo o las visitas disponibles para el que asiste. Además, al momento de organizar varios eventos podés agruparlos, compartirlos con un solo enlace y segmentarlos por edad, género, etc. También están las entradas de temporada, especialmente interesante para el que suele organizar eventos deportivos. Vos agrupas todos los partidos de una temporada y los vendés en un solo paquete (por ejemplo, de una temporada de fútbol). Incluso si el cliente compró un ticket pero después no puede asistir al partido, tiene la posibilidad de vender él mismo su propio ticket a otra persona (si habilitás esta función). Los compradores también pueden crearse una cuenta en ""Paysera Tickets"", en el cuál pueden acceder a todas las entradas de eventos que ya pasaron y de la actualidad, y de ver su historial de compras. Desde la app de Paysera podés comprar entradas para conciertos, teatros, festivales, exposiciones y cualquier otro evento disponible. Se encuentran valuados en euros y son, lógicamente, de Europa. Se agradece tener la chance de poder comprar desde ahí, aunque tienen una página web y una aplicación aparte para el sistema de entradas: [Paysera Tickets (Web)](https://play.google.com/store/apps/details?id=com.paysera.tickets.v2), [Paysera Tickets (Android)](https://play.google.com/store/apps/details?id=com.paysera.tickets.v2) y [Paysera Tickets (iOS)](https://apps.apple.com/bo/app/paysera-tickets/id1481334179).
+
+https://preview.redd.it/hbs4yv4u2r671.jpg?width=900&format=pjpg&auto=webp&s=d40923989188be6e0d5f21ed03daf3bf27b8d248
+
+* **Posibilidad de donar a organizaciones benéficas:** digo lo mismo que sobre la función para comprar tickets de eventos. Se agradece tenerla a disposición.
+* **Programa de afiliados:** Paysera cuenta con un programa de afiliación, en el cuál si vos invitás a tus familiares y amigos con tu enlace exclusivo (que te brindan cuando te anotás en el programa) te pagan con bonificaciones. Recibís una bonificación del 10% por las ganancias del servicio de cobro de pagos y por la conversión de divisas. El bono por las ganancias obtenidas por los clientes se paga el décimo día de un mes calendario posterior, y siempre que tengas al menos tres clientes que hayan sido rentables. Actualmente se encuentra suspendido por problemas técnicos desde el 18 de mayo del 2020 (aquellos usuarios que ya están ganando dinero con las invitaciones no se ven afectados), pero se espera que en el futuro vuelva a activarse.
+* **Tarjetas adicionales:** se pueden solicitar hasta cinco tarjetas extra en tu cuenta de Paysera para otras personas. No hace falta que otros miembros de la familia o amigos tengan que registrarse también y pagar la cuota mensual. Si ellos no pueden abonar lo que cuesta la tarjeta por mes, vos podés pedir más de una al nombre de la otra persona. Las adicionales son gratuitas y podés pedirlas sin ser residente de la Unión Europea, al igual que la tarjeta principal. Había mencionado de que para los clientes particulares existen tres ofertas de colores (azul claro, naranja y plata), pero para clientes de negocios esta oferta se amplia hasta los seis colores (azul claro, naranja, plata, negro, gris oscuro y azul oscuro).
+
+[Paysera ofrece hasta seis tarjetas distintas para sus clientes](https://preview.redd.it/8i7n1dl12r671.jpg?width=1000&format=pjpg&auto=webp&s=19359ead135cda6dd49e22589c22ea797110fe34)
+
+* **Cuenta empresarial:** así como podés abrir una cuenta personal, también podés abrir una para negocios. Si la empresa está registrada en uno de los países SEPA o Kosovo y no es una empresa internacional ni un proveedor de servicios financieros, la apertura de esta cuenta es totalmente gratuita, la administración mensual también es gratuita (salvo que tenga una sede en Letonia) y si decidís cerrar la cuenta por cualquier motivo, también es gratuito. Si querés abrir este tipo de cuenta porque tenés un supermercado, una farmacia o un local de ropa en Europa (por dar tres ejemplos) y querés administrarlo remotamente desde cualquier lugar del mundo, usá esta cuenta. Si sos un freelancer con residencia fiscal en Europa y no te convencen las alternativas que tenés desde tu país del viejo continente, también es recomendable este tipo de cuenta. Prácticamente no te cobran por nada. Ahora bien, sí estamos hablando de una empresa que no está registrada en los países SEPA/Kosovo (sin ser una compañía internacional ni un proveedor de servicios financieros) ahí te cobran algo, pero tampoco es que te matan con las comisiones. Siendo un freelancer con residencia en Argentina, la apertura de la cuenta te cuesta 10 EUR y la comisión de mantenimiento es de 1 EUR. Mientras la uses con frecuencia, no te cobran por nada más. Para más información, entrar a este link: [Gestión e identificación de cuentas para negocios](https://www.paysera.com/v2/es/tasas/gestion-de-cuenta-e-identificacion-negocio).
+
+[Una cuenta empresarial de Paysera es la mejor solución para que los latinoamericanos empiecen sus negocios en Europa, con beneficios especiales para los que tienen nexos comerciales en Bulgaria, Rumania y Hungría](https://preview.redd.it/uc9g1gq03r671.png?width=2300&format=png&auto=webp&s=034a463dba82751eca7edc102c84661e236b9df1)
+
+&#x200B;
+
+Mi motivación para escribir sobre Paysera son varias: la considero la mejor alternativa a Revolut para Sudamérica y Centroamérica (no solo para argentinos, ya que también aceptan a gente de Uruguay, Chile, Brasil, Paraguay, Bolivia, Colombia, República Dominicana, Guatemala y Costa Rica, entre otros países: [Donde trabaja Paysera](https://www.paysera.com/v2/es/faq/donde-trabaja-paysera)), creo que tiene cosas que Wise no tiene y se agradecería que tuviera (una tarjeta de débito para todos los clientes, independientemente del país en donde vivan) y también me parece muy buena para viajar y hacer negocios por toda la Unión Europea. Si tenés un cliente de Europa, querés cobrarle por transferencia bancaria, usar la plata acá con la tarjeta/retirar por cajero y de paso buscás como activar los datos bancarios de Wise, usá Paysera.
+
+Ya se la había mencionado hace varios años entre freelancers argentinos, en el foro de Payoneer: [Alternativa a Payoneer (transferir USD con Paysera)](https://mipayo.com/foro/viewtopic.php?f=16&t=767&sid=c90f6c00cdbe072ae63ca622f9e6ecc8). Ahí mismo se la reconoce como una mejor alternativa que Payo, con comisiones más bajas y mayor cantidad de funciones. Me parece injusto, de todas formas, que no tenga la popularidad del mismo Payoneer o de otras entidades similares como las ya mencionadas, siendo que es igual de buena y en algunos casos superior.
+
+&#x200B;
+
+&#x200B;
+
+Ventajas respecto a las otras fintechs conocidas:
+
+&#x200B;
+
+* Transferencias SEPA Instant en euros. N26, Revolut y Wise tienen esta función a medias.
+* Mejores tasas por retiros en EUR en cualquier cajero automático de la Zona SEPA. Con la tarjeta de Paysera podés retirar hasta 600 EUR por día y tiene un costo fijo de 1 EUR (independientemente de la cantidad), mientras que con la tarjeta de Revolut tenés extracciones gratuitas por hasta 200 EUR mensuales. Excedes ese límite y te cobran un 2% de la cantidad excedida. Con N26 es más o menos lo mismo: tenés 3 retiros gratuitos en cualquier cajero de la zona euro y a partir de la cuarta extracción ese beneficio ya no existe.
+
+https://preview.redd.it/iwj6ikkb8r671.jpg?width=1000&format=pjpg&auto=webp&s=8f17f136b4893a25332b004caba724167c1b2f83
+
+* Banca por computadora y por aplicación móvil con Paysera. Con Revolut, solamente hay una aplicación móvil para los clientes privados.
+* Tipos de cambio igualmente atractivos que en Revolut, Wise y N26 a la hora de ahorrar. El intercambio de divisas es prácticamente gratuito, y a diferencia de las otras empresas, Paysera trabaja con efectivo designando agentes en diferentes países de los estados bálticos (Lituania, Letonia y Estonia, los más claros ejemplos) permitiendo a sus clientes acreditar sus cuentas, retirar dinero de ellas y pagar, todo mediante código QR. Tienen convenios con muchos lugares de Europa del Este y de diferentes rubros que hacen que viajar por esas tierras sea mucho más ágil y conveniente con Paysera que con Revolut/Wise/N26. Desde gasolineras hasta locales de juegos de bolos, son muchos los comercios que tienen un arreglo con la fintech de Lituania. Lo lujoso es que desde la aplicación podés ver los horarios de todos esos lugares y cuando están abiertos y cerrados. Al mismo tiempo, también tienen un mapa incorporado en el que podés ver donde están ubicados exactamente. No son pocos: estamos hablando de casi 1000 locales repartidos en tierras bálticas adheridos a Paysera. Si vas a la sucursal de Vilnius, en Lituania, tenés 3 extracciones gratuitas en euros hasta llegar a los 1000 EUR. Si querés depositar en esa divisa, es siempre gratis. Si queres retirar tus ahorros en dólares estadounidenses, libras esterlinas, rublos rusos y eslotis polacos, también es siempre gratuito. Revolut, N26 y Wise no tienen esto porque directamente no tienen sucursal física.
+* No solo Paysera te permite protegerte de la inflación comprando oro, sino que también te da la posibilidad de ir a retirarlo físicamente o que te lo lleven a tu casa (esto último lo van a habilitar en breve para todo el mundo). Otras entidades como Revolut y Dukascopy también te permiten invertir en oro, pero jamás vas a verlo físicamente. Wise y N26 directamente ni tienen esto. Los lituanos te ofrecen variedades de oro emitidos en diferentes países (más precisamente, en los Estados Unidos, Gran Bretaña, Canadá, Suiza, Austria y Sudáfrica), mientras que Revolut y Dukascopy solo te ofrecen la onza de oro tradicional (XAU). En la aplicación de Paysera ya figura la plata y el platino en los términos y condiciones de la compra y venta de metales preciosos, así que es cuestión de tiempo para que también puedas invertir en XAG y XPT y retirarlo si lo consideras necesario (no recomendable hacerlo si vivís en países peligrosos como la Argentina).
+
+[El oro queda almacenado en la sucursal de Paysera en Vilnius, Lituania](https://preview.redd.it/gny1km321r671.jpg?width=900&format=pjpg&auto=webp&s=5aef735b7089967119454daa2b6337de7c8dbd47)
+
+* Paysera tiene cuentas corresponsales abiertas en docenas de bancos de diferentes países y ofrece tarifas muy beneficiosas para remesas internacionales en diferentes monedas. Acá compite mano a mano con Wise.
+* Si te interesa usar Paysera para hacer negocios, te ofrecen soluciones de pago innovadoras. Una pasarela de pagos como Paysera Checkout con plugins gratis para casi 20 plataformas comerciales, mensajes de texto masivos para cobrar tu dinero y terminales POS propias. Son soluciones inexistentes en N26 y Revolut.
+* Posibilidad de comprar y vender criptomonedas mediante el sistema P2P de Binance, el exchange más grande del mundo.
+* Hace poco empezaron a ofrecer una función típica de los servicios como Wise y Payoneer, que es darle al cliente de Paysera datos bancarios locales de otros países. Ellos te dan cuentas de hasta tres países distintos: un IBAN local de Bulgaria, Rumania y Hungría. El IBAN búlgaro te lo dan sin necesidad de que vos tengas vínculo alguno con ese país, pero para que te den un IBAN rumano y húngaro sí hace falta que demuestres un vínculo con el país en cuestión. En estos últimos dos casos, lo que piden los lituanos es que vos tengas un nexo laboral (tener un negocio, estar trabajando para una empresa, tener clientes formales, etc) o que vos estés viviendo en Rumania/Hungría. Por desgracia, no es tan sencillo como bancarizarse en Bulgaria pero igualmente se puede. Es imprescindible que te contactes con soporte para que te den este tipo de cuentas, sino solamente vas a tener un IBAN de Lituania.
+* Abre puertas a personas residentes de todo el Mercosur y Centroamérica. Revolut y N26 no existen en gran parte del continente americano. Tienen planes de arribar a Brasil y de hecho lo van a hacer, pero eso no es suficiente. No tienen la suficiente expasión internacional. Wise sí tiene una mayor expasión, pero con importantes limitaciones dependiendo de la región. En Paysera prácticamente no hay limitaciones por región. A lo sumo, hay controles más estrictos de KYC dependiendo del país, pero nada más. Una vez que te aceptan, felicidades... Ya tenés una alternativa tan buena como las más populares.
+* Podés tanto enviar como recibir dinero de Skrill, uno de los monederos más utilizados en el mundo (a diferencia de Wise, que lo prohíbe en sus términos y condiciones). Si todavía no tenés cuenta en Skrill, te dejo mi invitación para que te sumes: [invitación a Skrill](https://account.skrill.com/signup?rid=155018359&utm_source=RAF&utm_campaign=AND).
+
+En definitiva, eso es lo que es. No es mi pretensión mostrar que es un servicio mejor a los más conocidos, sino más bien una alternativa igual de buena y en algunos casos superior. Yo no tengo dudas de que Paysera está a la altura de N26, Revolut, Wise y Vivid Money (esta última es muy nueva y no es conocida por todos), pero le falta marketing para hacerse ampliamente conocido. Espero con este post haber cubierto un poco esa falencia, que deja injustamente relegada a la mejor fintech de los estados bálticos.
+
+Página Web: [Paysera](https://www.paysera.com/v2/es-ES/index)
+
+Aplicación Android: [Paysera Mobile Wallet (Google Play Store)](https://play.google.com/store/apps/details?id=lt.lemonlabs.android.paysera&hl=es&gl=US)
+
+Aplicación iOS: [Paysera Mobile Wallet (Apple Store)](https://apps.apple.com/us/app/paysera-mobile-wallet/id737308884)
+
+Facebook: [Paysera International](https://www.facebook.com/paysera.international/)
+
+Instagram: [We Are Paysera](https://www.instagram.com/we_are_paysera/)
+
+**Enlace de referido:** [Invitación a Paysera](https://www.paysera.com/ref/12756348).
+
+**Offtopic:** Te invito a probar el banco suizo digital furor entre los argentinos, en el cuál podés ahorrar en multiples monedas (dólares, euros, libras esterlinas, etc) sin la injerencia del BCRA. Utilizá este código de referido YXW-D5D y recibí 10 Dukascoins (el equivalente a 14.60 euros) siguiendo este enlace: [Crazy 911 - Referrals](http://crazy911.com/referrals/?ref=shareYXW-D5D&lang=en).
+
+También te invito a que veas el siguiente post: [TransferWise vs Payoneer - la guía definitiva para freelancers argentinos](https://www.reddit.com/r/merval/comments/l2kx7v/transferwise_vs_payoneer_la_gu%C3%ADa_definitiva_para/). En este thread hablo con detalle de las características de Wise (ex-TransferWise) y Payoneer, describiendo los pros y los contras de cada servicio. Dejo mi enlace de referido para Wise, Payoneer y Global66 (esta última entidad te permite verificar tu cuenta de Wise por si no tenés un banco en el exterior): [Unite a Wise y ganá una transferencia gratuita de hasta 43.000 ARS.](https://wise.com/invite/u/juane485) [Gestiona tu negocio internacional con Payoneer y ganemos 25 USD juntos.](https://share.payoneer.com/nav/DZabRf2msXdP5V4nXbBfCd3-H9DxMUiTE62iekofY8FIBHKok8exkf37opw2Z6g7Asp1Zz-bkZay87-0T15eJQ2) [Ganá un envío gratis de hasta 1000 USD con Global66 registrandote con este enlace.](https://share.global66.com/MGRMZUYX)
+
+Por último, te dejo mis enlaces de invitación de los exchanges cripto más populares (tanto nacionales como internacionales):
+
+**Buenbit:**
+
+¡Ganate 1.500 pesos en criptomonedas por usar Buenbit! 🤑
+
+&#x200B;
+
+1. Descargá la app acá [https://buenbit.onelink.me/A1PW/7653f151](https://buenbit.onelink.me/A1PW/7653f151)
+2. Ingresá el código JBB2UFM cuando crees tu cuenta.
+3. Invertí al menos 50 dólares en cripto y hacelos rendir por 30 días.
+
+&#x200B;
+
+Tenés 30 días desde que te registrás para poner a invertir tus criptos 💰
+
+&#x200B;
+
+**Belo:** Ey! Estuve usando belo para comprar y vender criptomonedas de la manera más simple y sin pagar comisiones! Deberías darle una oportunidad!
+
+[https://simple.belo.app/app/referral?referralId=LlI2cEMu&campaign=REVENUE\_SHARING](https://simple.belo.app/app/referral?referralId=LlI2cEMu&campaign=REVENUE_SHARING)
+
+&#x200B;
+
+**Let'sBit:**
+
+Envía este código a tus amigos y diles que lo utilicen al momento de crear su cuenta. Ellos participarán por un sorteo mensual de 100 USDP y vos vas a recibir el 0.1% de sus operaciones durante su primer año. Tu código es **ID35D6F3F367**.
+
+&#x200B;
+
+**Binance:**
+
+Gana hasta un 40% de comisión por cada trade en los mercados en spot, de futuros y Binance Pool.
+
+[https://accounts.binance.com/es-LA/register?ref=Q9KPTTKE](https://accounts.binance.com/es-LA/register?ref=Q9KPTTKE)
+
+&#x200B;
+
+**FTX Pro:**
+
+Disfrute de tarifas con descuento y reciba reembolsos de referidos. Mi código es [https://ftx.com/#a=42337570](https://ftx.com/#a=42337570)
+
+&#x200B;
+
+**Bybit:**
+
+¡Regístrate en Bybit y obten un bono de $20 en USDT! Además, puedes obtener hasta $600 adicionales en el Centro de Recompensas. Comienza con mi código de referido.
+
+[https://www.bybit.com/es-ES/invite?ref=](https://www.bybit.com/es-ES/invite?ref=)
+
+&#x200B;
+
+**Nexo:**
+
+Join Nexo and get $25 in BTC! With Nexo you can earn up to 20% APR on crypto and stablecoins, borrow against or exchange cryptocurrencies and much more. Sign up here: [https://nexo.io/ref/jso4zuziky?src=android-link](https://nexo.io/ref/jso4zuziky?src=android-link)
+
+&#x200B;
+
+**Celsius:**
+
+Join Celsius Network using my referral code **1839493507** when signing up and earn $50 in BTC with your first transfer of $400 or more! #UnbankYourself
+
+[https://celsiusnetwork.app.link/1839493507](https://celsiusnetwork.app.link/1839493507)",beatlemaniacoforever,merval,169,0.99,125,2021-03-12 19:56:18,https://www.reddit.com/r/merval/comments/m3ters/paysera_una_fintech_de_lituania_que_vale_la_pena/,/r/merval/comments/m3ters/paysera_una_fintech_de_lituania_que_vale_la_pena/,True,post
+m2qeit,Cómo fondear TransferWise con Global66 y cobrar del exterior,"# ESTE MÉTODO YA NO FUNCIONA
+
+Fue bueno mientras duró pero lamentablemente Wise se puso la gorra.
+
+Fuentes: [https://www.reddit.com/r/merval/comments/13enojo/fyi\_wise\_cierra\_el\_acceso\_a\_nuevas\_cuentas\_para/](https://www.reddit.com/r/merval/comments/13enojo/fyi_wise_cierra_el_acceso_a_nuevas_cuentas_para/), https://global66.my.site.com/s/article/Puedo-usar-Global66-para-enviar-dinero-a-Wise
+
+&#x200B;
+
+**====================** **IMPORTANTE ======================**
+
+== La guia quedó un poco desactualizada, es decir que algunos ==
+
+== pasos pueden variar. Para verificar que sigue funcionando ===
+
+== y ante cualquier duda o problema, leer los comentarios! =====
+
+======================================================
+
+&#x200B;
+
+Estás en Argentina y querés cobrar plata de afuera pero solo tenés cuentas en Argentina? Como sabrás, si estuviste averiguando, hay varias alternativas como cobrar por cripto, que te depositen en Paypal, abrirte una cuenta en Dukascopy, Bankera, N26, Payoneer o TransferWise. Y seguramente me esté olvidando de algún otro método.
+
+Por distintas razones y cuestiones yo opté por usar TransferWise (ahora llamada Wise) pero está el problema de meter los 20 euros iniciales (a.k.a. ""fondear"") que te piden para habilitar la cuenta. Digo ""problema"" porque lamentablemente al día de hoy no es posible hacer un pago directamente con nuestras tarjetas de débito/crédito emitidas en argentina. ""Ah, listo, le pido a un amigo/pariente que tenga cuenta en el exterior que me transfiera esa guita y chau!"", casi, pero no. La cuenta desde donde se transfieren esos 20 euros tiene que estar a nombre de la misma persona dueña de la cuenta de TransferWise, osea, tiene que ser una cuenta tuya y a tu nombre.
+
+Entonces?
+
+Por suerte los weones de [https://global66.com](https://global66.com) nos vienen a salvar las papas.
+
+&#x200B;
+
+*Aclaración: Al habilitar la cuenta transfiriendo los euros se te habilita también la cuenta en USD de TransferWise. Este tutorial es para transferir euros pero supongo que se debe poder hacer también con USD para solo habilitar una cuenta en USD.*
+
+&#x200B;
+
+Vamos entonces con el **paso a paso para transferir el equivalente en pesos de 20 euros a tu cuenta de TransferWise** para habilitar los datos bancarios y empezar a cobrar:
+
+0) Te haces un usuario en [https://transferwise.com](https://transferwise.com) / [https://wise.com](https://wise.com/)
+
+1. Entras a [https://global66.com](https://global66.com) y te haces un usuario. Para verificar la cuenta te van a pedir tus datos personales, foto de frente y dorso del dni/pasaporte y selfie; todo 'en vivo' a través de su propio sitio (osea no subiendo un archivo).
+
+2.1) Vas a TransferWise y clickeas en ""**Add**"".
+
+2.2) En ""**Amount**"" pones ""**20 euros**""
+
+2.3) Después cuando te da para elegir el método de pago elegís ""**Manually transfer the money from your bank**"".
+
+2.4) En ""How will you make your bank transfer?"" elegís ""**Online Banking**"" y le das a ""**Continue to our bank details**"" para obtener el IBAN (el equivalente a nuestro CBU) y poder transferir.
+
+2.5) En esta ultima pantalla **TransferWise nos va a dar sus datos bancarios** para luego completar en Global66 al realizar la transferencia. **Guardate esta info**, deja la pestaña abierta o sacale una captura de pantalla.
+
+2.6) Al finalizar, TransferWise te muestra dos botones que dicen 1) ""He hecho la transferencia bancaria"" y **2) ""Enviare el dinero mas tarde""**. Elegí la opcion 2 ya que la transferencia que realizaremos desde Global66 tarda unos dias en validarse y acreditarse. Luego, en mi experiencia, no es necesario subir ningun comprobante a TransferWise ya que van a procesar y asociar la transferencia automaticamente y notificarte via email.
+
+3) Vas a tu cuenta de Global66 y elegís ""**Enviar dinero**""
+
+4) Seleccionas que vas a enviar ARS y que el destinatario va a recibir **EUR - Estonia** (si en el punto 2.5 Wise te da los datos bancarios de una cuenta de otro pais que no sea Estonia, por ejemplo, de Belgica, busca EUR - Belgica) ; y pones **en la parte del destinatario los 20 euros** así te hace la cuenta solo de cuantos pesos son según el tipo de cambio.
+
+https://preview.redd.it/qqpcejo5jem61.png?width=910&format=png&auto=webp&s=19eae108790a398e86178407ed5ae4425d9e02b2
+
+5) En la parte del destinatario lo que vas a hacer es completar tus datos como si fueses vos mismo el que recibe la plata (**efectivamente vas a ser vos**). ""Y cuando me preguntan la dirección donde vive el destinatario?! No puedo cambiar el país?!"" No. Vas a dejar Estonia y en la dirección poner la dirección del banco que nos dieron en Transferwise en el punto 2.5: **Tartu Maantee 2, 10145 Tallinn, Estonia** (la ciudad es Tallinn) - si en el punto 2.5 Wise te da los datos de una cuenta de otro pais que no sea Estonia, usa esos datos en vez de los mencionados anteriormente.
+
+https://preview.redd.it/hhrlgq27jem61.png?width=888&format=png&auto=webp&s=6c585626e7534a12d7283586822aa18a65ffb80d
+
+https://preview.redd.it/ow6em618jem61.png?width=897&format=png&auto=webp&s=0c52c109fa3a7921ae1c4663799abea08ad7d1cf
+
+6) Luego de completar el destinatario, te van a preguntar el propósito de tu envío. Acá ponemos ""Propia cuenta"" y **en el comentario ponemos la referencia que nos dan en TransferWise** en el punto 2.5: algo así como P11XXXXXX
+
+https://preview.redd.it/vcefjw4ajem61.png?width=912&format=png&auto=webp&s=51d4da007a157632f1e4b5d77e29ee4e1257cf01
+
+7) **Global66** te da los datos bancarios de su cuenta en e**l Banco Provincia** (o Galicia)
+
+8) Entras a tu homebanking, le **transferís** el monto **y te guardas el comprobante en pdf.**
+
+9) **Volvés a Global66 y subís el comprobante** de transferencia para que acrediten el pago y realicen el giro hacia TransferWise.
+
+https://preview.redd.it/fdnlbjv1jem61.png?width=625&format=png&auto=webp&s=ab23a144d37691d88b9cbc8464699e481085260f
+
+10) **Listo!** En uno o dos días te va a llegar un mail de Global66 confirmando la recepción del pago y próximamente un mail de TransferWise confirmando la acreditación de la transferencia y la habilitación de tu cuenta!
+
+&#x200B;
+
+&#x200B;
+
+Fuente: Lo hice ayer y hoy ya tengo la cuenta habilitada y el IBAN para que me transfieran.
+
+&#x200B;
+
+=====================================================
+
+====== **IMPORTANTE:** **LEER TODOS LOS COMENTARIOS ======**
+
+=====================================================",tmartty,merval,152,1.0,532,2021-03-11 10:47:22,https://www.reddit.com/r/merval/comments/m2qeit/cómo_fondear_transferwise_con_global66_y_cobrar/,/r/merval/comments/m2qeit/cómo_fondear_transferwise_con_global66_y_cobrar/,True,post
+lzoxex,Balanz a Ameritrade Super facil,"Hola,
+
+Queria contarles mi experiencia luego de ya tener el dinero en Ameritrade, ya que la verdad es mucho mas facil y menos costoso de lo que parecia.
+
+1. Compre 50 cedears de MSFT y 40 de AAPL para esta prueba, en pesos fueron unos $244.000.
+
+2. Espere en total 5 dias habiles con los titulos en cartera (2 por 48hs de plazo + 3 de Parking)
+
+3. Solicite al agente de Balanz la conversion a ADR (el costo por esto fue 5 usd final por esos 90 cedears)
+
+4. Una vez que ya se veian como acciones en la web de Balanz (mismo dia) le solicite a ellos por mail la transferencia a mi cuenta de ameritrade (costo por 5 acciones de MSFT y 4 de AAPL fue de $436, si pesos!)
+
+5. A los 5 minutos que me confirmaron la transferencia ya veia los titulos en Ameritrade, en dicha cuenta llegaron valorizados a USD1.650, ya que hubo una caida grande justo esos dias de parking.
+
+Pero en lineas generales, es muy rapido la espera es solo el parking, los costos como pueden ver son super accesibles.
+
+Cualquier pregunta que tengan con gusto los ayudo.
+
+Saludos!",nonach,merval,112,0.99,89,2021-03-07 08:33:45,https://www.reddit.com/r/merval/comments/lzoxex/balanz_a_ameritrade_super_facil/,/r/merval/comments/lzoxex/balanz_a_ameritrade_super_facil/,True,post
+mdnxjx,Mejor manera legal de eludir impuestos cobrando afuera,"Hola, soy el programador del otro post. Desde ya les quiero agradecer el apoyo que me dieron y todos los mensajes de felicitaciones.
+
+Hablé con varios contadores acerca de mi situación (gano 2k dolares al mes programando) y todos me dijeron algo distinto: LLC, S CORP en Estados Unidos, cuenta afuera y listo, Sociedad en Uruguay, facturar directo, bla bla bla. 
+
+En un futuro quiero usar el dinero (Quizás comprar un auto, una casa) no necesariamente en Argentina. Si lo paso por Crypto no creo que pueda en un futuro hacer algo con ese dinero.
+
+Dejo el post por acá porque muchos están en mi situación e investigando en el sub no he encontrado una solución definitiva. Gracias!",New_Confidence3757,merval,0,0.41,33,2021-03-26 09:51:58,https://www.reddit.com/r/merval/comments/mdnxjx/mejor_manera_legal_de_eludir_impuestos_cobrando/,/r/merval/comments/mdnxjx/mejor_manera_legal_de_eludir_impuestos_cobrando/,True,post

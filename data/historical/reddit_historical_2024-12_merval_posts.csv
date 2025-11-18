@@ -1,0 +1,278 @@
+id,title,text,author,subreddit,score,upvote_ratio,num_comments,created_utc,url,permalink,is_self,type
+1hg0uae,Ponías $500.000 en opciones de Galicia el viernes y hoy tenes $200.000.000.,,Frangs1,merval,394,0.93,170,2024-12-16 23:46:51,https://i.redd.it/0lmjd0ycob7e1.png,/r/merval/comments/1hg0uae/ponías_500000_en_opciones_de_galicia_el_viernes_y/,False,post
+1hkrohk,Por aquí ya estamos listos al parecer ,,SaitamaSensei19,merval,332,0.96,39,2024-12-23 13:41:19,https://i.redd.it/jm9pni3rmm8e1.png,/r/merval/comments/1hkrohk/por_aquí_ya_estamos_listos_al_parecer/,False,post
+1hht0kv,"¿O sea que el que invirtió en Argentina en el 2018, tuvo que esperar 6 años para recuperar su capital?! ",,Pearl_Jam_,merval,240,0.94,117,2024-12-19 10:35:21,https://i.redd.it/zi6dc69p5t7e1.png,/r/merval/comments/1hht0kv/o_sea_que_el_que_invirtió_en_argentina_en_el_2018/,False,post
+1hc148c,"IPC Noviembre: 2,4% (2024)",,arithmetic_mean,merval,229,0.95,82,2024-12-11 16:02:20,https://i.redd.it/xsvz239qo96e1.jpeg,/r/merval/comments/1hc148c/ipc_noviembre_24_2024/,False,post
+1h4u874,"impuestos compras exterior: cuando se compra ""sin impuestos"" efectivamente?","Se bien que nada tiene que ver las medidas del gobierno presente con plataformas de compra como Amazon. Pero, me deja intranquilo esto; Cuando se supone que deberia aparecer 0,00 en el fees deposit?
+Esto va a suceder?
+O compras y te reintegran? 
+Hoy es el GRAN dia..., no?",pepegomez6969,merval,175,0.89,302,2024-12-02 09:50:08,https://i.redd.it/s8ux9w6dmf4e1.png,/r/merval/comments/1h4u874/impuestos_compras_exterior_cuando_se_compra_sin/,False,post
+1hb3row,Qué opinan de mi cartera de acciones ? Cuál creen que falta ?,"Cómo andan lobos del merval ? Cómo están esos gauchos inversores ? 
+
+Este es mi portfolio. Cuál juguetona variable creen que falta ?
+
+",Argentinotriste,merval,147,0.94,165,2024-12-10 12:04:59,https://www.reddit.com/gallery/1hb3row,/r/merval/comments/1hb3row/qué_opinan_de_mi_cartera_de_acciones_cuál_creen/,False,post
+1hhjrop,"la pregunta de siempre termina siendo, es buen momento para comprar o para vender ?",,Formus,merval,118,0.89,135,2024-12-19 00:30:41,https://i.redd.it/45acol4q5q7e1.png,/r/merval/comments/1hhjrop/la_pregunta_de_siempre_termina_siendo_es_buen/,False,post
+1haccbk,Compre este CEDEAR y está volando,No le tenía fe y miren.,Argentinotriste,merval,110,0.9,136,2024-12-09 12:32:48,https://i.redd.it/pbkgu4grdu5e1.jpeg,/r/merval/comments/1haccbk/compre_este_cedear_y_está_volando/,False,post
+1hgl8bm,Vale la pena el préstamo de galicia al 0%? Hay truco o es todo 100% sin interés? ,,NxcxRxmz,merval,85,0.95,83,2024-12-17 18:24:43,https://i.redd.it/qus19l5u7h7e1.jpeg,/r/merval/comments/1hgl8bm/vale_la_pena_el_préstamo_de_galicia_al_0_hay/,False,post
+1hh8bco,(Ejemplo de) Planilla para trackear CEDEARs,"Buenas! Les comparto una planilla que hice para trackear mis CEDEARs. Dista mucho de ser perfecta, y no intenta ser un one-size-fits-all. La hice pensando en mis necesidades, y con poco o nada de conocimiento técnico. Lo mismo aplica para Google Sheets: no es mi área de expertise. 
+
+---
+
+**Consideraciones no menores**
+
+- **La planilla la hice para mi**: El objetivo de esta planilla era tener un lugar donde registre toda compra de CEDEARs que fui haciendo y poder ver un rendimiento _general_ de los mismos en USD. Mi perfil es buy-and-hold, así que no me interesa el rendimiento particular de una transacción determinada (aunque está superfluamente contemplado).
+- **_Tal o cual_ fórmula está mal**: Muy posiblemente. Finanzas no es mi área de conocimiento, e hice esto en mi tiempo libre sin conocer mucho de Google Sheets/Excel tampoco. Recomendaciones y correcciones son bienvenidas. Con total seguridad, lo que **si está mal** es la fórmula que calcula el profit/loss no está contemplando las posiciones vendidas, y no la pude acomodar (columna C  de `CEDEARs`).
+- **¿Por qué está en inglés?**: Porque soy un cipayo vendepatria. También es porque la hice para mi, y uso el software 100% en inglés.
+- **Es muy lenta/ineficiente**: Lamentablemente mis conocimientos de hojas de cálculo son muy limitados, las optimizaciones vendrán después.
+- **¿Debería usar esta planilla?**: Probablemente no, al menos no sin antes doble-checkear las fórmulas. Muy posiblemente no cubra los casos de uso o intereses del resto.
+
+---
+
+**¿Cómo** (creo que) **funciona?**
+
+La idea es que cada vez que opero un CEDEAR, registro el tipo de transacción (compra o venta), las comisiones e impuestos que pagué, y el resto completa solo.
+
+Hay un set-up previo que requiere incorporar los tickers que a uno le interesan, y ajustar los porcentajes deseados de cada uno.
+
+Como regla general, las celdas que se deberían modificar están en color amarillo.
+
+Hay tres hojas de cálculo:
+
+**CEDEARs**
+
+Esta planilla está completamente automatizada, exceptuando la columna `Target`. 
+
+Explicación breve de cada columna:
+
+- **Ticker**: El ticker de cada CEDEAR. Se auto-popula en función de las operaciones realizadas (si la cantidad en el portfolio es mayor a 0, se agrega una línea para ese ticker)
+- **Amount**: La cantidad de papeles para cada ticker. Esto debería contemplar las operaciones de `Buy` y `Sell` en la planilla de `Trade log`
+- **Performance**: El rendimiento porcentual de cada CEDEAR en dólares. Esto es lo que mencionaba que no contempla las posiciones vendidas de forma correcta (entiendo que funciona bien siempre que uno «compre»)
+- **ETF?**: Checkbox para diferenciar los ETFs de las acciones individuales (necesario para cálculos varios de poco o nul interés)
+- **Target**: El porcentaje que cada ticker debería representar del total del portfolio. Por ejemplo, si quisiera que `APPL` sea el 12% del total de mis CEDEARs, pongo 12%. Este campo se puede dejar en blanco también, lo que va a ajustar de forma dinámica los valores de la columna `Allocation`. Por ejemplo, si tengo 4 tickers en mi portfolio, y quiero que 1 tenga un 30% del mismo, pero el resto libre, pongo 30% en `Target` y el resto automáticamente se va a completar en 23.33%. Si agrego un 5 ticker a mis posiciones con porcentaje flotante, va a quedar uno con 30% y el resto ajusta a 17.50%.
+- **Allocation**: Esta columna muestra el resultado de calcular los porcentaje individuales definidos en `Target` y el restante calculado de forma dinámica en partes iguales.
+- **Price**: El valor actual del CEDEAR sacado de Google Finance 
+- **CCL**: El CCL para ese ticker en particular (calculado en función del valor del CEDEAR y el underlying stock, en base a los valores reportados por Google Finance) 
+- **Average weighted price**: El valor del CEDEAR calculado en función del CCL promedio y la diferencia porcentual respecto al CCL individual.
+- **Columnas L a O**: Muy por arriba, calculo el porcentage que representa cada ticker en el total del portfolio (L), el porcentaje que cada ticker representa en los ETF y acciones (M, esto no es claro, pero lo hice para mi), los pesos invertidos en cada ticker (N), y el porcentaje de plata en acciones y ETF (nuevamente, no es claro pero lo hice para mi)
+- **Buy**: La cantidad a comprar basado en los porcentajes definidos en `Target` (E) y las tenencias (B). Esto ajusta automáticamente.
+- **Target amount**: La cantidad total de cada CEDEAR al finalizar las hipotéticas compras 
+- **Columnas R a U**: Representan lo mismo que L a O, pero contemplando los valores de `Target amount`. Una vez más, es para mi y no espero que resulte útil o claro al resto.
+- **Required**: La papota que hay que poner para completar el objetivo
+- **W a AB**: Lo mismo que de L a O y R a U, pero para los underlying stocks. De nuevo, no creo que le sea útil a nadie.
+
+**Trade log**
+
+En esta planilla es donde se registrarían las operaciones de compra y venta de cada papel.
+
+Explicación breve de cada columna:
+
+- **Ticker**: El ticker de cada CEDEAR. Podemos elegir del drop-down a mano, y se auto-popula en función de los valores ingresados en `Helpers`
+- **Operation**: Si es una compra o venta. Podemos elegir del drop-down a mano. 
+- **Date**: La fecha de la operación. Se puede elegir haciendo doble-click en la celda. 
+- **Amount**: La cantidad de papeles que operamos.
+- **Adjusted**: A veces los ratios cambian. Esto muestra la cantidad de CEDEARs operada, ajustada en base del ratio _actual_
+- **Price**: Lo que pagamos por el papel **sin impuestos ni comisiones**
+- **Fees**: Las comisiones del broker (PPI me las muestra, no sé el resto)
+- **Taxes**: Los impuestos (PPI me los muestra, no sé el resto)
+- **Total**: El valor total de la operación
+- **CCL**: El CCL para ese ticker al momento de la operación (calculado en función de los valores de Google Finance)
+- **Price USD**: El valor del underlying stock al momento de la compra
+- **Fees USD**: Las comisiones del broker en dólares
+- **Taxes USD**: Los impuestos en dólares
+- **USD Current price**: El valor actual del underlying stock
+- **Performance**: El rendimiento de cada operación individual
+- **P a R**: El ratio actual, el ratio al momento de operar, y el factor entre ambos (usado para cálculos varios)
+
+**Helpers**
+
+- **Operation**: Los valores posibles de operaciones para mostrar en `Trade log`
+- **Ticker CEDEAR**: El ticker para cada CEDEAR. De acá salen los posibles valores que se populan en `Trade log`, hay que agregar los de interés manualmente.
+- **Ticker stock**: El ticker del underlying stock. A veces no son iguales, y son necesarios para fetchear de Google Finance
+- **Ratio**: El ratio _actual_
+- **CEDEAR price**: El valor del CEDEAR (Google Finance)
+- **Stock price**: El valor del underlying stock (Google Finance)
+- **CCL**: El CCL para ese ticker en particular (calculado en función del valor del CEDEAR y el underlying stock, en base a los valores reportados por Google Finance) 
+- **CCL Average**: promedio de los valores CCL seleccionados en esta columna. Como no existe un CCL único, es la forma más práctica que se me ocurrió para encontrar un punto medio
+ 
+---
+
+No hace falta aclarar que **no me hago cargo de los errores que pueda contener la misma**. Es algo que hice para mi, en mi tiempo libre, y que comparto solo con la intención de motivar al resto a realizar las propias.
+
+Comentarios, sugerencias, y correcciones son por más bienvenidas.
+
+---
+
+Sin más, la planilla la pueden encontrar [acá](https://docs.google.com/spreadsheets/d/19iN9xs8w60XOHkyF-pf9eCrH6dmFpWtY86klLH-BWH8/edit?gid=85607714#gid=85607714). Dejé unos datos dummy para que vean cómo sería la cosa.",xour,merval,82,0.97,8,2024-12-18 15:37:02,https://www.reddit.com/r/merval/comments/1hh8bco/ejemplo_de_planilla_para_trackear_cedears/,/r/merval/comments/1hh8bco/ejemplo_de_planilla_para_trackear_cedears/,True,post
+1hcwzap,El BCRA vuelve a aumentar el límite para cobrar en dólares por exportación de servicios. Vale la pena?,"Buenas! Hoy el BCRA anuncio que a partir del 1ro de enero de 2025 van a aumentar el cupo de dólares que uno puede ingresar por exportación de servicios a U$S 36.000.
+
+Mi pregunta (que probablemente sea más para un contador, pero quiero ver si no estoy pifiando) es si tiene sentido o no aprovechar esto?
+
+Suponiendo que tomamos el dólar oficial a 1040, serían $37.440.000 pesos. Esto nos dejaría en la categoría H del monotributo y tendría que pagar $280.734,68 de impuestos. Estoy en lo correcto?
+
+Si superamos el monto, e ingresamos por ejemplo 37.000, los 1000 restantes serían convertidos a pesos al valor oficial?",TheArgentineDude,merval,79,0.95,166,2024-12-12 19:15:25,https://www.reddit.com/r/merval/comments/1hcwzap/el_bcra_vuelve_a_aumentar_el_límite_para_cobrar/,/r/merval/comments/1hcwzap/el_bcra_vuelve_a_aumentar_el_límite_para_cobrar/,True,post
+1hpmos2,En que invertirían 300k ARS Mensuales?,"Buenas gente, estuve metiéndome un poco en este mundo las ultimas semanas. Hice mi primera inversión que espero ver como sale de aca a junio julio.   
+  
+Diversifique en distintos instrumentos para probar un poco todo, sin miedo al éxito (? .
+
+A decir verdad, soy muy nuevo en esto pero si pude detectar que mi capacidad de ahorro es de 300k al mes y me gustaría invertirlo. El plazo seria mediano/largo. 
+
+No tengo intenciones de ver esa guita de acá a un año mínimo. Al menos que lo llegue a necesitar por urgencia, en parte, también es mi ahorro.
+
+Quisiera escuchar cuales son sus recomendaciones en estos casos, yo estuve experimentando con distintas inversiones para ver como sale, pero en resumen tengo masomenos un portafolio que se divide en:  
+30% Cripto (BTC, ETH)  
+30% FCI  
+15% CEDEARS  
+10% Letras  
+10% Bonos CER  
+5% Acciones (Argentinas)
+
+",Urbani404,merval,77,0.98,83,2024-12-30 09:58:22,https://www.reddit.com/r/merval/comments/1hpmos2/en_que_invertirían_300k_ars_mensuales/,/r/merval/comments/1hpmos2/en_que_invertirían_300k_ars_mensuales/,True,post
+1h7z3f5,BCRA bajó la tasa de política monetaria al 32%,"Para Boquita: Van a bajar un poco de vuelta sus intereses de Uala, frascos de Naranja y plazos fijos. Quizás le mete un poco de presión al dolar también.
+
+
+https://www.ambito.com/economia/clave-el-plazo-fijo-bcra-la-tasa-politica-monetaria-al-32-n6090034
+",Morlaak,merval,76,0.95,37,2024-12-06 08:14:40,https://www.reddit.com/r/merval/comments/1h7z3f5/bcra_bajó_la_tasa_de_política_monetaria_al_32/,/r/merval/comments/1h7z3f5/bcra_bajó_la_tasa_de_política_monetaria_al_32/,True,post
+1h65imj,Planilla de Sheets para gastos personales + seguimiento de inversiones,"Buenas panas, estuve no se cuantas horas armando un sheets para hacer la estadistica y seguimiento de mis fiananzas personales, lo tengo haciendo hace varios meses pero ahora estoy contento como quedo. les dejo el [link](https://docs.google.com/spreadsheets/d/1Q4Yl73M-zxc5oE5zDUSuz_d7oavwR6a5Kh1EAGN1Kgs/edit?usp=sharing). Deje un par de inputs, igual cambie todo q sino tba regalado, deje una pagina de tutorial con tips y cosas generales.
+
+  
+Tiene para:
+
+* Seguimiento de activos automatoico (bonos, letras, acciones, etc) 
+* Evolucion de activos comparando con neto, inflacion, comparacion con TNA del BCRA y evolucion en dolar blue
+* Seguimiento de costos por categoria
+* Seguimiento de deudas (si prestas plata o te deben)
+* Estaisticas de inversion/gastos
+* esta listo para 2025 tmb
+
+Ya lo ire mejorando. Igual se acepta critica constructiva, vengo mas q todo por eso
+
+  
+Saludos",Manu-R,merval,75,0.99,17,2024-12-03 23:33:47,https://www.reddit.com/r/merval/comments/1h65imj/planilla_de_sheets_para_gastos_personales/,/r/merval/comments/1h65imj/planilla_de_sheets_para_gastos_personales/,True,post
+1h5sdwx,En que invertir cuando todo esta en maximos?,"Bonos ARG en maximos historicos, Merval en maximos, SPY en maximos, las empresas top (MS, NVDIA, etc.) en maximos, crypto en maximos...
+
+siento que ""llegue tarde"" a todo y estoy a punto de comprar antes de la correccion. Alguien mas se siente asi?
+
+Que hago en estos casos? Busco ON u otros instrumentos de renta fija para dormir mas tranquilo, o me la juego de que esto sigue hasta la luna? 🚀
+
+Ustedes que piensan hacer con sus inversiones en Diciembre?
+
+",PopularPianistPaul,merval,73,0.96,101,2024-12-03 14:09:55,https://www.reddit.com/r/merval/comments/1h5sdwx/en_que_invertir_cuando_todo_esta_en_maximos/,/r/merval/comments/1h5sdwx/en_que_invertir_cuando_todo_esta_en_maximos/,True,post
+1hfqi6t,Quiero arrancar un emprendimiento con 10k,"Hola gente, cómo va? Paso por acá a ver si me pueden dar una mano. Tengo 23 años, 10k verdes y me gustaría empezar un emprendimiento. Tenía pensado vender zapatillas por instagram, stockearme bien, armarme una buena página de redes sociales, una tienda nube, etc. Pero la verdad es que estoy muuuy verde en todo esto, y tengo un montón de dudas. Me conviene empezar con una página de instagram con 0 seguidores? Comprar una con cierta cantidad de seguidores? Pagar verificado de instagram? Etc etc etc. Si alguien me puede dar una mano o ayudarme para atajarme con ciertas cosas estaría re contra re agradecido.",FranBachiller,merval,61,0.91,48,2024-12-16 15:57:49,https://www.reddit.com/r/merval/comments/1hfqi6t/quiero_arrancar_un_emprendimiento_con_10k/,/r/merval/comments/1hfqi6t/quiero_arrancar_un_emprendimiento_con_10k/,True,post
+1h7bg1g,"Nuevos cedears: Ethereum (ETHA), bitcoin (IBIT), Short S&P 500 (SH) y oro físico (GLD)","  
+**Buenos Aires, diciembre de 2024.** BYMA, Bolsas y Mercados Argentinos, y Banco Comafi incorporan al Mercado de Capitales argentino nuevos CEDEARs de ETF, brindando a los inversores más alternativas para transformar sus ahorros en inversiones.
+
+Próximamente se podrá negociar en BYMA el primer ETF disponible en el mercado argentino de:  Ethereum (ETHA); bitcoin (IBIT); inverso del índice Short S&P 500 (SH) y oro físico (GLD). Junto con el CEDEAR de ETF FXI, que busca replicar un índice compuesto por las 50 empresas más grandes de China. La emisora de ETHA, GLD y SH es Caja de Valores, depositaria de Grupo BYMA, mientras que Banco Comafi será emisora de IBIT y de FXI.
+
+Los CEDEARs de ETF permiten a los inversores obtener una gran diversificación comprando un sólo instrumento y accediendo a los múltiples activos que lo componen, lo que favorece la reducción del riesgo. En este sentido, algunos ETF invierten metodológicamente en una cartera amplia de instrumentos, otorgando amplia exposición a diferentes regiones, sectores y segmentos.
+
+Asimismo, estos instrumentos poseen una gran liquidez en sus mercados de origen, lo que hace posible que los inversores puedan comprar o vender con facilidad los CEDEARs en cualquier momento de la sesión de negociación.
+
+Con estas incorporaciones, alcanza 14 el total de CEDEARs de ETF disponibles para negociar en BYMA. 
+
+**¿Cuáles son los nuevos CEDEARs de ETF?**
+
+**#1 ETHA** es un fondo de inversión que busca replicar el valor de Ethereum, permite obtener exposición a esta criptomoneda sin la necesidad de adquirirla directamente. Las ventajas de los ETF es que se adquieren y almacenan igual que el resto de activos tradicionales, por lo que no es necesario utilizar billeteras y claves privadas para resguardar estos instrumentos. Ratio 5:1
+
+**#2 IBIT** es un fondo de inversión que busca replicar el valor del bitcoin, sin necesidad de adquirir la criptomoneda. Ratio 10:1
+
+ETHA e IBIT son la primera interacción entre el mundo bursátil argentino y el de las criptomonedas. Además, invertir en el ETF implica operar bajo un mercado regulado, lo cual los vuelve más atractivos frente a la inversión en la criptomoneda.
+
+**#3 GLD** es un fondo de inversión diseñado para seguir de cerca el precio del oro físico. Es el primer CEDEAR de ETF de metales, permitiendo invertir en uno de los activos más tradicionales del mundo y beneficiarse de las potenciales apreciaciones de este metal. Ratio 50:1
+
+**#4 SH** es el primer CEDEAR de un ETF inverso. Es un fondo diseñado para proteger las carteras en tiempos de baja de mercado. Busca replicar a la inversa el rendimiento diario del Índice Short S&P 500, lo que significa que cuando el precio del ETF sube, la tendencia del índice es la baja. Es un instrumento para quienes buscan cubrirse contra posibles pérdidas en el mercado. Ratio 8:1
+
+**#5 FXI** permite a los inversores obtener exposición al mercado chino. Busca replicar un índice compuesto por las 50 empresas más grandes de China. Ratio 5:1
+
+**SOBRE LOS CEDEARS DE ETF**
+
+* En inglés: Exchange Traded Fund, son fondos de inversión que cotizan en los mercados. Se componen de una canasta de instrumentos y generalmente replican índices u otros activos (sectores, regiones, monedas, commodities, etc.).
+* Conocé todos los CEDEARs de ETF disponibles en:
+
+Comafi: [https://www.comafi.com.ar/custodiaglobal/Programas-CEDEARs-2483.note.aspx](https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.comafi.com.ar%2Fcustodiaglobal%2FProgramas-CEDEARs-2483.note.aspx&data=05%7C02%7CEstefania.Sencio%40byma.com.ar%7C3a03b0d1224c4051cd5708dce2198d01%7C9c9ded1122614d70ab3227bd0adaae0d%7C0%7C0%7C638633846629911502%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=bW4%2B8Rld61nvIrQoBMaEJnAhh%2F6I3ohS9ovwVs0myCw%3D&reserved=0)
+
+Caja de Valores: [https://cajadevalores.com.ar/Servicios/Cedears](https://cajadevalores.com.ar/Servicios/Cedears)
+
+* Para aprender sobre estos instrumentos, están disponibles capacitaciones online y gratuitas de BYMAEDUCA: [https://www.byma.com.ar/productos/bymaeduca/](https://www.byma.com.ar/productos/bymaeduca/)
+
+Esta iniciativa tiene por objetivo brindarle más alternativas de inversión al público local, acompañando el crecimiento registrado en el volumen de los CEDEARs durante los últimos años. Actualmente, los CEDEARs de ETF representan un 20% de la negociación de CEDEARs.",armonicoenfuga,merval,56,0.96,60,2024-12-05 12:16:16,https://www.reddit.com/r/merval/comments/1h7bg1g/nuevos_cedears_ethereum_etha_bitcoin_ibit_short/,/r/merval/comments/1h7bg1g/nuevos_cedears_ethereum_etha_bitcoin_ibit_short/,True,post
+1him6q7,Recategorizaciones Monotributo 2025,"
+
+ 
+
+Estimados, se acerca un nuevo año y muchos de los que están inscriptos bajo el régimen simplificado – monotributo, seguro se preguntarán como es el tema de las nuevas escalas y como se aplican. Les paso un punteo (incluso con cuestiones en el cual existen varias confusiones).
+
+ 
+
+(a)   Recategorización: se efectúa semestralmente hasta el día 5 de meses de agosto y febrero. Se consideran los últimos 12 meses. La obligación de pago derivada de la nueva categoría tendrá efecto a partir del devengado agosto y febrero (Art. 20 RG 5546 AFIP);
+
+(b)   Actualización de la tabla: se actualizará para 2025 a efectos de considerar la situación fiscal del contribuyente por ingresos (y otros parámetros) devengados durante 2025;
+
+(c)    Recategorización febrero 2025: se tienen en cuenta los ingresos del 2024 y se consideran las tablas del 2025. Ahora bien, si conforme los ingresos del 2024 el contribuyente quedó excluido durante ese período no se usa la tabla del 2025. Ejemplo: si un contribuyente emite una factura en diciembre 2024 que lleva su ingreso anual a $ 70.000.000,00 estará excluido del monotributo y ello será independiente de que la tabla del 2025 permita un importe mayor;
+
+(d)   El pago de Enero se realiza conforme la categoría que revestía al 12-2024 pero con los importes según tablas del 2025;
+
+(e)   El pago de febrero ya es con la nueva categoría y con la nueva tabla (lógicamente)
+
+ 
+
+Espero haberlos ayudado. Ojo con los que están cerca del límite y especial atención a lo señalado en el punto (c) supra.
+
+ 
+
+Espero haberlos ayudado",ContadorCarbone,merval,53,0.94,46,2024-12-20 12:27:23,https://www.reddit.com/r/merval/comments/1him6q7/recategorizaciones_monotributo_2025/,/r/merval/comments/1him6q7/recategorizaciones_monotributo_2025/,True,post
+1h7ajit,SATL (sattellogic) que sucedió? ,"Buenas gente.. En enero de este año compre cedears x 1700 pesos arg.. Fue una acción q siempre estuvo a perdida (para el valor q la habían pagado) y la deje esperando q al menos tome el valor pagado y venderla (como algún otra q me sucedió lo mismo).. Entre alertas q me llegaban al mail (q siempre era malas) hoy vuelvo a ver la acción y veo q pego un pico abismal.. Q fue lo q sucedió? Ya esta en picos máximos? Tomo ""ganancia"" y a otra cosa? 
+
+Gracias ",Lefthanded-f477,merval,53,0.97,72,2024-12-05 11:35:13,https://i.redd.it/zcefjycuj15e1.jpeg,/r/merval/comments/1h7ajit/satl_sattellogic_que_sucedió/,False,post
+1h5a9t5,Tengo 15 millones de pesos ahorrados y no sé en qué invertirlos.,"Pensaba en AL30, que lo puedo convertir en dólares si quiero. Tengo un perfil moderado/agresivo. Quiero algún bono argentino, o alguna ON. Algo que de buena amortización.
+Sugerencias? ",Ounoounoounonono,merval,52,0.85,104,2024-12-02 21:18:28,https://www.reddit.com/r/merval/comments/1h5a9t5/tengo_15_millones_de_pesos_ahorrados_y_no_sé_en/,/r/merval/comments/1h5a9t5/tengo_15_millones_de_pesos_ahorrados_y_no_sé_en/,True,post
+1h9upxc,Buen bit es una miseria,"Andaba viendo donde colocar por un tiempo unos 2000 USD que tengo parados y que probablemente los necesite en dos meses. Busque algo de stacking y encontré esta plataforma. Me registre todo bien, la tasa que ofrecen es de 5.5% anual, pero cuando fui a comprar DAI (que tiene una paridad de 1 a 1 con el dólar y es lo que te piden para invertir), me encontre con un fee del 2.43%!!!! una locura, si consideras que el mismo fee para salir de DAI a USD en total es un 4.86%, o sea que la TNA menos el fee que te ofrecen es del 0.64 %,
+
+https://preview.redd.it/w5aofgcxap5e1.png?width=1351&format=png&auto=webp&s=133fd3f38c6648eade6b241996542a944c359fce
+
+",possiblecefonicid,merval,51,0.96,73,2024-12-08 19:31:12,https://www.reddit.com/r/merval/comments/1h9upxc/buen_bit_es_una_miseria/,/r/merval/comments/1h9upxc/buen_bit_es_una_miseria/,True,post
+1h6dw5h,el usd está pisado/atrasado o este es su valor de equilibrio?,"eso, seguramente ya lo han preguntado así que les pido disculpas, pero estoy cobrando en dólares y desde hace unos meses me estoy comiendo el pijazo de baja de TC + infla, y estoy evaluando empezar a buscar laburo en pesos. El tema es que si el usd está atrasado y una corrección es inminente tal vez lo piense, pero si este es su valor de equilibrio me tiro de cabeza. Gracias muchachos",anaraparana,merval,53,0.76,245,2024-12-04 08:30:22,https://www.reddit.com/r/merval/comments/1h6dw5h/el_usd_está_pisadoatrasado_o_este_es_su_valor_de/,/r/merval/comments/1h6dw5h/el_usd_está_pisadoatrasado_o_este_es_su_valor_de/,True,post
+1h8urb6,Reducir límite tarjeta de crédito,"Mi consumo normal es comprar café instantáneo, yerba, fideos y arroz en COTO. Hice un upgrade de mi plan en Galicia, bonificado por algunas inversiones, y me pusieron un límite de crédito como para comprar un helicóptero. En atención al cliente me dicen que no se puede reducir. Uno sugirió dar de baja las tarjetas y pedir una nueva con un límite menor. Pero al hacer el upgrade el ejecutivo me había dicho que es un límite predefinido. Así que resulta bastante contradictoria la información que me dieron hasta ahora. Agradezco que el banco me tenga tanta confianza (irónicamente, será por no querer esa suba que me suben el crédito), **pero yo no le tengo tanta confianza a potenciales atacantes, quiero tener control sobre mis límites**. Googleando veo que casi todas las consultas son para subir límites, pero alguno tuvo experiencia en Galicia bajándolos? Una alternativa es andar pausando/reanudando las tarjetas, pero es un engorro. Gracias.
+
+EDIT: resalté para que no me respondan ""y cuál es el problema, no compres el helicóptero y listo"". Cada uno hace su evaluación de riesgos, si tienen una respuesta útil en línea con mi inquietud, les agradezco.",nnenneplex,merval,8,0.56,134,2024-12-07 12:25:23,https://www.reddit.com/r/merval/comments/1h8urb6/reducir_límite_tarjeta_de_crédito/,/r/merval/comments/1h8urb6/reducir_límite_tarjeta_de_crédito/,True,post
+1h9tlkh,Mandar plata a Venezuela,"Buenas, como puedo hacer, estando en Argentina, para mandarle plata a un venezolano? Se que la situacion entre paises es tensa y creo que ni vuelos directos hay ya, pero necesito pasarle plata a una persona ",VonPhoronngo,merval,0,0.46,50,2024-12-08 18:40:29,https://www.reddit.com/r/merval/comments/1h9tlkh/mandar_plata_a_venezuela/,/r/merval/comments/1h9tlkh/mandar_plata_a_venezuela/,True,post
+1hg3fgz,"""Poner"" una financiera, alguno tiene experiencia?","Bueno, básicamente eso, tengo a mi mejor amigo que un pariente de él le ofreció abrirle una financiera legal y todo derecho, pero no sabemos muy bien que podemos hacer con la financiera para ganar plata, tengo entendido que sirve para por ejemplo dar prestamos pero no se para que más o cuál sería el mejor negocio que se puede hacer con la misma. SI alguien tiene experiencia en esto por favor se agradecería su comentario. :)",StreetDogArg,merval,2,0.55,37,2024-12-17 02:11:46,https://www.reddit.com/r/merval/comments/1hg3fgz/poner_una_financiera_alguno_tiene_experiencia/,/r/merval/comments/1hg3fgz/poner_una_financiera_alguno_tiene_experiencia/,True,post
+1hh8j9b,sube el dolar? casi vendo en 900 :P ,"eso hace unos dias casi vendo a 900 k los verdes que tenia en mi colchon pero hoy a mi sorpresa veo que aumento al valor de hace meses como figura en la imagen que onda?? supuestamente no estaba estable? ahora me da miedo de vender  consejos de los que estan en el tema economia? 
+
+https://preview.redd.it/hpbb5gwgkn7e1.png?width=1347&format=png&auto=webp&s=c22eee93f39185759b941ebf0ee49a28b40b47e8
+
+",maxibarto,merval,0,0.43,26,2024-12-18 15:46:27,https://www.reddit.com/r/merval/comments/1hh8j9b/sube_el_dolar_casi_vendo_en_900_p/,/r/merval/comments/1hh8j9b/sube_el_dolar_casi_vendo_en_900_p/,True,post
+1hpp115,Tengo que pagar lo que esta en pesos?,,Fox_H_Reloaded,merval,2,0.54,28,2024-12-30 12:01:02,https://i.redd.it/dbk7kns630ae1.jpeg,/r/merval/comments/1hpp115/tengo_que_pagar_lo_que_esta_en_pesos/,False,post
+1h98h48,Qué efectos podría traer que quiten el cepo?,Lo del título! Subiría el dólar? Por que? Que implicaría? ,ski_slalom,merval,0,0.41,50,2024-12-07 23:14:34,https://www.reddit.com/r/merval/comments/1h98h48/qué_efectos_podría_traer_que_quiten_el_cepo/,/r/merval/comments/1h98h48/qué_efectos_podría_traer_que_quiten_el_cepo/,True,post
+1hb7yl3,Me empomé solito con CCL,"Long story short, convertí en PPI de MEP a CCL y ahora estoy stuckeado acá porque la única forma de moverlos es retirarlos a un banco del exterior, el cual tengo, pero me cobran $35 por la movida y la verdad es bastante.
+
+Hay alguna forma de moverlos de ahí sin pagar esa comisión? No puede ser que por haberlos convertido en dos clicks se queden trabados en el broker y la unica forma sea retirarlos pagando la comi, ya se lo denuncié a Sturzenegger",Jaded-Hovercraft9408,merval,0,0.5,53,2024-12-10 15:04:24,https://www.reddit.com/r/merval/comments/1hb7yl3/me_empomé_solito_con_ccl/,/r/merval/comments/1hb7yl3/me_empomé_solito_con_ccl/,True,post
+1hlbku8,"despegar, hay q venderlas","Hola gente en agosto cuando comencé en este mundo, compré acciones de DESP,  en buen bit a 12 2 dólares la compré 10 probando si podía pagar con usdt, al margen ahora qDESP se vendió, escuchaba q ya no cotizara en bolsa tengo q vender esas 10 acciones, estaba a 19 ahora, gracias",Ok-Acante4524,merval,0,0.46,9,2024-12-24 08:19:03,https://www.reddit.com/r/merval/comments/1hlbku8/despegar_hay_q_venderlas/,/r/merval/comments/1hlbku8/despegar_hay_q_venderlas/,True,post
+1hh8iu9,Comprar ahora MEP o esperar mediados de enero?,"Buenas, como dice el titulo estoy queriendo comprar dolar para ahorro.
+
+  
+No es una gran cantidad, me pagaron el aguinaldo que son casi 500 mil y tengo un ahorrito de 250 lucas, redondeamos en 750 mil... El tema es que los 100 pesos pedorros que subio el MEP ahora me sacan 60-70 dolares o más... 
+
+Yo creo que esta subiendo por que todos estan comprando dolar mep por sus aguinaldos, pero cuando pasemos al 7-12 de enero la cosa ya debería estabilizarse de nuevo y ahi usaria los pesos, hasta entonces plazo fijo o algo parecido.
+
+  
+Que opinan? Me conviene comprar ahora y dejar de llorar unos 70usd que la verdad me gustaría poder tener o conviene más esperar a que vuelva la rueda de baja en el dolar como venia pasando? 
+
+Saludos",0YumeSan,merval,0,0.5,65,2024-12-18 15:45:56,https://www.reddit.com/r/merval/comments/1hh8iu9/comprar_ahora_mep_o_esperar_mediados_de_enero/,/r/merval/comments/1hh8iu9/comprar_ahora_mep_o_esperar_mediados_de_enero/,True,post
+1hgp308,Se puede sacar un préstamo Hipotecario UVA que me cubra el 75% y otro para el 25% restante?,"Eso, capaz no se puede afectar la misma propiedad con dos créditos de la misma naturaleza, pero no se podrá hacer un UVA y después algún otro tipo de prestamo en otro banco?
+
+En mi caso cobro por Banco Nacion, préstamo 75% del valor y después busco en el santander que me de otro por el monto restante. ",ProudPlatinean,merval,0,0.5,24,2024-12-17 21:21:01,https://www.reddit.com/r/merval/comments/1hgp308/se_puede_sacar_un_préstamo_hipotecario_uva_que_me/,/r/merval/comments/1hgp308/se_puede_sacar_un_préstamo_hipotecario_uva_que_me/,True,post
+1h70m0x,Bitcoin 100k - Pierder los conservadores ganan los alto riesgo,"Nada Bitcoin ya alcanzo uno de los hitos del año. Se celebra a tope.
+
+",ranp34,merval,0,0.39,11,2024-12-05 01:16:29,https://www.reddit.com/r/merval/comments/1h70m0x/bitcoin_100k_pierder_los_conservadores_ganan_los/,/r/merval/comments/1h70m0x/bitcoin_100k_pierder_los_conservadores_ganan_los/,True,post
+1h95vdk,Me excedi de los 3 productos de la misma especie para importar?,"Buenas!
+
+Hoy acabo de realizar una compra y me percate que compre 5 suplementos alimenticios y me entro la duda si entran en productos de la misma especie? 
+
+Dado el caso que me hagan quilombo en aduana por esto, que problema habria?
+
+https://preview.redd.it/bqw0kt1dmi5e1.png?width=832&format=png&auto=webp&s=e475d5bcccb58c24660f0a4a5c8c227cfd50e524
+
+",ZShadow124,merval,0,0.41,38,2024-12-07 21:00:12,https://www.reddit.com/r/merval/comments/1h95vdk/me_excedi_de_los_3_productos_de_la_misma_especie/,/r/merval/comments/1h95vdk/me_excedi_de_los_3_productos_de_la_misma_especie/,True,post
+1hal29m,Conviene comprar crypto cuando pasa esto?,Soy nuevo en el mundo de las crypto. Conviene comprar en una moneda como BNB cuando el precio hace una bajada abrupta como hizo recién y esperar que suba y se estabiliza de nuevo?,Slippers69,merval,0,0.4,34,2024-12-09 18:33:41,https://i.redd.it/gkyiqej56w5e1.png,/r/merval/comments/1hal29m/conviene_comprar_crypto_cuando_pasa_esto/,False,post
+1hi7uxq,Quita impuestos pais /Airbnb,"Hola comunidad.  Consulta , leí que van a quitar los impuestos pais desde el 25 de diciembre.  Eso reduce el precio de airbnb? Gracias ",AssociateNo4650,merval,0,0.5,9,2024-12-19 21:49:14,https://www.reddit.com/r/merval/comments/1hi7uxq/quita_impuestos_pais_airbnb/,/r/merval/comments/1hi7uxq/quita_impuestos_pais_airbnb/,True,post

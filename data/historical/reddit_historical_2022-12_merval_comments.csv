@@ -1,0 +1,515 @@
+id,text,author,subreddit,score,created_utc,parent_id,link_id,type
+iz3oh76,Se te extrañaba u/valhalaman! gracias por el aporte a la comunidad!,tanobruto,merval,24,2022-12-06 02:45:30,t3_zdsndg,t3_zdsndg,comment
+iz39dgd,"Osea, lo que estás diciendo vos es q si yo tengo una checking account en un banco de USA, por más q hayan firmado esto, no va a aparecer mi cuenta automáticamente en el sitio de la AFIP? La única forma q me vengan a molestar es si creen q tengo una cuenta afuera y piden información a USA? O me estoy confundiendo? Quienes deberían preocuparse entonces?",agu12333,merval,7,2022-12-06 00:25:48,t3_zdsndg,t3_zdsndg,comment
+iz3fp7m,"Buenas u/valhalamanme parece que algunas partes de tu post no son tan claras para gente que no entiende de reporting. Sin embargo me parece que esta bien como un *primer*.
+
+Mi consulta es la siguiente, alguien tiene acceso o leyo el documento firmado en cuestion?",diyexageh,merval,5,2022-12-06 01:18:06,t3_zdsndg,t3_zdsndg,comment
+iz83fcu,Y que pasaría con los servicios tipo Deel o wise ?,Kore9422,merval,4,2022-12-07 00:58:03,t3_zdsndg,t3_zdsndg,comment
+iz3dr4v,"Los que usamos la plataforma Wise, estaríamos jodidos ?",Actual_Quote3737,merval,10,2022-12-06 01:01:45,t3_zdsndg,t3_zdsndg,comment
+iz4mcxg,"Muy buen post! Te hago una consulta: yo hace unos meses largos con un amigo abrimos una cuenta en un banco de USA para guardar ahorrors, para el cual a ambos nos pidieron firmar (entre muchos otros documentos) el W-8BEN. En ese formulario especificamente hay una parte de que dice y copio textual
+
+***Note: If you are resident in a FATCA partner jurisdiction (that is, a Model 1 IGA jurisdiction with reciprocity), certain tax account information may be***  
+***provided to your jurisdiction of residence.***
+
+Anduve investigando y se ve que muchos freelancers de IT que laburan de contractor tambien les hacen firmar el W8-BEN. Aca viene mi pregunta:
+
+Esa data le puede llegar a AFIP? Y que podrian hacer ellos con eso? Digo, si IRS le dice a AFIP de alguna manera ""XXX persona firmo un W8"", eso podria generar algo aca? Si yo firme este formulario eso implica que alguna data de mi cuenta efectivamente le a a llegar a AFIP?",LaQueMatoAKingKong,merval,3,2022-12-06 10:13:16,t3_zdsndg,t3_zdsndg,comment
+iz5zz9v,"la pregunta del millón que onda con cuentas en brokers tipo ibkr? necesitaría tener una llc para poder safar? cambia según los etfs que tenga? (por ejemplo, los s&p con legislación irlandesa)",yapel,merval,3,2022-12-06 16:00:54,t3_zdsndg,t3_zdsndg,comment
+j04embj,"Hola, estoy por abrir una cuenta con berenblum, son confiables? Por lo que investigué y me indicaron, parecen tener conocimiento de lo que hacen. ¿Alguien los conoce?",Chiars_90,merval,3,2022-12-13 21:03:54,t3_zdsndg,t3_zdsndg,comment
+iz3bqtm,Yo en Marzo tenía pensado abrirme una cuenta en el Bank of America. Este acuerdo entonces me afectaría?,dickdeamonds,merval,2,2022-12-06 00:45:01,t3_zdsndg,t3_zdsndg,comment
+iz4p4nc,Excelente aporte,PostalAzul,merval,2,2022-12-06 10:38:51,t3_zdsndg,t3_zdsndg,comment
+izsvpkc,"La verdad es que no entendí mucho pero agradezco la info. Buscando sobre el tema di con este post. Me da un poco la sensación que están queriendo asustar a los giles como yo.  
+
+
+Soy desarrollador de software y entiendo poco de finanzas. Me pagan en crypto a través de bitwage y no se que pensar. Estoy un poco cagado, pero también tengo la convicción de mantenerme en esta postura de cobrar afuera. Nunca quise irme del país. Mi hermana se fue y se bien que el desarraigo es terrible.   
+
+
+Gracias!",ForeverLaca,merval,2,2022-12-11 13:37:50,t3_zdsndg,t3_zdsndg,comment
+iz6urgg,"si no tenes bocha de guita, pero tenes un canuto, la mejor es irse de argentina
+
+con un canuto te alcanza para dos departamentos en asuncion por ejemplo, ya tenes renta dolarizada
+
+si el canuto no es muy grande, alquila una caja de seguridad, o compra oro; hay mil maneras de tener activos no financieros, no todo tiene que estar en el banco, los viejos lo sabian muy bien, el banco es lo ultimo... hasta latas de atun a granel podes tener, todo depende de la guita que sea
+
+desfinanciar al regimen kirchnerista es un deber patriotico, antes que entregar un solo dolar, lo rocio con kerosene y lo prendo fuego",kretinachorra,merval,4,2022-12-06 19:20:12,t3_zdsndg,t3_zdsndg,comment
+iz64nps,"Con todo el respeto y cariño del mundo, no todo lo que dice este post es cierto, y creo que es por un posible desconocimiento.  
+
+
+1. CRS (Common Reporting Standard) es el mecanismo de la OCDE para intercambio de informacion, al cual **EEUU NO ESTA SUBSCRIPTO**. Por esto mismo es que existe el FATCA.
+2. Es cierto que EEUU necesita pasar por ley este tipo de acuerdos, pero ya lo hizo, y de ahi nacio el FATCA. No hay necesidad de pasar por el congreso de eeuu para que se implemente con argentina (de hecho JAMAS paso por el congreso este mismo acuerdo con los otros 100 paises que lo tienen)
+3. SI ES RECIPROCO. Lo que no esta claro es que nivel de reciprocidad existira, pero pareciera que el un tipo de fatca IGA1 (el mas basico), en el que IRS le envia a afip algunos datos de las cuentas de argentinos que hayan firmado el W8-BEN. A partir de ahi AFIP puede intimarte a brindar informacion bancaria de esa cuenta. Esto ocurre de forma AUTOMATICA una vez al año.
+
+Este acuerdo ya esta armado, va a pasar y arrancar el año que viene, no se queden con ""aii es otro humo peronista"". Da igual el gobierno de turno, esta es una política de Estado que EEUU viene impulsando hace más de una década y ahora le toca a Argentina. A EEUU no cambia que los argentinos empiecen a pagar impuestos en su pais, no le importa que los capitales que se refugiaron alli se vayan, les es irrelevante, basicamente porque la cantidad de capital que tienen argentinos en EEUU es MINIMA en comparacion a la que fugan los propios yankees, lo que quiere el IRS es saber mas sobre los flujos de capital de sus contribuyentes, y para eso coopera con los paises brindando informacion bancaria.  
+
+
+Este mecanismo RECIPROCO y AUTOMATICO es una política de estado que EEUU lleva adelante hace mas de una década. Si se ven afectados por estas medidas asesorense con profesionales que se dediquen a estas cosas. No le crean a los diarios, estan levantando muchisimo HUMO del gobierno, tampoco le crea a twiteros de derecha que estan muy politizados y nublados por su ideologia. CONTACTEN PROFESIONALES, si googlean hay muchos estudios juridicos y contables q brindan servicios para estas situaciones.",sheikov,merval,3,2022-12-06 16:31:28,t3_zdsndg,t3_zdsndg,comment
+iz56hji,"Buen aporte. Es importante aclarar que los bancos argentinos ya venían reportando bajo FATCA a las US Person que identificaran, esto arrancó desde el año 2015 o 2016, no recuerdo exacto. Lo que cambia con esto es que ahora USA ""debería"" intercambiar información de manera automática (distinto a como bien comentas que era a pedido) sobre argentinos con cuentas allá, aunque creo que acá la mayor limitante para la implementación (y lo mismo que debe pasar con tantos otros acuerdos del IRS y otras agencias tributarias) es la parte burocrática en USA. En lo personal lo veo MUY verde, lo más probable es que se diluya en el tiempo.",WholeCafe6676,merval,1,2022-12-06 12:50:44,t3_zdsndg,t3_zdsndg,comment
+iz36689,[deleted],[deleted],merval,1,2022-12-05 23:59:47,t3_zdsndg,t3_zdsndg,comment
+iz4i2v2,"Encontre este documento que podria traer mas informacion:
+
+[https://www.decisiola.com/articulos/la-ley-FACTA-en-Argentina.pdf](https://www.decisiola.com/articulos/la-ley-FACTA-en-Argentina.pdf)
+
+Si ven esta parte:
+
+>Que es Facta?  
+>  
+>FATCA es una ley aplicable a ciertas Entidades y personas del Sistema Financiero (“ForeignFinancial Institutions (FFIs)”, no estadounidenses y a sus clientes estadounidenses.Su principal objetivo consiste en prevenir en EEUU la evasión de impuestos de “personasestadounidenses” mediante el uso de cuentas financieras mantenidas fuera del territoriodel país.
+
+Agrego pagina BNA
+
+[https://www.bna.com.ar/Home/InformacionFATCA-CRS-OCDE](https://www.bna.com.ar/Home/InformacionFATCA-CRS-OCDE)
+
+>A través de la Ley FATCA el Gobierno de los Estados Unidos de Norteamérica invita a las Instituciones Financieras Extranjeras de todo el mundo a firmar un acuerdo con el IRS, el organismo recaudador de los Estados Unidos, mediante el cual, éstas se comprometen a colaborar en la identificación, reporte y, en algunos casos, retención de fondos de contribuyentes estadounidenses
+
+Como comenta el u/valhalaman parece que esto es FACTA y no CRS donde USA enviaria de residentes argentinos si mal no entendi.
+
+Parece que afecta  a yanquis que evaden. O me estoy confundiendo? sera solo para asustar todo lo que hablan?",aleyango,merval,1,2022-12-06 09:30:28,t3_zdsndg,t3_zdsndg,comment
+iz71w5t,"Gracias guacho, confirmaste mis sospechas.",[deleted],merval,1,2022-12-06 20:10:33,t3_zdsndg,t3_zdsndg,comment
+iz4c3n4,Voy a intentar publicar cada tanto. Gracias!!,valhalaman,merval,18,2022-12-06 08:18:32,t1_iz3oh76,t3_zdsndg,comment
+iz5ru4z,Adhiero!,Nakayoto,merval,2,2022-12-06 15:09:09,t1_iz3oh76,t3_zdsndg,comment
+iz3ac0o,"Por mas acuerdo los bancos no tiene el sistema CRS (en criollo el txt con los datos de tu cuenta). Si existe un AEOI (ver link anterior). Si tu cuenta paga intereses puede ser q comience a reportar.
+
+Aclaracion: bancos de US",valhalaman,merval,5,2022-12-06 00:33:36,t1_iz39dgd,t3_zdsndg,comment
+iz3arcq,"Supuestamente hay intercambio masivo y automático, ahora, si te fijas en los acuerdos que se firman, no sé obliga usa a reportar, sino que adhiere a una ""intención"" de colaborar e informar. En la práctica se dice que usa aún no compartió datos con ningún otro país con estos tratados en vigencia
+
+Para mí esto va así, usa de beneficia con más datos de cuentas de sus ciudadanos para cobrar más impuestos, y el embajador pone la cara para firmar y meter miedo con Massa en el cck
+
+También hay otros detalles como el mínimo de balance de 50k que en todos los igas que se vienen firmando aparece. Hay que ver si el de argentina tiene alguna diferencia",[deleted],merval,1,2022-12-06 00:37:00,t1_iz39dgd,t3_zdsndg,comment
+iz3jrpx,"No, y parte del FUD es esconderlo el mayor tiempo posible. Pero es un IGA1 standard como el que tiene con Colombia, Brasil, etc.
+
+Por qué digo eso? Por las palabras del propio embajador de USA:
+
+> Estados Unidos también proporcionara _cierta_ información de _residenres argentinos_
+
+Además de:
+
+> Hasta la fecha, Estados Unidos ha firmado más de 100 acuerdos bilaterales de este tipo con jurisdicciones extranjeras
+
+Todo esto apunta a qué es un IGA1 standard más , con poca información (cuentas bancarias personales y brokers) y sin balances.
+
+Si querés asustar previo a blanqueo necesitas mantener el FUD el mayor tiempo posible sin mostrar la realidad",ScienceAndRock,merval,10,2022-12-06 01:56:05,t1_iz3fp7m,t3_zdsndg,comment
+iz47u77,"Como le va estimado.! Lo que hice fue lo siguiente:
+
+1 - Encontrar experiencia similar. Australia, Brasil x ej tienen acuerdos de intercambio desde hace rato
+
+2 - Confirmar que efectivamente bajo FATCA. Esos países envían información de residentes fiscales norteamericanos a EEUU. Reporte de una vía (Ej Australia a EEUU)
+
+3 - Intentar confirmar si bajo CRS es reciproco en esos países. Osea si EEUU envía info automático a por ej. Australia. Hasta donde investigué no está sucediendo. Y es desde 2017
+
+4 - Ver porqué no sucede. Y basicamente porque los bancos de eeuu  no implementaron el reporte automático. 
+
+Luego leí lo que se comunicó hasta ahora y ví que en forma engañosa están informando. Estoy esperando el boletín oficial.
+
+OJO...cuanto puede durar esta ilusión de considerarte el al capone de las finanzas. Y no mucho.
+
+Básicamente porque ahora sí el FBI puede investigar de oficio. Ya lo hizo con una cueva Argenta y le cerró la operación y confiscó. Esa para mí es la que estrategia del Gob. a corto plazo.",valhalaman,merval,7,2022-12-06 07:16:43,t1_iz3fp7m,t3_zdsndg,comment
+iz3frj7,Si tenes datos bancarios en EEUU deberia ser reportable.,diyexageh,merval,6,2022-12-06 01:18:38,t1_iz3dr4v,t3_zdsndg,comment
+iz4ogak,No llega info en forma automática. 100% seguro. Solo a pedido. Hace muchos años que es así. Lo tenes q firmar para q no te retengan ganancias en eeuu,valhalaman,merval,3,2022-12-06 10:32:47,t1_iz4mcxg,t3_zdsndg,comment
+iz4neo2,Es checking account la que se hicieron?,fernandocb23,merval,1,2022-12-06 10:23:07,t1_iz4mcxg,t3_zdsndg,comment
+j0715qa,"Fijate esto, la pregunta está abierta para los freelancers: https://old.reddit.com/r/merval/comments/zlo58h/texto\_publicado\_del\_acuerdo\_fatca\_entre\_us\_y/j06jktv/",throwaway-594235,merval,1,2022-12-14 12:15:07,t1_iz4mcxg,t3_zdsndg,comment
+iz642vc,"Los brokers con domicilio fuera de eeuu deberían reportar todas las operaciones. PERO yo tengo uno en europa y no reporto. Los brokers de eeuu no tienen nada q ver con el sistema bancario. 
+
+El reporte depende del domicilio del broker no del
+Tipo de inversión",valhalaman,merval,5,2022-12-06 16:27:43,t1_iz5zz9v,t3_zdsndg,comment
+iz4fbuy,"Los bancos de usa no abren más cuentas a extranjeros, de hecho los están invitando a cerrarlas. Yo tuve que migrar del wells a TD y Citi. Por qué estos últimos sí? Porque son internacionales.
+Si estoy equivocado por favor háganmelo saber.",MidnightInAdrogue,merval,6,2022-12-06 08:59:15,t1_iz3bqtm,t3_zdsndg,comment
+iz3fue0,"Depende, pensabas no declara la cuenta?",diyexageh,merval,1,2022-12-06 01:19:20,t1_iz3bqtm,t3_zdsndg,comment
+j01cct4,"En Bitwage, brindamos a nuestros clientes la posibilidad de recibir un salario/sueldo/pago en Bitcoin desde 2014. Independientemente de para quién trabaje.  
+Al utilizar nuestros servicios, puede dividir fácilmente sus ganancias entre una dirección digital de Bitcoin/dólar y su cuenta bancaria, lo que le permite maximizar sus ganancias sin la necesidad de invertir tiempo y esfuerzo en el proceso usted mismo.  
+Estamos comprometidos a aumentar el valor de su trabajo, y nuestro equipo está dedicado a brindar un servicio excepcional.  
+DM o contáctenos en Twiter, Slack o por correo electrónico si tiene alguna pregunta.  
+Siempre estamos abiertos a programar una llamada breve para hablar sobre dólares digitales y Bitcoin o cualquier tema.",bitwage,merval,2,2022-12-13 07:54:21,t1_izsvpkc,t3_zdsndg,comment
+j0sglfc,username checks out,Agnael,merval,1,2022-12-18 22:50:51,t1_iz6urgg,t3_zdsndg,comment
+iz6p6t7,"Hola estimado. No hay que entrar en pánico respecto al W8-BEN ya que esa información se comparte sólo en Financial Institutions.
+
+¿Que quiere decir? Que cuando te abrís una cuenta en un banco o un broker dónde subís un W8-BEN, esa información sera compartida con dicha jurisdicción, pero FATCA sólo obliga a ciertas FI (Financial Institutions) no  al empleador a reportar.
+
+
+Tu empleador tiene la obligación de pedirte el w8 Ben por si IRS alguna vez le pregunta por qué no te retuvo un witholding tax, pero aún en ese caso, no te reportarían por fatca porque no es una institución financiera",ScienceAndRock,merval,5,2022-12-06 18:42:34,t1_iz64nps,t3_zdsndg,comment
+iz6b10b,"Gracias. Marcas inexactitudes. Va respuesta:
+
+1.	⁠CRS (Common Reporting Standard) es el mecanismo de la OCDE para intercambio de informacion, al cual EEUU NO ESTA SUBSCRIPTO. Por esto mismo es que existe el FATCA.
+
+#Resp: es exactamente lo q escribí arriba. 
+
+2.	⁠Es cierto que EEUU necesita pasar por ley este tipo de acuerdos, pero ya lo hizo, y de ahi nacio el FATCA. No hay necesidad de pasar por el congreso de eeuu para que se implemente con argentina (de hecho JAMAS paso por el congreso este mismo acuerdo con los otros 100 paises que lo tienen)
+
+#Resp: es exactamente lo q escribí arriba. FATCA ES LEY. Pero no lo es CRS. LEAN ANTES DE ESCRIBIR. creo q ni entendieron que es Facta
+
+
+3.	⁠SI ES RECIPROCO. Lo que no esta claro es que nivel de reciprocidad existira, pero pareciera que el un tipo de fatca IGA1 (el mas basico), en el que IRS le envia a afip algunos datos de las cuentas de argentinos que hayan firmado el W8-BEN. A partir de ahi AFIP puede intimarte a brindar informacion bancaria de esa cuenta. Esto ocurre de forma AUTOMATICA una vez al año.
+
+#Resp: es exactamente lo q escribí arriba. Ya aclare y de hecho puse el link
+
+Conclusión : mucho kiddo haciéndose el Gordon Gekko de reddit. Por favor LEAN bien Y TODO antes de opinar. 
+
+El único punto importante de mi post es x mas acuerdo los bancos de eeuu no estan obligados a reportar. 
+
+Si estoy buscando prueba en contrario con otros estados que ya tienen hace años implementado este acuerdo.",valhalaman,merval,1,2022-12-06 17:11:53,t1_iz64nps,t3_zdsndg,comment
+iz78vvo,"Lo mejor es no tener riqueza bancarizada. Recuerden que NO reportan otras riquezas... si estas acumulando para la vejez, cajita de seguridad en X pais caribeño, no bancaria, y que la chupen...",kretinachorra,merval,1,2022-12-06 21:01:18,t1_iz64nps,t3_zdsndg,comment
+iz6nwau,Totalmente de acuerdo. Tenes algun estudio/profesional a quien contactar? O cómo podría buscarlo?,mlevyd,merval,1,2022-12-06 18:34:04,t1_iz64nps,t3_zdsndg,comment
+iz5xcl2,"Puede ser que la burocracia de EEUU sea una limitante (leí en otro lado sobre esto), pero me parece que la falta de interes de reportar es lo que mas los detiene. Que ganarian? Tengo entendido que es bastante raro que compartan información en volumen",mlevyd,merval,2,2022-12-06 15:44:12,t1_iz56hji,t3_zdsndg,comment
+iz37hu5,Los bancos norteamericanos no van a reportar CRS. Si van a continuar con el reporte de cuentas remuneradas (en criollo las q pagan intereses). Sigue siendo a pedido. El acuerdo fue comunicado en forma engañosa.,valhalaman,merval,3,2022-12-06 00:10:25,t1_iz36689,t3_zdsndg,comment
+iz4m2s6," Esta perfecto lo q decis. Es lo q escribí. 
+
+FATCA es para informar de Argentina a EEUU información de norteamericanos con cuentas en el país. 
+
+Lo vendieron al reves para asustar. Aunque SI HAY UN ACUERDO y habilita a otras agencias a investigar de oficio. No hay envio de eeuu a argentina. No esta implementado ni para Argentina ni para ningún otro pais. 
+
+AL MENOS CON LA INFO DISPONIBLE A HOY.",valhalaman,merval,8,2022-12-06 10:10:35,t1_iz4i2v2,t3_zdsndg,comment
+iz4824q,"Correcto. EL IGA1 está vigente desde hace rato. NO es automático sino a pedido (de jueces, afip, etc). Ver link arriba en mi OP",valhalaman,merval,2,2022-12-06 07:20:10,t1_iz3jrpx,t3_zdsndg,comment
+iz4alp3,"Ahora, si te reportan la cuenta sin el balance, no podria el gobierno argentino luego usar el acuerdo anterior con USA a traves del cual podia proactivamente pedir informacion de ciudadanos argentinos especificos?",crfenix,merval,1,2022-12-06 07:57:45,t1_iz3jrpx,t3_zdsndg,comment
+iz7zivb,"Que tal u/valhalaman,
+
+A lo que voy es que se esta asumiendo que es solo un IGA Model 1 y que no va a pasar nada porque con otros paises no sucede. Pero no todos los IGAs son standard o unilaterales.
+
+Por ejemplo el IGA Model 1 entre USA y Singapore es reciproco. Tal como tu ejemplo de Australia es desde el 2017 tambien.
+
+Yo se que en el caso de Singapore, hay reporting. Ahora, que Argentina haya firmado un acuerdo reciproco y que este en posicion de interpretar o utilizar los datos, no lo se.
+
+Por eso comentaba, hasta que no lea el acuerdo en cuestion me resulta todo FUD.",diyexageh,merval,2,2022-12-07 00:25:30,t1_iz47u77,t3_zdsndg,comment
+iz5f4jk,"Otra, por lo que veo el FATCA/IGA de Brasil no tiene alcance a lo que es US Territories, asi que no abarca PR por ejemplo.",ChoriBionico,merval,1,2022-12-06 13:48:38,t1_iz47u77,t3_zdsndg,comment
+iz3ibop,"No es un banco ni posee licencia bancaria, tiene licencia MSB o EMI y (por el momento) no se consideran Depositary Institution.
+
+Eso va a cambiar cuando se implemente DAC8 con CRS admended en EU, pero por CRS no FATCA",ScienceAndRock,merval,13,2022-12-06 01:42:02,t1_iz3frj7,t3_zdsndg,comment
+iz4sm6k,"Según infobae el acuerdo incluye ""intercambio de información fiscal automática""",fernandocb23,merval,1,2022-12-06 11:08:28,t1_iz4ogak,t3_zdsndg,comment
+iz4s8hv,"Si, son checking accounts",LaQueMatoAKingKong,merval,1,2022-12-06 11:05:24,t1_iz4neo2,t3_zdsndg,comment
+iz64h94,"y estos están en usa por lo que veo, ergo safa? gracias por la rta!",yapel,merval,1,2022-12-06 16:30:18,t1_iz642vc,t3_zdsndg,comment
+iz4ghqw,"Estas en lo correcto.
+Citi es el único que te abre con residencia en el exterior.
+Fui hace un mes y anduve por el top 10 de bancos haciendo este tramite.",bp0lr1,merval,3,2022-12-06 09:12:50,t1_iz4fbuy,t3_zdsndg,comment
+iz4lcey,">están invitando a cerrarlas
+
+He oído mucho eso. Por suerte, tengo varios años con una cuenta en Bank of America y no he tenido problemas. Es algo raro que no cierren todas las cuentas de extranjeros, solo algunas.",danielrx2,merval,1,2022-12-06 10:03:36,t1_iz4fbuy,t3_zdsndg,comment
+iz4t4hr,[deleted],[deleted],merval,1,2022-12-06 11:12:35,t1_iz4fbuy,t3_zdsndg,comment
+iz4ex4w,"Perdón la pregunta re novata, ¿cómo se declara una cuenta? ¿Presentando la declaración jurada de bienes personales cuando hayas superado el monto no imponible o hay un formulario específico?",Akilra,merval,6,2022-12-06 08:54:20,t1_iz3fue0,t3_zdsndg,comment
+iznamx3,"No tiene nada que ver.
+Saludos.",MidnightInAdrogue,merval,1,2022-12-10 08:06:23,t1_iz3fue0,t3_zdsndg,comment
+iz6pek7,Si! 100% perdon si se entendio q a los q lo firmaron x laburo tambien los afectaba!,sheikov,merval,2,2022-12-06 18:43:59,t1_iz6p6t7,t3_zdsndg,comment
+j024pwl,"""pero FATCA sólo obliga a ciertas FI (Financial Institutions) no al empleador a reportar.""""
+
+Que pasa en el caso de los pagos que hace Google Ad Sense a un creador de contenidos en You Tube. Hay una retencion con un 1042 S. Eso lo reportan? O no porque no se trata de una entidad financiera?En verdad ni siquiera hay una cuenta bancaria en esa formulario porque la retencion la hace Google no un banco. Gracias",trumperlita,merval,1,2022-12-13 12:11:44,t1_iz6p6t7,t3_zdsndg,comment
+j071jkw,"El empleador solo debe presentar tu W8 al IRS si el IRS le hace una auditoría, es verdad... pero está OBLIGADO a presentar el formulario 1042-S anualmente directo al IRS donde figuran los datos que pusiste en el W8 (incluido el CUIT) y además la cantidad de dinero que te pagó. Fijate esto: [https://old.reddit.com/r/merval/comments/zlo58h/texto\_publicado\_del\_acuerdo\_fatca\_entre\_us\_y/j06jktv/](https://old.reddit.com/r/merval/comments/zlo58h/texto_publicado_del_acuerdo_fatca_entre_us_y/j06jktv/)",throwaway-594235,merval,1,2022-12-14 12:17:45,t1_iz6p6t7,t3_zdsndg,comment
+iz6cm09,"Mezclas una BANDA en el post. No es claro, es como leer un parcial de un ingresante del CBC. No esta bien detallada la diferencia entre CRS y FATCA, en general esta muy desordenado, se termina interpretando lo contrario a lo q aparentemente querías decir. Resaltas cosas como NO ES RECIPROCO, despues aca decis que si lo es. Por otro lado, decís que los bancos de EEUU no están obligados a reportar, pero todos reportan, y los que no tienen a la IRS y otras entidades de la FED encima, y en esos casos suelen ser bancos que tienen muchas restricciones desde el patriot act.  
+
+Gente, y con esto me retiro, reitero que si realmente tienen guita jugada con esto, se asesoren con expertos. Hay estudios q brindan asesoramiento GRATIS, mientras les permitan hacer un pitch. 
+
+Y amigo q escribio el post perdón pero lo releí y sigo pensando que no esta nada bien. Saludos.",sheikov,merval,6,2022-12-06 17:21:46,t1_iz6b10b,t3_zdsndg,comment
+iz790oz,Practicamente no existe ningun pais en el que puedas depositar a tu nombre sin que se entere AFIP,sheikov,merval,0,2022-12-06 21:02:18,t1_iz78vvo,t3_zdsndg,comment
+iz6o6ts,"Hay muchos, es un tema muy delicado, te recomiendo que busques en google “Estudio apertura LLC” y agendes reuniones con varios. Berenblum es muy bueno pero tenes q tener buena guita..",sheikov,merval,1,2022-12-06 18:36:00,t1_iz6nwau,t3_zdsndg,comment
+iz5c0uk,"Me parece que están confundidos, lo que decís de intercambio unidireccional es un IGA2",[deleted],merval,2,2022-12-06 13:28:05,t1_iz4m2s6,t3_zdsndg,comment
+j09ejwt,Gracias por la data. Qué opinás de la información que se publicó hoy sobre los detalles del acuerdo? Ves más probable que se implemente el reporte automático desde EEUU a Arg?,dedalolab,merval,1,2022-12-14 21:35:10,t1_iz4m2s6,t3_zdsndg,comment
+iz70iq1,"Hm, el link dice que el IGA1 si es automático pero que no reporta beneficiario final (y probablemente tampoco el actual si la cuenta no genera intereses ni se le retuvieron dividendos)...",juani15151,merval,1,2022-12-06 20:00:39,t1_iz4824q,t3_zdsndg,comment
+iz7xhos,"Si, pero se necesitaria algun justificativo legal. Sospecha de evasion o fraude o algun tipo de investigacion. No es que llaman y les pasan datos.",diyexageh,merval,2,2022-12-07 00:09:01,t1_iz4alp3,t3_zdsndg,comment
+iz4vb44,[deleted],[deleted],merval,1,2022-12-06 11:29:50,t1_iz4alp3,t3_zdsndg,comment
+iz84czy,"Yo en lo personal creo que va a ser un IGA1 recíproco.
+
+Pero , standard, osea , con la información que comparten todos los IGAs y con thresholds similares a los mismos.
+
+La implementación sería imposible para las FIs de USA si deben adaptar su reporting sólo para Argentina para incluir más datos o diferentes thresholds  como dice Massa y el UBO reporting a FinCen entra en vigencia en el 2024 recién por lo que , aún si quisieran incluir entidades:
+
+1) no tienen esos datos en el 2022 y 2) EEUU debería hacer un AEOI basado en información de la FinCEN, que se dedica a AML y no a tax reporting , sería un cambio dramático en los procesos internos de EEUU sólo por Argentina. 3) ¿Por qué el embajador dijo que era un IGA mas como los 100s que existen si fuera tan disruptivo ?",ScienceAndRock,merval,2,2022-12-07 01:06:07,t1_iz7zivb,t3_zdsndg,comment
+iz4hkdp,[deleted],[deleted],merval,10,2022-12-06 09:24:51,t1_iz3ibop,t3_zdsndg,comment
+iz702kw,Eso puede llegar a afectar a Payoneer? Es una empresa estadounidense pero provee cuentas en GBP y EUR (además de USD).,juani15151,merval,0,2022-12-06 19:57:27,t1_iz3ibop,t3_zdsndg,comment
+iz7x4ut,"EMI es una licencia Europea, en EEUU no existe. Las cuentas que ofrecian en USD a nombres de usuarios estaban en Community Federal Savings Bank. Es una entidad bancaria y es reportable. Otros usuarios las tienen en otra entidad, depende de varios factores.
+
+Yo estaba en Community Federal Savings bank y hace un mes me mudaron a Evolve Bank and Trust que tambien es una entidad reportable.",diyexageh,merval,1,2022-12-07 00:06:10,t1_iz3ibop,t3_zdsndg,comment
+iza1biq,"Pero Wise esta basada en UK, que no es mas UE. Estarian pensando en una regulacion similar los brits?",ArgTute,merval,1,2022-12-07 13:13:21,t1_iz3ibop,t3_zdsndg,comment
+iz55aw5,Si. En un sentido,valhalaman,merval,2,2022-12-06 12:42:39,t1_iz4sm6k,t3_zdsndg,comment
+iz4gtpr,"Yo abrí hace 3 semanas en TD y Citi. 
+Hasta donde sé y me comentaron: bofa, chase, wells, y los grandes bancos de USA, no abren cuentas a extranjeros e invitan a los que ya tienen cuenta a cerrarlas. En este momento no recuerdo el nombre del ente que baja linea a los bancos y determino el fin de cuentas en bancos de USA para NO residentes/ciudadanos.",MidnightInAdrogue,merval,1,2022-12-06 09:16:39,t1_iz4ghqw,t3_zdsndg,comment
+iz5rso8,No. Ya no.,MidnightInAdrogue,merval,1,2022-12-06 15:08:54,t1_iz4t4hr,t3_zdsndg,comment
+iz838y8,"Hoy dia, no estoy al tanto. Vivo en el exterior hace bastante tiempo. Pero si, es declarable. Tal como brokers o entidades a tu nombre.
+
+Argentina grava a nivel global asi que podes declarar todo y ellso te dicen cuanto tenes que pagar. La realidad dista mucho de esto, como te imaginaras.",diyexageh,merval,2,2022-12-07 00:56:30,t1_iz4ex4w,t3_zdsndg,comment
+iznbcj1,Tiene todo que ver.,diyexageh,merval,1,2022-12-10 08:16:31,t1_iznamx3,t3_zdsndg,comment
+j08fdev,"Creo que en ese mismo thread alguien lo respondió pero, por las dudas:
+
+El 1042-S debe completarse para pagos a no residentes de ingresos de **fuente americana**. ¿Que es un ingreso de fuente americana para el caso de servicios? Pagos por servicios prestados **dentro del territorio** de los US, porque se considera la locación donde el servicio es prestado
+
+https://vpf.mit.edu/by-topic/general-tax-information/us-and-foreign-sourced-income
+
+
+Nota del IRS de que el form 1042-S **NO** corresponde para pagos de fuente extranjera 
+
+https://www.irs.gov/individuals/international-taxpayers/foreign-source-income-form-1042-s-reporting-not-required#:~:text=Foreign%20source%20income%20(non%2DU.S.,Code%20Section%201441(a).",ScienceAndRock,merval,2,2022-12-14 17:35:41,t1_j071jkw,t3_zdsndg,comment
+j078dpd,">https://old.reddit.com/r/merval/comments/zlo58h/texto\_publicado\_del\_acuerdo\_fatca\_entre\_us\_y/j06jktv/
+
+Y en este caso no es un empleador comun. Estamos hablando de Google Ad sense. Respecto al formulario 1042-S te lo da una vez por año. De todas maneras la pregunta esta abierta en el otro hilo tambien: reporta o no a Fatca? Y si lo hace que? Porque el numero de la cuenta bancaria no aparece en el 1042-s. Lo que hay que dilucidar es que si cuando se habla de rentas en el acuerdo, se refiere solo a financieras o a cualquier tipo de contraprestacion..",trumperlita,merval,1,2022-12-14 13:03:00,t1_j071jkw,t3_zdsndg,comment
+iz79l2n,"> no tener riqueza bancarizada
+
+> depositar
+
+leiste lo que puse? precisamente NO estas depositando en un banco
+
+todo depende de cuanta guita estas manejando
+
+podes tener tu propio banco (si tuvieras mucha guita)
+
+podes tener una SA que cotice en bolsa (no reporta CRS)
+
+las cajas de seguridad son fisicas y no entran en CRS, hay cajas no bancarias
+
+podes tener un yate a nombre de una S.A caribeña
+
+podes tener un circulo de S.A que se posean unas a otras 
+
+podes tener testaferros
+
+podes tener un departamento en venezuela
+
+podes tener una montaña de latas de atun
+
+podes tener barras de oro enterradas en tu casa
+
+podes tener obras de arte en X pais
+
+podes tener coleccion de motos, autos, muñequitos de he man, lo que se te ocurra que tenga valor
+
+y ni siquiera toque las criptomonedas pq me parecen humo, pero tambien podria ser cripto 
+
+todo depende de cuanta riqueza sea la que queres ocultar, ahi dependera de que sera en lo que inviertas
+
+hay mil maneras de tener riqueza sin bancarizarla, hay mil maneras de gambetear el CRS, el tema es dejar de pensar en bancos, y pensar mas como nuestros viejos, que acumularon riqueza sin que el estado se las manoteara
+
+afip vende humo, se hacen los que saben todo, y no saben casi nada",kretinachorra,merval,3,2022-12-06 21:06:28,t1_iz790oz,t3_zdsndg,comment
+iz6om3q,Muchas gracias por la respuesta! Hable una vez con la gente de Berenblum para apertura de cuenta bancaria. Me había llevado una buena impresión. Voy a ver si los contacto devuelta,mlevyd,merval,1,2022-12-06 18:38:47,t1_iz6o6ts,t3_zdsndg,comment
+j0b6jbc,Es el mismo tratado que tiene firmado con 113 países. No cambia nada respecto a mis comentarios previos.,valhalaman,merval,1,2022-12-15 08:19:03,t1_j09ejwt,t3_zdsndg,comment
+iz69zod,"mmmmm permitime dudar, las intimaciones que manda la AFIP no necesitan ningún fiscal. Si EEUU comparten los nombres de los titulares pero sin los montos, a la AFIP le alcanza para mandarte una cartita. La pregunta es que haces con eso? te haces el dolobu?",Upstairs-Iron-5014,merval,3,2022-12-06 17:05:17,t1_iz4vb44,t3_zdsndg,comment
+iz54ikn,"Puede ser, no tengo idea.",crfenix,merval,1,2022-12-06 12:37:20,t1_iz4vb44,t3_zdsndg,comment
+iz859e0,">Yo en lo personal creo que va a ser un IGA1 recíproco.
+
+Yo asumo lo mismo. Pero habria que verlo cuando lo publiquen. Viste que son expertos en sembrar miedo presentando las cosas como les conviene.
+
+&#x200B;
+
+>Pero , standard, osea , con la información que comparten todos los IGAs y con thresholds similares a los mismos.
+
+Imagino que si es reciproco va a ser standard. O cercano a los numeros que han leakeado.
+
+&#x200B;
+
+>La implementación sería imposible para las FIs de USA si deben adaptar su reporting sólo para Argentina para incluir más datos o diferentes thresholds  como dice Massa y el UBO reporting a FinCen entra en vigencia en el 2024 recién por lo que , aún si quisieran incluir entidades:  
+>  
+>no tienen esos datos en el 2022 y 2) EEUU debería hacer un AEOI basado en información de la FinCEN, que se dedica a AML y no a tax reporting , sería un cambio dramático en los procesos internos de EEUU sólo por Argentina. 3) ¿Por qué el embajador dijo que era un IGA mas como los 100s que existen si fuera tan disruptivo ?
+
+El reporting va a ser via FATCA standard, no tengo duda de eso. No van a hacer ningun favor. Por otro lado no es completamente diferente al reporting del CRS. Dudo que la implementacion les tome anhos.
+
+Me da la sensacion que los primeros batches van a ser pura caceria de brujas. Ya tienen ahi un excel con nombres a matchear y en segunda instancia una cuestion de montos.
+
+Pero obviamente esto es solo mi opinion. Estamos todos intuyendo.",diyexageh,merval,2,2022-12-07 01:13:57,t1_iz84czy,t3_zdsndg,comment
+iz6s1a1,"Entendiste bien. Payo posee una licencia MSB (Money Service Business) que NO es bancaria y no se considera Depositary Institution porque no entra en la definición taxativa de : -""is a Depositary Institution if accepts customers deposits as part of it's daily banking activity""
+
+Vos no te podés depositar a vos mismo en Payo , es un procesador de pagos de terceros y no hay una cuenta bancaria a tu nombre, si no que mantiene tus fondos en una cuenta común",ScienceAndRock,merval,8,2022-12-06 19:01:30,t1_iz4hkdp,t3_zdsndg,comment
+iz50exr,"Estoy en la misma, empece con payoneer hace un mes y no estaria entendiendo",phenomx6-requiem,merval,6,2022-12-06 12:08:19,t1_iz4hkdp,t3_zdsndg,comment
+iz7x8zh,"Payoneer es un sistema de remesas y las cuentas de GBP y EUR estan facilitadas via terceros.
+
+No deberia haber problema aun.",diyexageh,merval,3,2022-12-07 00:07:04,t1_iz702kw,t3_zdsndg,comment
+iz81gef,"Pero es una entidad bancaria con cuentas colectivas o ""de colección"" , si bien te da datos bancarios para recibir pagos, funciona similar a Payoneer y no hay una cta real por individuo. 
+
+https://wise.com/help/articles/2736035/how-does-wise-hold-my-money
+
+También  tenés otros artículos, hace poco en sus FAQ decían específicamente que, de momento, no reportaban CRS ni FATCA. Luego de sacar Assets, en UK, la entidad subsidiaria que administraba los fondos quedó alcanzada por CRS y FATCA como Custodial Institution y actualizaron los terms para aclarar que algunos productos, como Assets , sí reportan.
+
+https://wise.com/help/articles/2932394/how-does-tax-work-with-my-wise-account
+
+
+En lo personal nunca subí un W8-FORM ni me preguntaron mi tax residency. Yo creo que Wise sí va a empezar a reportar CRS sin dudas, pero cuando lo obliguen via DAC8
+
+Respecto a Payo
+
+ > Does Payoneer report my earnings to tax authorities?
+
+> No. You are responsible for reporting the earnings received and funded to your Payoneer account to all the relevant government tax authorities.
+
+https://payoneer.custhelp.com/app/answers/detail/a_id/18203/~/w-series-forms-faq
+
+En general sería bueno que cada uno comience a regularizar su laburo porque las EMIs y MSB sin reportar tienen los días contados IMO.
+
+El equivalente US a EMI es MSB (Money Services Business). De momento, no se consideran Depositary Institution tampoco y no quedan obligadas por FATCA. 
+
+Por ejemplo, este es un caso con respecto al IGA de Canadá dónde se explica técnicamente por qué una MSB no es considerada Depositary Institution 
+
+https://members.videotax.com/technical-interpretations/2015-0590061E5-money-services-business",ScienceAndRock,merval,5,2022-12-07 00:41:18,t1_iz7x4ut,t3_zdsndg,comment
+izc2lui,"En el DAC7 , que obligaba a los e-commerce *dentro de Europa* a reportar a las tax authorities, pusieron una fecha de implementación del 2023.
+
+Los Brits la patearon uno o dos años más. En ese sentido son más benevolentes",ScienceAndRock,merval,5,2022-12-07 21:26:32,t1_iza1biq,t3_zdsndg,comment
+iztbmv4,En qué sentido?,Physical_Finding1334,merval,2,2022-12-11 15:24:53,t1_iz55aw5,t3_zdsndg,comment
+iz4gvnk,"Bueno, y como mencioné antes, lo hice porque el wells me invitó a retirarme.",MidnightInAdrogue,merval,1,2022-12-06 09:17:15,t1_iz4gtpr,t3_zdsndg,comment
+iz6crc4,[deleted],[deleted],merval,1,2022-12-06 17:22:42,t1_iz5rso8,t3_zdsndg,comment
+izncs14,"Disculpa, creí que tu comentario al que respondí era respuesta a otro comentario. Mis disculpas. Claramente será la cuenta afectada, aunque por la información que se fue conociendo en los últimos días, no creo que esté en el alcance de este acuerdo que por el momento es humo. 
+No obstante, bofa no abrirá la cuenta a extranjeros, así tenga el interesado en abrir la cuenta una proof of address estadounidense.",MidnightInAdrogue,merval,1,2022-12-10 08:36:26,t1_iznbcj1,t3_zdsndg,comment
+j07an8l,"Segun lo que entiendo Google Ad te da una copia del 1042-S a vos y otra se la manda al IRS. O sea, al IRS le llega que tu CUIT ganó X cantidad de plata (la que te manda adsense), no hace falta número de cuenta. Si eso le llega o no a la AFIP es la pregunta. Es el mismo formulario que llena un banco para declarar tus dividendos ante IRS. Pero el 1042-S no es solo para google y los bancos, sino para toda empresa que contrate trabajadores remotos y quiera estar en regla. Si te pidieron un W-8BEN, es porque lo necesitan para hacer el 1042-S y tener el respaldo. Upwork (y creo que Deel también) te lo piden, y seguramente cualquier empresa prolija que no sea una intermediaria como esas dos.",throwaway-594235,merval,1,2022-12-14 13:17:59,t1_j078dpd,t3_zdsndg,comment
+iz79qf2,Flashie q pusiste caja de ahorro,sheikov,merval,2,2022-12-06 21:07:33,t1_iz79l2n,t3_zdsndg,comment
+iz6ovpa,"Yyy hoy en dia si o si te van a querer encajar una LLC en wyoming. Seguramente alrededor de 3kusd la apertura y mantenimiento de minimo 1k anual. Es una re buena solucion a todo esto, pero tenes que ver si tus clientes pueden pagar a una LLC.",sheikov,merval,2,2022-12-06 18:40:32,t1_iz6om3q,t3_zdsndg,comment
+iz89p4e,"Pienso 100% como vos
+
+> Por otro lado no es completamente diferente al reporting del CRS. Dudo que la implementacion les tome anhos.
+
+Respecto a la dificultad de implementación, me refería si era verdad lo que asegura Massa de que alcanza a UBOs , esa información, hasta la fecha no se tiene y jamás fue parte de FATCA, requeriría de cambios en los procesos internos de EEUU y, además, de la entrada en vigencia efectiva del UBO registry en el FinCEN (2024) que, desde su anuncio, fue pensado para AML/CFT , nada que ver con AEOI / FATCA. Ningún analista americano publicó un artículo respecto a que se usaría potencialmente para tal fin.
+
+ Requeriría que USA cree un proceso nuevo para darle un nuevo destino a esa información (que todavía no recolecta) con FATCA, dudo que pase exclusivamente para Argentina. Puede que pase en un futuro no tan lejano, pero sería para todos los IGAs y requeriría de un nuevo Greenbook expandiendo FATCA con deadlines para su implementación y demás.",ScienceAndRock,merval,5,2022-12-07 01:54:42,t1_iz859e0,t3_zdsndg,comment
+izyhqbr,Sabes si para paypal es lo mismo?,BarrettAKD,merval,1,2022-12-12 16:59:17,t1_iz81gef,t3_zdsndg,comment
+iz6cysy,[deleted],[deleted],merval,2,2022-12-06 17:24:00,t1_iz4gvnk,t3_zdsndg,comment
+iz4h6ve,"Yo porque en boa me invitaron a retirarme.
+En citi me recibieron de 10. En td me sacaron cagando igual que en todos los otros por no tener una dirección portal local no pbox.",bp0lr1,merval,1,2022-12-06 09:20:45,t1_iz4gvnk,t3_zdsndg,comment
+iz6dbs2,"Cómo digas, bro. Saludos!",MidnightInAdrogue,merval,1,2022-12-06 17:26:16,t1_iz6crc4,t3_zdsndg,comment
+iznpcw3,"Probaste en Citibank? Hay otros bancos que funcionaban, si vas para NY EastWest bank abria.
+
+Todo bien con el error, nos pasa a todos.",diyexageh,merval,1,2022-12-10 10:56:19,t1_izncs14,t3_zdsndg,comment
+j07dclg,"Y el caso de Upwork es aun mas complejo porque pueden estar contratandote clientes que estan fuera de USA por lo tanto no deberian reportar. Supongo que upwork generara el 1042-S si el cliente es de EStados Unidos. Pero, efectivamente, la gran pregunta es: reporta a Fatca o no? Seguiremos esperando que algun experto en el tema nos lo aclare...",trumperlita,merval,1,2022-12-14 13:35:42,t1_j07an8l,t3_zdsndg,comment
+iz7a7qr,"aclaro para los lectores, me refiero a cajas fisicas de seguridad, son literalmente una caja numerada con una llave, hay no-bancarias
+
+y si tenes una guita loca, una bodega segura en zona franca podes alquilar, y ahi metes obras de arte, ferraris, barras de oro, la mejor colombiana, armas, lo que quieras, etc ; dejen de pensar en EEUU y Europa
+
+la del banco propio la hizo el gran Robert Brockman, para evitar el FATCA, un capo, como esquivas a los chotos del estado? haciendo tu propio banco (viejo truco de la mafia antes de Castro en Cuba, tener su propio banco y/o casino)",kretinachorra,merval,3,2022-12-06 21:11:04,t1_iz79qf2,t3_zdsndg,comment
+iz6pbem,Llc seguro que armo. Lo tenía planeado hacerlo en 2023 pero me ganaron de mano con el acuerdo. Lo que mas me preocupa es lo que tengo en el broker al dia de hoy a titulo personal. La vaciaría antes del 31/12 si sirve de algo,mlevyd,merval,1,2022-12-06 18:43:24,t1_iz6ovpa,t3_zdsndg,comment
+izaqlco,"Hasta hace un mes o dos costaba 1800 abrir una LLC en Wyoming lo cual incluia el primer año de gastos, y después unos 800 por año de mantenimiento. Tal vez ahora con el miedo esté un poco más caro, pero yo averigüé por varios lugares y siempre 1500-2000, nunca 3000, asi que recomiendo buscar más opciones para que no les cobren más de lo necesario.",PotHead96,merval,1,2022-12-07 15:58:54,t1_iz6ovpa,t3_zdsndg,comment
+iz8xhk8,Excelente información. Se agradece.,valhalaman,merval,1,2022-12-07 07:00:45,t1_iz89p4e,t3_zdsndg,comment
+izaxmep,"Estimado, lo molesto con una consulta. Con respecto al UBO, que sucedería con el caso de LLCs creadas por ejemplo en New Mexico, donde permiten crearlas ""anónimas""?",laplata2003,merval,1,2022-12-07 16:45:21,t1_iz89p4e,t3_zdsndg,comment
+izcwwgz,"> además, de la entrada en vigencia efectiva del UBO registry en el FinCEN (2024) que, desde su anuncio, fue pensado para AML/CFT 
+
+Me parece que lo quieren hacer por otro lado. Vos lo estas pensando desde un UBO registry y ellos, si lees literalmente lo que dicen, basan todo en IRS filings.
+
+Osea, no seria UBO real sino signatarios. Chekea que cuando hablan de UBOs siempre comentan formularios del IRS con numero de filing. La info esa esta toda del lado del IRS. Ahora, si tenes nominees, el riesgo desaparece. Pero si es tal cual como dicen, va a ser interesante. Hay que esperar a que publiquen, me resulta todo demasiado ambicioso para qeu Argentina haya logrado un acurdo de tal magnitud.
+
+Vuelo a lo que dije en un pricipio, que ofrece Argentina a EEUU para que EEUU considere siquiera firmar algo como esto?",diyexageh,merval,1,2022-12-08 01:22:46,t1_iz89p4e,t3_zdsndg,comment
+iz6d3o1,"Yo tengo dirección de usa, y me invitaron a retirarme igual.",MidnightInAdrogue,merval,1,2022-12-06 17:24:52,t1_iz6cysy,t3_zdsndg,comment
+iz4hmap,"A mi en el TD me sacaron cagando en un principio, pero logré que me la abrieran mostrándoles el statement de proof of address del wells. Me parece que tuve suerte. Jugué esa carta, y pasó.",MidnightInAdrogue,merval,1,2022-12-06 09:25:26,t1_iz4h6ve,t3_zdsndg,comment
+iznpg7y,Abrí justamente en citi y en TD,MidnightInAdrogue,merval,1,2022-12-10 10:57:09,t1_iznpcw3,t3_zdsndg,comment
+izcwzt4,"Lee mi comment arriba, va todo por el lado bancario mas que nada. Al menos esa es mi interpretacion.",diyexageh,merval,2,2022-12-08 01:23:33,t1_izaxmep,t3_zdsndg,comment
+iz8xm4s,[deleted],[deleted],merval,1,2022-12-07 07:02:40,t1_iz6d3o1,t3_zdsndg,comment
+iz4jlq6,"Para mi operatoria personal tengo citi, pero para lo que es trabajo abri cuentas de empresa en mercury y relay.
+
+Teniendo la LLC registrada podes hacerlo directamente desde argentina y usando un pbox. Me funcionan de 10 para todo. Transferencias, debitos, etc. Sumale que no tiene ningun costo operativo. Ni los ach/wire te cobran.",bp0lr1,merval,2,2022-12-06 09:46:20,t1_iz4hmap,t3_zdsndg,comment
+izo5b5h,"Cuidado con TD que a veces te hacen requerimientos bizarros de tipo ""venite en persona a una sucursal a ver que sos vos"" o para desbloquear una cuenta. Unos aparatos.",diyexageh,merval,2,2022-12-10 13:02:22,t1_iznpg7y,t3_zdsndg,comment
+iz983cy,"Bro, no lo tomes a mal, pero deberías cambiar un poco tu actitud. 
+Sí, tengo proof of address y no obstante, están cerrando cuentas a extranjeros igual. 
+Toda la info que compartí fue dada por los mismos bancos y por mí contador hace tres semanas en eeuu. 
+Saludos, no voy a seguir con el debate.",MidnightInAdrogue,merval,1,2022-12-07 09:22:23,t1_iz8xm4s,t3_zdsndg,comment
+iz4jt98,"Entiendo que sos emprendedor y no contractor, verdad?",MidnightInAdrogue,merval,1,2022-12-06 09:48:27,t1_iz4jlq6,t3_zdsndg,comment
+iz7i8wk,"¿Cómo pudiste abrir con RelayFi si en su página ponen claramente no abren cuenta a residentes argentinos? https://support.relayfi.com/hc/en-us/articles/4485069842836-Countries-of-Residence-not-Supported-with-Relay
+
+O la tenes de hace un tiempo y eso es nuevo..",bepragmatic,merval,1,2022-12-06 22:11:34,t1_iz4jlq6,t3_zdsndg,comment
+iz99dox,[deleted],[deleted],merval,1,2022-12-07 09:36:14,t1_iz983cy,t3_zdsndg,comment
+iz4l14u,"soy basicamente programador, pero con la LLC puedo vender servicios por el mundo con otra impronta por decirlo de alguna manera.",bp0lr1,merval,1,2022-12-06 10:00:30,t1_iz4jt98,t3_zdsndg,comment
+iz954to,"puede ser algo nuevo, yo abri mi cuenta en nov de 2021.   
+A nivel funcional, tanto relayfi como mercury trabajan con evolve bank & trust como partner para cuentas y tarjetas asi q en el fondo son lo mismo.  
+A nivel plataforma me gusto mucho mas mercury, todo lo q es manejo de ACH / wire es mas claro y la interfaz para usuario esta mucho mas pulida.",bp0lr1,merval,1,2022-12-07 08:47:54,t1_iz7i8wk,t3_zdsndg,comment
+izxenaz,Che y como se pagan los impuestos a estos activos? Hay que hacer algún tipo de declaración jurada? Hay algún broker que ya lo haga por uno? Conviene consultar con un contador que esté en el tema?,Kyuoraku,merval,12,2022-12-12 12:47:31,t3_zk2a39,t3_zk2a39,comment
+izxfc0a,"Para aquellos q no estan alcanzados por ganancias o bienes personales podria ser una buena entrada esta fecha. El motivo es simple y se repite cada año, para afip cuenta lo que ve el 31 de diciembre. Nuestro año se resume en esa foto y por tema impositivo muchos modifican sus tenencias para no pagar tanto. En resumen hay mayor oferta de ONs ley New York muy tentadoras ( rendimientos mayores al 8% ajual en dolares)  por ejemplo YMCH YCA6P TLC1 TLC5 ARC1 IRCF",[deleted],merval,18,2022-12-12 12:52:15,t3_zk2a39,t3_zk2a39,comment
+izxslfa,"Consulta, venta de dolar mep, compra de bono en usd y venta en pesos, está exento, no?",[deleted],merval,2,2022-12-12 14:20:19,t3_zk2a39,t3_zk2a39,comment
+izzrsv1,"Tengo 9.500.000 y operó 3.500.000 apalancado.
+En total tengo 13.000.000 en acciones argentinas.
+Tendría que pagar algo? Porque no estoy pagando nada. A veces compro CEDEARS también.
+Fui haciendo todo con acciones (mi viejo me dio 3.000.000 y tuve un año increíble)",DaikonIndividual3531,merval,2,2022-12-12 22:13:50,t3_zk2a39,t3_zk2a39,comment
+izxfkjb,Gracias!,Mac-Kett,merval,1,2022-12-12 12:53:52,t3_zk2a39,t3_zk2a39,comment
+izxhkeg,"Muy bueno, me lo guardo, gracias!",sebadoom,merval,1,2022-12-12 13:07:35,t3_zk2a39,t3_zk2a39,comment
+j0011ff,[deleted],[deleted],merval,1,2022-12-12 23:21:57,t3_zk2a39,t3_zk2a39,comment
+j0b1ck0,Tremendo este aporte muchas gracias!,goldencat31,merval,1,2022-12-15 07:08:13,t3_zk2a39,t3_zk2a39,comment
+izybpt4,Hola que tal. Te respondo soy contadora los activos que pagan ganancias se presentan algunos por el cedular( por ejemplo los dividendos). Y otros depende la la categoría de ganancias. Y los activos que pagan Bs por la ddjj de Bs personales. Saludos,Nearby-Post3112,merval,12,2022-12-12 16:20:55,t1_izxenaz,t3_zk2a39,comment
+izxfnet,Consultalo con tu contador es fundamental saber si ya pasaste el minimo por bienes personales o ganancias.,[deleted],merval,3,2022-12-12 12:54:24,t1_izxenaz,t3_zk2a39,comment
+j06ly96,"Estimado, hay que ver siempre el caso particular. Los activos financieros tienen diferente tratamiento en la Ley del Impuesto a las Ganancias dado que algunos son considerados una ""cédula de renta particular"" mientras que otros están dentro de las rentas generales pero a alícuotas preferenciales. 
+
+&#x200B;
+
+Adicionalmente a lo expuesto hay que considerar la fuente de renta (argentina o foránea) y cuando es foránea posiblemente hubieras soportado retenciones en impuestos análogos con lo cual el mismo podría (siempre en principio) ser considerado como pago a cuenta del gravamen local.  
+
+
+Estas determinaciones son ejercicios determinativos bimonetarios dado que las rentas y activos los tenes en una moneda deferente a la local (peso) y hay que realizar conversiones operación por operación y día por día. 
+
+&#x200B;
+
+En el caso de que existieran disposición de activos (ventas) hay que ver el tipo de activo operado dado que en algunos casos se paga impuesto sobre la depreciación monetaria y en otros (activos en moneda extranjera y radicados en el exterior) se hace sobre moneda dura (moneda extranjera). Sin embargo siempre hay diferencias de cambio que justifican incrementos patrimoniales así que, en definitiva, hay que hacer una contabilidad bimonetaria.
+
+&#x200B;
+
+Por último, ante un reemplazo de activos (compra-venta) hay situaciones en las cuales las pérdidas obtenidas no se consideran en el ejercicio pero se aplican al costo del nuevo activo adquirido.
+
+&#x200B;
+
+En resumen... la determinación de las rentas alcanzadas por operar este tipo de activos es bastante más compleja de lo que generalmente se dice y publica, se requiere información y análisis de cada activo operado. 
+
+&#x200B;
+
+Muchas veces sucede que el contribuyente comienza a operar sin realizar una consulta previa y luego, al momento de armar la DDJJ no tiene la info como se necesita o debe salir a reconstruirla... todo genera mayores costos.
+
+&#x200B;
+
+Estas declaraciones juradas (generalmente las de ganancias), por el tipo de trabajo que hay que hacer (no se olviden que estamos tocando el patrimonio y tarde o temprano hay que poder justificar porque se da un incremento patrimonial (siempre medido en pesos) con lo cual el costo siempre siempre es un tema. El contribuyente percibe que es algo ""sencillo"" y en realidad, si se hace bien (como debería ser hecho) el proceso es largo y mas costoso que una ddjj de un empleado en relación de dependencia (por mencionar un ejemplo).
+
+&#x200B;
+
+Consejo: acumular la información correctamente (previa consulta) para que la DDJJ sea menos onerosa a fin de año y... averiguar bien según tipo de activos y forma de operar cual va a ser una estimación razonable del trabajo a realizar a fin de año.... 
+
+&#x200B;
+
+Espero haber ayudado.",ContadorCarbone,merval,2,2022-12-14 10:20:11,t1_izxenaz,t3_zk2a39,comment
+izxng1b,"Lo haces junto a tus presentaciones anuales de ganancias y bienes personales.  
+Si nunca las hiciste casi seguro que tu patrimonio / ganancias no alcanzan el minimo... consultalo con un contador por si acaso.",adrius,merval,3,2022-12-12 13:46:52,t1_izxenaz,t3_zk2a39,comment
+izxg837,Gracias por el aporte. Estaría bueno que cites fuentes por si alguien quiere indagar mas,HwanZike,merval,5,2022-12-12 12:58:18,t1_izxfc0a,t3_zk2a39,comment
+j06mwb5,">Nuestro año se resume en esa foto y por tema impositivo muchos modifican sus tenencias para no pagar tanto.
+
+El impuesto sobre los bienes personales es un gravamen instantáneo con hecho imponible que se perfecciona al 31-12 de cada ejercicio. Salvo hipótesis contempladas en el Art. 30 del Decreto Reglamentario del gravamen de referencia (que copio más abajo) orientadas e evitar planificaciones nocivas, se debe siempre verificar el patrimonio, valuado conforme las normas de bienes personales, a dicha fecha.
+
+&#x200B;
+
+Diferente es el caso de impuesto a las ganancia que es un impuesto de ejercicio donde el último elemento del hecho imponible se da con la fecha de cierre (31-12). Se acumulan rentas del ejercicio. Sin embargo es importante recordar que en Argentina se informan además de las rentas los patrimonios de inicio y de cierre y se determinan consumos estimados (por diferencia patrimonial).
+
+&#x200B;
+
+El ""consumido"" es la variable más importante de toda DDJJ de ganancias y muestra (si lo sabemos leer) si el contribuyente ""hizo trampa o no"". De lo dicho será que siempre hay que componer ""dos patrimonios"": uno valuado para ganancias y otro para bienes personales (atiendan que no es el mismo). La justificación de fondos parte de las mesuras para ganancias; bienes personales nada tendrá que ver en esto. Lo señalado no es un tema menor (pero siempre desatendido).
+
+&#x200B;
+
+Les paso norma bienes personales antes mencionada
+
+&#x200B;
+
+ARTICULO 30 - Cuando las variaciones operadas durante el año calendario en los bienes sujetos al gravamen, hicieran presumir un propósito de evasión del tributo, la Dirección General Impositiva dependiente de la Subsecretaría de Ingresos Públicos de la Secretaría de Hacienda del Ministerio de Economía y Obras y Servicios Públicos podrá disponer que, a los efectos de la determinación de éste, dichas variaciones se proporcionen en función del tiempo transcurrido desde que se operen estos hechos hasta el 31 de diciembre de cada año, ajustándose los importes establecidos siguiendo las normas de la ley y del presente decreto.",ContadorCarbone,merval,2,2022-12-14 10:28:29,t1_izxfc0a,t3_zk2a39,comment
+izyof3y,Donde se puede buscar las ofertas de ONs que hay en las próximas semanas?,correocaliente,merval,1,2022-12-12 17:41:42,t1_izxfc0a,t3_zk2a39,comment
+izy2peh,"el dolar mep es una operacion con bonos soberanos, es decir el primer punto de la tabla =)",lionelum,merval,1,2022-12-12 15:24:12,t1_izxslfa,t3_zk2a39,comment
+j011fos,Bienes personales siempre y cuando superes el minimo no imponible,Fantastic-Shower-993,merval,2,2022-12-13 05:20:25,t1_j0011ff,t3_zk2a39,comment
+j01gsbp,Si tenes eso solo no. Bienes personales es según si la suma de todos tus bienes supera un cierto límite.,ivanreddit,merval,1,2022-12-13 08:49:35,t1_j0011ff,t3_zk2a39,comment
+izybvgs,Mínimo para Bs de todo el patrimonio es de 6000.000 para 2022,Nearby-Post3112,merval,8,2022-12-12 16:21:57,t1_izybpt4,t3_zk2a39,comment
+izzny6l,"Pero me parece que el impuesto es a la tenencia de bonos soberanos. Hacer dólar MEP significa comprar y vender un bono, es decir que no te quedás con el bono. Mepa que es así.",Yearlaren,merval,2,2022-12-12 21:44:28,t1_izy2peh,t3_zk2a39,comment
+j00k212,Dólares?,super-venon,merval,1,2022-12-13 01:57:41,t1_izybvgs,t3_zk2a39,comment
+j01lsw9,"Sería 6 millones y probablemente lo aumenten por inflación a 9 millones u 11 millones, se estaría por definir.
+
+Leí 600 mil pesos, y me asusté jaja",contador3091,merval,1,2022-12-13 09:41:24,t1_izybvgs,t3_zk2a39,comment
+j008wcx,Son dos impuestos distintos,HwanZike,merval,1,2022-12-13 00:22:08,t1_izzny6l,t3_zk2a39,comment
+j01248v,"Patrimonio en pesos,de todo lo que tengas, pero la tenencia de dólares pagar Bs personales. Cualquier inquietud consultame",Nearby-Post3112,merval,2,2022-12-13 05:29:44,t1_j00k212,t3_zk2a39,comment
+j01m0kb,Recién leí que será 11 millones el mínimo..pasa que siempre llegando diciembre hay cambios y al momento de liquidar para nosotros es un lío.,Nearby-Post3112,merval,4,2022-12-13 09:43:26,t1_j01lsw9,t3_zk2a39,comment
+j01m4yx,"Si es verdad, siempre a último momento. Un dolor de cabeza jaj",contador3091,merval,1,2022-12-13 09:44:38,t1_j01m0kb,t3_zk2a39,comment
+j01m8p5,Un placer colega. Saludos,Nearby-Post3112,merval,3,2022-12-13 09:45:39,t1_j01m4yx,t3_zk2a39,comment
+j01modt,¡Saludos y éxitos!,contador3091,merval,1,2022-12-13 09:49:47,t1_j01m8p5,t3_zk2a39,comment
+iynow7c,"Se agradece la devolución, es un aprendizaje constante esto",HwanZike,merval,1,2022-12-02 16:20:48,t3_zaupja,t3_zaupja,comment
+iyntmfp,"Coincido, este sub es de lo mejorcito.",Sardina-Sangrienta,merval,13,2022-12-02 16:52:43,t3_zaupja,t3_zaupja,comment
+iyo64ax,"Yo igual que vos, arranque chusmeando y me vino bien para animarme a arrancar, es poca plata pero para aprender me alcanza. Otra cosa buena del sub es que te baja de la nube de pedos que teniamos algunos antes de empezar con esto, pensando que arriesgando 2 pesos te vas a llenar de plata.",Marxistoligarch,merval,10,2022-12-02 18:16:40,t3_zaupja,t3_zaupja,comment
+iyopuc0,"Post cerrado, consultas basicas y agradecimientos los lunes antes de la apertura de los mercados en ayunas.",31CH0,merval,16,2022-12-02 20:43:13,t3_zaupja,t3_zaupja,comment
+iyoawgm,Sin timbear se hace una diferencia o es cómo para no tener la plata parada?,Excellent-Royal-3269,merval,5,2022-12-02 18:50:13,t3_zaupja,t3_zaupja,comment
+iypga3t,Se ve que algo gano sino no abriria un tema tan relevante,super-venon,merval,2,2022-12-03 00:16:49,t3_zaupja,t3_zaupja,comment
+iypvvl9,"ja ja ja ja ja cazando palomitas ... ja ja ja ja herbalife, omnilife, amway, nutrirte, se tu propio jefe ja j aj
+
+sino el cuento de, las cripto monedas
+
+mandala y todas esas estafas piramidales de mierda, hay onanistas bobos que creen esos cuentos y se dejan robar plata como boludos",dragon999666,merval,-2,2022-12-03 02:41:46,t3_zaupja,t3_zaupja,comment
+iypg5st,Si es de agradecimiento se mantiene abierto,super-venon,merval,8,2022-12-03 00:15:48,t1_iyopuc0,t3_zaupja,comment
+iyopbr0,Un poco y un poco.,33p857,merval,4,2022-12-02 20:39:12,t1_iyoawgm,t3_zaupja,comment
+j0qxvmf,"Primero que todo vamo argentina.
+
+Mientras festejamos, a que país irían que sea muy barato y lindo?
+Estaba pensando en ir a Paraguay y reportar lo fiscal allá.",volumeSeller,merval,4,2022-12-18 16:23:02,t3_zoz9gv,t3_zoz9gv,comment
+j0q6q3h,"Tengo una duda, pero no de vivir en exterior sendo argentino, porque para mi es lo oposto.
+
+Si soy extranjera y vivo en argentina con DNI de residente temporario, cuando debo empezar a reportar a AFIP?
+
+Escuché de un amigo que no debo pagar impuestos hasta que complete uno año de residencia, pero hablé con una contadora y ella no me dije nadie sobre eso. Entonces, debo empezar a reportar y pagar ahora o no?
+
+(perdón por mi malo español, estoy en clases jajaja)",alexa_ivy,merval,3,2022-12-18 13:35:01,t3_zoz9gv,t3_zoz9gv,comment
+j0wl0kv,[deleted],[deleted],merval,3,2022-12-19 20:19:37,t3_zoz9gv,t3_zoz9gv,comment
+j0z5dt4,"Buenas, alguno sabe si con WISE usando el P2P de Binance contra otra cuenta de Wise inflige el ToS? En si la plata nunca la estas sacando de su plataforma, solo va a otro user",ButerWorth,merval,0,2022-12-20 11:29:21,t3_zoz9gv,t3_zoz9gv,comment
+j0rbwkz,"No creo que puedas/tengas que esperar 6 meses, en especial si lo que cobras entra en una cuenta de Argentina? En caso afirmativo tendrias que declarar / pagar apenas  te registres en la Afip o sea ahora, sino seria muy facil no? ... salvo que puedas probar que  ya declaraste y pagaste por esa actividad en tu ""otro"" pais. Argentina tiene convenios para evitar la doble imposicion o sea para evitar que debas pagar, por el mismo motivo, a 2 paises al mismo tiempo. PERO tambien hay que ser realista: Es muy posible que nadie te tenga en el radar por el momento y puedas evitar declarar! PERO si ven que entra mucho dinero en una cuenta que no es de sueldo (cuenta que abre una empresa a su empleado para girarle el sueldo todos los meses) o no es de un monotributista registrado es posible que la AFIP le pida explicaciones al banco y que el banco venga hacia vos (sobre todo si detectan que es plata de afuera)   ... incluso retroactivamente cuando te registres ya que aqui como en cualquier pais existe la prescripcion que es de 5 anios: la Afip puede mirar para atras a ver si te olvidaste de declarar algo. Riesgo cero no existe en ningun lado. EL DATO clave es  si   cobras en Argentina, en una cuenta local por esa actividad. Si es en black es otra historia!",Nicodantibes,merval,3,2022-12-18 17:54:59,t1_j0q6q3h,t3_zoz9gv,comment
+j1c022r,"Si, infringe, si la cuenta a la que mandas está flageada te bloquean",[deleted],merval,1,2022-12-23 01:24:37,t1_j0z5dt4,t3_zoz9gv,comment
+j0rg07v,"Si, seguramente! Mi plano es declarar siempre, no hay como fugir. Mi duda era más sobre si tengo que empezar a declarar ahora o después. Pero ya estoy en contacto con una contadora para me registrar como monotributista y empezar a pagar los impuestos. La última cosa que quiero es problema con AFIP jajaja",alexa_ivy,merval,1,2022-12-18 18:21:53,t1_j0rbwkz,t3_zoz9gv,comment
+j0rge92,"SI, es lo mas seguro. Contador/a > Monotributo > pagar -> y dormis tranquila. +",Nicodantibes,merval,1,2022-12-18 18:24:25,t1_j0rg07v,t3_zoz9gv,comment

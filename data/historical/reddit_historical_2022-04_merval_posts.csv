@@ -1,0 +1,38 @@
+id,title,text,author,subreddit,score,upvote_ratio,num_comments,created_utc,url,permalink,is_self,type
+udgwgw,Triangulación Bancaria,"Leyendo muchos mensajes y comentarios, me preocupa mucho que las personas no conozcan los riesgos de la ""triangulación bancaria"", algo que es MUY COMUN en cualquier ámbito *(no solo en operaciones P2P del ambiente cripto)*.
+
+>!No debe confundirse lo que explicaré con la ""Triangulación comercial"" en el ámbito del comercio exterior, donde dependiendo del contrato, se acepta la figura del tercero en la operación.!<
+
+Dicho esto, arranquemos por lo simple:
+
+En una operación comercial donde interviene el banco, hay DOS partes. La  operación comercial, reúne las dos partes, y son partes identificadas (o deberían serlo). El contrato podría ser expreso (muy formal) o tácito, y puede o no haber intermediarios que controlan la operación en sí (MercadoLibre o Binance por ejemplo). 
+
+Pero las partes en sí, serían fáciles de identificar:
+
+* Persona que compra (la que envía el dinero)
+* Persona que vende (la que recibe el dinero)
+
+# ¿Cuándo aparece la figura de TRIANGULACION? 
+
+Si en el medio de la negociación, o al momento del pago, el comprador le explica al vendedor que **hará el pago desde la cuenta bancaria de una tercera persona**. O bien, podría ocurrir que el comprador NO dice nada al vendedor, y directamente le hace la transferencia bancaria usando la cuenta de un tercero (y no su propia cuenta).
+
+Puede ser el hermano, la madre, el padre, el tío, la pareja, el ex, o bien un amigo. No importa quién sea. Incluso podría decir que es una cuenta de la empresa donde es el titular. Sea quien sea, es un TERCERO, fuera de la relación bilateral, operación comercial inicial donde había dos personas.
+
+# ¿Cuál es el riesgo?
+
+>*Si recibí el dinero, y lo puedo usar, incluso puedo sacarlo a otra cuenta o gastarlo, ¿qué importa quién me pagó?*
+
+He leído comentarios como ese, y la verdad me preocupa mucho que ignoren el riesgo de aceptar transferencias de terceros.
+
+No hay que generalizar, pero cuando se involucra a terceros en una relación comercial, las cosas se complican. Ya que, si el tercero llama al banco y desconoce la transferencia o alega algún ilícito con su cuenta bancaria; el banco podría congelar los fondos de la persona que recibió el dinero, exigiéndole que PRUEBE (con comprobantes) que ha tenido algún vínculo comercial con la persona que le envió ese dinero. Y adivinen ... ¿cómo probar que hiciste algún negocio con esa persona? No podes probar nada, ya que la persona que te compró realmente ""algo"", fue la persona a quien vos le enviaste el producto. Y esa, no es la misma persona que te pagó. **Concluyendo, el banco te ""resta"" el dinero que recibiste, y se lo devuelve al que transfirió.** 
+
+Incluso si te lo gastaste, lo transferiste, o lo que sea que hayas hecho con el dinero recibido, tu cuenta bancaria puede quedar en negativo. Y si eso pasa, es ""saldo en descubierto"" *(tiene intereses)*, así que no te recomiendo tener la cuenta bancaria de esa forma.
+
+\*\*\*
+
+No entraré en detalles y suposiciones, porque sería un post eterno, hay muchísimas variables más para explicar pero quería compartir el RIESGO, y la recomendación de que bajo ninguna circunstancia acepten transferencias de terceros.
+
+\*\*\*
+
+PD: busqué la palabra ""Triangulación"" en Merval. Me llamó muchísimo la atención no ver ningún post en colección de temas básicos, si algún mod se copa, o quiere que edite el post para que tenga mejor contenido, solo me avisa.",DJ_cba,merval,136,0.98,44,2022-04-27 20:24:53,https://www.reddit.com/r/merval/comments/udgwgw/triangulación_bancaria/,/r/merval/comments/udgwgw/triangulación_bancaria/,True,post
+u349p8,Porqué no existirá una tarjeta de crédito cripto?,"Y no me refiero a prepagas o de débito, si no una de crédito, en la que haces compras y pagas con pesos (o la moneda local) a principio de mes. Que el límite sea un porcentaje del balance de tu wallet, por ejemplo el 60% de lo depositado, y si no se paga te liquida el equivalente a lo adeudado de tu balance más un recargo. Si existiera esto hasta gente que esta en el veraz tendría acceso a las tarjetas de crédito.",Round_Cantaloupe_372,merval,4,0.58,79,2022-04-13 21:08:10,https://www.reddit.com/r/merval/comments/u349p8/porqué_no_existirá_una_tarjeta_de_crédito_cripto/,/r/merval/comments/u349p8/porqué_no_existirá_una_tarjeta_de_crédito_cripto/,True,post

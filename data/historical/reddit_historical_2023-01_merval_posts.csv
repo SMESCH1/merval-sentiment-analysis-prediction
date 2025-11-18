@@ -1,0 +1,152 @@
+id,title,text,author,subreddit,score,upvote_ratio,num_comments,created_utc,url,permalink,is_self,type
+10atuoj,Hice una planilla para finanzas personales y se las comparto,"Hacer un seguimiento de nuestras finanzas en un país con un contexto altamente inflacionario como el Argentino puede ser un reto. 💵En especial cuando gran parte de la economía está dolarizada! 💵
+
+La falta de claridad sobre nuestra situación actual puede llevarnos a cometer errores que simplemente no podemos costear...
+
+Es por eso que quiero compartirles una planilla en la que vengo trabajando el último año!
+
+La planilla sirve para :
+
+🧭seguir la evolución ahorros, balances y consumos históricos tanto en ARS como USD y también ajustar los gastos pasados a la inflación.
+
+📇Clasificación de consumos e ingresos.
+
+🏦Evolución salarial respecto de los índices inflacionarios en ARS y USD
+
+💸Seguimiento de la evolución de ahorros e inversiones en la sección ""patrimonio"".
+
+No será la planilla más estética pero sin dudas cumple con su cometido!
+
+[https://docs.google.com/spreadsheets/d/1vtoltY7OAlyd9EIqsaNBDdrq0AqJNv16a8ZemOSoXJ8/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1vtoltY7OAlyd9EIqsaNBDdrq0AqJNv16a8ZemOSoXJ8/edit?usp=sharing)
+
+https://preview.redd.it/i65yeuqg6tba1.png?width=1554&format=png&auto=webp&s=53dc5861c0a99ce3dd7406bfc35400a07fe8acdd",MarianoMontiel,merval,412,0.99,79,2023-01-13 09:54:36,https://www.reddit.com/r/merval/comments/10atuoj/hice_una_planilla_para_finanzas_personales_y_se/,/r/merval/comments/10atuoj/hice_una_planilla_para_finanzas_personales_y_se/,True,post
+10jkzys,Cómo mover plata: alternativas para sacar y entrar plata de Argentina en 2023,"Buenos días muchachos.
+
+Durante estos días estuve analizando diferentes opciones para sacar y entrar plata a Argentina. Estuve leyendo mucho de lo que se publicó acá y en otros lugares y fui creando cuentas en varios servicios, billeteras, exchanges, bancos, etc. La idea de este post es hacer una recopilación de los diferentes métodos y sus ventajas y desventajas, mientras hago pública la lista de interrogantes que me surgieron a la hora de abrir las cuentas, con la esperanza de que alguno de ustedes pueda responder en los comentarios y yo actualizar el post para que quede una guía más a futuro.  Tengan en cuenta que la idea es que los métodos sean todos *risk-averse.*
+
+Procedo a listar los bancos o similares que voy a estar cubriendo:
+
+* **Extranjeros**
+
+1. **Bancos:** Dukascopy, N26\*
+2. **Pseudo-bancos:** Paysera\*, Wise
+3. **Billeteras Digitales:** PayPal
+4. **Crypto exchanges:** Kraken, Binance\*\*, Crypto.com\*\*
+
+* **Locales**
+
+1. **Crypto exchanges:** Bitso, Buenbit, Lemon Cash, Ripio, Let's Bit
+
+* Para agregar (no tengo conocimiento suficientes sobre la plataforma pero si quieren ir aportando, cualquier contribución es más que bienvenida):
+
+1. Paysera, Payoneer, Bankera, Skrillm Neteller, AirTM, Coinbase
+
+\* no disponibles para residentes argentinos de acuerdo con sus respectivos Términos y Condiciones. N26 está solo disponible para países de la UE (si, muchos argentinos logran abrir la cuenta poniendo la dirección de familiares o amigos en España, pero va en contra de los ToS y te pueden cerrar la cuenta). Paysera solía aceptar argentinos pero hace unos meses no permite que se registren nuevos (desconozco que pasó con las cuentas ya existentes, pueden leer más [acá](https://www.reddit.com/r/merval/comments/v161yv/paysera_bloquea_argentina/) y [acá](https://www.paysera.com/v2/en/faq/where-paysera-works))
+
+\*\* Binance deshabilitó hace más de dos años las transferencias SEPA, las volvió a habilitar para europeos y no lo hizo para argentinos, tampoco anunciaron que vayan a volver. Las transferencias SEPA son necesarias para los métodos que involucren bancos europeos que voy a mencionar, así que Binance no serviría. [Crypto.com](https://Crypto.com) solía ofrecer un IBAN asociado para todas sus cuentas para poder depositar/extraer euros, pero ya no lo hacen para cuentas nuevas argentinas. Si se crearon una cuenta hace tiempo, puede que todavía puedan usarlo. Si por algún motivo tienen Binance o [Crypto.com](https://Crypto.com) con una dirección de otro país (porque tienen residencia afuera, por ejemplo, o tuvieron) y les permiten hacer transferencias SEPA, pueden usarlos sin problemas. Para el resto, recomiendo Kraken.
+
+**DISCLAIMER 1: NO VOY A CUBRIR WESTERN UNION O SIMILARES**
+
+**DISCLAIMER 2: NO VOY A CUBRIR BANCOS ARGENTINOS EN PROFUNDIDAD**
+
+Antes de comenzar, me gustaría dejar en claro que yo, personalmente, creo que la mejor manera de mover plata internacionalmente es con crypto, por la velocidad y las comisiones. También aclaro que sugiero usar Kraken ya que Binance no tiene la opción de SEPA transfer para argentinos y [Crypto.com](https://Crypto.com) tampoco para cuentas argentinas *nuevas,* si a ustedes, por cualquier motivo, les permite hacer transferencias SEPA, pueden usar su exchange preferido sin problema.
+
+**ENVIAR DINERO A DUKASCOPY DESDE ARGENTINA**
+
+Saliendo de ARS, se envían los pesos a un exchange local (Lemon, Buenbit, Bitso, Ripio), elijan el que tenga las comisiones más bajas si no tienen ninguno. Una vez que tengan los pesos en el exchange, compran USDT ^(1) y los transfieren a Kraken, preferentemente via Tron (TRC20) para que las comisiones sean más bajas. En Kraken pueden convertir USDT a Euros y transferirlos via SEPA a cuentas europea. Listo, de Dukascopy sacan el IBAN de su cuenta en Euros y transfieren con una comisión fija de €1.
+
+Saliendo de USD, se envían los pesos a un exchange local que acepte dólares (si no me equivoco, los únicos que aceptan depósito de dólares son Let's Bit y Buenbit), se adquieren USDTs con los USD y el resto es lo mismo que conn ARS.
+
+Algo importante a tener en cuenta sobre Dukascopy es que las transferencias SEPA de entrada son gratuitas, pero las de salida tienen una comisión fija de €3.5, con la aclaración de que el banco se reserva el derecho de cobrar hasta €7.5 por transferencia a ciertas instituciones financieras (no especifica, pueden leer sobre las comisiones de Dukascopy [aca](https://www.dukascopy.bank/swiss/fees-limits/))
+
+Dos alternativas que doy por sentadas son las transferencias SWIFT y el dólar CCL porque son métodos explicados y discutidos extensivamente en el sub, pero las menciono para que sepan que existen.
+
+**ENVIAR DINERO A WISE DESDE ARGENINA**
+
+Primero, se envían euros a Dukascopy como se explicó previemente. ¿Por qué no transferir de Kraken a Wise directamente? El problema es que, en teoría, Wise no acepta nada relacionado con crypto, por lo que lo más seguro es transferir de Kraken a Dukascopy y de Dukascopy a Wise via SEPA (gratis).
+
+**ENVIAR DINERO A CUALQUIER BANCO EUROPEO, PROPIO O NO, DESDE ARGENTINA**
+
+De la misma manera en que se puede fondear la cuenta de Wise con Dukascopy, pueden transferir a cualquier banco europeo mediante SEPA (o cualquier billetera digital que tenga IBAN).
+
+**ENVIAR DINERO A PAYSERA DESDE ARGENTINA**
+
+Similar a Wise, Paysera tiene una política anti-cripto, por lo que recomiendo Kraken > Dukascopy > Paysera y no Kraken > Paysera directo. Paysera ofrecía tarjeta de debito a Argentinos, a diferencia de Wise, y era amigable para los argentinos, pero hace unos meses prohibieron las altas de usuarios argentinos. Lo agrego por si alguno ya tiene cuenta o está viviendo en Europa.
+
+**SACAR CRYPTO DE BINANCE (O CUALQUIER EXCHANGE) A BANCOS EUROPEOS, WISE O PAYSERA**
+
+En Binance, pueden usar Advcash, fijense primero si les sirve por las comisiones y fijense si el banco receptor tiene alguna política anti-cripto. Si la tiene, pasen primero por Dukascopy. Para otros exchanges (sin extracción por SEPA directa), pasen las cryptos a Kraken y ahí al banco por SEPA.
+
+**RECIBIR DINERO EN ARGENTINA DESDE BANCOS EUROPEOS PROPIOS**
+
+Obviando los métodos clásicos (CCL, SWIFT), el tema va por el mismo lado que para enviar al extranjero. La idea es fondear Kraken usando el IBAN para depósito de euros que ellos proveen, comprar USDT con los euros, enviarlos a tu exchange argentino de preferencia (Buenbit o Let's bit si pretenden recibir USD, cualquiera si quieren pesos al tipo de cambio del dólar crypto) y del exchange al banco argentino, donde pueden (por ahora) retirar los dólares billete.
+
+**RECIBIR DINERO EN ARGENTINA DESDE EXCHANGE EXTRANJERO**
+
+Me parece que este se explica solo, directo a exchange argentino y pesifican al dólar crypto o venden contra USD y depositan USD en el banco (tengan en cuenta el límite de una transferencia de USD por mes, después te empiezan a preguntar, también recuerden que Buenbit te da recibo por la venta de cryptomonedas).
+
+**COBRAR EN ESTADOS UNIDOS Y RECIBIR USD/ARS AL TIPO DE CAMBIO DEL CRYPTO**
+
+\[sección en proceso, hay más métodos\]
+
+Bitso, exchange crypto argentino, permite recibir transferencias en USD de cuentas estadounidenses propias o de terceros, via domestic wire. Te mandan USD y vos recibís USD stablecoins (USDP, USDT, BUSD) y ahí haces lo que vos quieras. Podes pesificar al tipo de cambio del dólar crypto, podes pasarlo a otro exchange argentino que permita convertir stablecoins a USD y transferirte a tu cuenta en dólares en el banco o podes ir a una cueva. Pueden leer más sobre transferencias internacionales de Bitso y sus respectivas comisiones [acá](https://support.bitso.com/hc/es-ar/articles/7904166432660) y [acá](https://support.bitso.com/hc/es-ar/articles/7904628843924-Cómo-funcionan-las-transferencias-internacionales). Tengan en cuenta que no se puede transferir desde algunas entidades/bancos, entre las cuales están PayPal, Payoneer y Wise. [Acá](https://support.bitso.com/hc/en-us/articles/7878927200148-List-of-non-supported-banks-for-US-Domestic-Wires?_gl=1*wd6rhh*_ga*NjQ5MzcwOTgyLjE2NzQ2NjA5MzY.*_ga_3SEYSRMJJL*MTY3NDY2MDkzNi4xLjEuMTY3NDY2MjY3OS4yMi4wLjA.*_ga_XK0M30WCTZ*MTY3NDY2MDkzNi4xLjEuMTY3NDY2MjY3OS4yMi4wLjA) la lista completa. 
+
+(gracias u/PDT-Alert por el dato)
+
+**PAYPAL**
+
+PayPal va a variar dependiendo de qué país sea la cuenta. Honestamente, desconozco si en los Terminos y Condiciones prohiben tener más de una cuenta (es decir, cuentas en varios paises), pero con un número de teléfono (del país correspondiente) y una dirección cualquiera, hasta donde tengo entendido, te podes abrir una cuenta de PayPal de cualquier país (esto no es muy *risk-averse).* PayPal solo te permite extraer hacia bancos del país en el cual te creaste la cuenta de PayPal. Es decir, para retirar euros de PayPal Suecia necesitas una cuenta sueca, para retirar de PayPal Alemania necesitas una cuenta de PayPal Alemania, una alemana, y así. De esta manera, si tienen una cuenta bancaria afuera, y una cuenta de PayPal en el mismo país, tienen el problema resuelto. Para los que no, AirTM.
+
+Para fondear PayPal desde Argentina, sugiero fuertemente usar American Express (no bancaria) si tienen la oportunidad. Las tarjetas bancarias argentinas NO trabajan con billeteras digitales y similares, pero American Express, al no ser bancaria, escapa esta restricción y permite fondear a precio de dólar tarjeta (hasta $300, despues dólar Qatar, pero ahí conviene pagar con dólares adquiridos mediante MEP).
+
+&#x200B;
+
+**Conclusión (temporarea): como podrán ver, me faltan explorar muchísimas opciones y las voy a ir agregando a medida que las testee, ahora estoy probando Bankera como alternativa a Paysera (anti-crypto que no acepta argentinos actualmente). También espero el retorno de las crypto a Utoppia, que es el motivo por el cual no la incluí en esta guía, pero es una opción a considerar seriamente porque otorga tarjeta internacional a argentinos y cuenta bancaria estadounidense. No tuve experiencia alguna con Payoneer. Si alguien quiere aportar, información acerca de formas de fondeo / retiro que no se hayan mencionado en las guias ya existentes, bienvenido sea.**
+
+**Consultas:**
+
+1. Plataformas, idealmente europeas, que den tarjeta de débito europea o internacional a residentes de argentina (virtual o física) de manera gratuita? (Dukascopy cobra, Utoppia \[no europea\] cobra, Wise no da tarjeta a argentinos, Binance da tarjeta argentina)
+2. Algún crypto exchange en el que pueda comprar crypto usando American Express como medio de pago? Coinbase, Kraken, Binance y [Crypto.com](https://Crypto.com) no lo permiten. Solo MasterCard y Visa.
+3. Aguna billetera virtual que pueda fondear usando American Express como medio de Pago? Wise, por ejemplo, no lo permite.
+4. Alguien tiene idea de cuándo/si Utoppia piensa volver a habilitar todo lo relacionado con crypto?
+
+**Propuesta de ruta para cobros internacionales: (no testeado, pido opinión)**
+
+* **Europa:** Bankera (entran y salen euros via SEPA) > Kraken (entran euros via SEPA, salen USDTs) > Buenbit (entran USDTs, salen USDs) > Banco Argentino (entran y salen USDs) > USD en mano.
+* **Estados Unidos:** Utoppia (cuando y si vuelven a ofrecer servicios crypto, entran USDs, salen USDTs) > Buenbit (entran USDts, salen USDs) > Banco Argentino (entran y salenUSDs) > USD en mano.
+
+Viable? Alguien lo está haciendo?
+
+**DISCLAIMER FINAL: TODOS LOS MÉTODOS LISTADOS SON EN BLANCO, TRACEABLE, RASTREABLES. MUCHAS, SINO TODAS, LAS PLATAFORMAS MENCIONADAS INFORMAN A LA AFIP. ESTE POST NO CONTEMPLA EN NINGÚN MOMENTO EL ORIGEN DE LOS FONDOS, EL PAGO DE IMPUESTOS, LA LIQUIDACIÓN DE DIVISAS Y OTROS TEMAS RELACIONADOS. NO ES CONCEJO DE INVERSION, NO ES CONSEJO FINANCIERO, LA INFORMACIÓN PUEDE CAMBIAR EN CUALQUIER MOMENTO. NO ME HAGO CARGO POR INTERPRETACIONES ERRONEAS DEL MISMO. ESTE POST SOLO REFLEJA MI ENTENDIMIENTO SOBRE LOS TERMINOS Y CONDICIONES DE LAS DIFERENTES PLATAFORMAS, QUE NO TIENE NINGÚN VALOR EN CASO DE QUE LA PLATAFORMA EN CUESTIÓN DECIDA SUSPENDER O CERRAR LA CUENTA POR VIOLACIÓN A LOS MISMOS. SEGÚN ENTIENDO YO, NINGUNO DE LOS MÉTODOS LISTADOS VIOLA LOS TERMINOS Y CONDICIONES DE LAS PLATAFORMAS MENCIONADAS, PERO ES PURA Y EXCLUSIVAMENTE UNA INTERPRETACIÓN PROPIA. PUEDE QUE LOS METODOS ESTÉN PROHIBIDOS, EN UNA ZONA GRIS O SIMILARES, Y PUEDE QUE TU CUENTA SEA CERRADA SIGUIENDO ALGUNO DE LOS MÉTODOS. NO ME HAGO CARGO, CADA UNO SABE SI QUIERE CORRER EL RIESGO O NO. LEAN LOS TERMINOS Y CONDICIONES Y ANALICEN SI AL MOMENTO DE REALIZAR LA MANIOBRA LA MISMA ESTÁ PERMITIDA. ASESORENSE CON ABOGADOS Y CONTADORES DE SER NECESARIO.**
+
+\* SI ALGUN MÉTODO ESTÁ EN VIOLACIÓN DE LOS TERMINOS Y CONDICIONES DE ALGUNA PLATAFORMA, POR FAVOR INFORMENLO PARA REMOVERLO INMEDIATAMENTE, O AGREGAR LA DEBIDA ADVERTENCIA.
+
+\* SI ALGUNO TIENE CONOCIMIENTO DE LAS IMPLICACIONES IMPOSITIVAS DE ESTAS MANIOBRAS, TAMBIEN ES BIENVENIDA LA INFORMACIÓN.
+
+*^(1)* *También pueden comprar USDT con ARS por Binance P2P, pero como dije antes, la idea es que todos los métodos sean risk-averse y por P2P te pueden cerrar la cuenta bancaria.*",faculemac,merval,139,0.96,101,2023-01-23 16:25:10,https://www.reddit.com/r/merval/comments/10jkzys/cómo_mover_plata_alternativas_para_sacar_y_entrar/,/r/merval/comments/10jkzys/cómo_mover_plata_alternativas_para_sacar_y_entrar/,True,post
+10g13f3,No se nada y quiero empezar!,Buenass.  Ni idea de inversiones ni nada. Mi idea es tener algún tipo de ingreso pasivo o si tienen data de algo que funcione para laburar desde casa. Quisiera empezar invirtiendo 40000 pesos. Data de que debo leer para saber en qué cosas debo estar sólido.,Rodribzn,merval,1,0.52,13,2023-01-19 09:59:50,https://www.reddit.com/r/merval/comments/10g13f3/no_se_nada_y_quiero_empezar/,/r/merval/comments/10g13f3/no_se_nada_y_quiero_empezar/,True,post
+10cnmz1,NaranjaX TNA 65% o Bitcoin,"Hola!
+
+Tengo 150 lucas que no sé a donde destinar, por lo tanto les pregunto a ustedes. 
+
+Que va a ser mejor, meterlas todas en bitcoin que está subiendo de a poquito o aprovechar el 65% TNA de NaranjaX, depende la liquidez veo si a corto o largo plazo. 
+
+Otra cosa, ¿NaranjaX tiene la misma liquidez   que digamos MP?
+
+Gracias de antemano y les deseo un buen Domingo.",MrAFIP,merval,0,0.5,38,2023-01-15 13:15:55,https://www.reddit.com/r/merval/comments/10cnmz1/naranjax_tna_65_o_bitcoin/,/r/merval/comments/10cnmz1/naranjax_tna_65_o_bitcoin/,True,post
+100s3tc,"Me quiero ir, cual seria la mejor forma de acumular dinero usable en europa?","Ok, la cosa es asi, tengo la ciudadania italiana y el pasaporte ya, pero no me quiero ir todavia por que estoy trabajando en una empresa de IT y quiero acumular mas experiencia y conocimiento. Asi que a menos que consiga trabajo en europa de lo que quiero me quedo aca por ahora. No soy programador asi que conseguir trabajo remoto no es tan facil para la parte que hago.   
+Vivo con mis viejos asi que no tengo gastos, mi sueldo es 135k pesos en blanco mas 50k en negro, cual les parece que seria la mejor forma de acumular esa plata de una forma que la pueda usar cuando me valla a europa?  
+Por ahora lo que estoy haciendo es comprar dolar blue y crypto en binance",mateaddiction,merval,0,0.5,20,2023-01-01 17:08:21,https://www.reddit.com/r/merval/comments/100s3tc/me_quiero_ir_cual_seria_la_mejor_forma_de/,/r/merval/comments/100s3tc/me_quiero_ir_cual_seria_la_mejor_forma_de/,True,post
+107ljbk,"150k a fin de mes, qué hacer?","Buenas tardes, como dice el titulo, voy a tener juntados unos 150mil pesos a fin de mes y quería que me dieran ideas sobre como invertirlos, en qué... contexto: estudiante de ingeniería, dejo de trabajar a fin de mes y después empiezo de nuevo con la rutina",MisterWendigo98,merval,0,0.5,2,2023-01-09 15:17:46,https://www.reddit.com/r/merval/comments/107ljbk/150k_a_fin_de_mes_qué_hacer/,/r/merval/comments/107ljbk/150k_a_fin_de_mes_qué_hacer/,True,post
+10cg2fo,¿cuando terminara el brutal delirio del precio de las propiedades en Argentina? - Parte 3,"¿con que cara publican las personas/inmobiliarias al dia de hoy un depto de 50 metros cuadrados a 100k(2k el metro cuadrado) en el conurbano en un pais ultra hiper devaluado?.
+
+La inflación pronosticada para el 2023 en Argentina es de 100%(si sale todo bien) lo que seria un dolar de 800 pesos. ¿Seran capaces de seguir teniendo cara de piedra para publicar a esos precios?",tarantulapillin,merval,27,0.67,107,2023-01-15 06:57:20,https://www.reddit.com/r/merval/comments/10cg2fo/cuando_terminara_el_brutal_delirio_del_precio_de/,/r/merval/comments/10cg2fo/cuando_terminara_el_brutal_delirio_del_precio_de/,True,post
+10ewciy,¿Mejor manera de gestionar gastos en España? (no upvotear),"Buenas! En febrero voy a estar viajando a España por casi 5 meses y estuve pensando en como administrar el dinero. Los gastos van a ser de viajes/compras porque el alojamiento y la comida ya los tengo cubiertos.
+
+Mi situación es esta... tengo casi 3k USD y cuenta en el banco santander (en pesos y dolares), banco patagonia y las tarjetas de MP/Ualá/Binance a mi disposición. Del banco santander/patagonia tengo solo débito (soy estudiante y las tarjetas de crédito tienen montos irrisorios). Ahora bien, cuando llegue a España voy a poder abrir una cuenta bancaria en la que voy a poder depositar Euros. 
+
+Una de las alternativas que pensé para pagar es depositar parte de esos dolares en el Santander y usar la tarjeta de débito y que me descuenten directamente de la caja de ahorro en USD. La otra alternativa es llevar los USD en efectivo, cambiarlos allá y depositarlos en la cuenta en Euros de España, aunque desconozco que tanto me van a cagar con la comisión en las casas de cambio. También podría vender dolares al blue y depositar pesos, el problema es que se me devalúan constantemente (salvo que los meta en un FCI / los invierta en un ETF mientras no los uso?), la ventaja de esto es que puedo transferirlos a MP/Ualá y usar esas tarjetas que funcionan como crédito, por lo que es más probable que anden bien.
+
+En fin, que opinan? cual sería la mejor estrategia? Se les ocurre alguna otra alternativa mejor?
+
+Desde ya gracias!",ethernown,merval,21,0.66,29,2023-01-18 00:12:05,https://www.reddit.com/r/merval/comments/10ewciy/mejor_manera_de_gestionar_gastos_en_españa_no/,/r/merval/comments/10ewciy/mejor_manera_de_gestionar_gastos_en_españa_no/,True,post
