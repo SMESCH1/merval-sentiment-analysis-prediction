@@ -1,0 +1,92 @@
+id,title,text,author,subreddit,score,upvote_ratio,num_comments,created_utc,url,permalink,is_self,type
+xotvdm,Emigré a Irlanda y te lo cuento para que vos no lo hagas,"Por [este comentario](https://www.reddit.com/r/merval/comments/vhesw4/emigrar_es_lo_mejor_no/id8c8sr/) invitando a contar cómo es vivir en Irlanda y ya habiendo pasado un tiempo prudencial, escribo este thread con información sobre cómo es vivir en ese país (y un poco en Europa en general donde pude corrobar la información).
+
+Lo divido en partes
+
+## Contexto
+
+[Del post original](https://www.reddit.com/r/merval/comments/vhesw4/emigrar_es_lo_mejor_no/id86yml/)
+
+> Yo tuve la posibilidad de irme a principios de año y me tiré atrás pensando que mejor era quedarme a cobrar en USD en negro acá. Aún no haciendo nada raro y moviéndome con financieras conocidas, la UFI me agarró y me intimó por no liquidar los dólares acá. Dos semanas después entraron a robar a mi edificio, encañonaron y cagaron a palos a una vieja de PB y robaron en 3 departamentos. Plena zona Recoleta-La Isla. Después de eso empecé a tirar CVs a lo loco y hoy estoy en Irlanda desde hace dos meses.
+
+Cómo llegué? De uno de los lugares en donde me postulé me contactaron, hice las entrevistas, las pasé, me hicieron una oferta, negociamos y acordamos un paquete. Soy desarrollador y es una empresa FAANG. La oferta fue de un salario bruto de €100k + 15% de bono + €50k en stock options que obtendría después de un año, pero cotizadas al precio de abril del 2022.
+
+## Impuestos al salario
+
+Acá empieza el derrape. Yo sabía que los impuestos en Irlanda le convienen más al empleador que al empleado pero no tenía idea de que eran tan terribles.
+
+Para empezar, cuando llegás a Irlanda tenés que sacar lo que se llama número PPS. Es el número de seguridad social que te reconoce como contribuyente. Cuando quedás registrado entrás al régimen general, donde tenés algunos tax breaks según cuánto ganás al año. El proceso para obtener esto puede durar tranquilamente 1 mes porque necesitás lo que llaman *proof of address*, que es prueba de que vivís en algún lugar de Irlanda y que si no tenés alquiler todavía no vas a tener (al menos que estés en un AirBNB y el dueño no tenga problema con que lo uses para esto). Mientras tanto, el gobierno te cobra lo que llaman *emergency tax*, que es cobrarte todo tu sueldo como si fuese la banda más alta posible: 40% de income tax + ~12% social security = ***52%*** del bruto. Te va a quedar sólo 48% de tu sueldo al menos el primer mes.
+
+Cuando tengas PPS te van a hacer un reembolso de lo que corresponda al mes siguiente, pero aún así los impuestos sobre el salario son altísimos: de income tax hasta €36800 anuales pagás el 20%, por encima el 40%; de social security pagás PRSI (pensión pública) algo así como un 4%; de USC (un impuesto ""de emergencia"" para reemplazar al impuesto de seguro de salud básico) llega hasta el 8.5%. El punto es que en mi caso de los €110000/12 = €9166 [me quedan ~€5550](https://download.pwc.com/ie/budget-2022/income-tax-results.html?status=1&parentstatus=0&ageattained=31&prsicategory=1&grossincome=on&grosssalary=110000&pensionfund=on&tradeincome=on&welfarepension=on&investmentincome=0&salary3=0&remoteworking=on&remoteworkingspouse=on&covehicle=on&healthinsure=on&healthbik=170&healthadult=1&healthchild=0&clubbiksel=0&otherbiksel=0&employerloan=on&submit=Calculate+my+tax), o algo así como que el 40% se me va en impuestos. 
+
+Aparte, todos los ""beneficios"" de tu empresa como seguro médico, cuota del gimnasio, etc, todo cuenta como salario ""extra"" así que paga impuestos. Así que en realidad estás recibiendo el beneficio *menos* tu marginal tax rate (que en casi todos los casos es 52%).
+
+## Costo de vida
+
+Es muy alto, uno de los más altos en toda Europa. Y en crecida. Más que nada, el mayor driver es el costo de alquiler: en todo Dublin (ciudad de casi 1m de personas) [hay menos de 300 departamentos en alquiler](https://www.daft.ie/property-for-rent/dublin?sort=publishDateDesc). [*En toda Irlanda* hay menos de 900](https://www.daft.ie/property-for-rent/ireland?sort=publishDateDesc). El costo de un dos ambientes medio pelo en una zona horrible de la ciudad está (mínimo) €1800 al mes. O sea, como mínimo yo, con un sueldo considerado exorbitante en cualquier otro lugar de Europa, estaría gastando más del 30% en alquiler. Pero como es un mercado competitivo no pude encontrar nada por ese precio en su momento: literal bajan las publicaciones a la hora de ponerlas online del volumen de emails que mandan. Recién pude encontrar algo a último momento, casi cuando se me terminaba el mes de AirBNB que me puso la empresa, a €2200. O sea, *casi 40% de mi sueldo en alquiler*.
+
+Quienes se resignen a compartir habitación la cosa no es tanto mejor: hay igual cantidad de competencia ([menos de 500](https://www.daft.ie/sharing/dublin?showMap=false) habitaciones disponibles en todo Dublin) y los precios son altísimos igual para lo que es ""apartment sharing"": mínimo €700, promedio €1000, algo decente €1200-€1400
+
+Los servicios también son caros: €100 de electricidad y €100 de gas por mes en verano (son bimestrales en general, estoy dividiendo por dos) y avisaron un incremento ""mínimo"" del 40% para este invierno. Seguramente esté en €250 y €250.
+
+Comida también es cara. Desde que llegué fácil el kilogramo de pechugas de pollo se fue arriba el 50%, los huevos el doble y todo así. Gasto mínimo €250 por mes sin darme lujos.
+
+Delivery y restaurantes es prohibitivo. En Argentina pedía delivery casi todos los días. Acá si pido dos veces por semana estoy gastando más de €40. Una salida a un restaurant con sólo plato principal + bebida cuesta arriba de €20, *fácil* (y en general arriba de €35). Yo solía salir dos veces por semana a restaurantes y acá voy sólo una como lujo y promedio €30.
+
+Internet conseguí en promoción a €40 por 250~~G~~Mbps, pero aumentan a €60 cuando se te termina y ahora la misma promoción está a €55. Celular podés conseguir un abono barato de entre €5 y €13 por mes por 100Gb o algo así. Gimnasio, el más barato está a €35 + €35 de ""inscripción"".
+
+En otras cosas (como perfumería, salud, productos de limpieza, etc) promedio €80.
+
+Transporte podés cargar una tarjeta tipo SUBE. Te cuesta un viaje en colectivo alrededor de €2-€3, un viaje en tranvía entre €1.3 y €2 y en tren entre €3 y €4. Yo le pongo €100 y me alcanza para un mes
+
+En total me está costando vivir acá poco más de €3000. Ahorro €2500 en promedio, que es 50% menos de lo que ahorraba en Argentina como contractor cobrando USD 6000 por mes. Noten igual que mis gastos no son superfluos ni ""ajustados a mi salario alto"": son los mismos costos que tendría cualquier persona que venga en un plan más low cost, siendo Jr o SSr. A menos que compartas habitación, que ahí se te aligera un poco el mayor costo (pero no tanto...), consideren que un salario supuestamente ""bueno"" acá es €70k (que te queda [como €4000 por mes](https://download.pwc.com/ie/budget-2022/income-tax-results.html?status=1&parentstatus=0&ageattained=31&prsicategory=1&grossincome=on&grosssalary=70000&pensionfund=on&tradeincome=on&welfarepension=on&investmentincome=0&salary3=0&remoteworking=on&remoteworkingspouse=on&covehicle=on&healthinsure=on&clubbiksel=0&otherbiksel=0&employerloan=on&submit=Calculate+my+tax)) ya estás ahorrando muy poco y un sueldo promedio (menos de €50k) directamente estás contra las cuerdas.
+
+## Impuestos a las inversiones
+
+Esta es la parte más irracional de todas y que un poco explican por qué hay un problema de acceso a la vivienda en Irlanda. Los impuestos a las inversiones son *altísimos* mal: el capital gains tax es del 33% (***40%*** si invertís en instrumentos extranjeros, e.g. si tenés inversiones en EEUU) y tienen una regla que se llama *deemed disposal* por la cual, si invertís en un ETF con domicilio en Irlanda pero lo mantenés por más de 8 años, ***te hacen pagar ganancia presunta por el 41% de lo que ""habrías ganado si vendías ahora***. Locura total. Por algo los irlandeses invierten en bienes raíces y se ponen a alquilar como forma de ahorrar para su jubilación: porque no tienen otra forma, son como los argentinos con sus deptos en alquiler.
+
+## Transporte
+
+El transporte en Dublin es pésimo. Hay dos líneas de tranvía que cubren muy poco terreno y una línea de tren que corre por la costa nada más. El resto son colectivos que tienen una frecuencia paupérrima: el más frecuente te pasa cada 15 minutos. Comparado con otros países de Europa, es muy pero muy malo.
+
+## Salud
+
+Esto puedo decir que es malísimo tanto en Irlanda como en otros países de Europa. El sistema es igual en casi todos lados: para cualquier cosa tenés que *primero* ir a un médico generalista (GP) que te mira y decide si te puede tratar o te tiene que derivar a un especialista. Si es lo segundo, te da un *referal* para pedir turno con el especialista. Acá la salud es ""pública"", así que tenés hospitales y médicos públicos o también podés tener seguro médico e ir a un privado. El seguro médico **no te cubre todo**: no importa el nivel de seguro que pagues, en todos tenés que pagar primero y después te reembolsan un pedazo, que depende de tu cobertura. En mi caso, que es el seguro que paga una FAANG, para consultas con GPs, que salen entre €60 y €70, termino pagando €30 y por especialistas, que están entre €150 y *€250*, termino pagando alrededor de €100.
+
+Todos mis compañeros de EMEA que vienen de países de Latinoamérica, Medio Oriente e incluso EEUU se quejan de lo mala que es la calidad de salud de todos los países que tienen medicina socializada. Hablo de Irlanda como de Alemania, Francia, España, Holanda y Suecia, que son los lugares donde están mis teammates. Pueden corroborar en los [subreddits](https://www.reddit.com/r/Netherlands/comments/pvrwfq/disappointed_with_doctor/) [de cada](https://www.reddit.com/r/germany/comments/shr4hy/fed_up_with_the_medical_system_here/) [uno](https://www.reddit.com/r/es/comments/omq1st/mi_mala_experiencia_no_entiendo_las_flores_que_se/) y van a encontrar cualquier cantidad de casos de gente con problemas serios tipo [hernias](https://foros.3dgames.com.ar/threads/925460-irse-del-pais?p=24201227&highlight=hernia#post24201227) que no consiguen que los deriven a especialistas porque ""con un paracetamol estás"", o que tienen [listas de espera](https://www.reddit.com/r/Netherlands/comments/v6s22j/why_is_healthcare_suffering_so_much_in_the/) para un especialista de 6 meses o más, y tiempos de espera en hospitales por emergencias [de horas y horas](https://www.reddit.com/r/ireland/comments/wmfefy/what_can_the_public_do_about_the_situation_with/)
+
+Yo particularmente tengo un problema en la piel hace *6 meses* que no consigo médico ni dermatólogo que lo pueda solucionar: los médicos (GPs) no lo pueden tratar y los dermatólogos recomendados buenos tienen espera hasta *2023* recién.
+
+Lo peor es que te lo defienden a rajatabla porque ""peor es EEUU donde te dejan morir si no tenés plata!"" Tienen un serio problema de autoestima respecto de EEUU que los enceguece totalmente.
+
+## Seguridad
+
+La gente boludea con el celular en la calle y no he visto robos en general. Pero existen, sobre todo bicicletas y autos (no hay garages en general acá, todos duermen en la calle, que se cobra aparte). Lo que sí hay es una epidemia de [ataques](https://www.reddit.com/r/ireland/search?q=deliveroo+assault&restrict_sr=on&sort=relevance&t=all), [en general](https://www.reddit.com/r/ireland/comments/wyceo5/teenager_accused_of_assaulting_three_garda%C3%AD/) de [adolescentes](https://www.reddit.com/r/ireland/comments/wjjmcf/man_29_in_a_critical_condition_after_assault_by/) (que son intocables gracias a la Justicia) que últimamente ponen a todos los progres [a la defensiva](https://www.reddit.com/r/Dublin/comments/xlpjmf/local_social_workers_take_on_cherry_orchard/). Les suena? La única diferencia con Argentina es que acá es muy difícil escuchar de tiroteos o ataques con armas. Los únicos que hacen eso son los de las bandas criminales pesadas y esos sí están controlados. 
+
+Otra cosa que es muy desastroza es la [cantidad](https://www.reddit.com/r/ireland/comments/uv8z0f/anyone_else_disgusted_by_the_absolute_state_of/) de [faloperos](https://www.reddit.com/r/ireland/comments/wpr96g/what_is_the_best_way_to_deal_with_late_night/) que hay por la calle. Otra cosa por la que se pelean los progres (que son mayoría acá, por cierto), que pretenden que la situación se solucione mágicamente legalizando la droga. Como se solucionó mágicamente [en San Francisco](https://twitter.com/OB_Ages/status/1568521330210791425)... /s
+
+## Tecnología, autos, casas, ropa, y lo que ""no conseguís en Argentina""
+
+Tecnología es un poco más barata que conseguir en Argentina (aunque honestamente... con viajar una vez por año a cualquier centro turístico de afuera podés reequiparte, total nadie controla eso) pero no es que venden iPhones a $2. 
+
+Ropa sí es en general más barata que en Argentina, aparte de que tenés Primark (Penney's se llama acá) que es ""ropa descartable"", o Zara y H&M que es ropa descartable pero un poco menos descartable, tenés todas las demás marcas top a precio más bajo que lo que conseguís en Argentina. Pero si podés traerte tecnología de afuera en un viaje sin que nadie te rompa las bolas, aún más podés traerte ropa.
+
+Autos, están casi al mismo precio. Hoy leía a uno que comparaba BMWs Series 1 (que acá ya no los venden más porque BMW vende sólo eléctrico 🙄) y la verdad los precios son similares en [Argentina](https://auto.mercadolibre.com.ar/MLA-1173610672-bmw-serie-1-2022-15-118i-sport-line-136cv-_JM#position=1&search_layout=grid&type=item&tracking_id=8e4fbe78-c0e8-4e6e-8e38-00b65edba227) y en [Irlanda](https://www.carzone.ie/used-cars/bmw/1-series/fpa/202207087596230?journey=Search). Acá la marca ""clase trabajadora"" es Skoda (empresa checa, del grupo VW), comparado [el sedán](https://www.skoda.ie/models/superb/superb) suyo con el sedán de, ponele, VW tipo [Vento](https://auto.mercadolibre.com.ar/MLA-1106583053-volkswagen-vento-highline-250tsi-14-tip6-2021-_JM#position=1&search_layout=grid&type=item&tracking_id=a0e06f41-4296-4303-8e3f-d5a28900561a), sigue estando más barato allá. Lo único sí, que acá podés pagar en cuotas y allá un plan te liquida.
+
+Las casas, como dije, están en crisis acá: no podés conseguir nada decente [por menos de €300000](https://www.daft.ie/property-for-sale/ireland/houses?showMap=false). Tengan en cuenta que la regla de hipotecas acá es que no podés pedir más de 3.5 veces tu sueldo bruto anual. Así que incluso yo, que estoy en el decil más alto, tendría problemas para obtener una hipoteca para comprarme el sucucho más sucucho sin aislamiento térmico de toda la isla.
+
+Y por cierto: los intereses están creciendo (porque el BCE sube la tasa de referencia) y en Irlanda las tasas son más altas que en el resto de Europa. Así que estás pagando carísimo algo ya de por sí carísimo
+
+## Pasajes aéreos
+
+Acá sí hay una ventaja notable respecto de Argentina. Por un lado porque estás cerca de varios destinos turísticos ""aspiracionales"" tipo España, Francia, Italia o incluso Grecia. Podés tranquilamente conseguir pasaje en low cost a €100 para alguno de estos destinos según la fecha (eso sí: las low cost de acá son desastrozas a nivel servicio y hasta *limpieza*) pero también podés conseguir aéreos de menos de €500 para ir por, por ejemplo, Air France o British Airways al Caribe, a México, a EEUU u otros lugares un poco más lejanos.
+
+Eso sí: los pasajes a Argentina o Brasil mínimo €1500.
+
+## Conclusión
+
+Creo que si sos de clase media-alta y podés conseguir un trabajo dolarizado/atado al dólar/atado a la inflación como muchos profesionales pueden, Irlanda no conviene para nada. Yo particularmente perdí muchísimo nivel de vida, tanto en gustos que puedo darme como en ahorro como incluso en algo tan básico como la salud. Por comentarios que escucho de mis compañeros que nos mudamos al mismo tiempo, muchos están pensando ya en irse en menos de 1 año y la gran mayoría piensa en EEUU porque por comentarios de mis *otros* compañeros que están en el resto de Europa la cosa no está mucho mejor allá (fíjense en los subreddits de Alemania, Holanda, España e incluso Portugal que todos tienen un thread sobre sus crisis habitacionales y en todos hay threads sobre cómo los están cogiendo con la inflación y el costo de energía).
+
+No digo que Argentina sea un buen lugar para vivir (yo me fui medio ""echado"" del lugar) pero mi recomendación es buscar lugares con bajo costo de vida, sistema de salud privado bueno y situación habitacional decente tipo México, Panamá, Uruguay, Costa Rica, Chile o incluso, si les da para más, Dubai y Singapore.
+
+Cualquier pregunta, háganla que cuando tenga tiempo respondo.",[deleted],merval,526,0.95,489,2022-09-26 16:55:21,https://www.reddit.com/r/merval/comments/xotvdm/emigré_a_irlanda_y_te_lo_cuento_para_que_vos_no/,/r/merval/comments/xotvdm/emigré_a_irlanda_y_te_lo_cuento_para_que_vos_no/,True,post

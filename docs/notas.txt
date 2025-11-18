@@ -1,0 +1,32 @@
+Modelos a implementar
+1. Modelo de SA: Recibe noticias y devuelve un valor que mide el optimismo de reddit
+Este modelo puede ser pysentimiento (transformer de SA)en un primer momento, y luego poddríamos ver de finetunear uno, ej Tango70B, Ollama, mistral, u otro. RoberTuito (el de pysentimiento) tiene un script para entrenarlo, ver si esfinetunning tecnicamente
+2. LSTM para inferencia
+
+
+TBD:
+- descargar y ver si sirve base zenodo reddit 2019
+- limpieza de datos, verificar duplicados, ver de reddit pq solo scrapea merval
+- ver base de datos (stocktwits) para implementar directo LSTM u otro para sentiment analysis
+- traer data merval (yfinance, acá tmbn hay https://github.com/isantolin/Historic_Merval_Scrap)
+- ETL script/ pipeline airflow?, tener en cuenta que el modelo no use los datos reales que se filtren en los foros. es decir, en los foros van a figurar datos de los precios y eso, hay que ver como trabajamos con eso
+- revisar pq algunos archivos que pusheo desde branch feature reddit no se ven en main, si están siendo commiteados
+
+
+Verificar:
+- aplicar data coverage?
+- keywords manneja regexx?
+- ver para aplicar modelo de variables latentes (y si aplica, diffusion model, para la parte de sentiment analysis)
+- sliding window y expanding window
+- archivo poetry?
+
+
+Pipeline:
+Scraping → Preprocesamiento → Análisis de Sentimiento + Modelos Latentes → Features → Predicción de precios
+
+
+Dataset:
+posts subreddit + noticias 2019 + 
+analizar si aplican: Boletines Oficiales del BCRA/INDEC, Reportes Trimestrales de Empresas (ADRs)
+
+

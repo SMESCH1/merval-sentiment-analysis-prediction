@@ -1,0 +1,536 @@
+id,text,author,subreddit,score,created_utc,parent_id,link_id,type
+jbaf4em,"ChatGPT no sabe nada, es un modelo de lenguaje solamente (cuatro en realidad). Esta alimentado con datos de Abril de 2021, asi que cualquier cosa factica que tire viene de ese momento. Todo lo demas es “inventado” en el curso de la conversacion, hasta las URL inventa si le pedis referencias.
+
+Hay otras herramientas de busqueda generativa que vienen y pueden ayudarte a encontrar datos para vos decidir. Los futuros Bing y Bard (Google) seran asi, podes sumarte a la lista de espera del primero. Hay alguna que otra herramienta similar, pero todo muy experimental.",polentx,merval,20,2023-03-07 14:06:32,t3_11l4kl6,t3_11l4kl6,comment
+jbapshe,"Es un modelo de lenguaje, su único objetivo es generar respuestas coherentes, eso no quiere decir que la información que te de sea correcta..
+
+Yo le pedí que escriba un abstract científico publicado después de 2021 dándole solo el título, nos sorprendió como le pegó con la intro y la conclusión, iban exactamente por el mismo lado que el original, el contenido era pura sarasa.
+
+Además si existe AI con la capacidad de predecir inversiones va a ir directo a las manos de los jugadores grandes, no del público. También si existiera dicha AI una vez que un par de inversores tengan acceso se anularía a si misma. Es como querer jugar un partido de ajedrez entre 2 computadoras, la dificultad del juego va aumentando exponencialmente",Happy_Scrotum,merval,11,2023-03-07 15:14:35,t3_11l4kl6,t3_11l4kl6,comment
+jbb5uxr,"Lo maximo que hice fue pedirle top 10 de libros de finanzas.
+
+&#x200B;
+
+Ojo que a veces vende mucho humo y si no sabes del tema le crees de lo convencido que lo dice.",[deleted],merval,5,2023-03-07 16:56:48,t3_11l4kl6,t3_11l4kl6,comment
+jbakuqe,"Si tiras las cartas o un dado para elegir las inversiones, tenes las mismas posibilidades que usando chatGPT, no esta diseñado para eso.
+
+Entiendo que hay software para calcular en que es mejor invertir, pero como todo, usan información para tratar de predecir como seguira todo a futuro.",Michaelgunner,merval,8,2023-03-07 14:43:13,t3_11l4kl6,t3_11l4kl6,comment
+jbblvws,">me pareció que daba respuestas bastante coherentes
+
+es la joda de ChatGPT. Está diseñado específicamente para escribir cosas coherentes, pero si hilas fino ves todas las falencias que tiene",Heapifying,merval,3,2023-03-07 18:37:05,t3_11l4kl6,t3_11l4kl6,comment
+jbavhyd,En algún lado dice que no da consejos para inversiones,BenjaFow,merval,2,2023-03-07 15:50:40,t3_11l4kl6,t3_11l4kl6,comment
+jbbkupn,Chatgpt usa datos del 2021 si no me equivoco así que dudo que te puedo ayudar a invertir,Thelpix,merval,2,2023-03-07 18:30:26,t3_11l4kl6,t3_11l4kl6,comment
+jbcja13,"Si bien todo lo que te dijeron es correcto es mucho más concreto que Google para averiguar, por ejemplo, qué acciones tuvieron menor volatilidad histórica. Prueba y compara.",rally2000,merval,2,2023-03-07 22:34:56,t3_11l4kl6,t3_11l4kl6,comment
+jbdztbw,"De manera plana , no. Es una IA que predice el siguiente Token ( palabra) a contestar en base a probabilidades segun su entrenamiento .  
+Ahora.. si te puede ayudar a armar tu propia herramienta ( software ) que importe datos financieros y trabaje sobre algunos modelos matematicos ya conocidos.  
+Para ello tendrás que hacer las preguntas ( promps) correctos a ChatGPT e ir armando tu herramienta.",Complete_Salary_673,merval,2,2023-03-08 07:54:30,t3_11l4kl6,t3_11l4kl6,comment
+jbae9mx,"Usarlo para que exactamente?
+
+""hola chatGPT, invierto en bono x, cuanto compro?"" claramente no.
+
+Ahora, para aprender de un tema es genial.
+
+1ro chatGPT, 2nd google, despues seguis estudiando y cuando tenes alguna pregunta interesante, y que le pueda servir a los demas tambien, y gererar una discusion interesante, reddit.",brunonicocam,merval,2,2023-03-07 14:00:59,t3_11l4kl6,t3_11l4kl6,comment
+jbcg04i,"Yo no sé invertir. Lo uso para aprender. Le pregunto cosas históricas y le pido ejemplos. Me lo hace más ameno al aprendizaje. Ahora después de leer los coments me hace dudar que me este enseñando bien, pero le pregunté y me aseguro que los que no saben son uds.
+Gracias igual abrazo y 2do Francia",cientoquince,merval,5,2023-03-07 22:09:45,t3_11l4kl6,t3_11l4kl6,comment
+jbafyro,[removed],[deleted],merval,1,2023-03-07 14:12:00,t3_11l4kl6,t3_11l4kl6,comment
+jbaz3yk,"No veo como un modelo de lenguaje podria ser util en matematica financiera, tiene mas sentido levantar datos de algun API con excel y poner formulas que calculen todo.   
+
+
+Le podes pedir esas formulas a la IA si queres, pero hasta ahi creo que llega la cosa.  
+
+
+Igualmente, si chatGPT diera ese seguimiento del que tanto hablas y para el que no entiendo en que te beneficiaria usar ChatGPT, dudaria de la informacion que me de.",DMugre,merval,1,2023-03-07 16:13:43,t3_11l4kl6,t3_11l4kl6,comment
+jbb298j,Cuál es la ventaja competitiva de Autozone me tiré y me mandó unos datos decentes.,StandardNotices,merval,1,2023-03-07 16:33:55,t3_11l4kl6,t3_11l4kl6,comment
+jbbcfyn,"No es muy bueno, además por diseño está limitado en cuestiones de inversiones, medicina y política. Dice cosas genéricas.",Fedesan01,merval,1,2023-03-07 17:38:44,t3_11l4kl6,t3_11l4kl6,comment
+jbbvhai,"Es un generador de sarasa controlada para que tenga sentido, no un modelo matemático.",Imaginary_Passage431,merval,1,2023-03-07 19:40:40,t3_11l4kl6,t3_11l4kl6,comment
+jbclv8z,Aladdin hay uno solo y lo tiene blackrock,Outrageous-Gas-285,merval,1,2023-03-07 22:54:59,t3_11l4kl6,t3_11l4kl6,comment
+jbcru88,[deleted],[deleted],merval,1,2023-03-07 23:40:24,t3_11l4kl6,t3_11l4kl6,comment
+jbalft1,"Eso iba a decir, no tiene información reciente y encima tiende a inventar si no sabe algo. Una vez le pedí referencias de películas similares a tal otra película y literalmente me tiró nombre y descripción de 3 películas que no existían y cuando se lo marqué me dijo ""ah sí, sorry, fue sin querer"".
+
+O sea que serían consejos de inversión a alguien que vive en 2021 y encima te miente en la cara si le pinta.",freddiem45,merval,10,2023-03-07 14:46:57,t1_jbaf4em,t3_11l4kl6,comment
+jbca0i1,No sabe nada? Me ayudó a aprobar un final capo.,TigreDeLosLlanos,merval,3,2023-03-07 21:24:23,t1_jbaf4em,t3_11l4kl6,comment
+jbbiqg4,"En cierto punto es tal cual lo que decís de que es un modelo de lenguaje: pero yo no sería tan radical con el “no sabe nada”… hoy en día es una súper herramienta entre vos y Google pot así decirlo en la que te ayuda mucho si sabes que preguntar. Los modelos están basados en redes neuronales que imitan las neuronas del cerebro y cómo este aprende (o como suponemos que funciona). O sea, sabe casi tanto como un humano cree que sabe algo…. Y solo van por la versión 3…. El ritmo de crecimiento de manejo de vectores es impresionante… van por el orden de billones…. En un par de versiones le van a cambiar el nombre a Skynet",dimitri2984,merval,5,2023-03-07 18:17:32,t1_jbaf4em,t3_11l4kl6,comment
+jbamifl,"Tenía entendido que había un tilde para ""conectarlo a internet"" y ahí usaba datos recientes para formular la respuesta. Sacaron esa opción?",matiascep,merval,1,2023-03-07 14:53:41,t1_jbaf4em,t3_11l4kl6,comment
+jbay7fm,"Tenes razón en el caso de uso directo de recomendaciones, yo pensaba mas en las tareas accesorias a la inversión, por ejemplo seguimiento",SelectLemon6772,merval,1,2023-03-07 16:07:56,t1_jbapshe,t3_11l4kl6,comment
+jbax8x0,"Lo dice todo el tiempo, pero no necesariamente para inversiones, sino para las herramientas accesorias, como darle seguimiento, perfil de riesgo de cada inversión, etc",SelectLemon6772,merval,2,2023-03-07 16:01:46,t1_jbavhyd,t3_11l4kl6,comment
+jbaitzy,"Claro, yo estoy aprendiendo conceptos relacionado con inversiones, pensé que acá lo usaban para analizar patrones de mercado y herramientas, onda formulas para excel. Que este desactualizado no debería ser un problema ya que tiene info histórica hasta 2021.",SelectLemon6772,merval,0,2023-03-07 14:30:22,t1_jbae9mx,t3_11l4kl6,comment
+jbajb17,[removed],[deleted],merval,1,2023-03-07 14:33:24,t1_jbafyro,t3_11l4kl6,comment
+jbd15pq,"> CEO: Jeff Bezos
+
+Andy Jassy",guilleiguaran,merval,1,2023-03-08 00:54:52,t1_jbcru88,t3_11l4kl6,comment
+jbalzsw,"Claro, en realidad, no tiene informacion ~~reciente~~. Simplemente usaron un dataset de 2021 para entrenarlo, nada mas. Si tira algo factico es casualidad que viene de ahi, no es una base de datos, no tiene datos “historicos hasta 2021” como dicen en otros comentarios, ni nada que se le parezca.",polentx,merval,1,2023-03-07 14:50:28,t1_jbalft1,t3_11l4kl6,comment
+jbbk45h,"No en realidad :) GPT-3 y modelos similares no tienen nocion de conceptos como los seres humanos tenemos. Son “meramente” modelos matematicos entrenados para determinar la distribucion estadistica de “tokens” (partes de palabras) en grandes cantidades de texto. Lo que hacen al responder es “adivinar” (probabilidad) lo que viene despues de lo que vos preguntas. Ej. “Cual es el lugar mas remoto del mundo?” no lo responde porque sabe que es Tierra del Fuego, lo responde porque al ser entrenado el modelo, lo mas probable despues de “lugar mas remoto del mundo” en el texto de entrenamiento es “Tierra del Fuego”. Esta es la explicacion basica, por supuesto es un poco mas complejo que esto y hay multiples parametros que determinan los resultados de este entrenamiento y como responde.
+
+Edit: de hecho, las partes del chat se llaman “prompt” (lo que vos escribis) y “completion” (lo que responde o “completa” la AI)",polentx,merval,6,2023-03-07 18:25:48,t1_jbbiqg4,t3_11l4kl6,comment
+jbcm8yg,Yo le pregunte si cumplia las 3 leyes de la robotica y me tiro error 2 veces...,spender-2001,merval,2,2023-03-07 22:57:54,t1_jbbiqg4,t3_11l4kl6,comment
+jban91w,"No que yo sepa, nunca lo he visto y entiendo que nunca estuvo diseñado para eso… capaz que probaste una version a la que no tengo acceso (uso Plus)",polentx,merval,1,2023-03-07 14:58:20,t1_jbamifl,t3_11l4kl6,comment
+jbbijj9,"No está pensado para eso, no es un buscador ni un asistente virtual, el único objetivo de esa AI es seguirte la conversación de una manera coherente como lo haría una persona. Tampoco tiene acceso a internet, todo lo que te responde es en base a la información con que la entrenaron, por ejemplo para chatGPT la reina de Inglaterra sigue viva...
+
+En 5 años si lo integran en los motores de búsqueda con acceso a la información en tiempo real(como la beta cerrada de Bing) y arreglan el problema de que te responde mentiras con total confianza si, podría hacer miles de cosas para facilitarnos la vida",Happy_Scrotum,merval,3,2023-03-07 18:16:22,t1_jbay7fm,t3_11l4kl6,comment
+jbawmuy,"Es más fácil pedirle que te programe un modelo predictivo  de análisis de mercado y hasta ahí , a qué te  predija con exactitud algo",ReadyMail2,merval,2,2023-03-07 15:57:54,t1_jbaitzy,t3_11l4kl6,comment
+jbbskce,"Yo quise ir para el lado mas de pensar que en cierto punto estás modelando cómo funciona una neurona. Más allá de tu correcta explicación de cómo funciona un modelo de lenguaje (nlp) … a larga lo que pasa es que termina entrando una cierta cantidad de input a un nodo y se termina realizando una suma ponderada. - Millones de nodos conectados entre todos… automágicamente modelo de lenguaje.- Todo esto sale de probabilidad y estadísticas, e intentar simular cómo aprenden nuestras neuronas…. En fin, intentaba decir que en algunas generaciones más chatgpt va a creer que entiende algo, como nosotros creemos que entendemos. Porque nosotros también manejamos la información así a nivel neuronal (o creemos que es algo así Hoy). la volé, da para 1 millones de renglones más jeje",dimitri2984,merval,4,2023-03-07 19:20:39,t1_jbbk45h,t3_11l4kl6,comment
+jbaq3ld,"No, nunca lo usé jaja.
+
+Al parecer es una extensión para Chrome y Firefox: [https://github.com/qunash/chatgpt-advanced](https://github.com/qunash/chatgpt-advanced)",matiascep,merval,2,2023-03-07 15:16:33,t1_jban91w,t3_11l4kl6,comment
+jbaqwqt,"Ahh ahora si, esta piola la extension",polentx,merval,1,2023-03-07 15:21:39,t1_jbaq3ld,t3_11l4kl6,comment
+jbe5vq8,"Bienvenido! En general los posts de ""tengo X y quiero invertir"" o ""por donde empezar a invertir?"" son muy comunes y muy repetitivos. Las respuestas son siempre mas o menos las mismas y no aportan a subir la calidad del sub por su naturaleza, ademas de que suelen ser poco completas porque solo son recomendaciones sueltas que NO es lo que debería estar recibiendo alguien que recién arranca en el mundo de las inversiones.
+
+Por esto, desde la moderación solemos cerrar este tipo de threads cuando se vuelven muy repetitivos y recomendarle a los usuarios los siguientes tips:
+
+1. Leer las [guias para principiantes](https://www.reddit.com/r/merval/collection/e6a7524c-6445-470e-a2b1-2246387c0c15/) (usar new reddit para ver bien los posts).
+
+2. Leer posts anteriores de [PRIMEROS PASOS](https://www.reddit.com/r/merval/search?q=flair_name%3A%22PRIMEROS%20PASOS%22&restrict_sr=1).
+
+3. Leer la [wiki](https://new.reddit.com/r/merval/wiki/index).
+
+4. Usar el buscador para ver si la consulta ya fue tratada.
+
+5. Usar el [THREAD DE CONSULTAS DIARIAS](https://www.reddit.com/r/merval/?f=flair_name%3A%22CONSULTAS%20BASICAS%22) para evacuar consultas puntuales que no ameritan un thread.
+
+6. Usar el filtro de [TUTORIALES](https://new.reddit.com/r/merval/search?sort=new&restrict_sr=on&q=flair%3A%22TUTORIALES%22) para encontrar guías aprobadas sobre distintas temáticas.
+
+Suerte!",merval-ModTeam,merval,1,2023-03-08 09:08:08,t3_11livpm,t3_11livpm,comment
+jbcpwyi,Queres una inversion que al año te de 1/5  de lo.que pones? Y encima que sea segura? Si encontras la formula magica  pasala,Neither-Parfait7795,merval,57,2023-03-07 23:25:51,t3_11livpm,t3_11livpm,comment
+jbcqqx5,Segura 20% en dólares tira el capo. No pedís nada 🤣🤣🤣,galileo634,merval,34,2023-03-07 23:32:09,t3_11livpm,t3_11livpm,comment
+jbcxnfo,[removed],[deleted],merval,27,2023-03-08 00:26:00,t3_11livpm,t3_11livpm,comment
+jbcsnuk,[deleted],[deleted],merval,10,2023-03-07 23:46:42,t3_11livpm,t3_11livpm,comment
+jbcsr0k,"Algo que me recomiendan pero vas a tener que chequear el monto mínimo, son las obligaciones negociables, según entiendo de bajo riesgo.",ichbinfef,merval,9,2023-03-07 23:47:23,t3_11livpm,t3_11livpm,comment
+jbcq8ch,Seria el equivalente a encontrar una inversión que dé 300% anual en pesos y que sea segura.,33p857,merval,15,2023-03-07 23:28:15,t3_11livpm,t3_11livpm,comment
+jbctufx,"respuesta corta: SP500 y a aguantarlo. sino, algun que otro index fund más diversificado. ese rendimiento del 20% sin riesgo es una locura",naotemfin,merval,7,2023-03-07 23:55:45,t3_11livpm,t3_11livpm,comment
+jbcpv1z,No hay nada seguro que de 20% anual en dólares. Adhiero al comentario de invertirlo en capacitación,manusa99,merval,18,2023-03-07 23:25:27,t3_11livpm,t3_11livpm,comment
+jbcnttf,Shit posting,Peperuza,merval,21,2023-03-07 23:10:02,t3_11livpm,t3_11livpm,comment
+jbcrjc0,"Son todos bots en este sub, no podes asegurar ese rendimiento en un año pero si invertis en blue chips en el momento adecuado ( apple,etc) es mas que probable que ganes eso o mas. Es bastante simple la verdad compra algo que este barato y tenga buen valor y espera, punto. Algunos la complican haciéndose los warren buffett.",pomelorosado,merval,9,2023-03-07 23:38:05,t3_11livpm,t3_11livpm,comment
+jbcsi74,"Perdón, pero como la pregunta no es seria, las respuestas tampoco pueden serlo. Eso lo lograrías a partir de los 1000 millones de dólares, con un gobierno desesperado, con un ministro amateur de las finanzas como Massa. Como te darás cuenta, supera la 2100 puntos de riesgo país... Por algo será...",Xal-Exen,merval,4,2023-03-07 23:45:29,t3_11livpm,t3_11livpm,comment
+jbdsp0s,"Viendo el nivel de tus comentarios y las preguntas que haces. Antes de intentar invertir en cualquier cosa, inverti en esto.
+
+https://www.reddit.com/r/merval/comments/hvb1yw/experto_universitario_en_mercados_de_capitales/",diyexageh,merval,3,2023-03-08 06:12:19,t3_11livpm,t3_11livpm,comment
+jbdnjnr,Whisky,honeybadger00001,merval,2,2023-03-08 04:59:19,t3_11livpm,t3_11livpm,comment
+jbduujc,[removed],[deleted],merval,2,2023-03-08 06:43:45,t3_11livpm,t3_11livpm,comment
+jbe05n6,"En argentina tenes las obligaciones negociables, por el otro dia salio a emitir edenor y se obtiene un 9.5% de tir. Pero siempre esta el riesgo del reperfilamiento si no consiguen los verdes para pagarte. Algunos como IRSA venden  1 piso de alguna de sus torres y se hacen del cash para pagar, otros que facturan en pesos, por mas ganancias que tengan si el gobierno no les deja comprar estas al horno.
+
+Si queres mas riesgo tenes bonos provinciales, algunos dan como 20% , lo que queres vos, pero por algo es....",DLV1111,merval,2,2023-03-08 07:59:07,t3_11livpm,t3_11livpm,comment
+jbcor1p,Me interesa saber ya q plazo fijo en dólares no genera casi nada,JohnRockTkd,merval,2,2023-03-07 23:17:02,t3_11livpm,t3_11livpm,comment
+jbcx2fq,"No sé qué edad tengas o si tenés alguna idea, pero comprando bien e investigando podés hacer una buena inversión en items del counter, esperando podés hacer mucha guita.
+Lo más seguro son las cajas, comprás barato y esperás",Wall304,merval,0,2023-03-08 00:21:23,t3_11livpm,t3_11livpm,comment
+jbe5lu0,"Yo lo pondria en Dodgecoin; cada vez que twitea Elon Musk esa cripto pega un salto.  
+La compre el año pasado cuando estaba a 0,1335 y la vendi en 0,1610. Me dio un 20% en poco tiempo. Obviamente es muy riesgoso.",EdieFisher,merval,0,2023-03-08 09:05:07,t3_11livpm,t3_11livpm,comment
+jbcudt3,"Cómprate algo cuyo precio este en dólares y no fluctúe tanto, la moneda se va a devaluar pero ese bien va a valer 20 % más al año",Gsuitetdf,merval,0,2023-03-07 23:59:56,t3_11livpm,t3_11livpm,comment
+jbd06pr,[deleted],[deleted],merval,0,2023-03-08 00:46:47,t3_11livpm,t3_11livpm,comment
+jbdw4sn,"enter dam spotted melodic theory domineering fretful abundant uppity muddle
+
+ *This post was mass deleted and anonymized with [Redact](https://redact.dev/home)*",fifthdirty,merval,-1,2023-03-08 07:02:19,t3_11livpm,t3_11livpm,comment
+jbcqonz,"Adhiero a lo de arriba, rentabilidad alta en dólares es difícil que sea muy segura, te diría de ponerlos en un FCI con perfil agresivo y lo dejes ahí un buen rato",Impressive_Ad_1503,merval,1,2023-03-07 23:31:41,t3_11livpm,t3_11livpm,comment
+jbcvk4o,"Nadie lo dijo así que tiro la idea, sin ser experto ni mucho menos: ¿por qué no una Obligación Negociable? Hay varias que dan entre el 8% y 10% (en USD).",ALobpreis,merval,1,2023-03-08 00:09:13,t3_11livpm,t3_11livpm,comment
+jbd0d1m,"Busca en Youtube guías de como arrancar a invertir. Con 1000usd no vas a generar ninguna rentabilidad alta Y segura.
+
+O es baja y segura como poner los usd en Nexo y generar intereses
+
+O es alta e insegura de lo cual tenes bocha para elegir en el mundo crypto",Leormas,merval,1,2023-03-08 00:48:14,t3_11livpm,t3_11livpm,comment
+jbd57hr,"plazo fijo en dolares .
+
+yo si tuviera algo que valga la pena compraria acciones de las empresas que creo no van a quebrar pronto. podes ganar o no . pero es algo ""seguro""",Big-Horse-1388,merval,1,2023-03-08 01:31:01,t3_11livpm,t3_11livpm,comment
+jbd5qr3,Prestamista,userneimm,merval,1,2023-03-08 01:36:02,t3_11livpm,t3_11livpm,comment
+jbdxvvr,"Por lo poco informado que estas sobre inversiones, diria que le pagues a alguien para que te asesore o inviertas en capacitarte.",iScreem1,merval,1,2023-03-08 07:27:39,t3_11livpm,t3_11livpm,comment
+jbcx13f,Y arriesgando cuánto puedo sacar? Cuánto es el riesgo?,tomycarrillo,merval,1,2023-03-08 00:21:05,t1_jbcpwyi,t3_11livpm,comment
+jbcwe2j,"Jaja, pero anual. Si la inflación en usa es del 10%, quiero una ganancia real del 10%. Se que es jodido, pero algo debe haber no?",tomycarrillo,merval,-13,2023-03-08 00:15:56,t1_jbcqqx5,t3_11livpm,comment
+jbda2ol,"Gracias, la investigo.",tomycarrillo,merval,1,2023-03-08 02:18:00,t1_jbcsnuk,t3_11livpm,comment
+jbcwjdp,Que es eso?,tomycarrillo,merval,1,2023-03-08 00:17:06,t1_jbcsr0k,t3_11livpm,comment
+jbcwyz0,Y cuánto puedo llegar a ganar arriesgando? Cuánto me tengo que arriesgar?,tomycarrillo,merval,1,2023-03-08 00:20:37,t1_jbcq8ch,t3_11livpm,comment
+jbcyhcf,"esta es la respuesta correcta, OP tiene pinta de estar  buscando ganancias a largo plazo sin apuro
+
+20% anual asegurado no vas a conseguir en ningun lado, no existe, deja de buscar eso",kdolmiu,merval,5,2023-03-08 00:32:53,t1_jbctufx,t3_11livpm,comment
+jbcwid4,Que es sp500?,tomycarrillo,merval,-3,2023-03-08 00:16:52,t1_jbctufx,t3_11livpm,comment
+jbcx4m7,Y cuánto puedo sacar de manera segura? Y arriesgando? Cuánto es el riesgo?,tomycarrillo,merval,1,2023-03-08 00:21:51,t1_jbcpv1z,t3_11livpm,comment
+jbco2e3,Que?,tomycarrillo,merval,0,2023-03-07 23:11:51,t1_jbcnttf,t3_11livpm,comment
+jbco5cc,"Es una pregunta en serio, pregunta que hacer con 1.000 U$D.",tomycarrillo,merval,-5,2023-03-07 23:12:27,t1_jbcnttf,t3_11livpm,comment
+jbctj6i,.....pero el flaco quiere algo sin riesgo. Timbear en stocks en la bolsa tiene muchisimo riesgo. Podría hacer ese 20 en un mes o dos y perderlo en los siguientes.,Exact_Relationship_3,merval,9,2023-03-07 23:53:23,t1_jbcrjc0,t3_11livpm,comment
+jbcx7so,"Tengo 17. En julio cumplo 18. 
+Cómo funca lo del counter?",tomycarrillo,merval,1,2023-03-08 00:22:34,t1_jbcx2fq,t3_11livpm,comment
+jbcwgmv,Cómo ser?,tomycarrillo,merval,2,2023-03-08 00:16:30,t1_jbcudt3,t3_11livpm,comment
+jbd0hcc,"Claro, es buena esa. Comprar al por mayor y vender minorista.",tomycarrillo,merval,1,2023-03-08 00:49:14,t1_jbd06pr,t3_11livpm,comment
+jbdy67m,"dijo seguras, sin ánimos de ofender, pero Luna UST tmb daba un lindo porcentaje anual...",jdperro,merval,3,2023-03-08 07:31:49,t1_jbdw4sn,t3_11livpm,comment
+jbcww1h,"Fondo de inversión? No entiendo cómo funcionan. 
+Pongo guita, una empresa la invierte y me devuelve la ganancia? Cuánto me genera de ganancia?",tomycarrillo,merval,0,2023-03-08 00:19:59,t1_jbcqonz,t3_11livpm,comment
+jbcwff1,Que es eso?,tomycarrillo,merval,0,2023-03-08 00:16:13,t1_jbcvk4o,t3_11livpm,comment
+jbd0mi7,Cómo es lo de nexo?,tomycarrillo,merval,1,2023-03-08 00:50:25,t1_jbd0d1m,t3_11livpm,comment
+jbd5ftd,Cuánto se gana con el plazo fijo en dólares?,tomycarrillo,merval,1,2023-03-08 01:33:10,t1_jbd57hr,t3_11livpm,comment
+jbd5uh6,Pero es seguro? Cómo puedo asegurarme de que me devuelvan? A quien le presto?,tomycarrillo,merval,1,2023-03-08 01:36:58,t1_jbd5qr3,t3_11livpm,comment
+jbcxohe,"Un 100% de ganancia, y tenes un riesgo de peder 100% tambien.
+
+La mas simple son los stocks que s ellaman penny stocks, valen un centavo. Osea si el valor sube 1 centavo, duplicas lo que pusiste, pero si baja... Perdes todo.",Neither-Parfait7795,merval,16,2023-03-08 00:26:14,t1_jbcx13f,t3_11livpm,comment
+jbcxhv5,"No, por suerte no hay.
+
+Si hubiera, eso significaría que el dinero automáticamente genera riqueza. Y que los ricos, por solo serlo, se hacen automáticamente más ricos.
+
+No sé si todos los chicos acá que tienen ese sueño húmedo recurrente, de los verdes automáticamente procreando más verdes como conejos, algún día tomarán conciencia de cuán obsceno y siniestro es su sueño.",[deleted],merval,26,2023-03-08 00:24:46,t1_jbcwe2j,t3_11livpm,comment
+jbdscsf,">Jaja, pero anual. Si la inflación en usa es del 10%, quiero una ganancia real del 10%. Se que es jodido, pero algo debe haber no?
+
+Quien te vendio estas ideas fantastiqueras? Eso no existe y menos que sea seguro.",diyexageh,merval,5,2023-03-08 06:07:22,t1_jbcwe2j,t3_11livpm,comment
+jbcxbm9,Son instrumentos de deudas que emiten empresas para recaudar montos de dinero e invertirlo. Es como prestarle plata y te la devuelven anual o semestral-mente con porcentaje de ganancia.,ichbinfef,merval,10,2023-03-08 00:23:24,t1_jbcwjdp,t3_11livpm,comment
+jbdr38i,"No existe una inversion que sea 100% segura tecnicamente.
+
+Por ej los bonos de usa creo que rondaban un 4% lo que es como 3% mas de lo que creo que solia dar, pero n en pdo afortunadamente se acerca al 20%. Despues tenes cosas como el SPY que es un conjunto de las 500 compañias yankis mas grandes y promedia no me acuerdo si 10 o 12% anual (a todo esto siempre le tenes que restar comisiones e impuestos, inflacion, y demas) pero eso es PROMEDIO (y no me acuerdo si ese era el numero, pero andaba por ahi), a veces como creo que ahora, esta medio para atras, mientras que otros te da mucho mas... es algo qu yo consideraria a largo plazo, corto no se
+
+Otros con mas conocimientos que yo te van a decir las cosas con mas profundidad y conocimiento que yo, pero hasta donde se, mas que el spy por lo general es timba pero mal",simonbleu,merval,4,2023-03-08 05:49:08,t1_jbcwyz0,t3_11livpm,comment
+jbd9zoo,Y 10%?,tomycarrillo,merval,2,2023-03-08 02:17:09,t1_jbcyhcf,t3_11livpm,comment
+jbczytp,Googlealo por favor,Leormas,merval,9,2023-03-08 00:44:59,t1_jbcwid4,t3_11livpm,comment
+jbcoiea,[deleted],[deleted],merval,5,2023-03-07 23:15:14,t1_jbco5cc,t3_11livpm,comment
+jbcw9rc,Claro. Ese es el tema.,tomycarrillo,merval,1,2023-03-08 00:14:58,t1_jbctj6i,t3_11livpm,comment
+jbdkfxm,"Por eso dijo blue chip, que tienen mucha trayectoria, situación financiera sólida y ganancias estables. 
+
+Dentro de lo que es acciones se las considera de mas bajo riesgo. 
+
+Ejemplos: Apple, Coca-Cola, Microsoft o Walmart",Choriciento,merval,1,2023-03-08 04:17:23,t1_jbctj6i,t3_11livpm,comment
+jbcxzs8,"Entonces seguro lo conocés al juego, tiene un mercado muy grande (si no el más grande) de skins digitales y toda la cosa.
+La idea es comprar algunos items y holdearlos hasta que suban de precio, siempre hay riesgo, pero las cajas siempre tienden a subir, si comprás bien ganás.
+Tampoco te digo que metas tanta guita, ya eso va en vos.
+Podés fácilmente meter guita con crypto en alguna página de confianza (ahí se venden más baratos los items) y comprás, tampoco es algo al azar, investigá un poco como funciona y eso
+En mi caso invertí durante estos años 150-170 dólares y ahora valen 430-470, empecé sin saber mucho en 2019 sino capaz ganaba un poco más, pero no está tan mal el ROI, después podés vender en una página por crypto y sacar la plata a mercado pago, cualquier cosa te sigo explicando más o menos cómo va la cosa",Wall304,merval,1,2023-03-08 00:28:49,t1_jbcx7so,t3_11livpm,comment
+jbcxdw0,"Un reloj de colección o algún otro artículo de colección, sino algún vehículo usado, oro, plata, materiales de construcción si tenés donde guardarlos, etc.",Gsuitetdf,merval,1,2023-03-08 00:23:54,t1_jbcwgmv,t3_11livpm,comment
+jbd3a00,[deleted],[deleted],merval,1,2023-03-08 01:13:23,t1_jbd0hcc,t3_11livpm,comment
+jbcx8lh,"Básicamente, un bono emitido por una empresa privada.
+
+https://inverarg.com/que-son-las-on-u-obligaciones-negociables/",ALobpreis,merval,1,2023-03-08 00:22:45,t1_jbcwff1,t3_11livpm,comment
+jbd1h9r,"Usa Google, por favor. Todo lo que estas preguntando en este thread literalmente está en Google si escribis lo mismo en ese buscador.",Leormas,merval,3,2023-03-08 00:57:36,t1_jbd0mi7,t3_11livpm,comment
+jbd5v4q,A qué intereses?,tomycarrillo,merval,1,2023-03-08 01:37:09,t1_jbd5uh6,t3_11livpm,comment
+jbcykhc,"O más fácil, todo al rojo, o al negro si te gusta más",[deleted],merval,26,2023-03-08 00:33:35,t1_jbcxohe,t3_11livpm,comment
+jbcxxty,"Claro, pero me refiero el riesgo de cada acción. 
+No creo que sea lo mismo comprar una acción de Apple que de aerolíneas argentinas. No? 
+Lo de los Penny stocks, si baja perdés todo para siempre? O puede volver a subir?",tomycarrillo,merval,-5,2023-03-08 00:28:21,t1_jbcxohe,t3_11livpm,comment
+jbcy3ok,"No digo eso, digo solo una inversión que le gane a la inflación, usa ahora tiene una inflación del 11%. Supuse que debería haber algo que le gane a la inflación.",tomycarrillo,merval,2,2023-03-08 00:29:44,t1_jbcxhv5,t3_11livpm,comment
+jbcxqxd,Cuánto se gana? Depende la empresa? Cómo se en cual entrar? Cómo se compra?,tomycarrillo,merval,2,2023-03-08 00:26:47,t1_jbcxbm9,t3_11livpm,comment
+jbdaeth,"en los 66 años que lleva S&P 500, rindio **en promedio** 10.5% (sin considerar la inflacion del dolar, considerandola masomeno 8.5%)
+
+pero es el promedio, hay años que da 30%, años que da -10%, va variando. Pero tradicionalmente se lo considera inversion cuasi-segura en el **largo termino**",kdolmiu,merval,4,2023-03-08 02:21:27,t1_jbd9zoo,t3_11livpm,comment
+jbd05x9,Es lo de las 500 empresas de usa? Es seguro eso?,tomycarrillo,merval,0,2023-03-08 00:46:36,t1_jbczytp,t3_11livpm,comment
+jbd024e,Ok.,tomycarrillo,merval,0,2023-03-08 00:45:44,t1_jbczytp,t3_11livpm,comment
+jbcoojj,"Si, pero ponele que tengo 5.000 U$D, y quiero invertir solo 1.000U$D, para sacarle una ganancia real segura. Dónde los pondrías?",tomycarrillo,merval,0,2023-03-07 23:16:31,t1_jbcoiea,t3_11livpm,comment
+jbda6xv,"poco riesgo ,pone esos mil en el exchange huobi estan pagan un 15 porciento anual en dólares",BraveBig4173,merval,0,2023-03-08 02:19:12,t1_jbcw9rc,t3_11livpm,comment
+jbe61uh,"Las empresas que todo el mundo considera solidas son las que menos rendimiento esperado tienen. Y son mucho mas volatiles de lo que parece, no es como comprar un bono corporativo.",HwanZike,merval,1,2023-03-08 09:09:58,t1_jbdkfxm,t3_11livpm,comment
+jbcyceg,"Si, lo conozco el juego, osea ganaste 150% en 4 años? 
+Básicamente más de lo que busco. Me interesa.",tomycarrillo,merval,1,2023-03-08 00:31:45,t1_jbcxzs8,t3_11livpm,comment
+jbcyemm,Oro es buena. Es re seguro eso no?,tomycarrillo,merval,1,2023-03-08 00:32:16,t1_jbcxdw0,t3_11livpm,comment
+jbd3wld,Tipo comprar en yaguar y vender en Makro? O comprarle a alguno más grande?,tomycarrillo,merval,1,2023-03-08 01:19:05,t1_jbd3a00,t3_11livpm,comment
+jbcxnko,"Es como un bono pero privado.
+Cuánto se gana? Cómo se compra?",tomycarrillo,merval,1,2023-03-08 00:26:02,t1_jbcx8lh,t3_11livpm,comment
+jbd1pia,"Mil disculpas, lo busco.",tomycarrillo,merval,1,2023-03-08 00:59:32,t1_jbd1h9r,t3_11livpm,comment
+jbd0gm0,Y la verdad que si ( salia doble 00 ),Neither-Parfait7795,merval,6,2023-03-08 00:49:04,t1_jbcykhc,t3_11livpm,comment
+jbcy6ge,"Osea, entiendo perfectamente que con poner 1.000U$D no voy a ser Rockefeller.",tomycarrillo,merval,4,2023-03-08 00:30:22,t1_jbcy3ok,t3_11livpm,comment
+jbd5kmw,No está al 6% la inflación?,souse03,merval,2,2023-03-08 01:34:27,t1_jbcy3ok,t3_11livpm,comment
+jbcyz39,"Depende la empresa el porcentaje que maneja, te diria que investigues la empresa primero y hacia donde camina. Se compran en la bolsa a traves de un broker, como un bono o una acción. (por principiante arranque usando Cocos por 0 comisiones pero si tenes un broker preferido, es lo mismo)",ichbinfef,merval,2,2023-03-08 00:36:51,t1_jbcxqxd,t3_11livpm,comment
+jbdb8o1,Ah está bueno esto también.,tomycarrillo,merval,2,2023-03-08 02:29:49,t1_jbdaeth,t3_11livpm,comment
+jbcrn5j,"No existe lo que estas pidiendo. No te estoy descansando como el resto, realmente lo que estas pidiendo no existe. Y si existe nadie te va a pasar el insight. 20% en dolares sin riesgo es poco real. Si queres algo que de el 20% en dolares en un año, vas a tener que arriesgar los 1000 dolarucos. O, podes ir a algo seguro y obtener tipo el 5-7%.",Exact_Relationship_3,merval,5,2023-03-07 23:38:54,t1_jbcoojj,t3_11livpm,comment
+jbdaqzq,"Encontré la página que dice exchange huobi, pero no encuentro nada que diga que da un 15%, solo deja comprar cripto. Dónde dice lo del exchange?",tomycarrillo,merval,1,2023-03-08 02:24:50,t1_jbda6xv,t3_11livpm,comment
+jbczncs,"Más o menos sí, ahora está medio arriba el mercado así que vendí un poco para asegurar ganancias y comprar barato después.
+
+Yo invierto en cajas y cápsulas de major, podés hacerlo con skins, stickers, parches y algunas cosas más. La cosa es comprar barato para mayor roi, los contenedores (cajas/cápsulas) suben de precio básicamente porque llega un punto donde no están disponibles pero se siguen abriendo, baja la oferta, suben los precios. Esto está atado obvio a el contenido de cada contenedor, si tiene buenas skins sube mucho más, si tiene buenos stickers lo mismo.
+
+En los Major (como mundiales del counter) venden a un dólar cápsulas con stickers de los equipos y firmas de jugadores, llega un punto que hay 75% off y se venden a 0.25 USD cada una. Después de unos meses que termina el major se sacan de las tiendas y depende el contenido, oferta y demanda suben o mantienen el precio. Eso ya es algo que ver particularmente en cada cápsula.
+
+
+Después las cajas sacan una cada ciertos meses con nuevas skins, al principio está caro el precio porque hay pocas (las ganás jugando, al ser nueva no hay muchas), después baja a su mínimo, y con algunas cosas que pasan con el tiempo suben de precio.
+
+Los stickers dependen ya mucho de su diseño (tienen un logo de un equipo o una firma de un jugador), si el diseño es lindo, o si pasa algo con el jugador/equipo suben o bajan de precio, hay que estar pendiente de las noticias. Si se retira un jugador es 100% asegurado que esos stickers suben.
+
+Esa es la guía básica, buscá info por tu cuenta igual, si tenés dudas podés hablarme, hay un reddit oficial sobre esto csgomarketforum, ahí hay guías e info",Wall304,merval,1,2023-03-08 00:42:23,t1_jbcyceg,t3_11livpm,comment
+jbcyrqn,"Nop, de hecho, sus mayores fluctuaciones se dan en épocas de crisis económica, pq todos se refugian ahí por el mito de la estabilidad en el precio del oro y hacen que el precio se dispare irracionalmente. Además, tenés que saber cómo y dónde comprarlo, para que no te metan el perro, respecto a kilaje, tipo, composición, etc",Gsuitetdf,merval,2,2023-03-08 00:35:13,t1_jbcyemm,t3_11livpm,comment
+jbcyqhi,"https://articulo.mercadolibre.com.ar/MLA-911604548-moneda-de-coleccion-oro-espana-2-escudos-1801-_JM 
+Ponele, esto es de oro y tiene valor historico. Tiene que subir no?",tomycarrillo,merval,1,2023-03-08 00:34:56,t1_jbcyemm,t3_11livpm,comment
+jbdemf4,[deleted],[deleted],merval,1,2023-03-08 03:06:51,t1_jbd3wld,t3_11livpm,comment
+jbd806u,"Con un broker. Cada ON dice cuánto te paga, hay que investigar 1x1.
+
+[https://www.youtube.com/watch?v=1GAtVTYOCyA](https://www.youtube.com/watch?v=1GAtVTYOCyA)",ALobpreis,merval,1,2023-03-08 01:57:29,t1_jbcxnko,t3_11livpm,comment
+jbd8fqk,[deleted],[deleted],merval,6,2023-03-08 02:01:42,t1_jbd1pia,t3_11livpm,comment
+jbd18dn,"Una ruleta con 00 es un robo total, ir a la de un solo 0. Así y todo es una mejor opción.",[deleted],merval,3,2023-03-08 00:55:28,t1_jbd0gm0,t3_11livpm,comment
+jbd449n,"pero si existiera eso, imagínate a alguien poniendo 10 millones y sacando 2 millón por año de ganancia, y el año siguiente sacando 2,4 millones, y el 5to año esa inversión de 10 millones valdría casi 25 millones, 
+
+interés compuesto btw",PieroIsMarksman,merval,5,2023-03-08 01:20:59,t1_jbcy6ge,t3_11livpm,comment
+jbd5sjm,"Si, acabo de revisar. La última vez que la Vi estaba 11%, por eso decía. Así que 10% de ganancia está bien.",tomycarrillo,merval,-1,2023-03-08 01:36:29,t1_jbd5kmw,t3_11livpm,comment
+jbcz58h,Broker de página? O broker persona?,tomycarrillo,merval,1,2023-03-08 00:38:14,t1_jbcyz39,t3_11livpm,comment
+jbdbn8a,"invertir en algun index fund es tradicion yankie, alguna vez escuche q el 60% tienen guita metida ahí",kdolmiu,merval,2,2023-03-08 02:34:04,t1_jbdb8o1,t3_11livpm,comment
+jbcwpgu,Y para que me dé 20% cuánto es el riesgo?,tomycarrillo,merval,1,2023-03-08 00:18:29,t1_jbcrn5j,t3_11livpm,comment
+jbdazw0,"primero tenes que fondear el exchange con la criptomoneda usdt que es una moneda estable que replica al dolar ,y los pones en earn y listo ya estas generando intereses a una tasa del 15%",BraveBig4173,merval,1,2023-03-08 02:27:20,t1_jbdaqzq,t3_11livpm,comment
+jbczww9,"Mil gracias, la tengo en cuenta.",tomycarrillo,merval,2,2023-03-08 00:44:33,t1_jbczncs,t3_11livpm,comment
+jbcz1xg,"Osea comprar ahora es mala idea, porque hay crisis e inflan el precio?",tomycarrillo,merval,1,2023-03-08 00:37:30,t1_jbcyrqn,t3_11livpm,comment
+jbdeva2,"Está buena la idea. 
+Cómo identifico un mayorista de los que venden por pallets? En internet dice?",tomycarrillo,merval,1,2023-03-08 03:09:35,t1_jbdemf4,t3_11livpm,comment
+jbda3z2,"Gracias, lo veo.",tomycarrillo,merval,1,2023-03-08 02:18:23,t1_jbd806u,t3_11livpm,comment
+jbd9vui,"Si se lo que es un borker. 
+Un broker es una persona o una página con la que se invierte dinero.",tomycarrillo,merval,1,2023-03-08 02:16:05,t1_jbd8fqk,t3_11livpm,comment
+jbd487i,"Claro, entiendo.",tomycarrillo,merval,1,2023-03-08 01:21:58,t1_jbd449n,t3_11livpm,comment
+jbczfhf,"Estoy seguro de que es lo mismo, uno lo haces vos y el otro lo hacen por vos",ichbinfef,merval,2,2023-03-08 00:40:37,t1_jbcz58h,t3_11livpm,comment
+jbdbrcm,Osea es re seguro?,tomycarrillo,merval,1,2023-03-08 02:35:17,t1_jbdbn8a,t3_11livpm,comment
+jbcz9ye,"7,23 rps (riesgos por segundo)",Chero312,merval,15,2023-03-08 00:39:19,t1_jbcwpgu,t3_11livpm,comment
+jbdb1eo,Es seguro?,tomycarrillo,merval,1,2023-03-08 02:27:46,t1_jbdazw0,t3_11livpm,comment
+jbcz89k,Yo diría que mires el gráfico y compares el precio actual con el precio del oro un mes antes de la declaración de guerra de Rusia a Ucrania. Eso te va a dar perspectiva sobre si está inflado o no,Gsuitetdf,merval,1,2023-03-08 00:38:56,t1_jbcz1xg,t3_11livpm,comment
+jbdg5s0,[deleted],[deleted],merval,1,2023-03-08 03:24:40,t1_jbdeva2,t3_11livpm,comment
+jbdcw5n,[deleted],[deleted],merval,1,2023-03-08 02:47:28,t1_jbd9vui,t3_11livpm,comment
+jbd08py,La diferencia son las comisiones y el riesgo de que el broker te estafe estilo Madoff no?,tomycarrillo,merval,2,2023-03-08 00:47:15,t1_jbczfhf,t3_11livpm,comment
+jbdceb0,"de aca a 20 años es seguro? sí
+
+de aca a 5 años es seguro? masomenos
+
+de aca a un 1 año? no",kdolmiu,merval,3,2023-03-08 02:42:02,t1_jbdbrcm,t3_11livpm,comment
+jbd0pi7,Que sería eso?,tomycarrillo,merval,1,2023-03-08 00:51:07,t1_jbcz9ye,t3_11livpm,comment
+jbdb54d,"seguro no hay nada pero es un 90 porciento seguro ,yo lo estoy haciendo",BraveBig4173,merval,-4,2023-03-08 02:28:48,t1_jbdb1eo,t3_11livpm,comment
+jbd0155,"Claro, si subió ponele un 40% está inflado? Y si subió un 10% está bien?",tomycarrillo,merval,1,2023-03-08 00:45:31,t1_jbcz89k,t3_11livpm,comment
+jbdg8lq,Ok mil gracias.,tomycarrillo,merval,1,2023-03-08 03:25:34,t1_jbdg5s0,t3_11livpm,comment
+jbdd150,"Tengo 17. Casi 18. 
+Si, admito que no se invertir, por eso pregunto acá.",tomycarrillo,merval,1,2023-03-08 02:49:00,t1_jbdcw5n,t3_11livpm,comment
+jbd0z25,"Claro, se trata de manejar tu plata o no se si decir confiarla a alguien más porque le pagas por el laburo. En cuanto a comisión páginas o seres humanos pueden tener ambos comisión",ichbinfef,merval,1,2023-03-08 00:53:19,t1_jbd08py,t3_11livpm,comment
+jbdcgrn,"Ah, ok. Entiendo. Es muy a largo plazo.",tomycarrillo,merval,1,2023-03-08 02:42:47,t1_jbdceb0,t3_11livpm,comment
+jbd119r,Más de 7 veces más que 1 rps,Desperate-Panda-7521,merval,10,2023-03-08 00:53:50,t1_jbd0pi7,t3_11livpm,comment
+jbdb6jy,Ah esto está bueno entonces.,tomycarrillo,merval,1,2023-03-08 02:29:12,t1_jbdb54d,t3_11livpm,comment
+jbd0fgo,"Si, igual no deja de ser una comoditie, que a veces les manipulan bastante el precio a partir de ventas de reservas por parte de gobiernos o simplemente oferta y demanda, que hace que una vez cada 10 años ponele, hace que su precio se vaya a pique. Por eso, no es tan seguro como dicen, Vi un muy buen video que explica todo esto en Youtube pero está en inglés",Gsuitetdf,merval,1,2023-03-08 00:48:47,t1_jbd0155,t3_11livpm,comment
+jbddiwp,[deleted],[deleted],merval,3,2023-03-08 02:54:23,t1_jbdd150,t3_11livpm,comment
+jbd14ew,"Claro. Es mayor riesgo de estafa dársela a alguien, pero si caes en alguien bien es menor riesgo de inversión.",tomycarrillo,merval,1,2023-03-08 00:54:34,t1_jbd0z25,t3_11livpm,comment
+jbd2dg2,no seas denso,7777ings,merval,2,2023-03-08 01:05:22,t1_jbd119r,t3_11livpm,comment
+jbd18gs,Y cuánto es 1 rps? No lo encuentro en Google.,tomycarrillo,merval,-4,2023-03-08 00:55:30,t1_jbd119r,t3_11livpm,comment
+jbd0l1z,"Vi en un gráfico que acababa de bajar bastante, será esa vez cada 10 años? Osea, momento de comprar?",tomycarrillo,merval,1,2023-03-08 00:50:06,t1_jbd0fgo,t3_11livpm,comment
+jbdduwl,"No hace falta insultar. Ya aclare que no se nada. Por eso pregunto. Si te molesta te pido mil disculpas. No fue mi intención joder a nadie, solo aprender y ganar plata. Nadie te obliga a contestar igual.",tomycarrillo,merval,3,2023-03-08 02:58:05,t1_jbddiwp,t3_11livpm,comment
+jbewlk5,"Si te vas del país, abrite cuentas en un banco y en un broker de afuera y comprá el ETF más diversificado que puedas dentro de lo que sea tu plazo/objetivo.
+Si es a 5 años nada más, capaz tenes que comprar 100% bonos. Para IWDA diría 10 años mínimo. También pueden ser VWRA (Vanguard FTSE All-World UCITS ETF USD Acc) o ISAC (iShares MSCI ACWI UCITS ETF (Acc)).",ivanreddit,merval,11,2023-03-08 12:41:30,t3_11lwuh0,t3_11lwuh0,comment
+jbhm3cr,"Al máximo de educación posible ???? Jajajajaja.
+Nunca se deja de aprender o algo en el mismo tema o en un tema/carrera complementario. Siempre podes ser el Superingeniero , pero sumarle mas conocimiento/prácticas/proyectos/masters.",Big-Horse-1388,merval,10,2023-03-08 23:30:01,t3_11lwuh0,t3_11lwuh0,comment
+jbem89p,Si después te vas a ir no compres propiedades  por qué después por no poder venderlo no te vas a poder ir o capas terminas perdiendo la propiedad,ReadyMail2,merval,9,2023-03-08 11:30:24,t3_11lwuh0,t3_11lwuh0,comment
+jbfqgor,"Tercera opción para mi es la más valida, pero as usual: depende mucho del perfil del inversor. No tomaría recomendaciones de desconocidos en Internet sino algo con lo que te sientas más cómodo.
+
+Respecto del nivel educativo, no entiendo cómo con 23y podés estar maxeado. ¿Hiciste una maestría? ¿Posgrados? Ahí tenés un mundo enorme para invertir también.",JatiiN,merval,3,2023-03-08 15:51:32,t3_11lwuh0,t3_11lwuh0,comment
+jbfhcqm,"60% bonos, 30% VTI, 10% BTC (o 50/50 BTC ETH).
+
+Y te diria que lo que compres crypto lo vayas deriskeando a fines de 2024/principio de 2025.  
+
+
+Queda en vos si lo queres lumpsumear o si preferis hacer una entrada progresiva a los mercados, personalmente a lo unico que entraria de golpe es a bonos, el resto de a poquito y aumentaria mi entrada en caso de bajada.",DMugre,merval,3,2023-03-08 14:53:49,t3_11lwuh0,t3_11lwuh0,comment
+jbgx30b,"Si preguntas cosas así por reddit, más allá de que es perfectamente válido y no tengo nada en contra, capaz no estás tan al máximo de la educación posible",jmh300,merval,8,2023-03-08 20:25:28,t3_11lwuh0,t3_11lwuh0,comment
+jbfpl9b,"Si pensás irte, negocios y propiedades no son tan líquidas como bonos y acciones. Además vas a tener que estar encima constantemente para que no te estafen.",jamesnaranja90,merval,2,2023-03-08 15:46:01,t3_11lwuh0,t3_11lwuh0,comment
+jbgh2ku,"Si tu plan es irte en 5 años no me metería en propiedades. Son ilíquidas para vender, y si las querés para renta, es muy difícil sacar el dinero, con suerte. Para mí tiene más sentido abrir una cuenta afuera y hacer un mix de acciones y bonos dependiendo de tu apetito de riesgo y cuando pensás que podes llegar a necesitar una buena parte de ese dinero.",MarxistadeGroucho,merval,1,2023-03-08 18:38:37,t3_11lwuh0,t3_11lwuh0,comment
+jbodpt8,">al maximo de educación posible
+
+😂🤣",advAntelope,merval,1,2023-03-10 11:26:22,t3_11lwuh0,t3_11lwuh0,comment
+jbevsuu,"Si, eso es algo por lo que me decanto más por la tercera opción que propuse, pero estoy abierto a ideas",ANickname_Pp,merval,-3,2023-03-08 12:36:17,t1_jbem89p,t3_11lwuh0,comment
+jbfqvbe,"En la carrera que estoy los posgrados no afectan mucho a la capacidad de ganar más, ya de por sí es una carrera bien paga, y tengo nivel avanzado de inglés, así que planeo invertir en algo con un riesgo moderado-alto a largo plazo, pero estoy indeciso de en que exactamente, aunque por lo que me comentan en el post no estaba muy errado con la tercera opción",ANickname_Pp,merval,1,2023-03-08 15:54:03,t1_jbfqgor,t3_11lwuh0,comment
+jbfq0dw,"Que bonos en particular me recomendarías comprar? Para buscar, yo uso interactive brokers por ejemplo",ANickname_Pp,merval,1,2023-03-08 15:48:41,t1_jbfhcqm,t3_11lwuh0,comment
+jbkwf71,Y vos pensas que con un título universitario dejas de pedir consejos financieros?,Old-Sprinkles-9342,merval,0,2023-03-09 16:49:34,t1_jbgx30b,t3_11lwuh0,comment
+jbfq1zc,Si.. negocios en argentina mientras no estás lo veo casi imposible,ANickname_Pp,merval,1,2023-03-08 15:48:59,t1_jbfpl9b,t3_11lwuh0,comment
+jbfak33,"Lo del inmueble no es un problema desde lo legal. Dejas un apoderado y ya.
+
+ Eso sí, con los pesos crocantes no haces nada afuera",MateListo,merval,4,2023-03-08 14:11:04,t1_jbevsuu,t3_11lwuh0,comment
+jbfvfzh,"Te recomendaría un ETF de bonos como STIP de I-Shares, ahora, depende mucho de tu broker si hay un CEDEAR de eso como para tenerlo aca (Recomendable, menos impuesto), si no no te va a quedar otra que comprar con dolar cable afuera...y fijate que invertir menos de US $100k no es recomendable por los costos transaccionales.   
+
+
+La otra que podes hacer es comprar bonos de aca, como el AL35. Mucho menos engorroso.",DMugre,merval,3,2023-03-08 16:23:08,t1_jbfq0dw,t3_11lwuh0,comment
+jblpew6,Podría estudiar finanzas... Siempre hay algo por aprender.,shakazulu-sudaca,merval,3,2023-03-09 19:57:32,t1_jbkwf71,t3_11lwuh0,comment
+jc2yiy3,"Gracias por el post, es informativo. Pero el audio, por favor, arreglá ése audio.",Mr_Brightstar,merval,10,2023-03-13 14:40:44,t3_11qa6vg,t3_11qa6vg,comment
+jc2cm28,[removed],[deleted],merval,9,2023-03-13 12:16:54,t3_11qa6vg,t3_11qa6vg,comment
+jc94h9p,"Estimado,
+
+Dado los acotados tiempos que nos demanda la industria, sería bueno que hagas un resúmen por escrito más que un vídeo que, lógicamente, no siempre se puede ver en detenimiento, más en una plataforma puro texto como es Reddit 
+
+Has recibido cierto hate por parte de la audiencia, al menos en este sub y, si bien el hate siempre es hate y uno puede caer en la tentación de desestimarlo rápidamente, creo que voy a dejar algunas referencias que valen la pena destacar en este tópico.
+
+Una es la historia misma del bitcoin, que , si bien el siguiente es un extracto puntual de una página web, la mayoría de las fuentes cripto convergen al respecto:
+
+> In 2009, Bitcoin was developed in reaction to the world financial crisis. The creators of Bitcoin wanted to create a new form of money that was not subject to the same rules and regulations as traditional fiat currencies. Bitcoin has since become a popular investment for those looking to cash in on the potential for high returns. Many people are still unsure about the purpose of Bitcoin.
+
+Da la casualidad que, en tu vídeo, citas precisamente esa fecha , 2008 o 2009, cómo fechas de interés en las que los organismos internacionales desarrollan mecanismos de mayor control o auditoría si se quiere.
+
+Podemos también mencionar en tu vídeo, que resaltas a España como un ejemplo de políticas y, de hecho, jurisprudencia en criptoactivos, cuándo es España precisamente uno de los países más [controvertidos y cuestionados](https://es.cointelegraph.com/news/cryptocurrency-declaration-analysis-of-the-controversial-model-720-rejected-by-the-european-court-of-justice) por sus políticas autoritarias e invasivas en materia cripto. No hablamos de un ejemplo casual e ingenuo, hablamos de uno de los países celebremente más anti-cripto que pudieran citarse. Es como citar, por ejemplo, El Salvador o Nicaragua en materia de derechos humanos.
+
+En definitiva, si vamos a copiar, no le copiemos al peor de la clase ¿no?
+
+Pero me gustaría elevar un poco más el nivel de la conversación y vamos a la propuesta central de tu vídeo, que es que la AFIP les pida la clave privada de todos los contribuyentes (así como todas las autoridades fiscales).
+
+Sería interesante observar el respaldo que tienen dichas autoridades para enforzar tal iniciativa. De un lado del mostrador se encuentra un legislador que miró tu vídeo, se siente inspirado y cree que esa es la solución y camino inequívoco a solventar todos los problemas fiscales , escribe un proyecto de ley que alcanza la mayoría y luego, eventualmente, sale votado con fuerza de ley por los órganos legislativos de diferentes países.
+
+¿Qué respalda esa ley? Claramente la voluntad popular no, porque puedes ver sencillamente la reacción que tuvo este post por parte de la comunidad, puedes hacer todas las encuestas que desees, al menos en el segmento de 18 a , me atrevo a decir, 70, de la población no tendrías una adhesión favorable a la idea.
+
+Entonces, si no es por voluntad popular real y concreta, si no es lo que el avance franco evolutivo de las sociedades busca, te queda un único respaldo: el uso de la fuerza. 
+
+
+El lobby político internacional que , en búsqueda de un financiamiento cada vez más voraz a los estados, sin miras a lo que la verdadera voluntad mayoritaria pide, saca leyes y medidas para combatir lo que tu vídeo define como un problema. 
+
+
+Tenés el CARF que , de hecho, esbozó cómo borrador esa idea que mencionas en un principio pero, finalmente, termino optando por quitarla por lo autoritaria que resultaba, pero , para este ejercicio, supongamos que lo incluyera. Tenés el Greenbook 2023 de Biden que apunta a las criptos, pero jamás menciona (ni se le ocurriría mencionar) tal idea, pero, de nuevo, supongamos que lo hiciera.
+
+
+ Tenemos entonces, por un lado del mostrador, la clase política de un conjunto de países poderosos en contra del desarrollo de los criptoactivos, con toda su fuerza y poder geopolítico que, en última instancia, son las armas y el respaldo financiero, militar y de fuerza pública.
+
+Pero, ¿y qué hay del otro lado?
+
+Del otro lado tenemos un tipo llamado Satoshi Nakamoto, cuya identidad ni siquiera sabemos si es real y, lo que es más interesante aún, ninguno de los estados con todo su poder geopolítico, aparatos de inteligencia militar y financiera, saben quién (o quienes) es o son ese individuo.
+
+Del otro lado tenés ideas, algoritmos extremadamente complejos y perfeccionados de manera exponencial por Miles de contribuyentes (de código) en proyectos de código abierto, enfocados precisamente en mejorar el anonimato, la seguridad informática , transparencia (para bien y abierta hacia todos , no sólo para los gobiernos), y descentralización.
+
+Es, realmente, una historia de David y Goliat, y las autoridades fiscales que mencionas en el vídeo y , en última instancia, los gobiernos que nos llevaron a las crisis actuales de guerras y recesión, no son, precisamente, el David de esta historia 
+
+De un lado del mostrador está el poder y la fuerza pública, del otro lado está la matematica y el ingenio, de manera parecida a cuando Australia se propuso [prohibir la criptografia](https://www.aljazeera.com/news/2022/4/5/australias-dangerous-encryption-law-in-works-in-2015-document) y un legislador australiano dijo la frase célebre -""Todo bien con las leyes de la matemática, pero yo creo en las leyes del hombre"".
+
+
+No se puede tapar el sol (y el progreso) con un dedo, quizás deberíamos enfocarnos en qué anda mal en los sistemas formales para que tanta gente, como mencionas, con trabajos honestos ,  se vuelque a la informalidad. Por algo en la mayoría de países las criptos no son tan furor cómo en los denominados infiernos fiscales. Quizas deberíamos pensar que llevo a que se creara el BTC en el 2009 , en primera instancia, y cuántas instancias previas de dichos flagelos económicos y bancarios se sufrieron, especialmente en Argentina, incluso mucho antes que esa fecha 
+
+
+Elijo cerrar mi comentario con la conocida frase de que, a veces, es más fuerte la pluma que la espada.",GordoTermotanque,merval,2,2023-03-15 01:15:52,t3_11qa6vg,t3_11qa6vg,comment
+jc3vu04,[removed],[deleted],merval,1,2023-03-13 18:13:29,t3_11qa6vg,t3_11qa6vg,comment
+jc4gag0,"Que asco bro, quieren tomar control también sobre esto. Todavía hay exchanges sin KYC, hay que dejar de usar exchanges centralizados y si son locales mas lejos todavía.",Malavero,merval,1,2023-03-13 20:35:23,t3_11qa6vg,t3_11qa6vg,comment
+jcnzh00,"Uff llegué tarde.
+
+Si bien te respeto mucho como profesional Sergio, creo que mis palabras aquí están de más 
+
+Sólo agregar que, tal cual tú remarcas siempre en tus posts que las ideas de cobrar en crypto o mediante una LLC de parte de los exportadores de servicios que se postulan en este sub son irreales , tu idea de que las entidades fiscales puedan controlar las llaves privadas de las wallets criptos de los pagadores de impuestos es, también, una fantasía.
+
+No sólo irrealizable desde la práctica, si no que va en contramano de los principales motores de la economía, es decir : globalización, internet y descentralización.
+
+
+Tanto vos como los políticos de cuántas jurisdicciones quieras mencionar pueden intentar medidas parches, de manera análoga a como Norcorea o China plantea bloquear el libre acceso a internet, al final del día, internet sigue existiendo pese a cuánto chillen dichos gobiernos y, aún ante las más aterradoras amenazas coercitivas de sus aparatos estatales, los ciudadanos de dichos países siguen pudiendo acceder, quizás con más dificultades, pero es inevitable.
+
+Adhiero a los comentarios, en todo caso, ¿cómo hacemos más atractivos los sistemas formales para los trabajadores con ingresos de fuentes legítimas? 
+
+Si quieres solucionar el problema de ingresos no declarados que encuentren una vía _poco feliz_ en crypto, esa es la pregunta principal a plantearse, absolutamente lo opuesto a tu propuesta de poner más poder policíaco a los gobiernos.
+
+PD: leyendo un poco más sobre el tema, hasta la OCDE me da la razón , inclusive cosas menos sensibles se eliminaron del protocolo  CARF,  cómo las address de las wallets receptoras.
+
+https://www.ey.com/en_gl/tax-alerts/oecd-publishes-final-crypto-assets-reporting-framework-and-amend",ScienceAndRock,merval,1,2023-03-18 02:49:12,t3_11qa6vg,t3_11qa6vg,comment
+jcnzwhd,"El post es una fantasmeada, con perdón a Sergio y todo el debido respeto como profesional. Pero el planteo es, realmente, jurásico.",ScienceAndRock,merval,1,2023-03-18 02:54:34,t1_jc2yiy3,t3_11qa6vg,comment
+jc53rxa,"Los honorarios se facturan porque están regulados, lo que pueden no facturar es el adelanto o la consulta.",LeviatArg,merval,1,2023-03-13 23:29:31,t1_jc3vu04,t3_11qa6vg,comment
+jc4zkud,Cuáles?,jdperro,merval,1,2023-03-13 22:57:13,t1_jc4gag0,t3_11qa6vg,comment
+jc5c3ic,"O sea va en Grone "" el contador""",IntelligentYoung9966,merval,0,2023-03-14 00:37:28,t1_jc53rxa,t3_11qa6vg,comment
+jc56x9o,"Todos los descentralizados: uniswap y 1inch, por ejemplo.
+El tema es el onramp, pero es tan fácil como ir a una cueva que labure con crypto y decirle: hola, mete tanto en esta wallet.",Chero312,merval,3,2023-03-13 23:54:05,t1_jc4zkud,t3_11qa6vg,comment
+jb974bm,">Sigue siendo valido eso?
+
+En Citibank si. Pero necesitas mas que solo el pasaporte, *proof of address* y una segunda identificacion.
+
+&#x200B;
+
+>Alguno tuvo problemas por ser una Checking Account? (vi menciones de que no podes hacer transferencias)
+
+La tengo hace anhos, sin problema. Tene en cuenta que la atencion al publico de Citibank, si no sos Citigold es de terror. Inclusive si sos Citi Priority.
+
+&#x200B;
+
+>Para fondearla desde aca se podria hacer via Payo/Wise/Grabrfi? y transferencia bancaria tradicional? (sisi ya se que te quemas)
+
+No te quemas. Las cuentas en EEUU son reportadas a AFIP. Si pensas que vas a poder esconder capital, honestamente, no seas iluso. El acuerdo ya esta firmado y ratificado.
+
+&#x200B;
+
+>Y lo mas importante: Una vez que tenes la cuenta, podes armarte un broker e invertir en la bolsa de EEUU directamente? (no mas cedears!!)
+
+Exacto. Aunque la verdad podes hacer eso sin una cuenta bancaria. Con Wise o cualquier otro banco europeo se puede. La gente los fondea con crypto y transfiere EUR a Interactive brokers.",diyexageh,merval,2,2023-03-07 08:13:16,t3_11knc3b,t3_11knc3b,comment
+jb9ekyx,"mas facil y mas rapido las cuentas online: wise, payo, utoppia, grabrfi, wallbit...",kevinola,merval,0,2023-03-07 09:37:23,t3_11knc3b,t3_11knc3b,comment
+jb9or09,Bank of America te deja si conseguis lo que te comentan sobre el proof of address.,maticasla,merval,1,2023-03-07 11:05:42,t3_11knc3b,t3_11knc3b,comment
+jbcikji,"TD Bank está re bueno también, pero vas a necesitar un proof of address",superpanchox,merval,1,2023-03-07 22:29:28,t3_11knc3b,t3_11knc3b,comment
+jc0uve8,">https://online.citi.com/US/ag/banking/checking-account
+
+checking no reporta automatico, no entra en las categorias definidas en el acuerdo",[deleted],merval,1,2023-03-13 02:31:46,t1_jb974bm,t3_11knc3b,comment
+jbdyobg,Metele 150.000 k a utoppia a ver que sucede.,[deleted],merval,2,2023-03-08 07:38:56,t1_jb9ekyx,t3_11knc3b,comment
+jbdaqg5,"proof of address en USA? 
+
+Citi abre con proof of address en el exterior y te piden llenar (y actualizar cada 1-2 años) el W-8BEN",guilleiguaran,merval,1,2023-03-08 02:24:41,t1_jb9or09,t3_11knc3b,comment
+jc6405w,Porque crees que no es reportable? El tratado es bastante claro al respecto.,diyexageh,merval,1,2023-03-14 06:23:51,t1_jc0uve8,t3_11knc3b,comment
+jc6bpua,"Tal cual, es bastante claro",[deleted],merval,1,2023-03-14 08:08:40,t1_jc6405w,t3_11knc3b,comment
+jc6c2kd,"Depository account -> debe generar al menos 10 usd de interés al año
+
+Custodial account -> debe generar us source income 
+
+Salvo que tengas una checking que genere interés decime donde entra ahí como reportable account",[deleted],merval,1,2023-03-14 08:12:50,t1_jc6bpua,t3_11knc3b,comment
+jc8swk6,"Claro a eso me refereia, osea todas las cuentas de citi generan intereses. Bajo la condicion actual de high interest rates y demas yo estaba recibiendo mas intereses que 10 USD x anho en las cuentas.
+
+Tengo checking, savings y money market. Los CDs tambien califican.
+
+Lo de custodial cae sobre ""non depositary account"". Si tenes inversiones en EEUU vas a recibir income o intereses. A no ser que tus inversiones sean en acciones o ETFs non US.",diyexageh,merval,0,2023-03-14 23:43:21,t1_jc6c2kd,t3_11knc3b,comment
+jc91pkz,Buen dato,[deleted],merval,1,2023-03-15 00:51:44,t1_jc8swk6,t3_11knc3b,comment
+jbpv2f8,"Calculo que si te aparece en tu cuenta de caja de valores entonces es ""completo"" (tuve que leer el post porque nunca habia escuchado hablar de sponsored/unsponsored)",adrius,merval,7,2023-03-10 17:14:35,t3_11nyd9l,t3_11nyd9l,comment
+jbq26ts,"Tenes que ver en la [tabla de Comafi](https://www.comafi.com.ar/custodiaglobal/2483-Programas-Cedear.note.aspx) si estas cumpliendo con el ratio.
+
+Ejemplos:
+
+* AAPL: 10 Cedears equivalen a 1 accion de USA (10:1)
+* MSFT: 30 Cedears equivalen a 1 accion de USA (30:1)  
+
+
+En algunos casos, puede haber split de Cedears asi como existen los splits de stocks, pero por lo general incrementan la cantidad de Cedears necesarios para la misma cosa (o sea, podes ir comprando de a partes hasta completar la accion). Si tenes Cedears de algo que pase por eso, simplemente te dan mas nominales pero el precio total se mantiene identico.",superpanchox,merval,3,2023-03-10 18:01:09,t3_11nyd9l,t3_11nyd9l,comment
+jbqrost,"Cedears son certificados de depósito argentino, te permiten comprar acciones de empresas extranjeras por fracción a precio local (o a precio dolar equivalente ya que no quita que este fraccionado). Dependiendo de donde inviertas necesitas tantos cedears para tener 1 acción de la misma, no hay tal cosa como trucho o de mentira. Espero ayude.",ichbinfef,merval,5,2023-03-10 20:59:05,t3_11nyd9l,t3_11nyd9l,comment
+jbq4lmm,Podes tener fracción sin problemas,Fedesan01,merval,2,2023-03-10 18:17:08,t3_11nyd9l,t3_11nyd9l,comment
+jbqq5vk,Me parece que 'trucho' no es la palabra correcta. Incompleto me parece mejor. ~~Y básicamente si tu cedear no está completo no recibis los dividendos de esa acción~~ **Corrijo**,OneSlice2801,merval,0,2023-03-10 20:47:41,t3_11nyd9l,t3_11nyd9l,comment
+jbq5g3k,"ME fije y no sale nada, supongo que debería esperar a que impacte. ¿en tu caso los ves?",SelectLemon6772,merval,2,2023-03-10 18:22:42,t1_jbpv2f8,t3_11nyd9l,comment
+jbq4ud9,"Osea que por ejemplo, hasta no comprar 10 apple no voy a tener un cedear completo? y como lo puedo comprobar?",SelectLemon6772,merval,0,2023-03-10 18:18:46,t1_jbq26ts,t3_11nyd9l,comment
+jbq5mpv,"La pregunta es:  
+Como se que el CEDEAR es ""completo"" o ""trucho""? usando los términos de u/valhalaman",SelectLemon6772,merval,-1,2023-03-10 18:23:55,t1_jbq4lmm,t3_11nyd9l,comment
+jbr0i3t,"No es correcto, deberías recibir la fracción correspondiente",HwanZike,merval,7,2023-03-10 22:07:40,t1_jbqq5vk,t3_11nyd9l,comment
+jc1yfam,"en este momento no estoy en CEDEARs, pero siempre que estuve me aparecian en caja de valores",adrius,merval,1,2023-03-13 10:34:23,t1_jbq5g3k,t3_11nyd9l,comment
+jbqk1if,Exacto. El valor de 10 cedears deberia matchear con el precio 1 acción de USA en dolar CCL,superpanchox,merval,2,2023-03-10 20:03:03,t1_jbq4ud9,t3_11nyd9l,comment
+jbq9du0,No hay cedears truchos. Podés tener CEDEARs que representen fracciones de una acción pero eso es perfectamente válido.,TinchoMerval,merval,13,2023-03-10 18:49:03,t1_jbq5mpv,t3_11nyd9l,comment
+jbqqfcv,Ni idea eso. No hay truchos.,Fedesan01,merval,4,2023-03-10 20:49:39,t1_jbq5mpv,t3_11nyd9l,comment
+jbqkip8,y como lo puedo comprobar? mi pregunta es de índole legal,SelectLemon6772,merval,1,2023-03-10 20:06:28,t1_jbqk1if,t3_11nyd9l,comment
+jbql8m8,"Con cumplir el ratio solamente deberías estar cubierto. Antes se compraban por enteros (también había un ratio, pero tenías que comprar por ese múltiplo), pero si tenes parciales entonces el Comafi es quien provee eso.",superpanchox,merval,2,2023-03-10 20:11:36,t1_jbqkip8,t3_11nyd9l,comment
+jb4qu88,"Lo de deel es tal cual lo decís, no podes mantener la plata en la cuenta, siempre fue así en los papeles pero no eran muy estrictos con cumplirla, podes pasarla a la tarjeta virtual que ellos te dan o retirarla donde quieras (binance, banco, Coinbase, cueva, payoneer, wise, etc), si en 20 días no la retiras o la noves a la tarjeta, te la sacan a la última opción de retiro que hayas usado",Desperate-Panda-7521,merval,3,2023-03-06 09:46:45,t3_11jumgs,t3_11jumgs,comment
+jbcalwx,"Lo de la extracción de cajeros suena a que te clonaron la tarjeta. Suelen poner un panel falso tapando el original, lee tu tarjeta y la guarda en una memoria interna. El teclado también lo cubren y ponen otro. En fin tienen mil métodos. Una vez lo hicieron, perdiste.
+
+Lo que me llama la atención es que no te hayas dado cuenta mirando tus saldos. Si es una cuenta que no usas y tiene descubierto, te arman un lindo agujero. Algunos bancos te permiten cambiar la clave con la tarjeta desde un cajero. Si te la clonan también pueden cambiar tu clave de homebanking, sacar un prestamo personal y retirar por cajero.
+
+Moraleja, solo usa cajeros adentro del banco y en horario bancario.
+
+Suerte!",Dry_Author8849,merval,3,2023-03-07 21:28:47,t3_11jumgs,t3_11jumgs,comment
+jb4fuan,"Mepa que estas mezclando cosas. Si te vacían regularmente la cuenta tendrías que revisar tu seguridad operacional. El blue y el CCL están exactamente igual hoy y en general nunca tienen una gran diferencia, no se a que re referis con tu post de binance.
+
+ Tenes todos tus ingresos declarados ? sino siempre te van a romper los huevos las instituciones reguladas, es natural.  Yo tengo múltiples bancos hace años y jamás jamás me cerraron la cuenta, me sacaron un peso o tuve algún problema que una llamada no pueda solucionar.",martindelia,merval,2,2023-03-06 07:30:30,t3_11jumgs,t3_11jumgs,comment
+jb502lu,En Deel podes mover el saldo a la tarjeta y luego lo devolves cuando lo querés retirar.,No_Cold5079,merval,2,2023-03-06 11:08:54,t3_11jumgs,t3_11jumgs,comment
+jb4oghs,"Todas son cosas diferentes me parece.
+
+Sin embargo, salvo lo que contas del Santander, que es increible. Suena mas que nada a derisking.
+
+Todos los bancos lo hacen y lo pueden hacer cuando les resulte adecuado. En Argentina y el resto del mundo. Ahora, lo que me pregunto en realidad, cual es tu perfil de riesgo para que te suceda tanto.
+
+Yo soy un suaurio de super alto riesgo a nivel KYC y me han frizado cuentas, pero eso es todo. Nunca cierre.",diyexageh,merval,1,2023-03-06 09:21:57,t3_11jumgs,t3_11jumgs,comment
+jb8fn69,"Eso que relatas de los bancos es muy raro y algo confuso.
+
+Que no puedas ver los movimientos de tu cuenta honestamente no me lo creo. Y eso que mencionas de tener retiros que no hiciste, suena mas a un familiar aprovechado que otra cosa.
+
+Si comparto la experiencia que tuviste con el Santander: yo tenia una cuenta con tarjetas de credito y debito hace como 7 años. Fui al banco y pedí cerrar todos los productos y pagar todo con la plata en cuenta. Me hicieron el tramite y me dieron comprobantes.A los 6 meses me llama un estudio de abogados para intimarme por la deuda con el Santander. Saqué los comprobantes y pasé todos los datos. Resulta que faltaban pagar 2 pequeñas cuotas en la tarjeta de crédito.
+
+Me quedé furioso, porque nunca me contactaron para las cuotas pendientes y me intimaron de una con un estudio legal. Me negué en pagar na mora que pretendian, porque yo tenía voluntad de pago demonstrable. Esa la gané.
+
+Cabe destacar que siempre tuve trabajos en blanco",[deleted],merval,1,2023-03-07 02:12:47,t3_11jumgs,t3_11jumgs,comment
+jb5t0bo,y de los que mencionas cual creen es más segura? gracias!,WhiteMoon2022,merval,1,2023-03-06 14:28:48,t1_jb4qu88,t3_11jumgs,comment
+jbtvfxc,"Eso mismo pensé yo, después leí que hay un método en el que dejan abierta la cuenta cuando usas el cajero y el que esta dando vueltas extrae hasta dejarte en zero, es el chip de la tarjeta de débito que el cajero guarda y queda la cuenta abierta. Estan denunciando a los bancos por este delito, 
+
+Mando referencia a la nota
+
+https://imgur.com/gallery/bRVojN9",WhiteMoon2022,merval,1,2023-03-11 14:54:14,t1_jbcalwx,t3_11jumgs,comment
+jbtvjaf,"Fue en un solo día que vaciaron la cuenta, en menos de 2 horas extrajeron una cantidad para comprarse un auto.",WhiteMoon2022,merval,1,2023-03-11 14:54:52,t1_jbcalwx,t3_11jumgs,comment
+jb4qzxa,"En binance el p2p solía estar a valor blue, hoy está más cerca del valor MEP. Pero bueno es tema del mercado, no hay nada para hacer",Desperate-Panda-7521,merval,2,2023-03-06 09:48:21,t1_jb4fuan,t3_11jumgs,comment
+jb5sv0e,"Hay alguna plataforma que sea más segura? por ejemplo payoneer no cuenta con 2FA y con el password solo se abre aún tenga configurado un 2FA de celular por ejemplo.
+
+getontop deja expuesto con solo un password de protección los fondos y los documentos subidos.
+
+deel es más seguro en eso pero no permite que queden los fondos ahí... y binance como suben y bajan las crypto....",WhiteMoon2022,merval,1,2023-03-06 14:27:52,t1_jb502lu,t3_11jumgs,comment
+jb5tpsa,"Yo he sido ingeniera de software toda la vida, desde que me gradué en australia hace unos 11 años... estudio leyes, tengo maestrías y posgrados internacionales.
+
+Perfil de riesgo ninguno, nunca me bloquearon una transacción en el mundo entero, si me buscaban para trabajar de alemania, de inglaterra, me solicitaban para que emigre de no se cuantas empresas. De una universidad de inglaterra me ofrecian becas 100% gratuitas para que emigre on-campus a USA.
+
+Pero aca en Argentina me ha pasado de todo, aunque no sabría decir porqué.
+
+El banco santander rio tenía mi cuenta bancaria creada por Hewlett Packard, fuí ingeniera de ellos por muchos años, de ahí cuando deje de trabajar para irme a una empresa de australia es que empezó todo con este banco.. Y la justicia al último me resolvió que me permitan cerrar la cuenta pero no quiso mostrarme los movimientos nunca.",WhiteMoon2022,merval,0,2023-03-06 14:33:36,t1_jb4oghs,t3_11jumgs,comment
+jb5wkcg,"Todas tienen su riesgo, las crypto se pueden ir a cero, payoneer te puede congelar los fondos, la cueva te puede estafar. Yo no te recomendaría  algo en especial, tal vez diversificar, sacar algo por cueva, dejar algo en wise, algo en payoneer. Hacer tu propio análisis de cada herramienta",Desperate-Panda-7521,merval,1,2023-03-06 14:54:15,t1_jb5t0bo,t3_11jumgs,comment
+jbtwxpr,"Si, lo sé de una buena fuente bancaria",Dry_Author8849,merval,1,2023-03-11 15:04:45,t1_jbtvfxc,t3_11jumgs,comment
+jbtwtk0,"Si, lo pueden hacer en 5 minutos una vez que te clonan. Ya saben que es una sola oportunidad, te sacan todo lo posible.",Dry_Author8849,merval,1,2023-03-11 15:03:56,t1_jbtvjaf,t3_11jumgs,comment
+jb5rynd,"Muchas gracias, yo es para consultar, hago todo lo posible para que no me roben, 2FA, usar cajeros seguros, nunca perdí ni me robaron la tarjeta, tengo los comprobantes de cada movimiento que hago,
+
+Pero me vacían la cuenta cuando voy a extraer por cajero, me hacen figurar que hice 1800 extracciones y yo solo hice 4. ¿Como pruebo que yo no hice más de 4 extracciones, teniendo los comprobantes?
+
+Con los bancos, son cuentas normales, muchas empezaron como cuenta a sueldo y luego se convierten a caja de ahorro común, pero los bancos toman la decisión de cerrarmela y se quedan con el dinero, o por ejemplo no me atienden y me bloquean la tarjeta, y no me dan el extracto de movimientos.
+
+Cuando quise usar home banking para ver los movimientos e ingresaba mis datos, se rompía el sistema en el caso de santander por ejemplo.",WhiteMoon2022,merval,1,2023-03-06 14:22:13,t1_jb4qzxa,t3_11jumgs,comment
+jb68psz,Te dije como dejar los fondos en Deel un comment más arriba.,No_Cold5079,merval,2,2023-03-06 16:17:31,t1_jb5sv0e,t3_11jumgs,comment
+jb5znwn,"No se si soy claro, pero cuando hablo de perfil de riesgo, sabes a lo que me refiero?",diyexageh,merval,2,2023-03-06 15:15:48,t1_jb5tpsa,t3_11jumgs,comment
+jb8fx6e,"Tributás en algún lado? 
+
+Porque mas que perfil de riesgo suena a perfil de evasor incauto.",[deleted],merval,2,2023-03-07 02:15:38,t1_jb5tpsa,t3_11jumgs,comment
+jb5wtdx,"no tendras el sueldo embargado? es rarisimo esto que comentas, imaginate que si fuera algo normal que los bancos chuparan plata habria banqueros colgados en plaza de mayo",Desperate-Panda-7521,merval,3,2023-03-06 14:56:04,t1_jb5rynd,t3_11jumgs,comment
+jb6pv39,gracias!!,WhiteMoon2022,merval,1,2023-03-06 18:10:02,t1_jb68psz,t3_11jumgs,comment
+jb6k2j8,"No, con los bancos simplemente manipulan el balance y vas un día y tenes 35000 pesos, y el siguiente día tenes una deuda de 18000 pesos pero no te dejan ver los movimientos, y voy a la justicia por esto y me cierran la cuenta y me quitan la deuda fabricada pero no me muestran los movimientos.
+
+y voy y extraigo 5 veces, el cajero tienen un limite de 30,000 pesos y me figura la cuenta bancaria vacia porque hice más de 15000 extracciones ese día.",WhiteMoon2022,merval,1,2023-03-06 17:33:23,t1_jb5wtdx,t3_11jumgs,comment

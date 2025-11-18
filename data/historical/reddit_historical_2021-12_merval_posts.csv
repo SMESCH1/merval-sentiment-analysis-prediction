@@ -1,0 +1,135 @@
+id,title,text,author,subreddit,score,upvote_ratio,num_comments,created_utc,url,permalink,is_self,type
+rnxooq,Lemon me quiso sobornar con $500 miseros papeles de monopoly para que cambie mi puntuación en google play. Muchachos la próxima esfuercense un poco mas 😂,,[deleted],merval,300,0.97,170,2021-12-24 20:42:40,https://i.redd.it/fz1o5h39uk781.jpg,/r/merval/comments/rnxooq/lemon_me_quiso_sobornar_con_500_miseros_papeles/,False,post
+r662kz,UPDATE - Programé una estrategia de Tradingview para usar con bots y quiero compartirla,"Edit: Gracias por los awards y sus comentarios!!
+
+&#x200B;
+
+Hace un tiempo publiqué acá un post compartiendo una estrategia de Tradingview que programé para operar automáticamente con bots ([https://www.reddit.com/r/merval/comments/qel665/programé\_una\_estrategia\_de\_tradingview\_para\_usar/?utm\_source=share&utm\_medium=web2x&context=3](https://www.reddit.com/r/merval/comments/qel665/programé_una_estrategia_de_tradingview_para_usar/?utm_source=share&utm_medium=web2x&context=3)).
+
+Desde entonces se sumaron muchas personas a probarla e intenté hacer un test más controlado durante 30 días, así que vengo a contarles cómo fue.
+
+&#x200B;
+
+https://preview.redd.it/l5aie63zvu281.png?width=2215&format=png&auto=webp&s=b92c6bb13f64f294c380d234f346d254f425fc2d
+
+Antes algunas aclaraciones:
+
+Algunos tips del funcionamiento de la estrategia y cambios desde el primer post:
+
+\-Sólo probado en crypto
+
+\-Funciona mejor con temporalidades de 30m ó 15m.
+
+\-Hay un filtro de Medias móviles + súper trend que busca confirmación en temporalidades mayores y determina si la tendencia es alcista o bajista para no operar contra el mercado.
+
+\- Calcula una regresión lineal y una desviación de esa regresión que funciona como tunel de rango. Cuando el precio rompe la regresión lineal hacia abajo, y no detecta tendencia bajista, realiza la compra.
+
+\- Utiliza un trailing Take Profit porcentual, es decir que sigue el precio hasta que deja de subir antes de vender.
+
+\- Tiene una salida en Break Even para vender rápido si hay un cambio de tendencia de corto plazo
+
+\- Tiene una salida en pérdidas en una franja entre dos porcentajes, en la cuál va a buscar el mejor punto de salida, cuando el precio rompa la desviación de la regresión lineal hacia arriba y la tendencia sea alcista.
+
+\- Tiene un Stop Loss porcentual
+
+&#x200B;
+
+\- Como el backtesting de tradingview es limitado y no puede utilizar los valores del precio en tiempo real (Sólo sabe de cada vela cuáles fueron sus precios de entrada, salida, apertura y cierre), el ""trail"" no puede ser representado, pero como siempre representa una mejora sobre el % fijo, hay una opción para deshabilitarlo en backtesting.
+
+\- Tiene un Killswitch basado en % de pérdidas
+
+\- Tiene un Kill switch basado en seguidilla de pérdidas
+
+\- Calcula una comisión del 0.1% para hacer el backtest más ""pesimista""
+
+\- Para probarla sólo es necesario una cuenta de Tradingview
+
+\- Para utilizarla con bots es necesario algún plan pago de Tradingview (Tiene trial por 30 días) y cuenta en alguna plataforma de bots (la mayoría tiene algún tier gratis).
+
+\- Funciona con casi cualquier plataforma que acepte señales de Tradingview via webhook. Fue probada con Quadency, 3commas, Wunderbit y Tradingview-hub.
+
+&#x200B;
+
+El registro del test ([https://docs.google.com/spreadsheets/d/19bfyPXgadTaFyk1-aybrGnA764zkYZEoZWZXOz8mulo/edit?usp=sharing](https://docs.google.com/spreadsheets/d/19bfyPXgadTaFyk1-aybrGnA764zkYZEoZWZXOz8mulo/edit?usp=sharing))
+
+El log de las operaciones como prueba, puede haber algunas más de las que estás registradas y que pertenecen a otros tests. ([https://drive.google.com/file/d/14ta-wjp28njbny\_EQ8kO1uxp-JaXYpzv/view?usp=sharing](https://drive.google.com/file/d/14ta-wjp28njbny_EQ8kO1uxp-JaXYpzv/view?usp=sharing))
+
+&#x200B;
+
+\- Hice el test en la plataforma Quadency, y resultó ser muy inestable (mejoró muchísimo en los últimos 10 días, prácticamente sin errores). Varios bots se detenían y perdían señales de compra o venta, había que volver a arrancarlos y el tracking de la performance se volvió muy engorroso porque cada vez que arrancan resetean el PnL.
+
+\- A medida que fui recibiendo feedback fui modificando el código, por lo que hay bots que cambiaron su estrategia hasta 3 veces durante el mes, así que el test no debe ser tomado con rigurosidad.
+
+\- Personalmente considero que compararse contra Buy & Hold no es demasiado valioso porque es una variable que cambia demasiado todo el tiempo, y es demasiado determinante el momento en el que se toman los valores, pero como otras variables son más subjetivas, lo voy a tomar para esta evaluación.
+
+\- En adelante, cuando hable de ""rentabilidad"", me refiero a que ganó o evitó perder.
+
+\- Lancé el 1/11 20 bots con 20 pares diferentes y fui llevando el tracking diario.
+
+\- Al mismo tiempo lancé otra veintena de bots con otros criterios, para probar como afectan ciertos parámetros la performance en vivo. Voy a discriminar ambos tests porque en el segundo hice algunos experimentos con el fin de recaudar información, pero destinados a fracasar desde el punto de vista de la rentabilidad (p ej, TP al 1%, al 2%, velas de 5Min, velas de 1H o 4H para un mismo par, etc.
+
+\- En el balance final, mi potfolio quedó con un -3.89% contra -11.35% de Buy and Hold, por lo que la estrategia, con fallas en los bots, operaciones perdidas y otros contratiempos, me salvó de perder -7.45%
+
+\- En el test alternativo, la diferencia es aún mayor. Mi portfolio perdió un -0.71% contra un -10.30% de Buy and Hold, por lo que me salvó de una pérdida -9.59% mayor.
+
+\- De los 20 bots del primer test, en 14 los resultados de la estrategis fueron mejores que los de Buy and Hold. De los 6 en los que no lo superó, en 3 la diferencia es menor al 10% y la máxima fue con MANA que tuvo un súper crecimiento en los últimos días con una diferencia de un gigantezco 39%
+
+\- De los 14 en los que la estrategia funcionó mejor, en 13 la mejora fue superior al 10% y el mejor resultado fue en C98 con un 33% de diferencia. La estrategia obtuvo +15.20% y Buy and Hold -18.32%.
+
+&#x200B;
+
+[Muestra del test](https://preview.redd.it/wmomgvciwu281.png?width=261&format=png&auto=webp&s=05348f53519151842792cc9a936d8391e6bdce55)
+
+Qué sigue?
+
+Necesito testear todavía el impacto de los parámetros de trailing. Por las limitaciones de Tradingview sólo pueden ser testeados en vivo así que ahora que doy por finalizado el test de noviembre, voy a armar un bot con cada una de las combinaciones posibles de estos parámetros para encontrar los más convenientes, ya que constituyen una de las grandes ventajas de esta estrategia frente a otras y hacen que sea necesario operar con bots por la velocidad a la que hay que enviar las órdenes al exchange para sacarle provecho.
+
+&#x200B;
+
+Voy a agregarles más capital a los bots que funcionaron mejor y a seguir testeando con el resto
+
+Todo el feedback es bienvenido.
+
+&#x200B;
+
+Sigo los comentarios en los próximos días por si alguno más quiere probarla o si hay dudas puntuales.
+
+&#x200B;
+
+Estrategia:  [https://es.tradingview.com/script/HWfmO76X/](https://es.tradingview.com/script/HWfmO76X/)
+
+Hay grupo de telegram, ~~pero no sé si se puede linkear acá~~. [https://t.me/joinchat/z\_X\_FT\_Mz\_AwMDFh](https://t.me/joinchat/z_X_FT_Mz_AwMDFh)
+
+Video tutorial, desactualizado con los últimos cambios, pero váliso para entender cómo configurar la estrategia: [https://www.youtube.com/watch?v=l3aVt7Urjjc&t=1s](https://www.youtube.com/watch?v=l3aVt7Urjjc&t=1s)
+
+&#x200B;
+
+También tengo otras estrategias en las que estoy trabajando, pasen y vean.",PretendOne,merval,137,0.98,46,2021-12-01 01:13:26,https://www.reddit.com/r/merval/comments/r662kz/update_programé_una_estrategia_de_tradingview/,/r/merval/comments/r662kz/update_programé_una_estrategia_de_tradingview/,True,post
+rk4ib3,"Un cuento cripto, una historia real.","Comenté esa historia real a un companero y el dijo podria ser interesante pasarla adelante.
+
+Hace como 3-4 meses entré en un proyecto crypto, un proyecto meme pero con un tokenomic muy diferente. Yo muy confiante en el proyecto quise decir a todos mis amigos y personas más cercanas, muchos de estos entraron en el proyecto.Y no, no es de estos proyectos que te dan un codigo de *referral* para que quien entre.. ganes algo a cambio.
+
+Emocionado con el protocolo y con las posibilidades, decido explicarlo en **Facebook** en un grupo de Crypto en Argentina (no recuerdo bien el nombre, ya sabrán el porque), en el post que hice expliqué TODO del proyecto, era un texto grande, habria 4 o 5 párrafos explicando todas las variables y el porque que creía que seria una buena inversion.
+
+En minutos obtuve muchas respuestas: todas negativas - ""es una shit coin"", ""no sirve para nada"", ""sos un retrasado"", y la que me llamó la atención fue.. *""muy bonito, voy a comprar un poco para mis sobrinos para que puedan jugar""*(pq es un meme), yo a todos decia para que lean el Whitepaper(un doc que explica mejor el proyecto) para que puedan entenderlo bien.. *esa ultima fue de una moderadora del grupo.. minutos después, me kickaron/banearon, probablemente la misma moderadora.*
+
+Nada, hubo esa actitud tóxica que nosotros bien conocemos, y que a veces, como és el caso.. **es tóxica para el própio que la está haciendo.** Lo más increíble és que esa gente sabe que muchisimas personas en el mundo crypto quedaron milionárias por otras memecoins como doge, shiba y etc.
+
+Como 2 semanas despues.. la Cake Monster ( $MONSTA ) fue a la luna, yo que capaz tenia 200 a 300 dolares cuando comenté de ella, ahora  tenía más de 5.000, despues subió MUCHISIMO más, y ahora bajó, está en corrección y consolidación. Creo que con eso no hace falta decir que el proyecto cambió mi vida en algo, cierto?
+
+Estoy hablando eso acá para que tengamos en cuenta que cuando alguién nos sugiere algo pensando en hacernos bien, principalmente si la persona no gana nada en cambio, al menos **escuchemos**, hagamos una lectura/busquemos informacion acerca de lo que nos dice, esa sugerencia nos puede cambiar la vida.
+
+En el país en qué vivemos, cualquier oportunidad deberia ser valorada, y una actitud tóxica hacia terceros a veces volverá a uno mismo, no sirve para absolutamente nada.
+
+saludos!",marcuscarso,merval,22,0.6,53,2021-12-19 17:04:43,https://www.reddit.com/r/merval/comments/rk4ib3/un_cuento_cripto_una_historia_real/,/r/merval/comments/rk4ib3/un_cuento_cripto_una_historia_real/,True,post
+rmtu1c,Las acciones tienen valor,"Sí. Para muchos será obvio. Pero recién ayer me terminó de caer la ficha sobre porque diablos una acción vale algo.
+
+Para los que estén como yo ""¿Por que carajo alguien querría comprar una acción? O sea, se supone que va a subir su valor. Pero, va a subir de valor porque alguien mas quiere comprarla. Pero ese alguien la va a querer comprar porque va a subir de valor. Entonces la respuesta es un círculo vicioso.""
+
+Para entender esto, me parece interesante que volvamos al corazón del asunto. Acciones con dividendos y sin dividendos. Una empresa que ofrece acciones con dividendos, a fin de año (o de acuerdo a sus períodos) distribuye las ganancias con relación a las acciones que posees. Bien. En ese caso sabes que compras la acción porque te va a dar una guita cada tanto. Pero, en el caso de la acción sin dividendos. ¿Por qué sube y baja su precio? Si no da dividendos. No estás ganando nada.
+
+Y la respuesta es, por lo dividendos que va a dar en el futuro (teóricamente). Porque una empresa que no da dividendos, no los da porque todas las ganancias del año las reinvierte. Esto significa que cada año que no da dividendos (si le está yendo bien) está creciendo y creciendo. Lo que provoca que la gente piense ""A la maula. Si esta empresa está creciendo tanto, cuando de dividendos me voy a forrar el culo con plata.""
+
+Es por eso que una acción sin dividendos se valua o devalúa. Por la espectativa de los dividendos que va a dar.
+
+Es también por esto que las buenas o malas noticias relacionadas con dicha empresa afectan al precio de la acción. Si son buenas noticias, la gente se emociona con que esta creciendo y va a dar mayores dividendos. Si son malas, la gente se asusta de que la empresa vaya a quebrar (ponele) y que nunca de dividendos (lo que los deja con una acción de mierda sin valor).",zalogon119,merval,8,0.62,37,2021-12-23 08:36:26,https://www.reddit.com/r/merval/comments/rmtu1c/las_acciones_tienen_valor/,/r/merval/comments/rmtu1c/las_acciones_tienen_valor/,True,post

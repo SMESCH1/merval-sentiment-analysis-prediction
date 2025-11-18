@@ -1,0 +1,447 @@
+id,title,text,author,subreddit,score,upvote_ratio,num_comments,created_utc,url,permalink,is_self,type
+jiptks,PUNTO DE PARTIDA PARA NEWBIES EN INVERSIONES. POR DONDE ARRANCAR?,"# ¿Para quién es este post?
+
+Este post está pensado para los que tienen plata ahorrada o un ingreso que sobra a fin de mes y no saben que hacer, los que como mucho hicieron [plazos fijos](https://www.reddit.com/r/merval/comments/yymbq1/escapando_a_la_nominalidad_del_plazo_fijo_a_tasa/) o comprar dolar en home-banking/blue. La idea es dar una breve introducción, que sea llevadera, no muy técnica y en términos sencillos, de que cosas hay que tener en cuenta ahora que se decidieron adentrarse en el mundo de las inversiones.
+
+Espero que después de leer esta introducción, les sirva para poner en contexto las preguntas que se tienen que hacer, la información que necesitan investigar y capacitarse, antes de efectivamente ponerse a invertir. Y de yapa por haber leído hasta acá, se llevan el primer consejo: **no invertir sin tener bien claro en qué nos estamos metiendo!**
+
+Antes de arrancar: no confundir inversiones bursátiles con finanzas personales. Las finanzas personales abarcan toda la gestión de ingresos, inversiones, ahorros y gastos en la ""microeconomia"" de una persona. Acá nos vamos a centrar solamente en la parte de inversiones, en el marco de las finanzas personales.
+
+# Primero unas definiciones básicas
+
+Vamos a arrancar con algunos conceptos que pueden parecer medio abstractos sobre el temas de dinero, para después tener una base y poder ir directo a la cuestión de inversiones.
+
+**Valor tiempo del dinero**
+
+Lo primero que tenemos que entender es el **valor tiempo del dinero**, un concepto muy sencillo pero que pocos lo tenemos formalizado. Por suerte, es muy fácil de incorporar y de aprender. Puesto de manera sencilla y sin entrar en muchos números: *la misma cantidad de dinero vale mas HOY que mañana*. Y cuanto mas tiempo pasa, menos vale el mismo dinero. Vale aclarar que no  estoy teniendo en cuenta conceptos como devaluación o inflación en este momento, simplemente que el mismo dinero **hoy**, va a valer mas que mañana.
+
+Veamos este concepto con un ejemplo sencillo. Cómo ordenarias según orden de preferencia las siguientes opciones?
+
+1. Recibir $100 hoy
+2. Recibir $100 mañana
+3. Recibir $100 en 1 mes
+
+Creo que esta claro que el orden dado, es el orden de preferencia de cualquiera de nosotros. La cuestión se pone interesante cuando empezamos a jugar con el monto vs el tiempo. Por ejemplo:
+
+1. Recibir $100 hoy
+2. Recibir $200 mañana
+3. Recibir $250 en 2 años
+
+En este caso ya empiezan a jugar otras variables. Que tan valioso es para mi el dinero hoy vs el dinero en el futuro? En esta valuación entran en juego conceptos que no voy a explicar aca pero son muy interesantes de profundizar, como [el concepto de NPV (Net present value o valor presente neto), IRR o TIR (Tasa Interna de Retorno) y tasa de descuento (Discount factor)](https://www.reddit.com/r/merval/comments/kpah40/introducci%C3%B3n_a_renta_fijabonos_parte_2/).
+
+Un caso muy simplificado para pensarlo: supongamos que el banco nos ofrece un plazo fijo a 1 año con un rendimiento de 30%. En ese caso, podemos usar esta tasa del plazo fijo para ayudarnos a decidir: $100 hoy o $150 en 1 año?  Bueno, si pongo los $100 de hoy en un plazo fijo, voy a tener $130 en 1 año. Me convendría tomar la opción de $150 en 1 año!
+
+**Riesgo**
+
+Hay muchas maneras de definir **riesgo**, pero en este contexto vamos a quedarnos con una definición mas estadística para que sea fácil de entender. El riesgo es una medida de que tanta certeza vamos a tener de nuestro **retorno esperado**.
+
+Por ejemplo, el concepto de una **tasa libre de riesgo** es un caso extremo: una inversion de rendimiento fijo y conocido de antemano, que, como el nombre lo implica, se considera que no tiene riesgo. Esto se traduce en que el rendimiento esperado es igual al rendimiento efectivo (o realizado) que vamos a tener al final de la inversion. En el caso de inversiones globales, se considera a los bonos del tesoro de EEUU como libre de riesgo. En nuestro caso, podemos tomar a los plazos fijos de los bancos (o mas correctamente los instrumentos de renta fija del tesoro argentino).
+
+Una vez establecido el nivel base de riesgo 0, la escala de riesgo va variando a medida que consideramos distintos instrumentos, e incluso dentro de los instrumentos, hay varios atributos para analizar. Para intentar predecir la dispersión alrededor de nuestro retorno esperado, lo que se suele hacer es basarse en la volatilidad histórica del instrumento a analizar. Para dar algunos ejemplos, una acción de un banco Argentino tiene mas riesgo que una acción de un banco de EEUU. Esto se puede analizar coyunturalmente, o se puede mirar las variaciones históricas recientes de los precios.
+
+Otra manera de pensar el riesgo, es adoptar la postura de que el mercado es ""eficiente"" y que los retornos esperados ya reflejan los mayores riesgos. Es decir: **a mayor retorno esperado, mayor riesgo.** Esto quiere decir que hay menos probabilidad de conseguir un retorno esperado a medida que dicho retorno aumenta. Dependiendo del instrumento, estos retornos esperados se pueden calcular facilmente como en instrumentos de renta fija (métricas como TIR, paridad, etc) o pueden ser mas difíciles de calcular como en renta variable, aunque tenemos distintos ratios (o múltiplos) que podemos analizar para comparar el precio de una acción con sus fundamentals (que se desprenden de los balances presentados).
+
+Creamos o no en la eficiencia del mercado para *pricear* (determinar el precio de algo) las cosas, es una buena heurística a tener en cuenta que *retornos altos suelen estar acompañados de riesgo alto.* El corolario de esto es siempre ser escépticos de retornos altos de bajo riesgo, promesas de ""plata fácil"" y ese tipo de oportunidades.
+
+**Retorno real vs nominal**
+
+Una aclaración que nos debemos es distinguir entre retornos reales y retornos nominales. Los retornos nominales son los retornos directos obtenidos sin ningún ajuste. Por ejemplo, invertimos $100 en una acción que en 1 año se convirtieron en $200. Eso nos da un retorno del 100%. Sin embargo, esos $200 probablemente tengan menor poder adquisitivo, ya sea por devaluación (midiendo contra otras monedas) o inflación (midiendo contra bienes). Por ejemplo, si sabemos que en ese mismo año la inflación fue del 50%, nuestro retorno real va a ser menor que 100%. De hecho, si hacemos la cuenta usando la [fórmula para retorno ajustado por inflación](https://www.investopedia.com/terms/i/inflation_adjusted_return.asp), [obtenemos que el retorno real es de 33%](https://www.reddit.com/r/merval/comments/jiptks/punto_de_partida_para_newbies_en_inversiones_por/gohn1qz?utm_source=share&utm_medium=web2x&context=3)!
+
+Es muy importante siempre medir nuestras inversiones teniendo en cuenta los retornos REALES. Particularmente en pesos, donde la perdida del poder adquisitivo es tan tangible. De hecho, mi recomendación es medir las inversiones en monedas mas estables como el dolar, por defecto. Como dato de color, la inflación del dolar es de aprox. 2% anual en las ultimas decadas y el objetivo del banco central es mantenerla en ese valor en promedio.
+
+Para mas información sobre este tema se puede leer [este post](https://www.reddit.com/r/merval/comments/out016/trivia_retorno_real_ajustado_por_inflaci%C3%B3n/).
+
+# Receta básica para una inversion
+
+Que componentes tiene una inversion? Estos son los ingredientes mínimos que la componen:
+
+* **Capital**: monto de dinero para invertir
+* **Retorno**: cuál es el % o monto de ganancia sobre el capital que esperamos obtener. Puede ser aproximado o dado por un [benchmark](https://www.reddit.com/r/merval/comments/jm6vid/evaluando_performance_benchmark_sharpe_ratio/).
+* **Riesgo**: medida de que tan probable es que consigamos el retorno esperado. Difícil de estimar exactamente!
+* **Horizonte/plazo**: cuánto tenemos que dejar la plata para maximizar las chances del retorno esperado
+* **Instrumento**: el método mediante el cual vamos a invertir
+* **Liquidez**: qué tan rápido/costoso es entrar/salir
+* **Moneda**: en que moneda podemos entrar/salir de la inversion
+* **Fricciones**: gastos/comisiones/impuestos a tener en cuenta
+
+Dados estos ingredientes, vemos que algunos son variables que podemos definir nosotros y otros son interdependientes. Veamos algunos ejemplos:
+
+1. Si queremos obtener una ganancia de 100 pesos en un plazo fijo con tasa 1% mensual, el resto de las variables quedan prácticamente predefinidas: el riesgo es casi nulo, y por ende el retorno es conocido. El capital es función del retorno en este caso, tenemos que colocar 10k pesos. El horizonte es 1 mes. La liquidez es nula, no podemos retirar el dinero hasta que no termina nuestra inversion. Y la moneda es pesos. Prácticamente no hay gastos ni impuestos que nos importen.
+2. Quiero invertir 10k USD y obtener una rentabilidad de 5% anual durante 2 años. En este caso, un instrumento adecuado para ese tipo de inversion podría ser un bono corporativo en USD. La moneda es en dolares y el hecho de tener un plazo de inversion corto con un rendimiento de 5% anual, nos fija que el riesgo que vamos a tener que correr va a ser moderado (si comparamos con la tasa libre de riesgo o con otros bonos que rinden similares tasas). La liquidez es baja porque los bonos corporativos no se negocian mucho, y el costo de salir antes puede ser moderado, dependiendo del instrumento en sí. Los gastos van a ser los de operar, comisiones al broker, hay que investigar los impuestos respecto a este instrumento.
+3. Si mi objetivo es duplicar un capital de 25k pesos en un mes: para eso podemos utilizar opciones sobre acciones locales, intentando capturar la tendencia en algún papel que hayamos estudiado. Necesitamos conocer en profundidad el instrumento (en este caso opciones) y saber que estamos corriendo un riesgo alto, que vamos a pasar, con alta probabilidad, por periodos de grandes perdidas, incluso llegando a perder todo nuestro capital. La liquidez es alta, podemos salir cuando querramos, pero con alto costo, dada la importancia del timing. Las comisiones van a ser altas, impuestos a renta financiera también.
+4. Depositar mis ahorros en algún instrumento para generar rentabilidades minimas hasta necesitarlos, sin asumir mucho riesgo. Podemos buscar un fondo común de inversion en USD que invierta en bonos LATAM de mas bajo riesgo. O llevar nuestro dinero al exterior e invertir en un ETF de bonos globales o del tesoro de EEUU de bajo riesgo. Vamos a tener nuestra inversion en USD, liquidez alta aunque puede ser costosa si involucra mover fondos en el exterior debido a las comisiones. El riesgo es bajo. Hay que tener en cuenta los impuestos, especialmente por la moneda y el hecho de ser en el extranjero en el segundo caso.
+
+Como se puede apreciar, en estas tensiones entre todos estos (y otros) atributos, hay juegos entre retornos esperados y ""primas"" (costos) que hay que pagar. Por ejemplo, por operar un instrumento poco liquido, tenemos la ""prima de liquidez"" que se refiere a los costos extra de por ejemplo, comprar un instrumento mas caro porque no hay vendedores a un precio mas barato. Otro ejemplo es la ""prima de inversiones extranjeras"", donde aumentan nuestros gastos de movimiento de fondos e impositivos. Incluso hay limitaciones con respecto al capital: algunas inversiones son poco viables si tenemos muy poco o demasiado capital para invertir, ya sea por mínimos requeridos o porque no hay liquidez suficiente en el instrumento que nos interesa.
+
+# Los instrumentos mas comunes que debemos aprender
+
+Aca simplemente voy a listar los instrumentos que deberíamos tener en nuestra caja de herramientas de inversión, con un breve comentario de cada uno explicando que usos tiene y de que se trata.
+
+1. **Plazo fijo:** rendimientos fijos a plazo conocido. No necesita mucha explicación. Hay que tener mucho cuidado con las tasas nominales (lo que rinden en pesos) vs las tasas reales (lo que rinden teniendo en cuenta la inflación) para ver si convienen o no.
+2. **Dolar:** refugio de valor por excelencia, pero como el plazo fijo hay veces que conviene y veces que puede ser una mala opción para nuestro perfil.
+3. **Cauciones:** inversion prácticamente libre de riesgo, como un plazo fijo pero de mas corto plazo. Rara vez las tasas reales son positivas, pero son buenos instrumentos para los que tienen dinero ocioso en la bolsa o para los que quieren apalancarse (invertir con plata prestada) en el corto plazo. Mas info [acá](https://www.reddit.com/r/merval/comments/o4jsce/introducci%C3%B3n_a_la_operatoria_de_cauciones/).
+4. **Fondos comunes de inversion:** dejo un [link con introducción](https://www.reddit.com/r/merval/comments/jcnzpw/introduccion_a_los_fondos_comunes_de_inversion_fci/). Son instrumentos muy flexibles para inversiones mas pasivas (lo opuesto a inversion activa, en la que debemos estarle encima de manera constante, dia a dia por ej.). Son todo un mundo, ya que al estar compuestos por distintos instrumentos (por ej. acciones, o plazos fijos, etc) cada FCI requiere su propio análisis.
+5. **Criptomonedas:** activos descentralizados y anónimos que pueden ser útiles para especular o para hacer transacciones por fuera del sistema. También como moneda de cambio o de inversion. Buscar posts sobre CeFi (Centralized finance) y [DeFi (Decentralized finance) en el sub](https://www.reddit.com/r/merval/comments/gx51wp/defi_como_escapar_del_peso_y_de_la_afip_cap%C3%ADtulo_1/), podemos poner nuestras criptos a trabajar en prestamos tipo plazo fijo o en fondos con rendimientos variables. Ejemplos: Bitcoin, Ethereum.
+6. **Stablecoins:** son criptos que suelen estar atadas de alguna manera u otra al valor del dolar o algún activo mas estable, haciéndolas mas atractivas para perfiles mas conservadores. Igual que las criptos, permiten usarse para cambiar de moneda o inversiones, asi como para hacer transacciones y fondeos. Ejemplos: DAI, USDT.
+7. **Acciones (renta variable):** nos permite participar en las ganancias de una empresa. Alto riesgo, aunque hay matices dependiendo de la empresa, sector, pais, contexto, etc. Puede ser acciones locales o podemos operar en el exterior directamente y acceder a acciones de todo el mundo.
+8. **Bonos (renta fija):** son instrumentos con flujos de fondo conocidos. Los riesgos son mayormente de default (escenario de no pago) y de crisis de confianza que pueden hacer bajar los precios (puede ser oportunidad de compra o punto costoso de venta para el tenedor). [Link a tutorial introductorio](https://www.reddit.com/r/merval/comments/kpaffw/introducci%C3%B3n_a_renta_fijabonos_parte_1/).
+9. **CEDEARs:** son instrumentos locales en pesos pero que representan acciones del exterior. Nos permite invertir en una [gran colección de empresas](https://www.comafi.com.ar/2254-CEADEAR-SHARES.note.aspx) grandes, mayormente de EEUU pero también de Brazil y las empresas argentinas mas grandes (Mercado Libre y Globant). Tienen ventajas en costos operativos para inversores minoristas en Argentina.
+10. **Opciones:** son [contratos de compra/venta](https://www.reddit.com/r/merval/comments/oymxwb/introducci%C3%B3n_motivacional_a_opciones_financieras/) de acciones a precios prefijados. Hay infinidad de estrategias, desde lo mas especulativo y de alto riesgo, a cosas muy conservadoras como usarlo como seguro contra la baja de una acción que tenemos en cartera. Por ejemplo, podemos pagar una prima (un costo fijo) por asegurarnos de limitar las perdidas de una acción que tengamos en caso que baje, durante un plazo de tiempo. También nos permite apostar a la baja de una acción! Y apalancarnos, en el sentido de que podemos ganar exposición a mas capital del que tenemos, multiplicando las subas (y las bajas, claro).
+11. **ETFs:**  como los Fondos Comunes de Inversion, hay de todos los sabores y colores, permitiéndonos invertir de manera diversificada en sectores, países enteros, tendencias de inversion como energias renovables o automatización, grupos de bonos de cierta calidad crediticia, etc. Se suelen operar en el exranjero pero también está la opción mediante [CEDEARs de ETFs](https://www.reddit.com/r/merval/comments/s1iewe/breve_an%C3%A1lisis_de_los_nuevos_cedears_de_etfs/).
+
+# El rol del broker y el mercado
+
+La mayoría de estos instrumentos se acceden a través de un broker, que es una empresa que nos permite acceso al mercado. Los instrumentos relacionados a crypto se acceden generalmente via exchanges. Para mas información sobre brokers o exchanges, recomiendo usar el buscador del sub. En ambos casos, debemos tener presente que comisiones vamos a tener al operar, que instrumentos tiene cada broker, su reputación, atención al cliente, participación en nuevas emisiones y varias cosas mas. Es bastante común tener cuenta comitente (el análogo a una cuenta bancaria, donde en vez de dinero, también podemos tener títulos como acciones, etc) en varios brokers!
+
+[El mercado en si, no es mas que el medio electrónico donde se intercambian la mayoría de los títulos listados. Este intercambio se hace mediante oferta y demanda, donde tienen prioridad los que quieren comprar a mayor precio y los que quieren vender a menor precio, y luego los que llegan antes en ese orden. Una vez que se matchea el precio de compra, con el precio de venta, se concreta la operación y se intercambian títulos por dinero, determinando así el precio del activo en cuestión.](https://www.reddit.com/r/merval/comments/jopqm7/introducci%C3%B3n_a_la_operatoria_de_t%C3%ADtulos_en_el/)
+
+En este mercado, participan todos los inversores, desde un inversor minorista físico buscando timbear unos pesitos o invertir sus ahorros, hasta empresas que emiten deuda o acciones para financiar su operación. Luego tenemos grandes inversores como inversores institucionales, bancos o empresas de seguros que buscan invertir el capital de sus clientes así como provincias y países que buscan financiarse emitiendo bonos.
+
+# El perfil del inversor, emociones y disciplina
+
+Ya sabemos entonces que las distintas inversiones van a tener su nivel de riesgo, entre otras limitaciones. El desafío ahora es intentar asegurarnos de que el nivel de riesgo requerido para una inversion, sea adecuado para el inversor.
+
+Por qué es importante que el perfil de inversor este en consonancia con la inversion? Porque cuando hay ruido, las emociones nos pueden llevar a romper nuestra estrategia inicial que tan cuidadosamente planeamos. Si no tenemos la disciplina, vamos a hacer estragos. Cabe destacar que esto puede suceder cuando el riesgo de la inversion es mas alto que el que el inversor esta dispuesto a tolerar, asi como en el caso inverso. Esto se puede ilustrar con dos ejemplos:
+
+1. Compramos CEDEARs de MSFT con el objetivo de sacarnos de encima los pesos y dejarlos en algún lado dolarizado para uso en algunos años, de paso sacando una ganancia. Sin embargo, no nos dimos cuenta que los CEDEARs son instrumentos altamente volátiles, ya que combinan la volatilidad del tipo de cambio, con la volatilidad de la acción subyacente. Un día, el dolar baja abruptamente por alguna medida y al mismo tiempo la empresa presenta balances en EEUU. Vemos que el precio del CEDEAR esta mostrando -10% en la apertura del mercado. A la media hora vemos -15% y temiendo por nuestro capital ,decidimos vender, ya que parece no tener piso. A los 6 meses, el CEDEAR esta 50% arriba del valor al que vendimos y nos queremos morir. Que sucedió? No respetamos la estrategia original. Pero por qué? No necesitábamos esos pesos. Analizamos la empresa y parecia solida. Sin embargo, al momento de ver esa volatilidad diaria, las emociones nos dominaron y vendimos. Esto es una señal de que algo en la inversion original (en este caso el riesgo), no es acorde al perfil del inversor.
+2. Supongamos que somos una persona joven, con buenos prospectos de crecimiento en nuestro laburo y queremos invertir nuestro capital. Como todavia no tenemos muchas obligaciones, nos sobra un buen monto cada mes para invertir. Decidimos ponerlo en plazo fijo todos los meses. Al año, nos damos cuenta que si tuvimos suerte, apenas le ganamos a la inflación. En este caso no vamos a hacer cagadas en el medio de la inversion, pero nos damos cuenta del costo de oportunidad perdido al comparar con haber invertido en instrumentos mas rendidores como acciones. Al evaluar esta situación, decidimos elegir otra estrategia para nuestra próxima inversion.
+
+Para intentar determinar nuestro perfil de inversor podemos utilizar tests online. Si bien nos pueden dar una idea, es esperable que hasta no tener las manos en la masa, no nos demos cuenta de cual es realmente nuestro perfil.
+
+Una ultima cuestión a tener en cuenta con respecto al perfil, es que si bien el riesgo es uno de los items mas importantes a descubrir, no es el único. Otro importante por ejemplo, es el plazo. Podemos pensar que estamos a largo plazo, pero si estamos mirando nuestra inversion dia a día, tenemos una disonancia. Otro es el nivel de conocimiento de los instrumentos a operar en la estrategia. Si nos metemos a comprar/vender futuros sin tener mucha idea de la mecánica, aumentamos exponencialmente las chances de que salga todo mal, por mas que el resto de la estrategia este delineada cuidadosamente.
+
+# La importancia de la diversificación
+
+Diversificar significa reducir o eliminar riesgos, mediante la combinación de varios instrumentos. Vamos a dar varios ejemplos en vez de entrar en definiciones:
+
+* Supongamos que queremos apostar a la recuperación de los cruceros luego de la pandemia del COVID. Una opción es ir y comprar acciones de RCL (Royal Caribbean). Sin embargo, una alternativa menos riesgosa, es comprar varias acciones de cruceros que sean representativas del mercado: RCL (Royal Caribbean), CCL (Carnival Cruises), NCLH (Norwegian Cruises). De esta manera, estamos mitigando el riesgo de una unica empresa.
+* Supongamos que queremos invertir en acciones de Brazil, porque nos parece que el pais tiene mucho potencial de convertirse en un mercado del primer mundo. En este caso, podríamos comprar las empresas mas representativas de Brazil, como Vale, Banco Bradesco, Petrobras o Banco Itaú, y asi sucesivamente (por ej, 10 empresas). Si bien estaríamos diversificados, hay un instrumento mas apropiado para eso que es un ETF como el EWZ, una pseudo-acción, que esta compuesta por cientos de las empresas mas grandes de Brazil. De esta manera, no solo diversificamos muchísimo mas (prácticamente la perdida es nula si una empresa quiebra), sino que la gestión es mas sencilla al ser un único activo.
+
+En todos los casos estamos reduciendo riesgo a cambio de retornos menos volátiles, y por ende sacrificando situaciones de muy altos retornos pero también eliminando situaciones de grandes perdidas (ej, una empresa quiebra).
+
+Un concepto muy importante asociado a la diversificación, es la correlación. La correlación es una medida estadística de que tan similar es el movimiento de una variable con respecto a otra. Va desde -1 que significa correlación perfecta inversa (ej, cuando uno sube en un 5%, el otro baja en 5%), 0 que significa que no hay correlación y 1 que significa correlación perfecta (ej, cuando uno sube 5%, el otro sube 5%).
+
+Cuanto mas correlacionados están dos instrumentos, menos diversificación obtenemos al combinarlos y viceversa. Esto quiere decir que si tenemos una cartera con 50% de un instrumento A y 50% de otro instrumento B, el nivel de diversificación real que vamos a tener, va a depender de la correlación entre A y B. Si están perfectamente correlacionados, la diversificación es nula. En cambio, si su correlación es 0 o menor, el beneficio es mucho mayor.
+
+Si volvemos a nuestro ejemplo de los cruceros, si bien estamos diversificando el riesgo de una empresa, no estamos diversificando el riesgo del sector (esto es a proposito), donde todas las acciones relacionadas con cruceros tienen alta correlación, ni tampoco estamos diversificando el riesgo del mercado, ya que ninguna empresa esta aislada y todas las acciones dependen entre si: para construir un crucero necesito materiales para fabricarlo, necesito contratar gente, necesito capital y prestamos, necesito que la gente tenga plata y este dispuesta a gastarla en cruceros, y un gran etcétera.
+
+# Armando un portfolio (cartera) acorde a nuestros objetivos
+
+Una vez que tenemos nuestras posibles inversiones, vamos a agarrar nuestro capital y decidir como distribuirlo. Nuestra cartera puede tener un mix de inversiones de distintos horizontes, en distintos instrumentos, con distintos niveles de riesgo y porcentajes acordes.
+
+Es muy importante tener en cuenta el nivel de riesgo de nuestra cartera en total, viendo los niveles de correlación entre los activos que tenemos. Por ejemplo, es muy común incorporar una parte de nuestra cartera en cash o en renta fija de bajo riesgo, para tener baja correlación con las acciones o correlación inversa en el caso de los bonos. Esto se debe a que cuando las acciones caen, los inversores aversos al riesgo, suelen vender y comprar bonos.
+
+Una teoria muy usada para aprender sobre el análisis de portfolios es el modelo [CAPM](https://es.wikipedia.org/wiki/Modelo_de_valoraci%C3%B3n_de_activos_financieros), que no voy a profundizar aca pero les dejo la punta para investigar si quieren darle un enfoque mas cuantitativo a la diversificación de la cartera. Cabe aclarar que es un modelo anticuado (el primer modelo de hecho) pero no es menos util. El armado de portfolios es toda una ciencia y se estudia bajo lo que se llama MPT (Modern Portfolio Theory).
+
+# Como evaluar las decisiones de inversion
+
+Repitan conmigo: **para evaluar que tan buena o mala fue una inversion tiene tanto o mas peso el proceso de decision al ingresar y al salir de la inversion, que el resultado (retorno) de la misma.** Estamos intentando evitar dos escenarios, que son MUY problemáticos para los inversores y tenemos que tratar de identificarlos a toda costa:
+
+1. Una inversion nos puede salir bien, aunque hayamos hecho todo mal. Esto se suele resumir en el dicho popular ""todos somos genios cuando la bolsa esta subiendo"".
+2. Una inversion nos puede salir mal, aunque hayamos hecho todo bien. Esto se debe a que en inversiones de riesgo, lo que estamos haciendo es tratando de manejar riesgos y retornos, pero no controlamos cuales de los eventos terminan sucediendo en la practica.
+
+En el primer caso, el problema es que probablemente lleguemos a conclusiones incorrectas, reforzando nuestro esquema de decision erróneo, y en algún momento nos llevemos una sorpresa desagradable. Mientras que en el segundo caso, el problema es que probablemente nos desalentemos y dejemos de invertir aunque íbamos por el camino correcto. Vamos con un ejemplo de cada uno:
+
+1. ""Me gustan las películas de Disney, voy a comprar unas acciones"". A la semana, Disney lanza una serie nueva que tiene mucho potencial y la acción sube 10%. Naturalmente, al ver esta ganancia en el corto plazo, nos olvidamos que nos metimos en Disney por cuestiones marketineras en vez de por cuestiones de análisis serio de la empresa, y nos creemos que somos unos capos. ""Claro, era obvio que iba a subir"". Satisfechos con el resultado, seguimos con nuestra metodologia: ""El futuro son los autos eléctricos, yo me mando y compro Tesla, no puede fallar"". Al dia siguiente, Elon Musk twittea que van a abandonar las operaciones en China por nuevas tarifas impuestas por el gobierno Chino y la acción cae 20% en un dia. En pánico, vendemos todo y no entendemos que pasó. ""El mercado es una timba"", gritamos, acompañado de varios insultos, y juramos nunca mas invertir nuestro dinero mientras vamos a la cueva de confianza a pagar un tremendo sobreprecio por el dolar blue.
+2. ""Analicé todos los balances recientes de Apple. La empresa tiene números sólidos y grandes proyectos. Las perspectivas de crecimiento, tanto desde los fundamentals como desde el consenso del mercado en los precios (gráficos) son excelentes. Validé mis análisis contra otros análisis de varias fuentes, enriqueciendo mis hipótesis y validando aún mas mis proyecciones. Acordemente, voy a poner una parte importante de mi capital en acciones de AAPL"". Al mes, cae un avión en el medio de la asamblea de inversores matando a todos los presentes de la junta directiva, incluido el CEO y a Warren Buffet que pasaba por ahí cerca. La acción colapsa -30% al dia siguiente. Frustrados por semejante baja inesperado, vendemos nuestra posición. ""El mercado es una timba"", gritamos, acompañado de varios insultos, y juramos nunca mas invertir nuestro dinero mientras vamos a la cueva de confianza a pagar un tremendo sobreprecio por el dolar blue.
+
+Esto no quiere decir que no debemos evaluar una inversion sobre la marcha y post cierre de la misma. Muchas veces podemos aprender cosas útiles. Pero el proceso de aprendizaje tiene que estar atado al proceso de toma de decisiones y de gestión de riesgo, no de intentar predecir eventos aleatorios. Después de todo, la **gestión de riesgo** es justamente eso: intentar predecir **qué** eventos aleatorios, fuera de nuestro control, se pueden dar y con que probabilidad, y **no** si se van a dar o no y cuando.
+
+# Próximos pasos
+
+**Material de lectura recomendado:** [**""Mercado de Capitales: manual para no especialistas""**](https://prodibur.sba.com.ar/Manual%20IAMC%20-%20Capitulos%20CNV.PDF)**, del IAMC**
+
+[**Mapa de conocimientos relevantes a inversores**](https://new.reddit.com/r/merval/comments/l3zsu3/mapa_de_conocimientos_para_inversores/)
+
+Recomiendo también [este curso](https://www.reddit.com/r/merval/comments/jev49r/curso_sobre_las_distintas_filosofias_de_inversion/) para intentar determinar que perfil de inversión va mas de acuerdo con nuestra capacidad, tiempo y objetivos. Una vez que tengamos claro estos principios, el siguiente paso sería familiarizarnos con la mecánica de la operación en el mercado y los distintos instrumentos. Para eso podemos seguir [esta colección de posts](https://www.reddit.com/r/merval/collection/e6a7524c-6445-470e-a2b1-2246387c0c15).
+
+Espero que les haya servido y cualquier comentario, duda, cosa me avisan en los comentarios. Mucha suerte en este camino que recién empieza ;)",HwanZike,merval,1611,1.0,144,2020-10-26 20:22:12,https://www.reddit.com/r/merval/comments/jiptks/punto_de_partida_para_newbies_en_inversiones_por/,/r/merval/comments/jiptks/punto_de_partida_para_newbies_en_inversiones_por/,True,post
+jcnzpw,Introduccion a los Fondos Comunes de Inversion (FCI),"# Que es un FCI?
+
+Es un instrumento de inversion que se permite que varios inversores se agrupen bajo un mismo objetivo de inversion, poniendo el capital en un fondo común (de ahí el nombre) y delegando su gestión a una administradora. Los atributos y términos mas importantes que tenemos que entender son:
+
+\- **Sociedad gerente**: la empresa que se encarga de administrar el fondo. Que significa administrar el fondo? Lo mas importante es la gestión de los activos del fondo en pos de seguir la estrategia del fondo. Por otro lado, también se encarga de toda la parte ""burocrática"" del fondo, como atender los pedidos de entrada/salida de dinero al fondo
+
+\- **Cuotapartistas**: son los inversores que participan en el fondo. Se los denomina de esta manera porque cada vez que uno **suscribe** capital a un fondo, obtiene a cambio de su dinero una cantidad de cuotapartes. El ratio de conversion entre dinero/cuotaparte se hace en función del valor de cada **cuotaparte**, valor que se actualiza cada dia, al cierre del ejercicio. Entonces, por ejemplo, si la cuotaparte de un fondo es de $50, si nosotros suscribimos $1000, se nos va a dar 20 cuotapartes.
+
+La contracara de esta operación es, dada una cantidad de cuotapartes, si queremos retirar nuestra inversion, realizamos un **rescate**: asi cambiamos nuestras 20 cuotapartes por el equivalente en pesos de la cuotaparte en ese momento. Siguiendo con nuestro ejemplo, si la cuotaparte al momento de la liquidación del rescate estuviese valuada en $60, al intercambiar nuestras 20 cuotapartes, obtendríamos $1200, dándonos una ganancia de 20% o $200 nominales.
+
+En este caso dimos el ejemplo con una cuotaparte en pesos, pero nos podemos encontrar con fondos que admiten cuotapartes en dolares. Para ellos, las suscripciones/rescates se realizan en dolares.
+
+\- **Plazo de rescate**: ya que estamos hablando de rescates, tenemos que tener en cuenta que cada fondo tiene su plazo de rescate. Estos pueden variar desde inmediatos (o cuasi inmediatos dependiendo de donde operemos el fondo) lo que significa que ni bien solicitamos el rescate obtenemos el dinero (o cuando abra el banco durante el dia hábil), o pueden tener entre 1 y 5 dias hábiles de demora. En general, cuanto mas riesgosa es la estrategia del fondo, mayor es el plazo de rescate. Un detalle de la nomenclatura de los plazos de rescate es que generalmente se dice T+0 para inmediatos, T+1 para 1 dia (o 24hs), T+2 para 2 dias (o 48hs) y asi sucesivamente.
+
+\- **Estrategia y benchmark**: el fondo en general se constituye con la idea de intentar ganarle a algún benchmark, alrededor de una estrategia particular, que se detalla en el **reglamento de gestión** del fondo. Los benchmarks pueden ser variados, como el indice S&P Merval para un fondo de renta variable, la tasa de plazos fijos para un fondo de mercado de dinero. Esto va a determinar los activos que va a tener mayormente el fondo, el plazo de rescate, el rendimiento histórico, esperado.
+
+# Tipos de FCIs
+
+Primero podemos hacer dos grandes distinciones, los fondos que invierten en pesos y los que invierten en dolares. Hoy en dia, los FCIs en dolares suelen tener instrumentos dolarizados de tres tipos:
+
+\- Renta fija soberana en USD
+
+\- Renta fija subsoberana (provincial, corporativa - ONs)
+
+\- Renta fija LATAM (países del Mercosur + hasta 25% USA)
+
+Cual de estos preferimos va a depender de donde querramos posicionarnos, si queremos riesgo argentino o no (aunque el riesgo regulatorio argentino siempre esta presente). Por ejemplo, un FCI de bonos chilenos/brasileros al dia de hoy puede tener retornos esperados de entre 2% y 4% anual. En cambio un FCI de ONs USD argentino puede tener rendimientos anuales esperados mas cercanos a 6%-8%. Los plazos de rescate suelen ser entre T+2 y T+5 debido a la operatoria extra que tienen que hacer estos fondos al operar en el exterior y tener que incluir cambios de monedas.
+
+Dejando los FCIs en USD de lado, podemos hacer las siguientes grandes categorias para los FCIs en pesos:
+
+**Money-market o mercado de dinero**
+
+Son fondos que suelen invertir en cauciones/plazos fijos y cuentas a la vista, con plazos de rescate  inmediatos (T+0). Son muy poco volátiles: al invertir en instrumentos tan seguros como los mencionados, prácticamente no bajan nunca el valor de su cuotaparte. La idea es usarlos para el cortísimo plazo, en vez de tener la plata liquida. Por ejemplo, si cobramos el sueldo el primero del mes y tenemos el vencimiento de la tarjeta el 10 del mes, en vez de adelantar el pago de la tarjeta, podemos colocar la plata en un FCI MM el dia que cobramos y rescatar el 10, pagar y quedarnos con la diferencia de rendimiento. Esto no seria posible con un plazo fijo, y seria especulativo con otro tipo de inversiones. En cambio con este FCI estamos prácticamente garantizados de sacarle una ganancia, aunque sea minima. No suele haber mucha diferencia entre estos fondos en términos de rendimientos ya que se rigen por las tasas de las cauciones y plazos fijos mayoristas, asi que lo mas común es simplemente usar el FCI que tengamos disponible en el mismo banco donde tenemos nuestra caja de ahorro. Veamos un gráfico del rendimiento de un FCI de este estilo:
+
+&#x200B;
+
+[MEGAINVER LIQUIDEZ PESOS A](https://preview.redd.it/bo69i5tlpkt51.png?width=1155&format=png&auto=webp&s=dad4e560f0778d9a2ef6cccb27e9b421da146126)
+
+Como podemos ver, el fondo no tuvo dias negativos y es muy estable en su crecimiento. Esa baja volatilidad del riesgo trae aparejado los bajos rendimientos, en este caso \~19% YTD.
+
+Algunos FCIs MM tratan de darle un boost al rendimiento incorporando algún activo un poquito mas rendidor en baja proporción. Suelen indicarlo en el nombre con cosas como ""PESOS PLUS"" o ""LIQUIDEZ PLUS"". Esta estrategia puede salir mal porque el fondo esta tomando mas riesgo para aumentar el rendimiento y en general es una mala idea, porque los MM se usan para corto plazo y con poco dinero asi que unos puntos mas de rendimiento no nos van a cambiar mucho aunque podría ser benficioso para grandes empresas depositando la plata antes del pago de los sueldos por ejemplo, donde los montos son grandes.
+
+Algo de este estilo le paso al fondo de MercadoPago, que tenia buen rendimiento y liquidez porque combinaba instrumentos como letras del tesoro, con rendimiento superior a los plazos fijos. Pero un dia las letras se defaultearon y cayó su precio. Como el fondo tenia una proporción de letras en sus tenencias, la valuación de la cuotaparte ese dia cayó también, sorprendiendo a mucha gente que al día de hoy se queja de que MercadoPago la estafó, cuando estaba mas que aclarado que la cuenta remunerada de MercadoPago no garantizaba rendimientos positivos. Otros ejemplos de cuentas remuneradas ""automaticamente"" (con un FCI MM en el detrás de escena) son la billetera de Ualá o la cuenta automática de IOL. Hoy por hoy, vemos que [el fondo de Mercado Pago](https://www.cafci.org.ar/ficha-fondo.html?q=798;1982) unicamente tiene los activos en cuentas remuneradas, cauciones y plazos fijos, con un rendimiento YTD de \~17%.
+
+**Fondos de renta fija - cobertura, ahorro, patrimonio**
+
+En este plano tenemos variantes dependiendo de la posición que adopte el fondo. Suelen ser fondos que tienen un mix de títulos soberanos y/o cobertura con futuros de dolar. La idea de estos fondos es intentar defender el poder adquisitivo en pesos, variando entre estrategias posicionadas en dolar (tipo dolar linked, o futuros de dolar) o bonos ajustados por CER (inflación). También pueden tomar posición en instrumentos en dolares, en una pequeña proporción. Dentro de estas distintas estrategias, los fondos pueden ser mas o menos agresivos en su estrategia, optando por instrumentos de renta fija de menor o mayor rendimiento/duration, lo que los hace mas volátiles y asi mas riesgosos. Suelen tener plazos de rescate T+1 o T+2, incluso T+3. El benchmark suele ser el dolar oficial o la inflación. Vamos a ver algunos ejemplos:
+
+&#x200B;
+
+[GALILEO AHORRO A - T+1: este fondo tiene baja volatilidad, mezcla su estrategia con un componente de bajo riesgo incluyendo FCIs de MM en su cartera y letras de muy corto plazo. El rendimiento refleja su baja volatilidad: 26&#37; YTD](https://preview.redd.it/k5hbh8zipkt51.png?width=1152&format=png&auto=webp&s=35df0367d7f9854a93907b45b14ef29ee91651c8)
+
+&#x200B;
+
+[CONSULTATIO RENTA FIJA A - T+2: fondo mas volátil, con mayoría de instrumentos de cobertura contra dolar y un porcentaje de CER. Rendimiento YTD: 61&#37;](https://preview.redd.it/fyrpdr8gpkt51.png?width=1156&format=png&auto=webp&s=5530981ecac3c56639233379f905aeaef3b20a91)
+
+Si queremos entender mejor por qué los fondos de renta fija fluctuan en vez de ser constantes, tenemos que entender cómo funciona la cotización y valuación de los instrumentos de renta fija. Para eso recomiendo [esta guía](https://www.reddit.com/r/merval/comments/kpaffw/introducci%C3%B3n_a_renta_fijabonos_parte_1/) sobre renta fija.
+
+**Fondos de renta variable**
+
+Invierten en acciones argentinas, tanto del panel general como el líder, dependiendo de la estrategia. Su benchmark es el S&P Merval 25. En general es difícil separarlos porque ninguno es muy claro en su estrategia, pero esencialmente la perilla que pueden tunear es que proporción eligen de cada acción en la cartera, enfocándose en empresas o sectores que se espera van a tener mejor rendimiento que el mercado. Suelen ser de muy alto riesgo.
+
+&#x200B;
+
+[GALILEO ACCIONES A - Rendimiento YTD: 19&#37;. Vemos las violentas fluctuaciones](https://preview.redd.it/8btoiab9pkt51.png?width=1153&format=png&auto=webp&s=61981b97445ea2ff676f479d4585c5433738e7f9)
+
+&#x200B;
+
+**Otros tipos de fondos**
+
+\- Corporativos/Infraestructura: invierten exclusivamente en deuda corporativa
+
+\- Dolar linked: buscan ""apostar"" exclusivamente a la devaluación del tipo de cambio
+
+\- Cobertura (contra CER): suelen intentar cubrirse de la inflación mediante bonos CER
+
+\- Retorno total: no tienen una estrategia definida y van variando dependiendo de que es lo que el gerente asume es lo mas conveniente para el momento. Tampoco tienen un benchmark muy claro. Suelen tener alto riesgo.
+
+\- Renta mixta: suelen combinar renta variable con renta fija
+
+# Otros detalles
+
+**Mínimo de suscripción**
+
+Todos los fondos tienen un monto minimo de suscripción, para garantizar rentabilidad del fondo y minimizar costos. En general los mínimos pueden ser bajos como $1000 o 100 USD, o mas altos como $5k, $20k o 1k USD.
+
+**Distintas clases para el mismo fondo - A, B, C, D...**
+
+Los fondos suelen tener distintas clases. No es algo de los que debamos preocuparnos porque en general solo aplicamos para una clase y es la que se nos hace disponible, como inversores minoristas y personas físicas. Igual es interesante saber por qué existen distintas clases del mismo fondo. No hay una regulación definida para nomenclar, pero en general las distintas clases se corresponden a diferentes distinciones, como sean si es para personas físicas o jurídicas, dependiendo del el monto con el que suscribimos (para separar inversores grandes de chicos, suelen pueden tener diferencias en rendimiento aunque pertenezcan al mismo fondo porque se aplican honorarios diferenciales), clases para empleados del fondo, etc.
+
+**Sobre rendimientos historicos**
+
+Rendimientos pasados no garantizan rendimientos futuros. Que significa esto? Que la estrategia del fondo le puede haber resultado muy bien durante un periodo de tiempo reciente en el pasado, pero no tenemos garantía de que siga rindiendo así a futuro. Es muy importante evaluar muy bien el fondo en su conjunto, con todos sus atributos. El rendimiento historico puede ser un buen proxy para que tan riesgoso es un fondo, si miramos la volatilidad historica en conjunto con el plazo de rescate y la estrategia del fondo. Veamos un ejemplo:
+
+[ALLARIA DOLARES PLUS A. YTD: -13&#37; \(USD\)](https://preview.redd.it/90ze8x8nsnt51.png?width=1156&format=png&auto=webp&s=4c2cbde6c244915ec8e9006d791f0800e8d6294b)
+
+Este fondo invierte exclusivamente en deuda soberana en USD. Si en Agosto nos hubiesemos guiado por el rendimiento de los meses anteriores, donde hubo un rally espectacular de mas de +50% en USD en un lapso de 3-4 meses, nos hubiesemos llevado una desagradable sorpresa al dia de hoy, estando por lo menos -10% abajo. Para analizar este fondo, debemos tener en cuenta, entre otras cosas, su estrategia (y por ende su cartera), para saber a que riesgos nos estamos exponiendo: en este caso, principalmente al riesgo pais.
+
+[CONSULTATIO DEUDA ARGENTINA A. YTD: 98&#37;](https://preview.redd.it/sk098ugntnt51.png?width=1162&format=png&auto=webp&s=958f4f5476d2db25b83bcd5c8e7985f003f1f2ef)
+
+En el caso de CONSULTATIO DEUDA ARGENTINA, vemos que hubo un rendimiento cercano al 100% desde principio de año hasta agosto. De nuevo, nos podríamos haber dejado llevar por estos rendimientos pero inspeccionando la cartera y viendo las tasas y paridades de los bonos en la cartera, nos hubiesemos dado cuenta que es imposible que el fondo vuelva a rendir tanto en tan corto plazo, ya que el altísimo rendimiento se debió a una compresión de paridades desde el 50% hasta encima del 100% una vez que se confirmó con el paso del tiempo que no iba a haber default de los bonos en pesos.
+
+&#x200B;
+
+[En este grafico podemos ver las diferencias de rendimiento entre fondos, asi como la diferencia de volatilidad. Los fondos para perfiles mas agresivos suelen dar mayores ganancias pero tener mas volatilidad y viceversa.](https://preview.redd.it/3nvzy2d20au51.png?width=1745&format=png&auto=webp&s=882c494d3a130f5dedab0ded97877a576e90e4cf)
+
+**Honorarios**
+
+Son las comisiones que cobran la sociedad gerente y la **sociedad depositaria** (la encargada de mantener y garantizar el dinero del fondo, suelen ser bancos). Suelen estar entre 1% y 3% (anual) en total. Se desprende que a menores honorarios, mas plata para el cuotapartista, asi que debemos prestar atención cuando comparamos fondos dentro de la misma estrategia, para ver cual nos conviene.
+
+Las comisiones se toman sobre los activos totales del fondo cada dia antes del calculo de la cuotaparte, por lo que ya están incluidas en la valuación de la cuotaparte. Esto quiere decir que las cuotapartes que uno tiene ya ""incluyen"" las comisiones. En general la operatoria de FCIs suele no tener ningún tipo de gastos extra u ocultos. Aunque si es probable que tengamos que pagar impuesto a renta financiera y/o bienes personales.
+
+**Como se calcula la cuotaparte**
+
+En general cuando arranca el fondo, se determina el valor de una cuotaparte arbitrariamente a un valor, como por ejemplo $1. Como las cuotapartes practicamente se pueden subdividir con cualquier cantidad de decimales, es irrelevante el valor de una sola cuotaparte. Luego, al cierre de cada dia se calcula el valor del patrimonio del fondo (la suma de valor de todos los activos en cartera). Como la cantidad de cuotapartes es fija, la variacion del dia anterior al cierre del dia es la variacion porcentual del valor de cada cuotaparte.
+
+Para dar un ejemplo simplificado: supongamos que tenemos un FCI de renta variable que arranca con $100 de GGAL y $100 de YPF (en la practica estarian mas diversificados) y 200 cuotapartes de $1 cada una. Si suscribo $100 pesos, es equivalente a 100 cuotapartes. Ahora el fondo tiene 300 cuotapartes, distribuye mis $100 aprox en la misma distribucion que tenia original, alcanzando una cartera de $150 GGAL $150 YPF. Al dia siguiente, GGAL sube un %10 e YPF no varia su precio. Ahora el valor total del fondo paso de $300 a $315 = $165 GGAL $150 YPF. Diviendo por las 300 cuotapartes, el valor por cuotaparte ahora es $1.05 y ganamos un 5%. Otra manera de verlo es que la variacion porcentual de la cuotaparte va a ser el promedio ponderado por capital de cada uno de los instrumentos.
+
+**Rescates**
+
+Cuando rescatamos un fondo podemos elegir 3 modalidades:
+
+\- *Rescate total*\*\*:\*\* se solicita para liquidar la totalidad de las cuotapartes
+
+\- *Rescate parcial por cuotapartes*: se solicita liquidar una cantidad dada de cuotapartes
+
+\- *Rescate parcial por dinero*: se solicita liquidar dada una cantidad de dinero, dejando a criterio del fondo el calculo de la cantidad de cuotapartes necesarias a liquidar para aproximar la suma a rescatar. Es util para rescatar montos fijos, cuando no sabemos el valor que va a tener la cuotaparte al momento de rescate (cosa que si sabe el fondo cuando efectiviza el rescate).
+
+Vale aclarar que los rescates se suelen efectivizar el dia que se solicita al cierre (dentro de un horario de corte, sino queda para el proximo día hábil). Para poner un ejemplo, si estoy en un Fondo T+2 y solicito un rescate un lunes (antes de que cierre el periodo de rescates para ese dia, generalmente pasado el mediodía), el miércoles a primera hora del mercado voy a tener mi dinero, pero el intercambio de mis cuotapartes por dinero se va a realizar al valor de cierre del lunes.
+
+**Sobre los plazos de suscripción**
+
+Explicado en [esta guía](https://help.bullmarketbrokers.com/faq/operatoria-de-fondos-comunes-de-inversion/), dejo un cuadro ilustrativo:
+
+[El horario de corte para las suscripciones suele variar entre los brokers, pero es generalmente alrededor del mediodía, entre las 12hs y las 15hs.](https://preview.redd.it/rtx4z44dsee71.png?width=1194&format=png&auto=webp&s=49e780ee8ca707c91f4c95e3ef2d15997003b85a)
+
+**Cuotapartes en dolares**
+
+Una cosa que hay que tener en cuenta es que los fondos que invierten principalmente en USD suelen tener la cuotaparte en dos tipos de dolares: dolar billete (o MEP) o dolar divisa (o CCL). En general hay que tener mucho cuidado al suscribir a estos fondos porque si bien muchas veces no vamos a poder operarlos si no intentamos suscribir con el mismo tipo de dolar que la cuotaparte, también puede pasar que el fondo haga la conversion automática. Que significa esto? Que tal vez podemos suscribir a un FCI con cuotaparte en dolar divisa con dolar billlete, resultando en una conversion implícita que significa que vamos a recibir menos cuotapartes, en función de la brecha entre MEP y CCL. Para poner un ejemplo, si suscribimos 1000 dolares billete a un FCI con cuotaparte valuada en 100 USD divisa, NO vamos a obtener exactamente 10 cuotapartes, porque primero el fondo debe convertir esos 1000 dolares en divisas, pasando por la brecha MEP/CCL que puede rondar entre 2-3% o extremos como 8%. La misma operación pero al revés sucede cuando rescatamos, pero en ambos casos no sabemos a cuanto va a estar la brecha entonces podemos perder (o ganar) dinero independientemente de la performance de la cuotaparte en si.
+
+**Mas informacion**
+
+[CAFCI - Camara Argentina de FCIs](https://www.cafci.org.ar/): el ente regulador de los FCIs, junto con las regulaciones de la CNV. Aqui podemos encontrar un listado de todos los fondos, entrar a ver información actual e histórica de los fondos, la composición de su cartera, performance y todas las cosas que fui detallando.
+
+[Criptoya charts](https://criptoya.com/charts/?chart=FCI): pagina para comparar rendimientos históricos de distintos FCIs, incluyendo varios benchmarks.
+
+[Discord](https://discord.gg/e2zMxEjj2j): en el canal de #fci se puede discutir, pedir asesoramiento o inspeccionar distintos fondos haciendo uso de un bot que nos permite hacer distintas consultas a la base de CAFCI mas fluidamente. Por ejemplo:
+
+[Ejemplo de comando $fci para el fondo Balanz Capital Renta Fija A](https://preview.redd.it/5qrs8hnopkt51.png?width=572&format=png&auto=webp&s=274b78d00156a5bd73c83200086e4668c5667899)
+
+&#x200B;
+
+**Donde operarlos**
+
+En general los bancos tienen sus propios FCIs que podemos acceder desde el homebanking. Otra manera de operar FCIs es desde brokers que ofrecen estos servicios (PPI es conocido por tener mucha variedad, IOL, BMB, Balanz también tienen muchos fondos) o directamente desde la pagina de la administradora del fondo.
+
+# Ventajas y desventajas
+
+Como vimos, hay muchos tipos de FCIs distintos. Mas allá de la estrategia podemos igual dar los siguientes pros y contras generales:
+
+* Pro: permite realizar una estrategia sin tener que gestionar activamente. Para el cuotapartista la inversion es pasiva, suscribo y ""me olvido"". Algunos FCIs requieren mas seguimiento que otras pero en general no vamos a tener que estarle tan encima, ni necesitar el conocimiento, etc.
+* Pro: permite invertir en instrumentos de difícil acceso para el inversor minorista. Por ejemplo, inversiones en el exterior, instrumentos de baja liquidez o de alto tecnicismo/mínimos altos como futuros o letras/ONs
+* Contra: tenemos menos agilidad para disponer de nuestro dinero, estando atados a los plazos de rescate
+* Contra: tenemos menos control sobre nuestro dinero, si el fondo se va por una estrategia que resulta ser mala lo mejor que podemos hacer es rescatar. Es ""todo o nada"", si lo comparamos con una estrategia activa donde podríamos ajustar algunas perillas
+* Pro: muchas veces se pude invertir directamente desde el homebanking, sin tener que pasar por un broker
+* Contra: los rendimientos pueden ser menores debido a los honorarios o a mala performance de la estrategia del fondo (es decir, por debajo del benchmark).
+* Contra: riesgo regulatorio; los FCIs suelen ser blanco fácil a nuevas regulaciones cuando el gobierno de turno esta en crisis
+
+Espero que les sea util! Si surgen mas cosas voy agregando, avisen si algo no quedo claro o si les gustaria agregar algo.",HwanZike,merval,251,1.0,72,2020-10-17 00:21:48,https://www.reddit.com/r/merval/comments/jcnzpw/introduccion_a_los_fondos_comunes_de_inversion_fci/,/r/merval/comments/jcnzpw/introduccion_a_los_fondos_comunes_de_inversion_fci/,True,post
+jk7nfp,Guia definitiva para convertir dinero en distintas formas a criptomonedas,"Muchas veces veo las mismas preguntas y respuestas sobre cómo convertir dinero fiat en distintas formas a criptomonedas. Hago este post para recopilar las distintas maneras (con sus respectivas aclaraciones):
+
+* Pesos argentinos en cuenta bancaria local: [varios exchanges centralizados](https://criptoya.com) o P2P ([Binance](https://www.binance.com), [Paxful](https://paxful.com/), [Localbitcoins](https://localbitcoins.com/)).
+
+* Pesos argentinos en tarjeta de crédito/débito: No se puede a cambio oficial, aunque algunos vendedores en sitios P2P ([Binance](https://www.binance.com), [Paxful](https://paxful.com/), [Localbitcoins](https://localbitcoins.com/)) pueden aceptar Mercado Pago (o algún método similar).  
+
+* Dólares en cuenta bancaria local: [varios exchanges centralizados](https://criptoya.com).
+
+* Dólares en efectivo: [SatoshiTango (sólo CABA)](https://www.satoshitango.com/es-AR/).
+
+* Payoneer: utilizando su tarjeta prepaga pueden comprar cripto en sitios como [Moonpay](https://www.moonpay.io/) y posiblemente otros. También P2P ([Paxful](https://paxful.com/), [Localbitcoins](https://localbitcoins.com/)) o [AirTM](https://www.airtm.com). Prohibido según términos y condiciones del procesador de pago de la tarjeta.
+
+* Paypal: no conozco ninguna forma fácil, salvo sitios webs como [Saldo](https://saldo.com.ar) o P2P ([Binance](https://www.binance.com), [Paxful](https://paxful.com/), [Localbitcoins](https://localbitcoins.com/)). Prohibido según términos y condiciones de su plataforma.
+
+* TransferWise: utilizando [BitWage](https://www.bitwage.com/) o [crypto.com](https://crypto.com/) con transferencia bancaria. Prohibido según términos y condiciones de su plataforma, pero según comentan muchos usuarios ""no pasa naranja"". 
+
+* LetsDeel: utilizando [BitWage](https://www.bitwage.com/) o [crypto.com](https://crypto.com/) con transferencia bancaria. Futura integración con [Coinbase](https://coinbase.com) [pro tip: si la quieren probar, contacten al servicio al cliente y pidanlé que los metan en su beta]. 
+
+* Paxum: Al parecer hay pocas opciones, porque sólo permite transferencias bancarias a cuentas a tu nombre. Sólo ciertos sitios P2P como [AirTM](https://www.airtm.com/en/) o [Localbitcoins](https://localbitcoins.com/).  Prohibido según términos y condiciones de su plataforma.
+
+Aclaro que hacer algo prohibido por los términos y condiciones de una plataforma NO es ilegal, pero puede traer la terminación de su cuenta, así que tengalo en cuenta.",galapag0,merval,220,1.0,89,2020-10-29 07:35:27,https://www.reddit.com/r/merval/comments/jk7nfp/guia_definitiva_para_convertir_dinero_en/,/r/merval/comments/jk7nfp/guia_definitiva_para_convertir_dinero_en/,True,post
+j7eko4,Un día promedio de un argentino bolsero,,thenicus,merval,210,0.97,2,2020-10-08 11:59:36,https://v.redd.it/xz2d2y0biur51,/r/merval/comments/j7eko4/un_día_promedio_de_un_argentino_bolsero/,False,post
+j885ri,Menos mal que compre DAI!,"Hola no tengo ninguna consulta, sólo quería decir que hace un par de semanas conocí r/merval y entre consulta y consulta y tutoriales en youtube, mandé casi todos mis ahorros en pesos a DAI en Buenbit, y ahora el blue está rozando los 170. Menos mal lpm!!
+
+sé que yo soy un normie que solo quiere conservar sus ahorros pero estoy muy agradecido a todos por mantener este sub y ofrecer tantos recursos para los completos neófitos como yo
+
+Y nada que ver pero aprendí muchísimo de excel. Ayer los numeritos rojos se pusieron verdes nomás porque se disparó el dólar. Un toque amargado por el estado del peso argentino pero feliz de que estoy zafando aunque sea por un poquito.
+
+asi que nada, hermoso sub. De parte mía y de todos los ahorristas argentinos que quieren buscarle la vuelta, muchísimas gracias por la ayuda!!! 💙",pqxf2,merval,189,0.99,107,2020-10-09 18:50:14,https://www.reddit.com/r/merval/comments/j885ri/menos_mal_que_compre_dai/,/r/merval/comments/j885ri/menos_mal_que_compre_dai/,True,post
+jev49r,Curso sobre las distintas filosofias de inversion,"Dejo un link a este excelente curso, que en mi opinión todos deberían tener en su kit de herramientas. Es un pantallazo de las distintas maneras que hay de invertir, muy completo.
+
+[**INDICE DE CONTENIDOS**](http://pages.stern.nyu.edu/~adamodar/New_Home_Page/invphilcourse/invphillect.htm)
+
+Paso a hacer una breve descripción de los contenidos:
+
+* [Introduccion](http://people.stern.nyu.edu/adamodar/pdfiles/invphiloh/invphilintro.pdf) Que es una filosofia de inversion? Por que es importante y como se compara con una estrategia de inversion? Distintas categorizaciones y como encontrar nuestra filosofia, teniendo en cuenta riesgos, horizontes, dedicación.
+* [Entendiendo el riesgo](http://people.stern.nyu.edu/adamodar/pdfiles/invphiloh/risk.pdf) Que es el riesgo? Distintos tipos, CAPM, diversificación. Interés libre de riesgo (risk free rate), prima de riesgo (risk premium) y aversion al riesgo. Riesgo de mercado, riesgo idiosincrático. Beta. Modelos alternativos de riesgo. Riesgo en renta fija, riesgo de credito, agencias de ratings
+* [Valuacion](http://people.stern.nyu.edu/adamodar/pdfiles/invphiloh/valuation.pdf) Distintos modelos de valuación. DCF. Valuación intrínseca. Ajustando por riesgo, factor de descuento. Valuación de empresas vs valuación de acciones. Modelo usando dividendos. Valuación relativa. Ratios/múltiplos. Modelos para contingencias basados en opciones.
+* [Costos e impuestos (fricciones) en el trading](http://people.stern.nyu.edu/adamodar/pdfiles/invphiloh/tradingcosts.pdf) Costos directos de brokers. Prima de liquidez. Impacto en el precio. Costo de oportunidad. Gestión de los costos de inversion. Efecto de los impuestos (USA).
+* [Eficiencia del mercado](http://people.stern.nyu.edu/adamodar/pdfiles/invphiloh/mktefficiency.pdf) Que es y que implica la eficiencia del mercado. Impacto del azar, relación con información. Condiciones para un mercado eficiente y como impacta a las inversiones. Relación entre costo/ganancia e información. Behavioral finance, influencia de la psicología. Estudios y estrategias de testeo. Errores comunes.
+* [Analisis tecnico/chartismo](http://people.stern.nyu.edu/adamodar/pdfiles/invphiloh/techanal.pdf) Random walk hypothesis. Patrones en el precio. Momentum en corto, mediano, largo plazo. Burbujas. Bloopers. Efectos estacionales y otros patrones temporales. Efecto enero. Efecto fin de semana. Fundaciones de AT. Sobrereaccion del mercado. Patrones básicos de AT.
+* [Value investing](http://people.stern.nyu.edu/adamodar/pdfiles/invphiloh/valinv.pdf) Definiciones y distintos approaches. Graham y Buffet. Ratios y screening. Inversores activistas. Distintos tipos y estrategias de inversores activistas. Siguiendo a los activistas.
+* [Small cap/growth investing](http://people.stern.nyu.edu/adamodar/pdfiles/invphiloh/growthN.pdf) Definiciones. Small cap. IPOs. Evidencia y modelos para small cap investing. IPOs. Pricing inicial y estrategias. Evidencia. Inversores growth pasivos. Screeners. Growth vs value. Ratios. Crecimientos esperados, correlaciones. Activist growth. Venture capital.
+* [Trading basado en informacion/noticias](http://people.stern.nyu.edu/adamodar/pdfiles/invphiloh/infotrading.pdf) Información, valor y precio. Eficiencia del mercado ante nueva información. Insider trading (siguiendo a insiders). Analistas. Earning forecasts y expectations. Earnings announcements. Mergers and acquisitions. Pre y post trading. Splits y dividendos.
+* [Arbitraje](http://people.stern.nyu.edu/adamodar/pdfiles/invphiloh/arbitrage.pdf) Definiciones. Tipos e hipótesis. Futuros. Bonos. FX. Opciones. ADRs. Pseudoarbitraje/especulación. Arbitraje de a pares. Mergers. Hedge funds. Survivorship risk/bias.
+* [Market timing](http://people.stern.nyu.edu/adamodar/pdfiles/invphiloh/mkttiming.pdf) Potenciales ganancias y costos. Estrategias. Indicadores técnicos. Relación con precios pasados. Volatilidad. Flujos de dinero. Volatilidad. Retorno a la media. Indicadores macroeconómicos. Valuación intrínseca. Valuación relativa. Ratios. Fondos comunes. Hedge funds. Analistas de mercado profesionales. Composición y rotación de carteras. Cambios de estrategia. Especulación. Otros instrumentos: opciones, futuros, ETFs.
+* [Inversores pasivos / indices](http://people.stern.nyu.edu/adamodar/pdfiles/invphiloh/indexN.pdf) Definición indexación. Tipos y ventajas. Comparación entre inversores individuales vs fondos profesionales. Performance histórica de gestión activa. Por que la mayoría no le gana al benchmark. Costos. Turnover. Impuestos. Timing. Consideraciones de conducta/disciplina. ETFs. Enhanced Index Funds. Riesgos.
+* [Conclusiones](http://people.stern.nyu.edu/adamodar/pdfiles/invphiloh/finale.pdf) Eligiendo una filosofia de inversion. Como se relaciona con la personalidad de cada uno. Como evaluar la elección y detectar incongruencias. Consideraciones financieras para la elección de una filosofía. Importancia y el como en la elección de una o varias filosofías de inversion.
+
+Les recomiendo fuertemente seguir las diapositivas con los videos: [https://www.youtube.com/playlist?list=PLUkh9m2BorqlDJlnBXUaJaMRNE7UDckn6](https://www.youtube.com/playlist?list=PLUkh9m2BorqlDJlnBXUaJaMRNE7UDckn6)",HwanZike,merval,186,0.98,33,2020-10-20 15:11:17,https://www.reddit.com/r/merval/comments/jev49r/curso_sobre_las_distintas_filosofias_de_inversion/,/r/merval/comments/jev49r/curso_sobre_las_distintas_filosofias_de_inversion/,True,post
+jhcm6n,Una perlita que encontré leyendo la biografía de Elon Musk,"Cuando trabajaba para el director estratégico del banco, a principios de los años noventa, le habían encargado que examinara la cartera de deuda del tercer mundo, un fondo monetario con el deprimente nombre de «deuda de países infradesarrollados», y el Banco de Nueva Escocia había invertido miles de millones en ella. 
+
+En los años anteriores, algunos países de Sudamérica y de otras partes del mundo se habían declarado en bancarrota, lo que había forzado al banco a reducir parte del valor de la deuda. El jefe de Musk le había pedido que investigara en los activos fijos de la entidad y tratara de determinar el valor real de aquella.
+
+Mientras trabajaba en aquel proyecto, Musk descubrió lo que parecía una clara oportunidad de hacer negocio. Estados Unidos había tratado de contribuir a reducir la carga de la deuda soportada por algunos países en desarrollo mediante los llamados bonos Brady; con ellos, básicamente, el Gobierno estadounidense sostuvo la deuda de países como Brasil y Argentina. Musk advirtió la existencia de un arbitraje. «Calculé el valor de apoyo, que venía a ser de cincuenta centavos por dólar, mientras que la deuda real se negociaba a veinticinco centavos —recuerda Musk—. Aquello era una oportunidad increíble y nadie parecía darse cuenta.» 
+
+Musk trató de conservar la calma mientras telefoneaba a Goldman Sachs, uno de los principales agentes de aquel mercado, e investigó sobre lo que había visto. Preguntó cuánta deuda brasileña estaba disponible a veinticinco centavos. «Me dijeron: “¿Cuánta quiere comprar?”, y yo dije una cifra exorbitante, diez mil millones de dólares.» 
+
+Cuando le confirmaron que era factible, Musk colgó. «Pensé que estaban como una puta cabra, porque podías multiplicar por dos la inversión. Todo estaba respaldado por el tío Sam. Aquello era pan comido.»
+
+Musk se había pasado el verano ganando unos catorce dólares por hora y siendo amonestado por utilizar la máquina de café reservada a los ejecutivos, entre otras infracciones por el estilo, así que pensó que había llegado su oportunidad para brillar y conseguir una enorme prima. Fue corriendo al despacho de su jefe y le expuso aquella oportunidad insólita. «Se pueden ganar miles de millones de dólares sin riesgo alguno», dijo. 
+
+Su jefe le pidió que escribiera un informe para el director general de la entidad, que rechazó la propuesta de inmediato, afirmando que el banco ya había tenido problemas con las deudas brasileña y argentina y no quería tropezar con la misma piedra. «Intenté decirles que eso daba igual —afirmó Musk—. 
+
+Lo importante era que estaba respaldada por el puto tío Sam. Daba igual lo que hicieran los sudamericanos. Era imposible perder dinero a menos que el Tesoro estadounidense se declarase en bancarrota. Pero a pesar de todo, para mi asombro, no movieron un dedo. 
+
+Más adelante, cuando competía contra los bancos, recordar aquel momento me daba confianza. Los banqueros se limitaban a imitar lo que hacía todo el mundo. Si los demás se tirasen por un puente, ellos también se tirarían. Si hubiera una gigantesca pila de oro en medio del cuarto y nadie la cogiera, ellos tampoco la cogerían.»
+
+En los años siguientes, Musk se planteó la posibilidad de crear un banco que operase en internet, y habló de ello abiertamente durante su período de prácticas en Pinnacle Research, en 1995. 
+
+El joven Musk aleccionó a los científicos sobre la inevitable transición del mundo de las finanzas hacia los sistemas en red, pero ellos se negaron a creerlo, alegando que la seguridad en internet tardaría una eternidad en ser lo bastante fiable para atraer a los clientes.",internetico,merval,166,0.98,18,2020-10-24 14:13:11,https://www.reddit.com/r/merval/comments/jhcm6n/una_perlita_que_encontré_leyendo_la_biografía_de/,/r/merval/comments/jhcm6n/una_perlita_que_encontré_leyendo_la_biografía_de/,True,post
+j9forj,Planilla indice S&P 500 usando CEDEARs,"# EDIT 11/02/2022: desde que agregaron los CEDEARs de ETFs, incluyendo SPY para replicar el S&P 500, esta metodología ya no tiene mucho sentido y recomiendo fuertemente comprar SPY y listo.
+
+\--------------
+
+Buenas, les dejo una planilla que arme tomando los CEDEARs que tienen liquidez, para intentar trackear al indice S&P 500 usando pesitos. La idea de invertir en indices es toda una filosofía que no voy a explicar en detalle aca, y si tenemos la plata y los medios lo ideal seria comprar un ETF, pero esto es un intento para los que prefieren quedarse en inversiones locales.
+
+**Como usarla?**
+
+Es bastante sencillo! Primero hay que hacer una copia del documento (File -> Make a copy). Una vez que tenemos nuestra copia: llenar el campo ""Capital"" con el capital que queremos invertir. Nos va a decir el costo total (por temas de redondeo va a ser superior al capital, se puede ajustar el capital para obtener un costo mas cerca al deseado) y en la columna #Shares, cuantos CEDEARs tenemos que comprar de cada accion.
+
+Notar que cuanto mas capital, mas diversificados vamos a estar, porque vamos a tener mayor variedad de CEDEARs, ie, mas empresas, mas sectores. Tambien mejora la granularidad al incrementar el capital. Dos cosas a notar, a medida que variamos el capital, es como se varia el tracking error (+ capital, - error). Lo otro es en el tab de weights por sector, podemos ver si estamos diversificando cross-sector con nuestro capital.
+
+*Ejemplo*
+
+**Capital**: 100k ARS
+
+**Costo**: 106k ARS
+
+**Cartera**: 8x AAPL, 2x MSFT, 2x AMZN, 1x FB, 1x GOOGL, 1x JNJ, 1x PG, 1x V, 1x JPM, 1x NVDA, 1x VZ, 1x DIS, 1x PYPL, 1x T, 1x ADBE
+
+**Por que invertir en un indice?**
+
+Brevemente, la idea es obtener un rendimiento similar al promedio del mercado, que a largo plazo historicamente siempre sube. CLAVE: a largo plazo, es decir, 5+ años. En principio el unico riesgo que corremos es el riesgo de mercado, eliminando lo mayor posible el riesgo de una empresa, sector, etc en particular (en nuestro caso va a depender de cuantos CEDEARs distintos compremos).
+
+A cambio de las grandes ganancias potenciales (o perdidas) de elegir algunas acciones o hacer trading que obtenemos? Minimizamos la volatilidad, eliminamos el esfuerzo de tener que investigar empresas, mirar graficos, tener que dedicarle tiempo, en favor de una estrategia sencilla (y barata si la comparamos con estar comprando y vendiendo, tanto en comisiones como impuestos) de simplemente hacer buy and hold.
+
+**Disclaimer**
+
+Si bien la idea es hacer una inversion pasiva, NO sirve como reemplazo de un ETF. Por que? Porque no estamos capturando todas las empresas, es decir, es una version ""optimizada"" del indice, que originalmente tiene 500 empresas. Esto significa que estamos dejando de lado, incluso en el mejor de los casos, \~450 empresas afuera.
+
+Lo bueno, es que mediante los CEDEARs tenemos a las de mas peso capturadas. De hecho, si el capital da para comprar los \~50 CEDEARs listados, tenemos 50% del indice en terminos de capitalizacion bursatil! Otro problema es que a futuro, pueden aparecer nuevas empresas en el indice y no vamos a capturar sus variaciones.
+
+Para seleccionar los CEDEARs, filtre a ojimetro los que tienen liquidez y tambien le di un poquito mas de peso para incluir algunos sectores estrategicos asi teniendo una cartera bien diversificada en caso de invertir un monto interesante.
+
+Dos detalles tecnicos son que el peso de las acciones en el indice (col B) no se actualiza automaticamente. Asi que si se quiere usar, hay que revisar que los pesos esten actualizados a mano, usando por ejemplo [esta pagina](https://www.slickcharts.com/sp500). Por otro lado, si bien los precios de los CEDEARs se actualizan automaticamente, el precio del BA.C NO lo toma asi que hay que ponerlo a mano (se puede sacar del broker u online)
+
+# [LINK](https://docs.google.com/spreadsheets/d/1kzYiAUgxE-k9orNqA90VydOjGmR5lOtw6BH6fRq7BOU/edit?usp=sharing)
+
+Suerte!",HwanZike,merval,119,1.0,32,2020-10-11 20:14:50,https://www.reddit.com/r/merval/comments/j9forj/planilla_indice_sp_500_usando_cedears/,/r/merval/comments/j9forj/planilla_indice_sp_500_usando_cedears/,True,post
+jbpbtz,¿ Y si la crisis es peor que 1989?,"Uno lee mucho, escucha la radio o ve la tele y nadie habla del riesgo real de sufrir una nueva hiperinflación. Si hago memoria, no leo una noticia positiva de Argentina, en cual al macro y micro creciendo hace años y solo leo o escucho cosas negativas y oscuras.
+
+Por eso escribo acá en modo de descargo si se quiere decir. Con 22 años, terminando mis estudios y padres médicos, me doy cuenta que ellos se están preparando para lo peor. Compran dólares al precio que sea, vendieron el auto para comprar más dólares inclusive y solo dicen ""esperemos que pase y después seguimos"". Yo que con 3/4 años viví el 2001-2002, no me acuerdo nada de lo sucedido pero si leí en la secundaria lo que paso en esos años. Nunca sentí que algo similar iba a estar tan cerca de pasar y solo gente en Reddit o Twitter habla de eso.
+
+A ustedes que tal vez alguno llegó a leer hasta acá, ¿Cómo se preparan para el inminente estallido? ¿Que recomendación le hacen a aquellos que no toman dimensión de lo que va a pasar y que creen que va a pasar luego de que suceda?. Un Presidente de Uruguay una vez dijo que los Argentinos pensamos que nuestros problemas es por culpa del otro y esperamos que alguien nos salve. 
+
+Este país, que lo quiero mucho, se repite todo el tiempo, amarga a sus habitantes y no logra igualar o superar a países vecinos. 
+
+Espero que sigan bien, lamento mucho si alguien está en una mala situación y ojalá todos salgamos de una forma u otra de este momento feo y agotador.",jujuarg,merval,114,0.94,167,2020-10-15 12:09:06,https://www.reddit.com/r/merval/comments/jbpbtz/y_si_la_crisis_es_peor_que_1989/,/r/merval/comments/jbpbtz/y_si_la_crisis_es_peor_que_1989/,True,post
+jg1t20,Socorro! Compré ayer cedear de Mercado Libre y estaba cada una a 115 mil pesos y ahora están a 3000 pesos? Qué hago?,No entiendo nada. Leí que se dividió para hacer más accesible la compra... pero los que compramos antes qué pasa??,RosamundaWeb,merval,0,0.48,31,2020-10-22 12:31:11,https://www.reddit.com/r/merval/comments/jg1t20/socorro_compré_ayer_cedear_de_mercado_libre_y/,/r/merval/comments/jg1t20/socorro_compré_ayer_cedear_de_mercado_libre_y/,True,post

@@ -1,0 +1,91 @@
+id,title,text,author,subreddit,score,upvote_ratio,num_comments,created_utc,url,permalink,is_self,type
+qel665,Programé una estrategia de Tradingview para usar con bots y quiero compartirla,"Update 6: Planilla con datos del testeo en vivo, se actualiza diariamente  
+[https://docs.google.com/spreadsheets/d/19bfyPXgadTaFyk1-aybrGnA764zkYZEoZWZXOz8mulo/edit?usp=sharing](https://docs.google.com/spreadsheets/d/19bfyPXgadTaFyk1-aybrGnA764zkYZEoZWZXOz8mulo/edit?usp=sharing)
+
+Update 5: Habemus video tutorial [https://www.youtube.com/watch?v=l3aVt7Urjjc](https://www.youtube.com/watch?v=l3aVt7Urjjc)
+
+\*\*\*\*\*\*\*\*
+
+Update 3:
+
+Me sugirieron armar canal de telegram para que nos aydemos entre todos con la configuración y podamos compartir pares redituables, así que acá va: [https://t.me/joinchat/z\_X\_FT\_Mz\_AwMDFh](https://t.me/joinchat/z_X_FT_Mz_AwMDFh)
+
+~~Update 4 Instrucciones en video""~~ [~~https://www.youtube.com/watch?v=DGAdbjLFdss~~](https://www.youtube.com/watch?v=DGAdbjLFdss)~~Perdón por la calidad, estaba fuera del presupuesto.~~
+
+\*\*\*\*\*\*\*\*\*\*\*\*
+
+Lo que dice el título. Originalmente la programé para utilizar con bots, porque tiene un Trailing take profit y es la mejor manera de sacarle provecho, pero le agregué señales de compra y venta para los que prefieren operar tradicionalmente. Es muy fácil de configurar y hacer backtesting. Yo ya empecé a probarla con bots en vivo y el resultado es muy bueno (dejo foto). Me encantaría algún feedback de gente con interés en trading, bots y/o estrategias. Es gratis, pero necesito darles acceso manualmente porque tengo el código oculto. Me pasan su usuario de Tradingview y listo. Muchas gracias a todos. Me ayudaron en este camino más de lo que se imaginan.[https://es.tradingview.com/script/HWfmO76X/](https://es.tradingview.com/script/HWfmO76X/)
+
+Edit:Gracias por los awards!!Voy a estar volviendo cada tanto para agregar a los que se van sumando. No se impacienten que no quiero dejar a nadie afuera. Si me demoro es sólo porque es domingo y no me quiero divorciar.
+
+&#x200B;
+
+Edit 2:
+
+Estaría bueno que si alguien encontró algún par con el que tuvo buenos resultados lo comparta para el beneficio del resto., dejo un ejemplo:
+
+ONE/BUSD: Take Profit% 4, Stop Loss% 4, Velas antes de activar el StopLoss: 192.
+
+Con el resto de los valores por defecto, dio:
+
+Beneficio neto: 971%, Total de Operaciones cerradas: 172, Porcentaje de Rentabilidad: 87.89%
+
+&#x200B;
+
+https://preview.redd.it/3rox3763xbv71.png?width=1073&format=png&auto=webp&s=752a9a678bf6e69dee76eb4153ca215fb47203a6",PretendOne,merval,206,1.0,425,2021-10-24 01:47:51,https://www.reddit.com/r/merval/comments/qel665/programé_una_estrategia_de_tradingview_para_usar/,/r/merval/comments/qel665/programé_una_estrategia_de_tradingview_para_usar/,True,post
+q3mld1,"Opciones para invertir en ETFs desde argentina, para minoristas [2021]","Buenas, teniendo en cuenta las nuevas alternativas y regulaciones que fueron surgiendo estos últimos meses, les dejo un resumen ejecutivo de como acceder a ETFs desde Argentina. El post explica bastante por encima porque algunos de estos temas ya fueron tratados en el sub.
+
+# Por qué ETFs pasivos?
+
+Los ETFs pasivos son aquellos que intentan trackear un indice amplio, con bajo costo. Porque nos permiten acceder a mercados enteros, países enteros, sectores o industrias, con bajo costo. Comprando una sola ""acción"" podemos tener acceso a fondos que están compuestos por cientos o miles de acciones.
+
+Por ejemplo, los indices [S&P 500](https://www.spglobal.com/spdji/en/indices/equity/sp-500/) o [MSCI World](https://www.msci.com/documents/10199/178e6643-6ae6-47b9-82be-e1fc565ededb), son trackeados por multitud de ETFs ([SPY](https://www.ssga.com/us/en/intermediary/etfs/funds/spdr-sp-500-etf-trust-spy), [VOO](https://investor.vanguard.com/etf/profile/VOO), [CSPX](https://www.ishares.com/uk/individual/en/products/253743/ishares-sp-500-b-ucits-etf-acc-fund) y [URTH](https://www.ishares.com/us/products/239696/ishares-msci-world-etf), [IWDA](https://www.ishares.com/uk/individual/en/products/251882/ishares-msci-world-ucits-etf-acc-fund?switchLocale=y&siteEntryPassthrough=true) respectivamente). Los fees anuales están debajo del 0.25% (muy por debajo del 2-3% que suelen cobrar los FCIs locales). Diversificación y sencillez al invertir es una gran ventaja, especialmente para los que quieren armar un fondito que genere una rentabilidad decente a largo plazo, sin tener que dedicarle mucho tiempo. También podemos incluir ETFs de real estate ([VNQ](https://investor.vanguard.com/etf/profile/VNQ), [DPYA](https://www.ishares.com/uk/individual/en/products/297188/ishares-developed-markets-property-yield-ucits-etf)) o de renta fija ([BND](https://investor.vanguard.com/etf/profile/BND), [IEF](https://www.ishares.com/us/products/239456/ishares-710-year-treasury-bond-etf), [AGGU](https://www.ishares.com/uk/individual/en/products/291772/ishares-core-global-aggregate-bond-ucits-etf)).
+
+# Cómo acceder a operar ETFs en el extranjero?
+
+Primero necesitamos una cuenta en un broker del exterior. Acá tenemos dos opciones: usar una cuenta propia o una subcuenta de un broker local. 
+
+**Cuenta propia**
+
+En el caso de ir por cuenta propia, los tres brokers mas recomendados por estos lares son:
+
+1. [TD Ameritrade](https://www.tdameritrade.com/)
+2. [Interactive Brokers](https://www.interactivebrokers.co.uk/)
+3. [TradeStation](https://www.tradestation.com/)
+
+Podemos abrir cuenta online tranquilamente, tienen el tipico proceso KYC con selfies, documentación de identificación y proof of address. La complicación pasa por cómo fondear estos brokers. La via mas común es via transferencia bancaria. Para eso necesitamos tener una cuenta afuera.
+
+Las opciones mas económicas que hay para abrirse una cuenta afuera desde Argentina son:
+
+1. [Dukascopy](https://www.dukascopy.bank/swiss/)
+2. [Banco Atlántico](https://www.atlantico.eu/)
+
+Una opción bancaria un poco mas cara es HSBC Premier [USA](https://www.us.hsbc.com/content/hsbc/us/en_us/international-banking/account-opening/)/[Expat](https://www.expat.hsbc.com/accounts/products/bank-account/) si tenemos HSBC Premier en Argentina. Otras plataformas que pueden servir para triangular son [Wise](https://wise.com/), [Facebank](https://facebank.pr/), [Bankera](https://www.bankera.com/) y [Kraken](https://www.kraken.com/) para triangular via crypto junto con una cuenta bancaria. Acá tenemos que hacer el research de cual nos resulta mas accesible y económico para nuestra situación. 
+
+Una vez que tenemos la cuenta afuera tenemos que conseguir dolares y transferirlos, esto en general se hace con un broker local, hacemos [CCL via GD30 -> GD30C](https://www.reddit.com/r/merval/comments/jopqm7/introducci%C3%B3n_a_la_operatoria_de_t%C3%ADtulos_en_el/) (evitar AL30 con las nuevas regulaciones) y una vez que tenemos dolares divisa pedimos la transferencia de nuestro broker hacia nuestra cuenta bancaria. Aca los costos varían en cada broker, en [PPI](https://portfoliopersonal.com/) por ejemplo si es >5k USD está bonificada la transferencia, sino sale algunos dolares. En [Balanz](https://www.balanz.com/) entiendo que es sin costo sin importar el monto, en [IOL](https://www.invertironline.com/) hay un minimo de 25 USD, etc. También hay que tener en cuenta las comisiones de comprar/vender el bono para hacer CCL, ahí perdemos seguramente un .5% en cada operación, dependiendo de las comisiones de operación que tenga el broker.
+
+Una vez que tenemos la plata en nuestra cuenta bancaria del exterior, se hace una transferencia al broker del extranjero. Aca nuevamente tenemos un costo, en general los bancos cobran por las transferencias salientes y puede ser desde algunos euros a 25 o 50 USD. 
+
+*Una excepción a esta triangulación via transferencias es el caso de TradeStation, que ademas de poder fondearse via transferencia puede ser* [*fondeado via cryptos*](https://www.reddit.com/r/merval/comments/pca0zx/experimentando_con_tradestation/)*.*
+
+**Subcuenta de un broker local**
+
+La ventaja acá es que no necesitamos una cuenta afuera y en general el broker da algún mecanismo para fondear/retirar plata del broker extranjero que usan como partner. Casos de esto son la cuenta en USA de IOL (tiene 2 variantes, [comun](https://www.invertironline.com/servicios/cuenta-de-inversion-estados-unidos) y [plus](https://www.invertironline.com/posts/cuenta-de-inversion-iol-plus-eeuu)) y [PPI Global](https://www.portfoliopersonal.com/es/invertientodoelmundo), entre otros.
+
+Hay que tener en cuenta que estas variantes tienen dos maneras de fondeo, via transferencia de títulos o via CCL. El problema es que la transferencia de títulos suele ser relativamente cara y lenta, dependiendo del broker (hay algunos mas aceitados como [EcoValores que opera via IBKR](https://www.ecobolsar.com.ar/consultas.php)) y para hacer dolar CCL necesitamos una cuenta en el extranjero. El tema es que si ya tenemos una cuenta en el extranjero, probablemente sea mas rentable operar directamente con un broker nuestro afuera, que suelen tener comisiones mas bajas que lo que ofrecen los brokers locales.
+
+**Detalle sobre bolsas donde operar**
+
+En general los mejores ETFs (en términos de calidad/costo) están en las bolsas de USA. Desde los brokers mencionados podemos operar tranquilamente en USA.
+
+Pero hay eficiencia impositivas que podemos aprovechar usando ETFs que no reparten los dividendos (a diferencia de los ETFs americanos que siempre reparten), sino que los reinvierten internamente automaticamente. Estos ETFs están [radicados en Irlanda](https://www.bankeronwheels.com/distributing-or-accumulating-etf-share-classes/) y si bien cotizan por toda Europa, el principal centro financiero en USD es London Stock Exchange (LSE). Para operar en LSE, tenemos que usar un broker que permita acceso a dicha bolsa, y aca de las opciones listadas unicamente IBKR o TradeStation Global nos dan esta opción. 
+
+# Qué desventajas hay?
+
+Como vimos, los costos mínimos suelen ser altos dependiendo del camino, tanto en comisiones de compra/venta, transferencias e impositivamente. Si bien es cierto que los brokers afuera tienen comisiones mas bajas, el costo suele estar llevando los pesos/dolares de argentina a dolares en el exterior.",HwanZike,merval,145,0.98,51,2021-10-07 21:37:59,https://www.reddit.com/r/merval/comments/q3mld1/opciones_para_invertir_en_etfs_desde_argentina/,/r/merval/comments/q3mld1/opciones_para_invertir_en_etfs_desde_argentina/,True,post
+q7v5v1,Interactive Broker: Estas enviando una orden sin datos de mercado.,"Hola, comence a operar con IB y cuando quiero mandar una orden me sale el siguiente texto: ""Estas enviando una orden sin datos de mercado. Recomendamos enfaticamente no hacerlo"". Estoy operando en el horario con el mercado abierto. Cual puede ser el problema? Gracias",WorthSoil3,merval,0,0.5,4,2021-10-14 05:03:10,https://www.reddit.com/r/merval/comments/q7v5v1/interactive_broker_estas_enviando_una_orden_sin/,/r/merval/comments/q7v5v1/interactive_broker_estas_enviando_una_orden_sin/,True,post
+q4xibs,30% impuestos argentina 0% Italia...,"Resulta que subi unas canciones a spotify y tengo unos dolares que quiero cobrar por mis streams (es muy poco) y antes de cobrar tengo que rellenar unos documentos de impuestos ya que spotify y todas las tiendas digitales estan afuera. Al estar en argentina tengo que pagar 30% de impuestos, pero los que estan en italia por ejemplo pagan 0%. Yo tengo ciudadania italiana pero no domicilio ni nada. 
+
+Es posible decir abrirse una cuenta afuera y decir que vivo en italia para no pagar el 30%? Esto es algo que la gente suele hacer (no en la musica obviamente, siempre en lo general. Impuestos 101) ??
+
+Gracias",PlayboiCult,merval,0,0.5,23,2021-10-09 21:26:54,https://www.reddit.com/r/merval/comments/q4xibs/30_impuestos_argentina_0_italia/,/r/merval/comments/q4xibs/30_impuestos_argentina_0_italia/,True,post

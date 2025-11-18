@@ -1,0 +1,16 @@
+- arquitectura: transformer (ej FinBERT) o LSTM
+- una vez que ya hicimos el sent analisis, la inferencia que vamos a estar haciendo no va a ser numérica, solo vamos a poder predecir si creemos que va a subir o bajar el precio
+- solo haciendo sent analisis con LSTM y cruzando con stocks estaria ok como proyecto?
+- el cron/ batch cada cuanto lo hacemos? es decir, real time no vamos a poder hacer inferencia, pero lo hacemos por dia? data de a batches?
+- recomendaciones para el trabajo con los embbedings
+
+
+Preguntas a responder en presentación oral:
+- dataset (propio en base a scraping)
+- por qué elegimos el problema
+- Que metodos pensamos utilizar
+- resultados parciales en caso de haber
+
+
+pushift - buscar si hay backups
+rava bursatil, 

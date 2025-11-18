@@ -1,0 +1,171 @@
+id,title,text,author,subreddit,score,upvote_ratio,num_comments,created_utc,url,permalink,is_self,type
+s1iewe,Breve análisis de los nuevos CEDEARs de ETFs,"Los ETFs son:
+
+|*Ticker NYSE*|*Benchmark*|*Ratio*|*Minima unidad (\~210 $/CCL) en ARS*|
+|:-|:-|:-|:-|
+|[SPY](https://www.ssga.com/us/en/intermediary/etfs/funds/spdr-sp-500-etf-trust-spy)|S&P 500|20:1|$4900|
+|[QQQ](https://www.invesco.com/qqq-etf/en/home.html)|Nasdaq 100|20:1|$4000|
+|[IWM](https://www.ishares.com/us/products/239710/ishares-russell-2000-etf)|Russell 2000|10:1|$4500|
+|[EEM](https://www.ishares.com/us/products/239637/ishares-msci-emerging-markets-etf)|MSCI Emerging Markets|5:1|$2000|
+|[XLF](https://www.ssga.com/us/en/intermediary/etfs/funds/the-financial-select-sector-spdr-fund-xlf)|Financial Select Sector|2:1|$4300|
+|[XLE](https://www.ssga.com/us/en/intermediary/etfs/funds/the-energy-select-sector-spdr-fund-xle)|Energy Select Sector|2:1|$6400|
+|[DIA](https://www.ssga.com/us/en/intermediary/etfs/funds/spdr-dow-jones-industrial-average-etf-trust-dia)|Dow Jones Industrial Average|20:1|$3700|
+|[EWZ](https://www.ishares.com/us/products/239612/ishares-msci-brazil-capped-etf)|MSCI Brazil|2:1|$2800|
+|[ARKK](https://ark-funds.com/funds/arkk/)|ARK Innovation|10:1|$1800|
+
+De estos fondos, el único de gestión activa es el fondo ARKK. El resto son todos pasivos, es decir, intentan replicar un indice y no hacer stock picking activo con mucho trading.
+
+Algunas recomendaciones random sobre estos ETFs:
+
+1. Con respecto a ARKK: solo lo recomiendo para inversores con muy alta tolerancia al riesgo. Los fondos de gestión activa suelen tener poca chance de éxito (ie, de ganarle al benchmark) en el largo plazo (ver [SPIVA report](https://www.spglobal.com/spdji/en/research-insights/spiva/)). Además, este fondo parece estar en la etapa de ""burning star"", fue el darling de los medios por el año espectacular que tuvo en 2020/21 y ahora esta bastante hecho pelota. Recomiendo leer [este thread de twitter](https://twitter.com/ttp_cap/status/1478860633156333570), escuchar [este podcast](https://soundcloud.com/the-evidence-based-investor/tebi-podcast-31) y ver [este video](https://www.youtube.com/watch?v=wK63RJOrG18) antes de invertir. Ojo con el marketing de los fund managers, [hay mucha evidencia de que es mas probable que sea suerte que habilidad](https://www.youtube.com/watch?v=p6HrepdLSu4).
+2. No recomiendo invertir en DIA tampoco. Es un indice muy conocido pero solo por ser uno de los primeros. Está poco diversificado (solo 30 acciones), y ademas tiene un weighting diferente a market cap (price based) que hace que [los pesos en el portfolio queden super raros](https://finance.yahoo.com/quote/DIA/holdings/) y sean bastante impredecibles, ya que los stock splits y reverse splits afectan el peso en el indice. Mas info [acá](https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average#Issues_with_market_representation), [acá](https://www.kiplinger.com/article/investing/t038-c000-s002-why-the-dow-is-a-dumb-index.html) y [acá](https://www.wealthguards.com/blog/why-the-dow-jones-industrial-average-djia-is-a-terrible-benchmark).
+3. Para invertir diversificado globalmente a largo plazo lo mas sencillo es comprar SPY. Si queremos tener mas cobertura (que me parece lo correcto), hay que agregar IWM y EEM. Estaríamos dejando afuera el resto del mundo desarrollado, pero no hay mucha opción. Para decidir cuanto de cada uno, tenemos que revisar los pesos relativos en un indice global como [MSCI All Country World Index](https://www.msci.com/documents/10199/8d97d244-4685-4200-a24c-3e2942e3adeb). Hoy en día USA está en \~60%, mientras que EM es alrededor de 12%. Dentro de USA. Por otro lado, dentro de USA, SPY es un \~80% del Russel 3000 (que incluye el Russel 2000), así que tendriamos aprox un 75% SPY y 25% IWM para lo que es USA si queremos algo similar a all cap USA. Resumiendo, para tener lo mas parecido a mkt cap global, descartando lo que no podemos acceder, tendríamos que hacer algo como: 60% SPY, 20% IWM, 20% EEM. Una versión simplificada eliminando IWM, sería 80% SPY, 20% EEM. Si queremos tiltear hacia tech, podríamos incluir QQQM, por ejemplo: 40% SPY, 40% QQQM, 20% EEM.
+4. Ojo con las fricciones para los que quieran invertir a largo plazo: por un lado, hay un drag por el tema dividendos. Por ejemplo, hoy en día el dividend yield de SPY es aprox. 1%. De eso, vamos a perder aprox. la mitad en impuestos, así que nuestro yield final sería algo como 0.5%. Por otro lado, en cuanto a lo impositivo, hoy en día los CEDEARs tienen mejor tratamiento que las acciones afuera (no pagan por ganancias, si por BBPP), pero hay dos problemas con esto: por un lado, es dificil intentar predecir que va a pasar en 5 años con los impuestos y derechos en Argentina. Por otro lado, hoy en día esa ventaja esta eclipsada por la brecha del dolar, donde los instrumentos locales terminan pagando mas (en pesos) porque para valuar instrumentos extranjeros impositivamente se usa el dolar BNA, que es tipo de cambio oficial.
+5. Con respecto a invertir en sectores (XLF, XLE) o en mediu/small cap (IWM), recomiendo leer [este post](https://www.reddit.com/r/merval/comments/n6ols2/algunas_cuestiones_b%C3%A1sicas_sobre_acciones_y_los/).
+
+En resumen, me parece una buena noticia y hay algunos ETFs interesantes y otros que trataría de evitar. Mas opciones siempre es bueno y la posibilidad de invertir diversificado sin tener que comprar docenas de acciones individuales es un golazo. Seguimos estando lejos de tener opciones reales para largo plazo en el mercado local (en terminos de riesgo), pero esto es un buen paso en esa dirección.
+
+Para los que tengan dudas básicas sobre CEDEARs, recomiendo leer [este post](https://www.reddit.com/r/merval/comments/lq5er8/faq_cedears_consultas_frecuentes) antes de preguntar en este thread.
+
+&#x200B;
+
+*Fuentes:*
+
+1. [*https://twitter.com/LaninMZ/status/1479564116410859520/photo/1*](https://twitter.com/LaninMZ/status/1479564116410859520/photo/1)
+2. [*https://www.byma.com.ar/noticias/byma-acerca-al-mercado-argentino-la-negociacion-de-cedears-de-etf/*](https://www.byma.com.ar/noticias/byma-acerca-al-mercado-argentino-la-negociacion-de-cedears-de-etf/)",HwanZike,merval,139,0.99,55,2022-01-11 14:30:40,https://www.reddit.com/r/merval/comments/s1iewe/breve_análisis_de_los_nuevos_cedears_de_etfs/,/r/merval/comments/s1iewe/breve_análisis_de_los_nuevos_cedears_de_etfs/,True,post
+s602n6,"Jugando en la Blockchain, sin meter verso.","  Si durante una parte del 2020 o un todo del 2021 prestaste una cuota de atención, puede ser que hayas notado como absolutamente todo el mundo se volvió rico de la noche a la mañana jugando jueguitos crypto, que con un NFT por acá y coleccionando estas otras cartas por allá lograban una renta mensual de miles de dólares, pero como persona crítica que sos, intuiste que era todo una estafa, un esquema ponzi ligeramente más sofisticado, o simplemente una burbuja inflada a pulmón y tiktoks, ¿pero sabés que? Y… sí, algo de razón  todo eso hay.
+
+**Gamefi** (una conjunción de las palabras game y finanzas), es uno de los términos preferidos para referirse al submundo criptográfico de los videojuegos en la Blockchain. La idea de ganar dinero jugando videojuegos no es nueva, los primeros torneos datan de la década de los 70, y habiendo el DOTA 2 repartido [más de 230 millones de dólares en premios](https://www.esportmaniacos.com/videojuegos/top-10-juegos-premios). Y no sólo los torneos nos han dejado formas de ganar dinero, con los años se fue ampliando el mercado a otros servicios como el de vender cuentas, boostear cuentas ajenas (cuando jugás con la cuenta de otra persona para subirle su nivel/ranking), o incluso ya existen alternativas donde la moneda existente dentro del juego puede ser canjeada por dinero fiduciario. 
+
+Y todo ese progreso exponencial nos trae al año 2017, con la creación de lo que hoy llamamos “el primer juego crypto”, [CryptoKitties](https://www.cryptokitties.co/). Genuinamente no es un juego del cual valga mucho la pena expandirse en las mecánicas o jugabilidad, basta con saber que en la red Ethereum se podían comprar esos NFTs que te daban acceso al juego. 
+
+Empezando con el enfoque financiero, además de las herramientas mencionadas en el segundo párrafo y de algunas más que genuinamente no recuerdo en estos momentos, los Juegos Crypto traen consigo nuevas formas de ganar dinero con los videojuegos, creando un nuevo género de P2E (Play to Earn, jugar para ganar), y otros tantos que no involucran jugar sino el invertir en el juego. Paso a detallar.
+
+Lo más importante a la hora de hablar de gamefi son los tokens, ya que esta movida también fue llamada en algún momento “*la tokenizazción de los videojuegos*” -o puede que nunca se haya llamado así y esté tirando fruta ahora, pero no importa-, ya que es esta mecánica la que permite que uno tome el rol de inversor en los juegos, como así también es la dinámica por la cual uno puede ganar dinero (digital o real) jugando videojuegos. 
+
+El mejor ejemplo, tanto por la versatilidad de los activos como por la cantidad de usuarios y dinero que mueven , es **Axie Infinity**, de la compañía **Sky Mavis**. No voy a expandirme mucho sobre el juego en sí, y mi opinión personal se encuentra en [Papito jugó a los Axies](https://cambalacheth.substack.com/p/papito-jugo-a-los-axies-y-no-me-gusto), pero si resulta muy interesante estudiar la economía detrás del juego. Es importante remarcar la diferencia entre dos tipos de tokens (erc20, que son los tokens fungibles, y erc721, que son los tokens fungibles) como así también la diferencia entre tokens (erc20) y coins (monedas nativas de una Blockchain), pero esa diferencia se verá en otro momento. 
+
+Axie Infinity es **un juego** de la compañía [Sky Mavis](https://www.skymavis.com), quienes si bien por el momento es el único que largaron (hubo una etapa donde se podía jugar a.. ¿**proyecto L**?, estaba lindo pero no había jugabilidad), también hay desarrollado otros elementos no juegueriles dentro del ecosistema crypto, y estos son: 
+
+I) **Un Marketplace**. Es decir, un ecosistema donde poder comprar o vender NFTS, que si bien podés usar el de otras plataformas conocidas (nada te prohíbe vender tus axies por Opensea), la gran mayoría utiliza el Marketplace nativo de Axie.
+
+II) **Un Hub**. Una plataforma donde se pueden financiar e invertir en videojuegos siendo producidos o listos por producirse. Esto todavía no está en funcionamiento.
+
+III) **Una Blockchain propia**. Ronin, con su fee gratuito por el momento, pronto va a tener su propia moneda (RON) para operar. Al momento de hoy, es una forma gratuita de transferir axies, tierras u otros nfts del exosistema sin pagar gas.
+
+IV) **Un Exchange descentralizado**. Dentro del ecosistema Ronin está Katana, que es una plataforma donde podemos vender tokens existentes dentro de esa red de Blockchain o bien proveer liquidez (tokens aceptados por el momento, ETH, XVS, SLP, USDC y prontamente el token propio de ellos, RON)
+
+**Economización de los juegos Crypto:**
+
+Como mencionamos antes, hay varias formas nuevas y novedosas mediante la cual nosotros, tanto en nuestra función de jugador como de inversor, podemos dedicarle tiempo o dinero a estos proyectos y recibir a cambio una compensación financiera. Voy a continuar utilizando el juego de Axie como ejemplo, solamente porque considero que cubre -en la actualidad y en potencia- los mecanismos principales de tokenización.
+
+I) **NFTs jugables**. Es lo que más leemos en todos lados y con justa razón, fueron lo que más dinero y volumen generó este 2021, lleno de estafas y maravillas. Me comprometo a hacer posts explicando esto en un futuro, pero por el momento, dentro de los crypto juegos, los NFTs cumplen el rol de ser un objeto único y distinguible de otros, y en este caso, con propiedades jugables. Los AXIES, son los elementos necesarios para poder acceder al juego de Axie Inifinity. Necesitás al menos 3 para armarte un equipo, y cada Axie tiene sus elementos particulares al que uno puede acceder mediante la metadata (el tipo, qué propiedades tiene, sus estadísticas qué cartas tiene). Los Axies pueden procrearse para tener hijitos, quienes van a tener sus tipos, estadísticas y propiedades directamente relacionadas con los dos axies que lo procrearon, acorde a leyes simples de la genética.
+
+II) **NFTs no jugables**. En este caso, también podemos comprar LANDS y otros objetos que por el momento no cumplen ninguna función jugable (eventualmente las tierras si lo tendrían). El ecosistema de Axie tiene un mundo digital propio con parcelas de tierras limitadas, al cual por el momento no existe forma de acceder (hubo un prototipo de juego, proyecto L, a finales del 2020 donde pudimos acceder a esas tierras y equiparlas con elementos que formábamos con madera/piedra que se conseguía grindeando el juego). También hay otro tipo de nfts no jugables, que son elementos decorativos que irían en las propiedades (una cama, una lámpara, un mueble o una escultura, lo que sea que se cree, es todo decorativo). Este último tipo sería similar a lo que puede ser una skin en un juego; con la salvedad de que es el usuario el **\*dueño\*** del objeto, pero ese es otro elemento de la tokenizazción del que hablaremos después.
+
+III) **Token de gobernanza**. En este caso, Axie cuenta con un token propio del juego, XVS. El token en principio daría derecho de gobernanza sobre el juego, aunque en mi entendimiento no se implementó mucho. En otro caso hipotético, es el token que le permitiría a los usuarios crear propuestas o votaciones dentro de un videojuego para tener una opinión sobre la dirección del juego. Podría darse sobre la implementación de nuevas mecánicas, creación de nuevos personajes (votar que borren a Yasuo) o incluso tener una decisión sobre el desarrollo del Meta de los juegos, pudiendo opinar sobre qué cambios quieren que haya en un nuevo parche. Es la forma más directa también de invertir directamente en el videojuego.
+
+IV) **Tokens de utilidad**. Acá viene SLP, que es el token que te permite que dos axies tengan descendencia. Son aquellos tokens que, dentro de las mecánicas de un videojuego, te permiten acceder a ciertos beneficios o desbloquen funciones que sin el token no se podría lograr. Por lo general, suelen ser tokens a los que un jugador puede acceder jugando el videojuego, aunque no es algo necesario, ya no tiene porque reemplazar a la currency in-game utilizada.  Los ejemplos que puedan hacerse sobre esta utilidad son muchísimos, porque en principio podrían ser el reemplazo directo a la “moneda paga” de muchos videojuegos ya en existencia, que a veces suelen tener una doble currency, la in-game que es utilizada para las compras/ventas de los productos y servicios del juego, y otra “premium” que es aquella que nos permite acceder a ventajar del juego o la compra de skins.
+
+V) **Moneda propia**. Esta es la más sutil, y todavía no está en vigencia. Axie (bah, Sky Mavis) sacó su propia Blockchain como mencioné antes, y para hacer transacciones en esta Blockchain se va a utilizar la moneda nativa de ellos, $RON, que todavía no conoció el mundo, pero se puede proveer liquidez dentro de su plataforma para ir prefarmeando el token. Es algo así como el Ether necesario para las transacciones en Ethereum o el BTC que pagamos de fee para transacciones en la red de Bitcoin. En el caso de los cripto juegos, las redes actuales suelen tener problemas de tiempo y dinero necesario para las fees, y ningún gamer va a pagar decenas de dólares o esperar varios minutos para que una transacción sea necesaria, por lo que van a ser desarrollados Blockchain propias y exclusivas para que se puedan jugar a los videojuegos crypto. Ronin no es la única, ya que antes fueron creadas otras (Enjin y Wax son las dos más grandes que se me ocurren), pero Ronin me encajaba en los ejemplos de Axie, sin contar que tienen un mejor.. tempo, para esto.
+
+***Inmutabilidad e imposibilidad de censura***: No todo lo que brilla es oro, y no todo lo que se criptoniza es dinero. Cualquier cypherpunk te va a hablar maravillas de la descentralización, de un sistema sin confianza necesaria o de la matemática detrás del asunto -probablemente porque el dinero para vivir tranquilos ya lo consiguieron-, pero es verdad que como persona que pasó años y años de su vida jugando todo tipo de videojuegos, tuve otros problemas más allá de nunca ganar un mango jugando. ¿A quién nunca le suspendieron una cuenta? Así sea merecido o no, porque soy un jugador.. cómo decirlo.. tóxico, si me ha pasado que me banearan sin justa cuenta -A vos te hablo, Mod del Imperium AO que me baneo por sorete, pasaron 14 años y no me olvidé de vos-. Y ahí sí duele. Perdimos horas de nuestras vidas en un juego que simplemente por decisión de un pancho ya no podemos acceder más. Perdemos personajes, objetos, tierras, dinero virtual, absolutamente todo con un botón. Si bien los juegos Blockchain van a mantener la posibilidad de banear (y si, si estás siendo tóxico te lo mereces), de lo que no van a tener acceso es a tus tokens. Esos van a ser tuyos, y si te comés un ban (o bueno, por qué no, te aburriste del juego y pasás a otra cosa), vos vas a ser el dueño irrestricto de esos objetos, pudiendo disponer de ellos a tu antojo, pudiendoselos regalar a un amigo que continúa jugando o venderlos en un mercado -descentralizado o no, literalmente podrías venderlo en cualquier lado que opere en esa misma red. Nada te impide crear tu propio mercado o un contrato inteligente ad hoc-. Inmutable significa que una vez algo fue deployeado, no se va a poder cambiar. Entonces por ejemplo, si vos tenés un personaje de un juego, quizás tiene características que si puedan ser cambiadas (ej un arma nerfeada o una habilidad buffeada), pero quizás las propiedades del personaje están ya delimitadas por el contrato con el que fue creado, no pudiendo ser modificado jamás a futuro (en nuestro ejemplo de Axie, las propiedades del mismo son incambiables, pero los efectos de las cartas que se utilizan in-game pueden ser modificadas constantemente a criterio del desarrollador)
+
+Ahora bien, ya pasamos por la parte de finanzas y brevemente tiramos algunas ventajas de que algo esté sobre la Blockchain, nos toca ir a lo más importante de los juegos crypto. Y eso, es que son… juegos. Y antes que cualquier otra cosa, tienen que ser divertidos, atrapantes, emocionantes, bonitos, adjetivo positivo. Porque todo muy lindo con los registros públicos en el ledger más importante en la historia de la humanidad o los nuevos conceptos de propiedad con activos digitales, la realidad es que por más dinero que haya, salvo comparando con sueldos tercermundistas, difícilmente un jugador no profesional pueda ganar un sueldo decente jugando videojuegos, por lo que el incentivo financiero no debería nunca estar por encima de la diversión (al menos claro, desde el punto de vista de un jugador. No hay nada divertido en un DCL pero acá estamos). Y si bien hasta ahora considero que no hay **buenos juegos crypto**, más allá de algún que otro TCG, he tomado conocimiento de varios en desarrollo que llaman mi atención. Y si entraste hasta acá, puedo suponer que fue esperando encontrar una de esas joyitas x1000 infravaloradas listas para irse a la luna \*foto con la boca abierta\*.
+
+Dejo una lista de juegos que me tomé la molestia de investigar un poco, tanto en la jugabilidad como en los tokenomics que presentan, y al menos una paseada por sus redes sociales y desarrolladores como para saber que algo es legítimamente legítimo:
+
+&#x200B;
+
+I) [Crypto Raiders](https://cryptoraiders.xyz/) (Polygon): Personalmente de los juegos que están hoy en día en el mercado, es por lejos mi favorito. Es un Dungeon Crawer automático, que a futuro va a tener la opción de Permadeath (es decir, tu nft puede morir). Es un juego bastante indie y los devs muy activos en su servidor de Discord, y con un tokenomics en constante crecimiento. El juego es ligeramente entretenido, y es algo que grindeo semanalmente, por lo general mientras juego otra cosa como TFT o miro videitos en youtube. **Necesitás pagar para empezar a jugar**
+
+Por el momento tienen:
+
+\-NFTs a modo de: Personaje con el que entrás a la dungeon, MOB (es decir, un jefe de una dungeon, que si mata un personaje te genera recompensas), Mounts (montaduras que te darían velocidad en ciertas tareas y otros beneficios). Y otras que merecen menos explicación.
+
+\-Token de governanza: Tienen su propio token, RAIDER.
+
+\-Token de utilidad: AURUM, que te permite entre otras cosas tener más misiones o resetear las estadísticas de tu personaje.
+
+II) [Gods Unchained](https://godsunchained.com/): TCG, está entretenido. Tiene su propio token de governanza y no sé bien cómo es el mecanismo para ganar dinero en la forge porque lo dejé de jugar antes de que lo habilitaran, no sé en qué red está. **Es free to play**.
+
+III) [Skyweaver](https://play.skyweaver.net/): Otro tcg, este me gustó más que GU pero es una cuestión de gustos. Las cartas tienen tres tipos, básicas, plateadas y doradas. Las plateadas y doradas son canjeables por dinero automáticamente, y hay dos formas de conseguirlas, posicionando bien en el ranking semanal y ganando 1/2 (plateadas) y 3 partidas en un modo de juego pago (sale 1.5usd entrar, y una carta dorada vale aprox 30usd hoy en día). **Free to play,** pero si pagás tenés más opciones de ganar cartas dorada jugando en el modo conquest. Si necesitan códigos para jugar mandenme md que creo que tengo uno o dos.
+
+IV) [Illuvium](https://www.illuvium.io/). Hablando de TFT, es la gran promesa de los Autochess, pero todavía no salío. Tienen su propio token (ILV) que entiendo yo es de governanza, y en la página tienen secciones todavía no constru´ídas sobre NFTs y LANDS.
+
+V) [Mirandus](https://mirandus.game/) MMORPG en construcción, de los que están por salir es el que más me llama la atención a nivel diseño y jugabilidad. Por el momento tienen varios nfts a la venta pero.. salados.  La temática es bastante general a los rpg tolkianos, no falla.
+
+VI) [Bigtime](https://bigtime.gg/) Un.. rpg con temática de tiempo y espacio? No les voy a mentir, no entendí mucho de qué trata, pero como que vas a poder tener tu propia tierra en su metaverso y almacenar cosas del tiempo.. posta no entendí. Pero bueno, pendiente para salir y entender más.
+
+VII) [Champions Ascension](https://championsascension.com/). Desarrollado por Jam Citym, la primer compañia AAA que vamos a ver por acá. Incluyen varios juegos de Disney y celulares en su historial, como así parte del equipo son ex fundadores de My Space y ejecutivos de Fox. El juego todavía no tiene token pero están haciendo las Whitelists de sus primeras preventas. No se sabe mucho del juego, pero parece que va a ser de pelea y los personajes serían monstruos de lo más variado.
+
+VIII) [The Sandox](https://www.sandbox.game/en/?__cf_chl_jschl_tk__=Nz4xclmGeN_P130ABu3PEXrwUm5JgwfzzBl7VUlBFO0-1642408522-0-gaNycGzNCFE). Tienen su propio token, y la gran mayoría de las cosas ingame son NFTs. Lo agregué porque es bastante popular, pero el juego es una onda Roblox y lo lamento, pero me supera mucho la barrera generacional.
+
+IX) [Last Expedition](https://lastexpedition.game/). Otro juego donde está metida una empresa AAA, esta vez, con un First Person Shooter. El video que tienen en la página principal es motivo suficiente para estar pendiente de este proyecto si te interesan los FPS. No se sabe casi nada salvo que el juego va a estar hecho por Certain Affinity (Doom, Halo 2, Left 4 Dead, CoD Black Ops y... querés que siga????) Cero tokenomics hasta el momento, solamente se publicitaron como juego crypto.
+
+X) [The Walking Dead: Empires](https://twdempires.game/) (sí, The Walking Dead es ESE The Walking Dead). Survival MMORPG, donde van a haber lands (nfts) que uno va a tener que cuidar. Las tierras tienen jerarquía y tamaño, que van a permitir más usuarios adentro de las parcelas y algún que otro beneficio. Ya están a la venta pero lejísimos de un presupuesto común, aunque el juego pareciera que va a ser F2P o muy barato el acceso, pero queda todo pendiente todavía. 
+
+XI)[Star Atlas](https://staratlas.com/) Uno de los proyectos favoritos de Sam Bankman, fundador y ceo de FTX. Es un juego que va a tratar sobre el espacio, con muchísimas alternativas para que los usuarios puedan jugar  y desarrollar sus emprendimientos acorde a los recursos que dispongan y estrategias que elaboren. Actualmente tiene 2 tokens, uno de governanza (POLIS) y uno de utilidad (ATLAS), como así también muchas naves espaciales en forma de NFT que ya fueron vendidas en la presale y quedarán comprarlas en otros mercados. Genuinamente.. pienso que va a ser un intento millonario de recrear la grandeza que fue Eve Online en la Blockchain, pero si alguien tiene los recursos para eso, es Sam.
+
+XII) [Guild of Guardians](https://www.guildofguardians.com/). Para terminar, el único juego desarrollado para celulares. Porque si, ustedes que juegan con el celu, también son gamers. No averigüe mucho porque no es lo mío, pero definitivamente es el que tiene el mejor equipo, las mejores ideas y el mejor desarrollo detrás. Va a ser un RPG, donde cada héroe y objeto dentro del juego va a, o bien ser un NFT, o bien tener valor pecuniario que pueda ser cambiado, probablemente, por el token del juego.  También va a ser posible armarse ""guilds"" para los cuales van a ser necesarios el token del juego.
+
+&#x200B;
+
+Ah sí, está todo el tema del **metaverso** también pero eso corre aparte. Si tenés alguna pregunta sobre el tema hacela que me va a ayudar en la investigación.
+
+&#x200B;
+
+&#x200B;
+
+tldr: 
+
+\- Tokenomics (nfts jugables, no jugables), (tokens de utilidad, de governanza)
+
+\-caso Axie
+
+\-12 ejemplos de juegos existentes y en desarrollo.",Cambalacheth,merval,135,0.95,42,2022-01-17 06:32:16,https://www.reddit.com/r/merval/comments/s602n6/jugando_en_la_blockchain_sin_meter_verso/,/r/merval/comments/s602n6/jugando_en_la_blockchain_sin_meter_verso/,True,post
+sbqa86,"PÁNICO soy el 1er comprador en mi familia de una vivienda en 39 años, pero tengo miedo de la letra chica y que me estafen a la hora de los papeles, NECESITO CONSEJOS/AYUDA!. para no Suicidarme.","  
+
+Hola muy buenas tardes calurosas, me llamo Fernando tengo 34 y les quería preguntar acá en este hilo ya que parece constructivo unas consultas sobre la compra de una propiedad.
+
+Soy la 1era persona de mi grupo familiar que va comprar una casa por 1era vez en 39 años no exagero y como sabrán de aquellos años a ahora han cambiado mucho las leyes y **a los familiares ya entrados en años a los que le pregunte sobre el tema no se acuerdan de nada**.
+
+Tengo miedo de ser estafado básicamente por eso entro aca, **la propiedad que me voy a comprar queda en una zona media “heavy”rodeada de barrios carenceados**, no es 100% marginal pero esta en Lugano a unas cuadras de Gral Paz. (Prov. De Buenos Aires), claramente no es Recoleta.
+
+La casita es “chiquita pero acogedora”, en si esta “barata” pero bastante tirada a menos hay que relacionarla casi completo, pero no tengo dramas con eso, el dinero lo tengo del ahorro de toda mi vida mas una herencia.
+
+**Mi mayor temor es que jamas hice una Compra/Venta de propiedad y es chino mandarín para mi y podrían venderme perro por liebre sin saberlo y mas como somos los argentinos de garcas**, ademas la inmobiliaria es bastante rara, no conocida en la zona. 
+
+**Necesito consejos para evitar que me caguen y caer en un pozo depresivo.**
+
+**1-** ¿Cómo se que el que me vende la casa es realmente el dueño y no un chanta u usurpador?
+
+**2-** ¿Cómo se que la casa se puede vender y no esta inhibida?
+
+**3-** ¿Qué pasa si la casa en los papeles no esta a nombre del supuesto vendedor?¿Es normal?¿Como se prosigue? 
+
+**4-** ¿Qué requisitos tengo que pedir al vendedor y inmobiliaria a la hora de la venta?
+
+**5-** ¿Qué papeles ellos me tienen que dar luego de la venta de la propiedad (Títulos, Planos, etc)
+
+**6-** ¿Cómo verifico que los títulos son reales y no falsificados?
+
+**7-** ¿Cuántos meses se demora a la hora de iniciar el tramite de compra y una vez entregada las llave de la vivienda aproximadamente?
+
+**8-** ¿Cómo se declara la compra de un inmueble a la Afip?
+
+**9-** ¿Cómo se que la propiedad no tiene ningún tipo de deuda de cualquier sea, AGUA/LUZ/GAS/ABL, etc?
+
+**10-** ¿Cómo se que la casa no tiene un pre contrato de alquiler con otras personas?
+
+**11-** ¿Cómo se de antemano si a la casa se le puede hacer refacciones o si el intendente Larreta por alguna rezonificación lo prohíbe en esa zona?
+
+**12-** ¿Si me llegan a cagar osea pago todo el dinero y no me dan las llaves por cualquier excusa que paso debo seguir? (La zona donde esta la casa y la gente no me inspiran confianza)
+
+**13-** ¿En que cosa debo prestar mucha atención a la hora de la compra?
+
+**14-** ¿Hay algo mas para saber para evitar que me estafen? Díganmelo.
+
+Bueno eso básicamente **estoy re cagado nunca compre algo tan grande como una casa y no entiendo nada y NO QUIERO PERDER LOS AHORROS DE TOMA MI VIDA que me costaron tantos ganarlos y mas en este país de mierda, me arruinan, me SUICIDARÍA sin dudas**. Estoy muy nervioso, si pueden colaborar se los agradecería realmente de corazón. 
+
+Mi mayor temor es en el tema de los papeles y títulos que ahí puede estar la trampita para un inexperimentado como yo ya que ni se que es lo que me tienen que dar y que no.",__VasoCardiaco__,merval,2,0.53,47,2022-01-24 13:39:20,https://www.reddit.com/r/merval/comments/sbqa86/pánico_soy_el_1er_comprador_en_mi_familia_de_una/,/r/merval/comments/sbqa86/pánico_soy_el_1er_comprador_en_mi_familia_de_una/,True,post

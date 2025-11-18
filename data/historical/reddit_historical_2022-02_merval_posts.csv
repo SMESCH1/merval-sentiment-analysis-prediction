@@ -1,0 +1,189 @@
+id,title,text,author,subreddit,score,upvote_ratio,num_comments,created_utc,url,permalink,is_self,type
+si3kzp,Resumen para freelancers / Exportación de servicios / Factura E / etc,"Como parece que tenemos un posteo de estos todos los días, voy masomenos a resumir el tema de una vez.
+
+**Disclaimer**: Esta es toda información obtenida en los años pasados de andar por el sub, experiencias propias, etc. No soy abogado ni contador. Esto no es consejo legal, ni consejo de inversión, ni consejo impositivo. Depende que anden haciendo puede ser conveniente conseguir un contador también, capaz no tanto para que haga trabajo o de recomendaciones porque seguro les cuenta lo mismo que está aca, sino para desligarlos a ustedes legalmente un poco.
+
+**Update 2022-06-02**: Se pueden ingresar 12k USD al año sin pesificar si uno no utiliza la bolsa para adquirir dolares. Más información en comunicación 7518 A [http://www.bcra.gov.ar/Pdfs/comytexord/A7518.pdf](http://www.bcra.gov.ar/Pdfs/comytexord/A7518.pdf) Un usuario advierte que si lo utilizan igual no hagan boludeces [https://www.reddit.com/r/merval/comments/si3kzp/comment/iazj86p](https://www.reddit.com/r/merval/comments/si3kzp/comment/iazj86p/?utm_source=share&utm_medium=web2x&context=3)
+
+**Update 2022-12-28**: Se dice que se implementará un ""monotributo tech"" que permite no pesificar hasta 30k USD al año. Finalmente parece que el proyecto saco media sanción pero después quedo cajoneado.
+
+**Update 2023**: Se puede liquidar 80% oficial 20% ccl, el banco tiene los formularios
+
+**Update 2024**: Con la brecha cada vez menor, tal vez deja de tener sentido complicarse tanto a veces
+
+**Update 2024-07-23**: Sube a 24k USD al año sin pesificar. Comunicación 8074 A [https://www.bcra.gob.ar/Pdfs/comytexord/A8074.pdf](https://www.bcra.gob.ar/Pdfs/comytexord/A8074.pdf)
+
+**Update 2024-10-10**: Se amplia a 20 dias el periodo para la liquidación de exportaciones. Comunicación 8116 A [https://www.bcra.gob.ar/Pdfs/comytexord/A8116.pdf](https://www.bcra.gob.ar/Pdfs/comytexord/A8116.pdf)
+
+**Update 2024-12-12**: Sube a 36k USD al año sin pesificar. Comunicación 8153 A [https://www.bcra.gob.ar/Pdfs/comytexord/A8153.pdf](https://www.bcra.gob.ar/Pdfs/comytexord/A8153.pdf)
+
+**Update 2025-04-14:** Se unifica el mercado cambiario. Sigue estando la obligación de liquidar la plata en el país, pero se elimina todo el tema de los 90 dias anteriores o siguientes que no podes operar esto o aquello. Se elimina el dolar blend (circular 8227). Y esto no es de exportación pero ahora se puede acceder via banco al MULC para compra y venta irrestricta de dolares. [https://www.bcra.gob.ar/Pdfs/comytexord/A8226.pdf](https://www.bcra.gob.ar/Pdfs/comytexord/A8226.pdf) como nota para quien le sirva, el BCRA muestra las cotizaciones de los dolares diarias de los distintos bancos en esta página, ojo con el spread [https://www.bcra.gob.ar/PublicacionesEstadisticas/Tipo\_de\_cambio\_minorista.asp](https://www.bcra.gob.ar/PublicacionesEstadisticas/Tipo_de_cambio_minorista.asp)
+
+**Update 2025-09-18:** Se elimina el limite de los 36k al año. Ahora se puede ingresar todo sin pesificar. Comunicación 8330 A [https://www.bcra.gob.ar/Pdfs/comytexord/A8330.pdf](https://www.bcra.gob.ar/Pdfs/comytexord/A8330.pdf) . También se le prohibe a los bancos cobrar comisiones por cobrar lo de comex
+
+**El problema:**
+
+Update **2025-04-14:** Este problema en lineas generales ya no existe porque se está unificando el mercado de cambios para que las perdidas sean menores. Se deja el texto tachado de hace varios años porque bueno, ya estaba escrito
+
+~~La comunicación BCRA 6770 A (http://www.bcra.gov.ar/pdfs/comytexord/a6770.pdf) y su posterior extensión via 7518 (https://www.bcra.gob.ar/Pdfs/comytexord/A7518.pdf) hizo que las divisas recibidas por exportación de servicios deban ser liquidadas a pesos en el MULC en un plazo de 5 dias de su recepción. Edit: Se amplió el plazo a 20 dias~~
+
+~~Esto significa o recibir al banco via SWIFT y comex, o payoneer y su servicio de transferencia a cuenta Argentina, o Paypal y Nubi al oficial, etc.~~
+
+~~Además, la norma dice que en caso de incumplimiento se puede aplicar el regimen PENAL cambiario, osea, te meten un juicio y no salis con una multa sino que si quieren te meten preso (va, creo que preso solo si sos reincidente, la primera es solo multa).~~
+
+~~Habiendo dicho eso, el sistema legal Argentino es bastante una joda, asi que con un buen abogado capaz safas, o lo alargas suficiente como para que se devalue, etc. Pero bueno, tampoco estoy para dar consejos legales, elija su propio riesgo, y las penas pueden además joderte de otras formas inhabilitandote y demás.~~
+
+~~La brecha cambiaria hoy dia es superior al 100%. Para tener numeros de ejemplo del dia que usted lector lea esto, el dolar oficial esta 105, el dolar CCL anda por 244.~~
+
+~~A eso se le suma que si sos Responsable Inscripto pagas 35% de ganancias.~~
+
+~~Entonces una persona que cobra 5k USD, que uno esperaría reciba 5k USD menos, no se, 20% a 40% de impuestos recibe:~~
+
+~~(5000 - 100 SWIFT) \* 105 \* 0.65 = 334425 ARS = 1500 USD = 30% del monto inicial, perdiste el 70%~~
+
+**El circuito completamente legal, para un monotributista:**
+
+1 Sacas un monotributo si lo que vas a facturar anualmente es menos al limite de las categorias de servicios [https://www.afip.gob.ar/monotributo/categorias.asp](https://www.afip.gob.ar/monotributo/categorias.asp)
+
+* Como se saca el monotributo? Tenes que ir a AFIP con turno a sacar clave fiscal nivel 3 (tal vez ahora se pueda hacer online esto, yo soy viejo). Despues entras a [auth.afip.gob.ar/](https://auth.afip.gob.ar/) y te das de alta en la parte de monotributo
+* La parte de presentar el certificado de salud ese que te piden es cuasi opcional. Al menos eso me conto un contador amigo después de ir 3 veces a ANSES y que no me atiendan por no tener turno pese a que no existe el turno para entregar el papel ese.
+* Como nota para el que no sepa, si ya tienen prepaga, charlen con la prepaga para redireccionar el aporte del monotributo a la cuota, asi pagan un poquito menos. Si ya tienen otro trabajo en blanco, pueden marcar eso y no pagar la parte de obra social.
+
+2 Activas los servicios correspondientes en la página de AFIP para poder facturar y etc
+
+* Esto se hace clickeando en el sitio de afip en ""administrador de relaciones de clave fiscal"" que te lleva a un sitio que parece diseñado en 1990
+* Tenes que dar de alta un punto de venta extra para poder hacer facturas E, usando el servicio ""administración de puntos de venta y domicilios""
+* Si solo vas a emitir facturas E, no hace falta registrarse en ingresos brutos ni cosas de IVA ni nada. Y si se registran les pueden empezar a meter percepciones que no corresponden, asi que no lo hagan si no necesitan. Igual como nota ARBA tiene un registro especial alicuota cero para actividad exclusiva de exportación, pueden hacer ese tramite, pero yo cuando lo hice me pidieron facturas de los meses previos, y el contrato de trabajo en español
+
+3 Te registras en el registro mipyme. Esto es para que si facturas menos de 600k USD al año no tengas que pagar 5% de impuesto a la exportación (aunque creo que igual se derogo, pero bue, toma dos clicks hacer el tramite y es gratis)
+
+* Se hace via el servicio AFIP ""PYMES Solicitud de Categorización y/o Beneficios""
+* En un día o por ahi te debería llegar al coso de correos del sitio de AFIP un mensaje de que te aprobaron
+
+4 Emitis una factura E
+
+* Vas al servicio AFIP de ""comprobantes en linea"" > generar comprobantes > pones todo para lo de factura E
+* Concepto exportacion de servicios, moneda extranjera, datos de tu empleador, etc. Forma de pago es ""WIRE TRANSFER"" para SWIFT, incoterms dejan vacio.
+
+5 La empresa que te paga te manda una transferencia SWIFT a tu cuenta en pesos o en dolares, aca. También te la pueden mandar a una cuenta tuya en el exterior y después vos te mandas la SWIFT para aca a vos mismo
+
+6 El banco te avisa que te llego de comex una transferencia
+
+7 Tenes que llenar un formulario que es una re paja sobre la transferencia. Cambia entre banco y banco, en algunos es digital, en otros es a mano, en otros nadie entiende una goma de comex y te tenes que arreglar como puedas.
+
+8 Si lo pasas como concepto ""S"" (por ejemplo, S13), que es lo que corresponde, ~~si no pasaste el monto anual para liquidar en dolares,~~ (edit2025: Ya no hay monto máximo para liquidar en dolares) los podes liquidar en dolares. Sino, va a pesos marcando que te liquiden en pesos. Además te cobran lo que cueste liquidar una swift, que puede ser desde 12 USD hasta 100 USD depende el monto y banco, mirar en la lista de comisiones del banco.
+
+5 bis: Según comentan acá [https://www.reddit.com/r/merval/comments/si3kzp/comment/hv6d5mb/?utm\_source=reddit&utm\_medium=web2x&context=3](https://www.reddit.com/r/merval/comments/si3kzp/comment/hv6d5mb/?utm_source=reddit&utm_medium=web2x&context=3),  podes pedir que tu empleador que via transferwise te mande la plata directamente en pesos a tu cuenta en pesos. Con eso te ahorras los pasos 5 a 8, comisiones y formularios. Pero parece que es solo para montos chicos, si es mucha plata terminas con los mismos costos o tenes que ir a SWIFT si o si. Wise te manda la plata via Nubi (igual que Paypal), que usa MULC, podes pedirles el comprobante.
+
+**El circuito completamente legal, para un responsable inscripto:**
+
+Basicamente lo mismo si sos autonomo, la unica diferencia es que tenes que además tenes que presentar las declaraciones de IVA, pagar la cuota de autonomos, y presentar y pagar ganancias por separado.
+
+Se aportó este comentario [https://www.reddit.com/r/merval/comments/si3kzp/comment/hv6o1fa](https://www.reddit.com/r/merval/comments/si3kzp/comment/hv6o1fa/?utm_source=share&utm_medium=web2x&context=3)
+
+**Otra opción en blanco 1:**
+
+Ser empleado ""de verdad"" y no contractor. Esto generalmente es bastante dificil, pero se puede dar el caso para, por ejemplo, gente que tiene ciudadanía española y la contratan de españa. Pero tenes que ser empleado posta, con todos los aportes y pagando impuestos allá y toda la gilada.
+
+Despues los ingresos los cobrás allá y aca los cobras como renta extranjera. Sos empleado en relación de dependencia, asi que no tenes que dar de alta ningun monotributo ni nada.
+
+Había uno que había logrado que su empresa se mude a Uruguay y ser empleado Uruguayo y que le pagaran en dolares directo, pero no me quedo muy claro. Como detalle, en teoria en Argentina solo te pueden pagar el 20% del salario en especie (que es al oficial, asi que termina siendo más un 40%), pero esa ley realmente existe para defender al empleado de que no le paguen en cualquier mierda, en un juicio no creo que ningun juez tome el pago en dolares como algo dañino.
+
+**Otra opción en blanco 2:**
+
+Emigrar y/o perder la residencia fiscal argentina. Hay otros threads sobre esto que se pueden buscar.
+
+**Otra opción en blanco 3:**
+
+Convencer a la compañia que te ""contrata"" de que en vez de eso, te haga socio, y te pague via dividendos o retiros de capital. Nunca escuche de nadie que sea tan increiblemente buen negociador como para lograrlo.
+
+**Otra opción en blanco 4:**
+
+Convencer a la compañia que arme un subsidiaria dentro del país para tenerte en relación de dependencia. Dificil. O otro sabor de esto, conseguir que la compañia te pague mediante un ""employer of record"", pero no se si existen acá.
+
+**Opciones grises:**
+
+Posiblemente las más polemicas porque pretenden ciertas interpretaciones favorables de la ley que pueden no darse en la práctica. Contadores del sub han amablemente dejado aclaraciones extra, que es muy recomendable leer:
+
+Carbone: [https://www.reddit.com/r/merval/comments/si3kzp/comment/hv9utyl/?utm\_source=share&utm\_medium=web2x&context=3](https://www.reddit.com/r/merval/comments/si3kzp/comment/hv9utyl/?utm_source=share&utm_medium=web2x&context=3)
+
+DJ\_cba: [https://www.reddit.com/r/merval/comments/si3kzp/comment/hv7l3qs/?utm\_source=share&utm\_medium=web2x&context=3](https://www.reddit.com/r/merval/comments/si3kzp/comment/hv7l3qs/?utm_source=share&utm_medium=web2x&context=3)
+
+**Opción gris 1:**
+
+Formar una LLC en USA
+
+Desde Argentina todo esto se puede hacer remotamente. Agarras un estado que legalmente te guste, montas una LLC, sacas una cuenta bancaria en alguno de los pocos lugares que lo permiten remotamente, y la LLC es la que cobra.
+
+Es bastante sencillo de hacer uno mismo, pero sino hay servicios que se encargan de hacerte todo por algunos cientos de dolares. Blook, Stripe Atlas, etc.
+
+Tu LLC en USA es ""passthrough"" por lo que no tenes que pagar ningun impuesto allá. Aca te mandas dividendos, los declaras como renta extranjera, y no te pesifican. Tal vez haya que pagar ganancias.
+
+Ahora, si AFIP se pone a indagar, y descubre que tu compañias es fantasma, te puede llegar meter un juicio por empresa sin substancia que existe solo para evadir. No tengo idea si realmente pasa o no.
+
+Se puede consultar el comentario del contador Carbone que he puesto como preambulo al principio de este segmento de opciones grises.
+
+Contrapropuesta: ""Bueno, contrato gente en USA y listo, ahi mi compañia tiene sustancia"". Y medio que si, pero puede que tengas que presentar más papeles en USA, perder plata en efectivamente pagarle a gente, etc.
+
+Más info aca en la wiki [https://www.reddit.com/r/merval/collection/efe1f997-9ace-4afb-bcf3-576bfe8a2766/](https://www.reddit.com/r/merval/collection/efe1f997-9ace-4afb-bcf3-576bfe8a2766/)
+
+**Opción gris 2:**
+
+Emitir la factura E pero cobrar en cripto. Esto es arriesgado. Legalmente tiene cierto sustento: Esta todo en como se interprete la parte de que ""tenes que liquidar las divisas"".
+
+En teoria no estas recibiendo divisas, y no se pueden liquidar en el MULC, asi que estarías safando. Pero otro puede interpretar que si o si te tienen que pagar en divisa entonces, y estás en falta.
+
+Aca un estudio de abogados posteo un analisis (que no implica que sea valido ante un tribunal, pero da un buen inicio):
+
+Thread del sub: [https://www.reddit.com/r/merval/comments/mrmswn/las\_exportaciones\_de\_servicio\_y\_su\_cobro\_en/](https://www.reddit.com/r/merval/comments/mrmswn/las_exportaciones_de_servicio_y_su_cobro_en/)
+
+Link directo: [https://eleconomista.com.ar/economia/las-exportaciones-servicio-su-cobro-criptomonedas-que-dice-ley-n41998](https://eleconomista.com.ar/economia/las-exportaciones-servicio-su-cobro-criptomonedas-que-dice-ley-n41998)
+
+Como contraparte de esto, están los dos comentarios de contadores del sub que he puesto como preambulo al principio de este segmento de opciones grises.
+
+Pero, como justamente es una regulación dudosa, si AFIP mira que facturaste y no metiste la guita, te pueden meten de prepo un juicio que no vas a ganar sobre el tema. Depende de uno si le interesa ver de agarrarse esa lucha legal digamos.
+
+Como jurisprudencia, vagamente recuerdo dos casos, uno que usaba lo ingresado para saldar deudas afuera, y entonces le permitieron no ingresar las divisas, y otro que metía la guita por CCL, y a ese lo multaron e inhibieron.
+
+Fuente de la jurisprudencia: No las tengo a mano, si alguno se acuerda pasenlas.
+
+También Jose Luis Ramón había presentado este proyecto de ley para que fuera directamente legal si era poca guita, pero quedó en la nada [https://drive.google.com/file/d/1IhDdDZ-47\_aAAZvaoztqWdW1zzUQUHbV/view](https://drive.google.com/file/d/1IhDdDZ-47_aAAZvaoztqWdW1zzUQUHbV/view)
+
+**Opción gris 3:**
+
+Cobrar en crypto, y aca solo facturarle a los que les vendes las crypto cuando lo hagas. Sobre como se obtienen las crypto, de momento no hay regulación que haga obligatorio explicar nada.
+
+Ahora si AFIP te pide explicar origen de fondos más allá de ""vendi crypto"", osea, si te piden demostrar el origin licito de las crypto, estas medio jodido.
+
+Hasta donde se legalmente podes sacar las cripto de la galera y no te deberían poder decir nada porque no está reglamentado, pero AFIP no pierde juicios en primera instancia tengo entendido, y nadie se quiere meter en quilombo legal tampoco.
+
+**Opciones negras, mayormente detalladas para que no las hagan:**
+
+**Opción negra 1:**
+
+Western Union + factura E
+
+Absolutamente pésima idea. Western Union te hace firmar una declaración jurada de que la guita que recibis es por ayuda familiar. Y además no estas liquidando las divisas. Te estas mandando dos macanas y dejandolas por escrito.
+
+**Opción negra 2:**
+
+Meter la guita por alguna financiera / cueva / etc, y hacer facturas apocrifas contra algun ente local. O a consumidores finales.
+
+Esto si te agarran es bastante ilegal y no hay mucha chance de defenderse si tienen pruebas, pero a la vista de AFIP mientras no salte la ficha (ya sea porque investigaron a alguien vinculado, o porque estas gastando más plata de la que decis que ganas) parece un negocio completamente común y corriente sin nada raro. Te toca pagar ingresos brutos por hacer de cuenta que las facturas son locales.
+
+**Opción negra 3:**
+
+No declarar una goma y sacar todo efectivo por cueva. Dificil si uno quiere en el futuro hacer compras grandes dentro del país como autos, casas, inversiones, etc. Tampoco podes realmente comprar cosas que te facturen por más de los montos que tenes declarados, en este caso, $0.
+
+**Opción negra 4:**
+
+No declarar una goma, y sacar todo por P2P. Malísima idea si es algo habitual. Eventualmente después de cierto monto el banco o billetera digital que usas para recibir la plata te va a mandar un mail preguntando de donde sacas la plata, y como no tenes manera legal de explicarlo, te van a cerrar la cuenta. Tal vez depende el monto y seriedad de la empresa te manden a que te investigue UIF.
+
+**Otras notas relevantes y FAQ:**
+
+* Todas las cuentas bancarias en paises CRS compliant informan saldos minimamente a fin de año (y a veces mucho más). Así que tener toda la guita en Uruguay o Europa no sirve de nada.
+* Cuentas bancarias en USA solían no informar a Argentina salvo que Argentina especificamente pida para investigarte. Ver [https://www.reddit.com/r/merval/comments/se26p3/tratados\_de\_intercambio\_de\_informaci%C3%B3n\_con/](https://www.reddit.com/r/merval/comments/se26p3/tratados_de_intercambio_de_informaci%C3%B3n_con/)
+* Se firmo un acuerdo para que ciertas cuentas bancaris en USA si informen. Basicamente toda cuenta que reciba más de 10 dolares anuales en intereses. Se prevee que para fines de 2023 o 2024 estará funcionando. Ver  [https://www.reddit.com/r/merval/comments/zlo58h/texto\_publicado\_del\_acuerdo\_fatca\_entre\_us\_y/](https://www.reddit.com/r/merval/comments/zlo58h/texto_publicado_del_acuerdo_fatca_entre_us_y/)
+* ""Pero yo hable con el contador fulanito y me dijo que lo de la LLC es todo legal / factura E de crypto no tiene problemas / etc"" Aca hay que entender que las leyes estan pero hay que interpretarlas. Se resume a cuanto riesgo quiere tomar uno y si esta dispuesto a ir a juicio. Después si te meten un juicio y perdes, no hay mucho.
+* ""Pero yo no exporto servicios, a mi me pagan regalias de copyright por X cosa, etc"". Posible buena táctica si es verdad para ver de evadir la pesificación forzada, pero no tengo mucha info.",BNeutral,merval,536,1.0,621,2022-02-01 16:41:15,https://www.reddit.com/r/merval/comments/si3kzp/resumen_para_freelancers_exportación_de_servicios/,/r/merval/comments/si3kzp/resumen_para_freelancers_exportación_de_servicios/,True,post
+sjyua1,"Consulta, cuál es el resultado correcto?",,firuflai,merval,0,0.38,13,2022-02-03 21:14:44,https://i.redd.it/dmjvhldclpf81.jpg,/r/merval/comments/sjyua1/consulta_cuál_es_el_resultado_correcto/,False,post
