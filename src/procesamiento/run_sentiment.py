@@ -55,6 +55,7 @@ Ejemplos:
     parser.add_argument('--filter-source', type=str, default=None, help='Filtrar por fuente (ej: "reddit" para solo procesar datos de Reddit)')
     parser.add_argument('--no-skip', action='store_true', help='Re-analizar todos los registros (incluso si ya tienen sentimiento)')
     parser.add_argument('--use-original-text', action='store_true', help='Usar text en lugar de cleaned_text')
+    parser.add_argument('--neu-to-pos-threshold', type=float, default=0.3, help='Threshold para reclasificar NEU cercanos a POS como POS (default: 0.3)')
     parser.add_argument('--verbose', '-v', action='store_true', help='Logs detallados')
     
     args = parser.parse_args()
@@ -108,7 +109,8 @@ Ejemplos:
                 batch_size=args.batch_size,
                 skip_if_exists=not args.no_skip,
                 use_cleaned_text=not args.use_original_text,
-                filter_source=args.filter_source
+                filter_source=args.filter_source,
+                neu_to_pos_threshold=args.neu_to_pos_threshold
             )
             logger.info(f"Archivo procesado exitosamente: {input_path}")
             

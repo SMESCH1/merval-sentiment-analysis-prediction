@@ -54,7 +54,8 @@ class SentimentPipeline:
         batch_size: int = 32,
         skip_if_exists: bool = True,
         use_cleaned_text: bool = True,
-        filter_source: Optional[str] = None
+        filter_source: Optional[str] = None,
+        neu_to_pos_threshold: float = 0.3
     ) -> List[UnifiedTextRecord]:
         """Aplica analisis de sentimiento a los registros."""
         # Filtrar por fuente si se especifica
@@ -95,7 +96,18 @@ class SentimentPipeline:
         for record, result in zip(to_analyze, results):
             # Crear nuevo registro con sentimiento predicho
             record_dict = record.model_dump()
-            record_dict['predicted_sentiment'] = result['label']
+            
+            # Aplicar lógica de reclasificación: NEU cercanos a POS -> POS
+            predicted_label = result['label']
+            probs = result.get('probs', {})
+            
+            if predicted_label == 'NEU' and probs:
+                pos_prob = probs.get('POS', 0.0)
+                if pos_prob >= neu_to_pos_threshold:
+                    predicted_label = 'POS'
+                    logger.debug(f"Reclasificando NEU -> POS (prob POS: {pos_prob:.3f})")
+            
+            record_dict['predicted_sentiment'] = predicted_label
             record_dict['sentiment_confidence'] = result['confidence']
             record_dict['sentiment_probs'] = result['probs']
             record_dict['sentiment_model'] = 'pysentimiento-robertuito'
@@ -136,7 +148,8 @@ class SentimentPipeline:
         batch_size: int = 32,
         skip_if_exists: bool = True,
         use_cleaned_text: bool = True,
-        filter_source: Optional[str] = None
+        filter_source: Optional[str] = None,
+        neu_to_pos_threshold: float = 0.3
     ):
         """Ejecuta el pipeline completo."""
         # Generar output_path si no se proporciona
@@ -154,7 +167,8 @@ class SentimentPipeline:
             batch_size=batch_size,
             skip_if_exists=skip_if_exists,
             use_cleaned_text=use_cleaned_text,
-            filter_source=filter_source
+            filter_source=filter_source,
+            neu_to_pos_threshold=neu_to_pos_threshold
         )
         
         # Guardar

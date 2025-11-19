@@ -4,6 +4,7 @@
 Prepara datos de entrenamiento para LSTM combinando:
 - Datos preprocesados de sentimiento (JSONL)
 - Datos financieros de MERVAL (yfinance)
+- Datos de Polymarket (probabilidades políticas)
 """
 import json
 import pandas as pd
@@ -29,9 +30,16 @@ def load_preprocessed_data(jsonl_path: str) -> pd.DataFrame:
     
     return pd.DataFrame(records)
 
-def create_daily_sentiment_features(df_sentiment: pd.DataFrame) -> pd.DataFrame:
+def create_daily_sentiment_features(
+    df_sentiment: pd.DataFrame, 
+    simplified: bool = False
+) -> pd.DataFrame:
     """
     Crea features diarias agregadas de sentimiento.
+    
+    Args:
+        df_sentiment: DataFrame con datos de sentimiento
+        simplified: Si True, solo genera counts básicos (POS, NEG, NEU) sin ratios ni scores derivados
     
     Returns:
         DataFrame con una fila por día y features de sentimiento
@@ -64,41 +72,46 @@ def create_daily_sentiment_features(df_sentiment: pd.DataFrame) -> pd.DataFrame:
                 features['sentiment_neg_count'] = sentiment_counts.get('NEG', 0)
                 features['sentiment_neu_count'] = sentiment_counts.get('NEU', 0)
                 
-                # Score de sentimiento (-1 a 1)
                 total_sentiment = features['sentiment_pos_count'] + features['sentiment_neg_count'] + features['sentiment_neu_count']
-                if total_sentiment > 0:
-                    features['sentiment_score'] = (features['sentiment_pos_count'] - features['sentiment_neg_count']) / total_sentiment
-                else:
-                    features['sentiment_score'] = 0.0
                 
-                # Proporciones
-                features['sentiment_pos_ratio'] = features['sentiment_pos_count'] / total_sentiment if total_sentiment > 0 else 0.0
-                features['sentiment_neg_ratio'] = features['sentiment_neg_count'] / total_sentiment if total_sentiment > 0 else 0.0
-                features['sentiment_neu_ratio'] = features['sentiment_neu_count'] / total_sentiment if total_sentiment > 0 else 0.0
-                
-                # Confianza promedio
-                if 'sentiment_confidence' in sentiment_data.columns:
-                    features['sentiment_avg_confidence'] = sentiment_data['sentiment_confidence'].mean()
-                    features['sentiment_max_confidence'] = sentiment_data['sentiment_confidence'].max()
-                    features['sentiment_min_confidence'] = sentiment_data['sentiment_confidence'].min()
-                else:
-                    features['sentiment_avg_confidence'] = 0.0
-                    features['sentiment_max_confidence'] = 0.0
-                    features['sentiment_min_confidence'] = 0.0
+                if not simplified:
+                    # Score de sentimiento (-1 a 1)
+                    if total_sentiment > 0:
+                        features['sentiment_score'] = (features['sentiment_pos_count'] - features['sentiment_neg_count']) / total_sentiment
+                    else:
+                        features['sentiment_score'] = 0.0
+                    
+                    # Proporciones
+                    features['sentiment_pos_ratio'] = features['sentiment_pos_count'] / total_sentiment if total_sentiment > 0 else 0.0
+                    features['sentiment_neg_ratio'] = features['sentiment_neg_count'] / total_sentiment if total_sentiment > 0 else 0.0
+                    features['sentiment_neu_ratio'] = features['sentiment_neu_count'] / total_sentiment if total_sentiment > 0 else 0.0
+                    
+                    # Confianza promedio
+                    if 'sentiment_confidence' in sentiment_data.columns:
+                        features['sentiment_avg_confidence'] = sentiment_data['sentiment_confidence'].mean()
+                        features['sentiment_max_confidence'] = sentiment_data['sentiment_confidence'].max()
+                        features['sentiment_min_confidence'] = sentiment_data['sentiment_confidence'].min()
+                    else:
+                        features['sentiment_avg_confidence'] = 0.0
+                        features['sentiment_max_confidence'] = 0.0
+                        features['sentiment_min_confidence'] = 0.0
             else:
                 # Sin datos de sentimiento para este día
                 features.update({
                     'sentiment_pos_count': 0,
                     'sentiment_neg_count': 0,
                     'sentiment_neu_count': 0,
-                    'sentiment_score': 0.0,
-                    'sentiment_pos_ratio': 0.0,
-                    'sentiment_neg_ratio': 0.0,
-                    'sentiment_neu_ratio': 0.0,
-                    'sentiment_avg_confidence': 0.0,
-                    'sentiment_max_confidence': 0.0,
-                    'sentiment_min_confidence': 0.0,
                 })
+                if not simplified:
+                    features.update({
+                        'sentiment_score': 0.0,
+                        'sentiment_pos_ratio': 0.0,
+                        'sentiment_neg_ratio': 0.0,
+                        'sentiment_neu_ratio': 0.0,
+                        'sentiment_avg_confidence': 0.0,
+                        'sentiment_max_confidence': 0.0,
+                        'sentiment_min_confidence': 0.0,
+                    })
         else:
             # No hay columna de sentimiento predicho - usar sentimiento manual si existe
             if 'sentiment_label' in day_data.columns:
@@ -110,51 +123,101 @@ def create_daily_sentiment_features(df_sentiment: pd.DataFrame) -> pd.DataFrame:
                     features['sentiment_neu_count'] = sentiment_counts.get('NEU', 0)
                     
                     total_sentiment = features['sentiment_pos_count'] + features['sentiment_neg_count'] + features['sentiment_neu_count']
-                    if total_sentiment > 0:
-                        features['sentiment_score'] = (features['sentiment_pos_count'] - features['sentiment_neg_count']) / total_sentiment
-                    else:
-                        features['sentiment_score'] = 0.0
+                    if not simplified:
+                        if total_sentiment > 0:
+                            features['sentiment_score'] = (features['sentiment_pos_count'] - features['sentiment_neg_count']) / total_sentiment
+                        else:
+                            features['sentiment_score'] = 0.0
                 else:
                     features.update({
                         'sentiment_pos_count': 0,
                         'sentiment_neg_count': 0,
                         'sentiment_neu_count': 0,
-                        'sentiment_score': 0.0,
                     })
+                    if not simplified:
+                        features['sentiment_score'] = 0.0
             else:
                 features.update({
                     'sentiment_pos_count': 0,
                     'sentiment_neg_count': 0,
                     'sentiment_neu_count': 0,
-                    'sentiment_score': 0.0,
                 })
+                if not simplified:
+                    features['sentiment_score'] = 0.0
             
-            # Rellenar campos faltantes
-            for col in ['sentiment_pos_ratio', 'sentiment_neg_ratio', 'sentiment_neu_ratio',
-                       'sentiment_avg_confidence', 'sentiment_max_confidence', 'sentiment_min_confidence']:
-                if col not in features:
-                    features[col] = 0.0
+            # Rellenar campos faltantes (solo si no es simplificado)
+            if not simplified:
+                for col in ['sentiment_pos_ratio', 'sentiment_neg_ratio', 'sentiment_neu_ratio',
+                           'sentiment_avg_confidence', 'sentiment_max_confidence', 'sentiment_min_confidence']:
+                    if col not in features:
+                        features[col] = 0.0
         
-        # Longitud promedio de texto
-        if 'text_length' in day_data.columns:
-            features['sentiment_avg_text_length'] = day_data['text_length'].mean()
-        else:
-            features['sentiment_avg_text_length'] = 0.0
-        
-        # Scores de Reddit (si aplica)
-        reddit_day = day_data[day_data['source'] == 'reddit']
-        if len(reddit_day) > 0 and 'score' in reddit_day.columns:
-            features['reddit_avg_score'] = reddit_day['score'].mean()
-            features['reddit_total_score'] = reddit_day['score'].sum()
-            features['reddit_max_score'] = reddit_day['score'].max()
-        else:
-            features['reddit_avg_score'] = 0.0
-            features['reddit_total_score'] = 0.0
-            features['reddit_max_score'] = 0.0
+        # Longitud promedio de texto (solo si no es simplificado)
+        if not simplified:
+            if 'text_length' in day_data.columns:
+                features['sentiment_avg_text_length'] = day_data['text_length'].mean()
+            else:
+                features['sentiment_avg_text_length'] = 0.0
+            
+            # Scores de Reddit (si aplica)
+            reddit_day = day_data[day_data['source'] == 'reddit']
+            if len(reddit_day) > 0 and 'score' in reddit_day.columns:
+                features['reddit_avg_score'] = reddit_day['score'].mean()
+                features['reddit_total_score'] = reddit_day['score'].sum()
+                features['reddit_max_score'] = reddit_day['score'].max()
+            else:
+                features['reddit_avg_score'] = 0.0
+                features['reddit_total_score'] = 0.0
+                features['reddit_max_score'] = 0.0
         
         daily_features.append(features)
     
     return pd.DataFrame(daily_features).sort_values('date')
+
+
+def load_polymarket_data(polymarket_path: str = "data/polymarket-price-data.csv") -> pd.DataFrame:
+    """
+    Carga datos de Polymarket.
+    
+    Args:
+        polymarket_path: Ruta al archivo CSV de Polymarket
+    
+    Returns:
+        DataFrame con datos de Polymarket procesados
+    """
+    try:
+        df = pd.read_csv(polymarket_path)
+        
+        # Convertir fecha
+        df['Date (UTC)'] = pd.to_datetime(df['Date (UTC)'], format='%m-%d-%Y %H:%M')
+        df['date'] = df['Date (UTC)'].dt.date
+        
+        # Seleccionar columnas de probabilidades (excluir Date y Timestamp)
+        prob_cols = [col for col in df.columns if col not in ['Date (UTC)', 'Timestamp (UTC)', 'date']]
+        
+        # Convertir a float
+        for col in prob_cols:
+            df[col] = pd.to_numeric(df[col], errors='coerce')
+        
+        # Renombrar columnas con prefijo polymarket_
+        df = df.rename(columns={col: f'polymarket_{col}' for col in prob_cols})
+        
+        # Seleccionar solo date y columnas de polymarket
+        cols = ['date'] + [col for col in df.columns if col.startswith('polymarket_')]
+        df = df[cols].copy()
+        
+        # Eliminar duplicados por fecha (quedarse con el último)
+        df = df.drop_duplicates(subset='date', keep='last')
+        
+        print(f"Cargados {len(df)} días de datos de Polymarket")
+        return df
+        
+    except FileNotFoundError:
+        print(f"Archivo de Polymarket no encontrado: {polymarket_path}")
+        return pd.DataFrame()
+    except Exception as e:
+        print(f"Error al cargar datos de Polymarket: {e}")
+        return pd.DataFrame()
 
 
 def download_financial_data(ticker: str = "^MERV", start_date: Optional[str] = None, end_date: Optional[str] = None) -> pd.DataFrame:
@@ -222,7 +285,9 @@ def combine_sentiment_and_financial(
     output_csv_path: str,
     merval_ticker: str = "^MERV",
     start_date: Optional[str] = None,
-    end_date: Optional[str] = None
+    end_date: Optional[str] = None,
+    polymarket_path: Optional[str] = "data/polymarket-price-data.csv",
+    simplified_features: bool = False
 ) -> pd.DataFrame:
     """Combina datos de sentimiento con datos financieros para entrenar LSTM."""
     print("Preparando datos para LSTM...")
@@ -231,7 +296,7 @@ def combine_sentiment_and_financial(
     if len(df_sentiment) == 0:
         raise ValueError("No se encontraron datos en el archivo JSONL")
     
-    df_sentiment_daily = create_daily_sentiment_features(df_sentiment)
+    df_sentiment_daily = create_daily_sentiment_features(df_sentiment, simplified=simplified_features)
     if len(df_sentiment_daily) == 0:
         raise ValueError("No se pudieron crear features diarias")
     
@@ -245,14 +310,44 @@ def combine_sentiment_and_financial(
     
     df_financial = download_financial_data(ticker=merval_ticker, start_date=start_date, end_date=end_date)
     
+    # Convertir fechas a date
     df_financial['date'] = pd.to_datetime(df_financial['date']).dt.date
     df_sentiment_daily['date'] = pd.to_datetime(df_sentiment_daily['date']).dt.date
     
-    df_combined = df_financial.merge(df_sentiment_daily, on='date', how='left')
+    # Cargar datos de Polymarket
+    df_polymarket = load_polymarket_data(polymarket_path)
     
+    # Merge: empezar con datos financieros (tienen todos los días hábiles)
+    df_combined = df_financial.copy()
+    
+    # Merge con sentimiento
+    df_combined = df_combined.merge(df_sentiment_daily, on='date', how='left')
+    
+    # Merge con Polymarket
+    if not df_polymarket.empty:
+        df_polymarket['date'] = pd.to_datetime(df_polymarket['date']).dt.date
+        df_combined = df_combined.merge(df_polymarket, on='date', how='left')
+    
+    # Manejo de nulos
+    # 1. Sentimiento: fillna con 0 (no hay datos ese día)
     sentiment_cols = [col for col in df_combined.columns 
                       if col.startswith('sentiment_') or col.startswith('reddit_')]
     df_combined[sentiment_cols] = df_combined[sentiment_cols].fillna(0.0)
+    
+    # 2. Datos financieros: forward fill (fines de semana usan último valor)
+    financial_cols = ['retorno_log_merval', 'booleano_merval']
+    df_combined[financial_cols] = df_combined[financial_cols].ffill()
+    
+    # 3. Polymarket: forward fill (probabilidades políticas se mantienen)
+    polymarket_cols = [col for col in df_combined.columns if col.startswith('polymarket_')]
+    if polymarket_cols:
+        df_combined[polymarket_cols] = df_combined[polymarket_cols].ffill()
+        # Si aún hay nulos al inicio, backward fill
+        df_combined[polymarket_cols] = df_combined[polymarket_cols].bfill()
+    
+    # Eliminar filas donde no hay datos financieros (no debería pasar, pero por si acaso)
+    df_combined = df_combined.dropna(subset=['retorno_log_merval', 'booleano_merval'])
+    
     df_combined = df_combined.sort_values('date').reset_index(drop=True)
     
     if 'date' in df_combined.columns:
@@ -330,6 +425,17 @@ def main():
         default=None,
         help='Fecha de fin para datos financieros (YYYY-MM-DD)'
     )
+    parser.add_argument(
+        '--polymarket-path',
+        type=str,
+        default='data/polymarket-price-data.csv',
+        help='Ruta al archivo CSV de Polymarket'
+    )
+    parser.add_argument(
+        '--simplified',
+        action='store_true',
+        help='Usar solo features básicas (counts POS/NEG/NEU) sin ratios ni scores derivados'
+    )
     
     args = parser.parse_args()
     
@@ -348,7 +454,9 @@ def main():
         output_csv_path=args.output_csv,
         merval_ticker=args.merval_ticker,
         start_date=args.start_date,
-        end_date=args.end_date
+        end_date=args.end_date,
+        polymarket_path=args.polymarket_path,
+        simplified_features=args.simplified
     )
 
 if __name__ == "__main__":

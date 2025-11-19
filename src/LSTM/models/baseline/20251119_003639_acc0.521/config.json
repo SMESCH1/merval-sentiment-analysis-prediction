@@ -1,0 +1,53 @@
+{
+  "timestamp": "20251119_003639",
+  "csv_path": "src/LSTM/dataset_final.csv",
+  "jsonl_source": null,
+  "hyperparameters": {
+    "lookback": 20,
+    "hidden_size": 64,
+    "epochs": 20,
+    "batch_size": 8,
+    "learning_rate": 0.0005,
+    "weight_decay": 0.0,
+    "clip_value": 1.0,
+    "dropout": 0.2,
+    "seed": 42,
+    "device": "cpu"
+  },
+  "walk_forward": {
+    "initial_train_size": 20,
+    "test_window": 5,
+    "walk_step": 5
+  },
+  "dataset_info": {
+    "total_samples": 232,
+    "num_features": 25,
+    "features": [
+      "retorno_log_merval",
+      "sentiment_total_records",
+      "sentiment_reddit_count",
+      "sentiment_news_count",
+      "sentiment_pos_count",
+      "sentiment_neg_count",
+      "sentiment_neu_count",
+      "sentiment_score",
+      "sentiment_pos_ratio",
+      "sentiment_neg_ratio",
+      "sentiment_neu_ratio",
+      "sentiment_avg_confidence",
+      "sentiment_max_confidence",
+      "sentiment_min_confidence",
+      "sentiment_avg_text_length",
+      "reddit_avg_score",
+      "reddit_total_score",
+      "reddit_max_score",
+      "polymarket_LLA (La Libertad Avanza)",
+      "polymarket_PRO (Propuesta Republicana)",
+      "polymarket_UP (Unión por la Patria)",
+      "polymarket_FIT-U (Frente de Izquierda y de los Trabajadores – Unidad)",
+      "polymarket_SER (SER Santa Cruz)",
+      "polymarket_UCR (Unión Cívica Radical)",
+      "polymarket_HNP (Hacemos por Nuestro País)"
+    ]
+  }
+}
