@@ -7,6 +7,9 @@ data/*.jsonl
 data/procesada/*.jsonl
 data/preprocesada/*.jsonl
 
+src/modelo/data/*.pth
+src/modelo/data/*.db
+src/modelo/data/*.png
 
 *.log
 *.jsonl
