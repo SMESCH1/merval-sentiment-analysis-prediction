@@ -1,7 +1,6 @@
 .env
 venv/
 logs/   
-.cursor
 
 data/*.jsonl
 data/procesada/*.jsonl
