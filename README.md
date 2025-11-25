@@ -7,7 +7,7 @@ La predicción es binaria, es decir, se predice si el precio del índice MERVAL 
 
 ---
 ## PPT Final
-[Presentación de diapositivas del TP](https://docs.google.com/presentation/d/1XZ3V5LkCcQbgIx96Bi8EWYVr7QeQD4S6mklUchYxCBQ/edit?usp=sharing)
+[Presentación de diapositivas del TP](https://docs.google.com/presentation/d/e/2PACX-1vQxqObrHd2g0kOkwWzr-udYWEFjN8OG7mZkR9wlRs6HeNHhtzN6N1P0gilSl_TVJTZczMcXIHu1_fmx/pub?start=false&loop=false&delayms=3000)
 
 ### Motivación
 
