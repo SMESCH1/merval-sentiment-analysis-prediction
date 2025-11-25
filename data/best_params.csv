@@ -1,0 +1,2 @@
+seq_len,batch_size,hidden_size,dropout,lr,n_epochs,bidirectional
+84,48,32,0.2523771900342565,0.0014484986551203565,75,True
