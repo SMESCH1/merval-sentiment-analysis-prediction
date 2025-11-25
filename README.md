@@ -63,15 +63,19 @@ project-root/
 │ ├── scraping/
 │ │ ├── scraper_historico.py # Scraper histórico de Reddit
 │ │ └── reddit_config.py # Configuración de Reddit API
-│ ├── procesamiento/
+│ ├── processing/
 │ │ ├── etl_pipeline.py # Pipeline ETL principal
 │ │ ├── sentiment_pipeline.py # Pipeline de análisis de sentimiento
 │ │ ├── run_etl.py # Script CLI para ETL
 │ │ └── run_sentiment.py # Script CLI para sentiment analysis
-│ └── LSTM/
-│ ├── training_data.py # Combina sentiment + datos financieros
-│ ├── train_boolean_lstm.py # Entrenamiento del modelo LSTM
-│ └── dataset_con_sentiment.csv # Dataset final para entrenar
+│ └── modelo/
+│   ├── model_utils.py # Utilidades del modelo (MaskedSeqDataset, LSTMBinary)
+│   ├── training.py # Entrenamiento con Cross-Validation
+│   ├── train_final.py # Entrenamiento final con todos los datos
+│   ├── optuna_search.py # Optimización de hiperparámetros
+│   ├── predict.py # Generar predicciones
+│   ├── plot_roc.py # Visualizar curva ROC
+│   └── data/ # Datos del modelo (CSV, modelos entrenados, etc.)
 │
 ├── notebooks/ # Experimentos y prototipos
 ├── logs/ # Logs de ejecución
@@ -155,27 +159,27 @@ tail -f logs/historical_scraper_$(date +%Y%m%d).log | grep -E "(Procesando batch
 
 ```bash
 # Procesar solo datos de Reddit
-python src/procesamiento/run_etl.py \
+python src/processing/run_etl.py \
     --reddit-only \
     --output-dir data/preprocesada \
     --format jsonl \
     --verbose
 
 # Procesar Reddit y noticias
-python src/procesamiento/run_etl.py \
+python src/processing/run_etl.py \
     --output-dir data/preprocesada \
     --format jsonl \
     --verbose
 
 # Ver estadísticas
-python src/procesamiento/run_etl.py --reddit-only --stats
+python src/processing/run_etl.py --reddit-only --stats
 ```
 **Salida**: `data/preprocesada/unified_data_YYYYMMDD_HHMMSS.jsonl`
 
 **Procesar datos históricos**:
 ```bash
 # Procesar datos históricos scrapeados
-python src/procesamiento/run_etl.py \
+python src/processing/run_etl.py \
     --reddit-only \
     --reddit-dir data/historical \
     --output-dir data/preprocesada \
@@ -193,7 +197,7 @@ LATEST_ETL=$(ls -t data/preprocesada/unified_data_*.jsonl | head -1)
 echo "Procesando: $LATEST_ETL"
 
 # Ejecutar análisis de sentimiento
-python src/procesamiento/run_sentiment.py \
+python src/processing/run_sentiment.py \
     "$LATEST_ETL" \
     --output data/procesada/$(basename "$LATEST_ETL" .jsonl)_with_sentiment.jsonl \
     --batch-size 32 \
@@ -202,73 +206,101 @@ python src/procesamiento/run_sentiment.py \
 
 **Salida**: `data/procesada/unified_data_YYYYMMDD_HHMMSS_with_sentiment.jsonl`
 
-### 5. Preparar Dataset para LSTM
+### 5. Preparar Dataset para el Modelo
 
-Combinar los datos con sentiment analysis con datos financieros del MERVAL para crear el dataset de entrenamiento
+Los datasets de entrenamiento y test se generan usando el notebook `notebooks/generar_datasets.ipynb`. Este notebook:
 
-```bash
-# Tarer el archivo de más reciente
-LATEST_SENTIMENT=$(ls -t data/procesada/*_with_sentiment.jsonl | head -1)
-echo "Combinando: $LATEST_SENTIMENT"
+1. Carga datos de Reddit con análisis de sentimiento
+2. Extrae la probabilidad positiva de sentimiento (`pos_prob_mean`) agrupada por día
+3. Descarga datos de MERVAL desde yfinance y calcula retorno logarítmico
+4. Carga datos del dólar desde CSV y calcula retorno logarítmico
+5. Crea la columna `prediccion` (target): 1 si MERVAL sube al día siguiente, 0 si baja
+6. Guarda los datasets en formato CSV con separador `;`
 
-# Combinar sentiment con datos financieros
-python src/LSTM/training_data.py \
-    --sentiment-jsonl "$LATEST_SENTIMENT" \
-    --output-csv src/LSTM/dataset_con_sentiment.csv \
-    --merval-ticker "^MERV"
-```
+**Archivos generados**:
+- `data/final/sentiment_train_2023_2024.csv`: Dataset de entrenamiento (2023-2024)
+- `data/final/sentiment_test_2025.csv`: Dataset de test (2025)
 
-**Salida**: `src/LSTM/dataset_con_sentiment.csv` con las siguientes columnas:
+**Columnas del dataset**:
+- `pos_prob_mean`: Media de probabilidad positiva de sentimiento por día
 - `retorno_log_merval`: Retorno logarítmico del MERVAL
-- `sentiment_total_records`: Total de registros con sentiment ese día
-- `sentiment_pos_count`, `sentiment_neg_count`, `sentiment_neu_count`: Conteos de sentimiento
-- `sentiment_score`: Score normalizado (-1 a 1)
-- `sentiment_pos_ratio`, `sentiment_neg_ratio`, `sentiment_neu_ratio`: Proporciones
-- `sentiment_avg_confidence`, `sentiment_max_confidence`, `sentiment_min_confidence`: Confianza del modelo
-- `reddit_avg_score`, `reddit_total_score`, `reddit_max_score`: Métricas de Reddit
-- `booleano_merval`: Target (1 si sube, 0 si baja)
+- `retorno_log_dolar`: Retorno logarítmico del dólar
+- `prediccion`: Target (1 si MERVAL sube al día siguiente, 0 si baja, NaN para días no hábiles)
 
-### 6. Entrenar el LSTM
+### 6. Entrenar el Modelo LSTM
 
-Entrena el modelo LSTM con validación walk-forward
+El modelo LSTM se encuentra en `src/modelo/`. Para entrenarlo:
 
-```bash
-# Entrenamiento con parámetros por defecto (requiere al menos ~480 días de datos)
-python src/LSTM/train_boolean_lstm.py \
-    --jsonl-auto \
-    --lookback 20 \
-    --hidden-size 64 \
-    --epochs 20 \
-    --batch-size 64 \
-    --learning-rate 1e-3 \
-    --device cpu
-```
+#### 6.1. Preparar datos para el modelo
 
-**Para datasets pequeños**, ajusta los parámetros:
+Primero, copia los datasets generados al directorio del modelo:
 
 ```bash
-# Para datasets pequeños (< 100 días)
-python src/LSTM/train_boolean_lstm.py \
-    --csv-path src/LSTM/dataset_con_sentiment.csv \
-    --lookback 5 \
-    --initial-train-size 15 \
-    --test-window 5 \
-    --epochs 10 \
-    --batch-size 4 \
-    --device cpu
+# El notebook generar_datasets.ipynb copia automáticamente los archivos
+# O manualmente:
+cp data/final/sentiment_train_2023_2024.csv src/modelo/data/data_train.csv
+cp data/final/sentiment_test_2025.csv src/modelo/data/data_test.csv
 ```
 
-**Parámetros importantes**:
-- `--lookback`: Días históricos para crear secuencias (default: 20)
-- `--initial-train-size`: Secuencias iniciales para entrenar (default: 400)
-- `--test-window`: Secuencias para test en cada fold (default: 60)
-- `--epochs`: Número de épocas de entrenamiento (default: 20)
-- `--batch-size`: Tamaño del batch (default: 64)
+#### 6.2. Entrenamiento con Cross-Validation
 
-**Requisitos mínimos de datos**:
-- Mínimo total: `lookback + initial_train_size + test_window` días
-- Ejemplo con defaults: `20 + 400 + 60 = 480` días
-- Ejemplo con parámetros reducidos: `5 + 15 + 5 = 25` días
+```bash
+cd src/modelo
+python training.py
+```
+
+Este script realiza validación cruzada temporal y genera:
+- `src/modelo/data/val_predictions.csv`: Predicciones de validación
+- `src/modelo/data/roc_curve.png`: Curva ROC
+
+#### 6.3. Entrenamiento Final
+
+```bash
+cd src/modelo
+python train_final.py
+```
+
+Entrena el modelo con todos los datos disponibles y guarda:
+- `src/modelo/data/final_model_state.pth`: Modelo entrenado
+- `src/modelo/data/loss_curve_final.png`: Curva de pérdida
+
+#### 6.4. Optimización de Hiperparámetros
+
+```bash
+cd src/modelo
+python optuna_search.py [n_trials]
+```
+
+Optimiza hiperparámetros usando Optuna y genera:
+- `src/modelo/data/optuna_study.db`: Base de datos con todos los trials
+- `src/modelo/data/optuna_trials.csv`: Historial de trials
+- `src/modelo/data/best_params.csv`: Mejores hiperparámetros
+- `src/modelo/data/param_importance.png`: Importancia de parámetros
+- `src/modelo/data/optimization_history.png`: Historial de optimización
+
+**Ejecutar en background**:
+```bash
+cd src/modelo
+nohup python optuna_search.py 200 > ../../logs/optuna.log 2>&1 &
+tail -f ../../logs/optuna.log
+```
+
+#### 6.5. Generar Predicciones
+
+```bash
+cd src/modelo
+python predict.py
+```
+
+Genera predicciones en el conjunto de test y guarda:
+- `src/modelo/data/predictions.csv`: Predicciones con probabilidades y clases
+
+#### 6.6. Visualizar Resultados
+
+```bash
+cd src/modelo
+python plot_roc.py --input src/modelo/data/val_predictions.csv
+```
 
 ---
 
