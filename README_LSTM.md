@@ -4,13 +4,8 @@
 
 ## Resumen Ejecutivo
 
-Este proyecto implementa un clasificador binario basado en redes LSTM (Long Short-Term Memory) para predecir la dirección del movimiento de precios de acciones. El sistema utiliza datos históricos de actividad en redes sociales, indicadores macroeconómicos y actividad bursátil para generar predicciones binarias (sube/baja).
-
-**Tecnologías utilizadas:**
-- Python 3.x
-- PyTorch (Deep Learning Framework)
-- Optuna (Optimización de Hiperparámetros)
-- Scikit-learn (Métricas y Validación)
+Este proyecto implementa un clasificador binario basado en redes LSTM (Long Short-Term Memory) para predecir la dirección del movimiento de precios de acciones. El sistema utiliza como fuentes datos de REDDIT, retornos de MERVAL y dólar, así como un booleano que indica si hubo actividad bursátil en dicho día. 
+La predicción es binaria, es decir, se predice si el precio del índice MERVAL sube o baja al día siguiente.
 
 ---
 
@@ -25,7 +20,6 @@ La predicción de mercados financieros es un problema complejo debido a la natur
 1. Implementar un clasificador binario basado en LSTM
 2. Optimizar hiperparámetros usando búsqueda bayesiana (Optuna)
 3. Evaluar el modelo usando cross-validation temporal
-4. Implementar técnicas de regularización (early stopping, dropout)
 5. Analizar el rendimiento mediante métricas estándar (AUC, F1-Score, etc.)
 
 ---
@@ -55,7 +49,7 @@ stock_price_propio/
 
 Implementa un dataset personalizado de PyTorch que:
 - Crea ventanas deslizantes de longitud `seq_len`
-- Filtra secuencias con labels NaN
+- Evita generar secuencias cuyo último día sea anterior a un día sin actividad bursátil. Esto es para evitar generar predicciones para días en los que el índice MERVAL no cambia.
 - Retorna tuplas (secuencia, label)
 
 #### 2. Modelo LSTM (`LSTMBinary`)
@@ -75,20 +69,21 @@ Output (logit)
 
 #### 3. Early Stopping
 
-Implementa parada temprana basada en AUC de validación:
-- Monitorea mejora en validación cada epoch
+Implementado en script de training, se monitorea AUC de validación:
+- Monitorea mejora en validación en cada epoch
 - Para si no hay mejora por `patience` epochs
 - Usa período de warmup (min_epochs) para estabilidad
 
 #### 4. Cross-Validation Temporal (`rolling_splits`)
 
-Genera splits respetando el orden temporal:
+Genera los índices para realizar folds respetando el orden temporal:
 ```
-Split 1: [Train: 0-650]    [Val: 650-750]
-Split 2: [Train: 100-750]  [Val: 750-850]
-Split 3: [Train: 200-850]  [Val: 850-950]
+Fold 1: [Train: 0-650]    [Val: 650-750]
+Fold 2: [Train: 100-750]  [Val: 750-850]
+Fold 3: [Train: 200-850]  [Val: 850-950]
 ...
 ```
+La intención es entrenar y evaluar un modelo con cada fold con la información disponible en cada uno.
 
 ---
 
@@ -98,20 +93,20 @@ Split 3: [Train: 200-850]  [Val: 850-950]
 
 **Features utilizados:**
 - `REDDIT`: Actividad en redes sociales
-- `R USD`: Variación del dólar
-- `R MERVAL`: Variación del índice Merval
+- `R USD`: Retorno logarítmico del dólar
+- `R MERVAL`: Retorno logarítmico del índice MERVAL
 - `actividad`: Indicador binario de actividad bursátil
 
 **Normalización:**
+Se normalizan las variables numéricas usando estadísticas del conjunto de entrenamiento para evitar data leakage.
+El modelo final incluye esta información para poder aplicársele al test set.
 ```python
 X_normalized = (X - X_train.mean()) / (X_train.std() + epsilon)
 ```
 
-**Importante:** Solo se usan estadísticas del conjunto de entrenamiento para evitar data leakage.
-
 ### 2. Optimización de Hiperparámetros
 
-Se utiliza Optuna con pruner mediano para optimizar:
+Se utiliza Optuna con pruner para optimizar:
 
 | Hiperparámetro | Rango | Tipo |
 |----------------|-------|------|
@@ -123,7 +118,7 @@ Se utiliza Optuna con pruner mediano para optimizar:
 | n_epochs | 50-100 | Entero (step=25) |
 | bidirectional | {True, False} | Categórico |
 
-**Función objetivo:** AUC promedio en validación cruzada
+**Función objetivo:** AUC promedio en validación cruzada.  Esto es, se realizan distintos folds y se promedia el AUC obtenido de cada uno.
 
 ### 3. Validación Cruzada
 
@@ -131,10 +126,9 @@ Se utiliza Optuna con pruner mediano para optimizar:
 - Tipo: Rolling Window Cross-Validation
 - Train size: 650 muestras
 - Validation size: 100 muestras
-- Número de folds: Variable (depende de datos disponibles)
 
 **Curva ROC:**  
-Las predicciones de todos los folds se concatenan para generar una curva ROC global. Esto es válido porque cada predicción es out-of-sample (el modelo no vio esos datos durante entrenamiento).
+Las predicciones de todos los folds se concatenan para generar una curva ROC global. Esto es válido porque cada predicción es out-of-sample (el modelo no vio esos datos durante el entrenamiento).
 
 ### 4. Métricas de Evaluación
 
@@ -150,14 +144,13 @@ Las predicciones de todos los folds se concatenan para generar una curva ROC glo
 
 ## Implementación
 
-### Paso 1: Optimización (Opcional)
+### Paso 1: Búsqueda de Hiperparámetros con Optuna.
 
 ```bash
 python optuna_search.py
 ```
 
 Este script ejecuta 200 trials de búsqueda bayesiana y genera:
-- `data/best_params.csv`: Mejores hiperparámetros encontrados
 - `data/optuna_study.db`: Base de datos con historial completo
 - Visualizaciones de convergencia e importancia
 
@@ -166,11 +159,10 @@ Este script ejecuta 200 trials de búsqueda bayesiana y genera:
 ```bash
 python training.py
 ```
-
+Se realiza una validación cruzada con los hiperparámetros optimizados. 
 Ejecuta cross-validation temporal y reporta:
 - AUC por fold
-- Estadísticas de early stopping
-- Recomendación de epochs óptimos
+- Estadísticas de early stopping. En particular se analiza el número de epochs que se usaron para entrenar cada fold antes de que el early stopping se activara. Resulta importante porque con el entrenamiento final del modelo se deben utilizar todos los datos disponibles, lo que imposibilita destinar los últimos datos del training set en generar un conjunto de validación.
 - Curva ROC global
 - Análisis de umbrales de decisión
 
@@ -180,7 +172,7 @@ Ejecuta cross-validation temporal y reporta:
 python train_final.py
 ```
 
-Entrena modelo con todos los datos usando hiperparámetros optimizados. El modelo y estadísticas se guardan en `data/final_model_state.pth`.
+Entrena modelo con todos los datos disponibles en el training set usando hiperparámetros optimizados. El modelo y estadísticas se guardan en `data/final_model_state.pth`.
 
 ### Paso 4: Predicción
 
@@ -206,124 +198,11 @@ BIDIRECTIONAL = False  # LSTM unidireccional
 
 ### Rendimiento
 
-**Cross-Validation:**
-- AUC promedio: [Completar con tus resultados]
-- Desviación estándar: [Completar]
-
-**Conjunto de Prueba:**
-- AUC: [Completar]
-- Accuracy: [Completar]
-- F1-Score: [Completar]
-
 **Matriz de Confusión (Test):**
 ```
         Predicho
         Baja  Sube
-Real Baja  TN    FP
-     Sube  FN    TP
+Real Baja  15    9
+     Sube  0    2
 ```
-
-### Análisis de Hiperparámetros
-
-**SEQ_LEN (Ventana Temporal):**
-- Valores bajos (<50): Poco contexto temporal
-- Valores altos (>90): Riesgo de overfitting
-- Óptimo encontrado: 90 días
-
-**BIDIRECTIONAL:**
-- False (unidireccional) resultó óptimo
-- Bidireccional aumenta parámetros sin mejora significativa
-
 ---
-
-## Limitaciones y Trabajo Futuro
-
-### Limitaciones
-
-1. **Tamaño del dataset:** 1014 muestras pueden ser insuficientes para LSTM profundas
-2. **Features limitados:** Solo 4 variables de entrada
-3. **Predicción binaria:** No captura magnitud del movimiento
-4. **Datos desbalanceados:** Posibles NaN en períodos no bursátiles
-
-### Mejoras Propuestas
-
-1. **Aumentar datos:** Incorporar más fuentes de información
-2. **Feature engineering:** Indicadores técnicos adicionales
-3. **Ensemble methods:** Combinar múltiples modelos
-4. **Atención mechanism:** Implementar attention layers
-5. **Predicción multi-clase:** Categorizar magnitud del cambio
-
----
-
-## Conclusiones
-
-Este proyecto demuestra la viabilidad de usar redes LSTM para predicción de mercados financieros. Las principales conclusiones son:
-
-1. **Early stopping es crucial:** Evita overfitting y reduce tiempo de entrenamiento
-2. **Optimización de hiperparámetros:** Mejora significativa vs. parámetros por defecto
-3. **Cross-validation temporal:** Esencial para evaluar correctamente modelos en series temporales
-4. **AUC como métrica:** Más robusta que accuracy para problemas de clasificación
-
-El sistema desarrollado proporciona una base sólida para investigación futura en predicción financiera usando deep learning.
-
----
-
-## Referencias
-
-1. Hochreiter, S., & Schmidhuber, J. (1997). Long short-term memory. Neural computation, 9(8), 1735-1780.
-
-2. Bergstra, J., & Bengio, Y. (2012). Random search for hyper-parameter optimization. Journal of machine learning research, 13(2).
-
-3. Akiba, T., et al. (2019). Optuna: A next-generation hyperparameter optimization framework. In KDD.
-
-4. Goodfellow, I., Bengio, Y., & Courville, A. (2016). Deep learning. MIT press.
-
----
-
-## Anexos
-
-### A. Instalación
-
-```bash
-pip install torch numpy pandas scikit-learn optuna matplotlib
-```
-
-### B. Ejecución Completa
-
-```bash
-# 1. Optimizar hiperparámetros
-python optuna_search.py
-
-# 2. Validar con CV
-python training.py
-
-# 3. Entrenar modelo final
-python train_final.py
-
-# 4. Generar predicciones
-python predict.py
-```
-
-### C. Estructura del Checkpoint
-
-```python
-{
-    'model_state_dict': torch.nn.Module.state_dict(),
-    'config': {
-        'hidden_size': int,
-        'num_layers': int,
-        'dropout': float,
-        'seq_len': int,
-        'bidirectional': bool
-    },
-    'X_mean': np.ndarray,
-    'X_std': np.ndarray,
-    'feature_cols': list[str]
-}
-```
-
----
-
-**Código fuente disponible en:** [URL del repositorio]
-
-**Contacto:** [Tu email universitario]
