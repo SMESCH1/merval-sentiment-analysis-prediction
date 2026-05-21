@@ -1,16 +1,169 @@
-.env
+# =========================================================
+#  Python / Data Science / ML — .gitignore template
+#  Copy this into the root of each repo as `.gitignore`
+# =========================================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Virtual envs ---
+.venv/
 venv/
-logs/   
-.cursor
+env/
+ENV/
+.python-version
 
-data/*.jsonl
-data/procesada/*.jsonl
-data/preprocesada/*.jsonl
+# --- Secrets & credentials ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+credentials.json
+secrets.json
+*_credentials.*
+*_secret.*
+*.token
 
-src/modelo/data/*.pth
-src/modelo/data/*.db
-src/modelo/data/*.png
+# --- IDEs ---
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+.cursor/
+.claude/
 
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+profile_default/
+ipython_config.py
+.jupyter/
+
+# --- Testing & coverage ---
+.coverage
+.coverage.*
+.pytest_cache/
+.tox/
+.nox/
+htmlcov/
+coverage.xml
+*.cover
+.cache
+nosetests.xml
+
+# --- ML / Data ---
+# Datasets — most should not be in git. Use DVC, HF Datasets, or GH Releases.
+data/raw/
+data/interim/
+data/processed/
+data/external/
+data/historica*/
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.arrow
+*.h5
+*.hdf5
+*.zip
+*.tar
+*.tar.gz
+*.7z
+# (Whitelist small reference files if needed:)
+!data/.gitkeep
+!data/example_small.csv
+
+# Model artifacts
+*.pkl
+*.pickle
+*.joblib
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.h5
+*.safetensors
+models/
+checkpoints/
+
+# Logs & runs
+logs/
 *.log
-*.jsonl
+runs/
+wandb/
+mlruns/
+lightning_logs/
+tensorboard/
+outputs/
+output/
 
+# Optuna / experiment tracking
+*.db
+*.sqlite
+*.sqlite3
+optuna_study.db
+
+# --- dbt ---
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
+dbt_packages/
+
+# --- Airflow ---
+airflow_home/
+airflow.cfg
+airflow.db
+webserver_config.py
+standalone_admin_password.txt
+unittests.cfg
+
+# --- DuckDB / SQLite ---
+*.duckdb
+warehouse/*.duckdb
+
+# --- Docs build ---
+docs/_build/
+site/
+_site/
+.sass-cache/
+
+# --- Node.js (if mixed) ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.next/
+.nuxt/
+
+# --- OS / Editor temp ---
+*.bak
+*.tmp
+*~
+.directory

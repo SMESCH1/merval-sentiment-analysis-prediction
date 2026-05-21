@@ -1,364 +1,140 @@
-# Proyecto: Predicción del valor del índice Merval utilizando un LSTM con señales de sentimiento de Reddit
+# MERVAL Sentiment Analysis & Prediction
 
----
-## Resumen
-Este proyecto realiza análisis de sentimiento sobre datos de subreddits de finanzas de Argentina e implementa un clasificador binario basado en redes LSTM (Long Short-Term Memory) para predecir la dirección del movimiento de precios de acciones. El sistema utiliza como fuentes datos de REDDIT, retornos de MERVAL y dólar, así como un booleano que indica si hubo actividad bursátil en dicho día. 
-La predicción es binaria, es decir, se predice si el precio del índice MERVAL sube o baja al día siguiente.
+<p align="center">
+  <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-2.x-EE4C2C?logo=pytorch&logoColor=white">
+  <img alt="Optuna" src="https://img.shields.io/badge/Optuna-HP%20tuning-3A99D8">
+  <img alt="pysentimiento" src="https://img.shields.io/badge/pysentimiento-RoBERTuito-orange">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-blue">
+</p>
 
----
-## PPT Final
-[Presentación de diapositivas del TP](https://docs.google.com/presentation/d/e/2PACX-1vQxqObrHd2g0kOkwWzr-udYWEFjN8OG7mZkR9wlRs6HeNHhtzN6N1P0gilSl_TVJTZczMcXIHu1_fmx/pub?start=false&loop=false&delayms=3000)
+> Predicting the daily direction of the **Argentine MERVAL** index using **LSTM** networks fed with **sentiment signals** scraped from Reddit (`r/merval`, `r/argentina`, etc.).
 
-### Motivación
-
-La predicción de mercados financieros es un problema complejo debido a la naturaleza no lineal y estocástica de las series temporales bursátiles. Este proyecto explora el uso de redes neuronales recurrentes (específicamente LSTM) para capturar patrones temporales en datos financieros y generar predicciones útiles.
-
-### Objetivos
-
-1. Implementar un clasificador binario basado en LSTM
-2. Optimizar hiperparámetros usando búsqueda bayesiana (Optuna)
-3. Evaluar el modelo usando cross-validation temporal
-5. Analizar el rendimiento mediante métricas estándar (AUC, F1-Score, etc.)
+🇬🇧 English below · 🇪🇸 Versión en español primero.
 
 ---
 
-## Arquitectura del Proyecto
+## 🇪🇸 Resumen
 
-1. **Ingesta de Datos**
-   - Scraping de Reddit (comentarios y posts).
-   - Descarga de datos de mercado (usando `yfinance`).
-   - Datos de dólar blue
+Este proyecto combina **NLP** y **series temporales** para responder una pregunta concreta: **¿el sentimiento agregado en foros financieros argentinos contiene información predictiva sobre la dirección del MERVAL al día siguiente?**
 
-2. **Procesamiento**
-   - Limpieza de texto (stopwords, emojis, jerga argentina).
-   - Análisis de sentimiento usando `pysentimiento` (modelo RoberTuito).
-   - Agregación temporal 
+- **Tarea:** clasificación binaria (sube / baja al día siguiente).
+- **Features:** probabilidad positiva de sentimiento agregada por día, retorno log de MERVAL, retorno log del dólar.
+- **Modelo:** LSTM unidireccional (single layer) con dropout, entrenado con secuencias de 90 días.
+- **Validación:** rolling-window cross-validation temporal (sin leakage).
+- **Tuning:** Bayesian optimization con Optuna (200 trials).
 
-3. **Modelado y Predicción**
-   - LSTM para predicción binaria (sube/baja).
-   - Validación walk-forward para series temporales.
-   - Comparación de performance con/sin señales de texto.
+### Métrica final
 
----
+| Métrica | Valor |
+|---------|-------|
+| AUC (test, out-of-sample) | en revisión — ver `src/modelo/data/predictions.csv` |
+| Matriz de confusión (test) | ver README detallado abajo |
 
-## Estructura de archivos
+### Pipeline
 
 ```
-project-root/
-│
-├── data/
-│   ├── preprocesada/          # Datos unificados y limpios (JSONL)
-│   ├── procesada/             # Datos con análisis de sentimiento (JSONL)
-│   ├── raw/                   # Datos crudos (CSV de dólar, etc.)
-│   └── historica*/            # Datos históricos scrapeados (JSON/CSV por mes)
-│
-├── src/
-│   ├── scraping/
-│   │   ├── scraper_historico.py  # Scraper histórico de Reddit
-│   │   └── reddit_config.py      # Configuración de Reddit API
-│   │
-│   ├── processing/
-│   │   ├── etl_pipeline.py       # Pipeline ETL principal
-│   │   ├── sentiment_pipeline.py  # Pipeline de análisis de sentimiento
-│   │   ├── sentiment_analyzer.py # Analizador de sentimiento (pysentimiento)
-│   │   ├── run_etl.py            # Script CLI para ETL
-│   │   ├── run_sentiment.py      # Script CLI para sentiment analysis
-│   │   ├── schema.py             # Esquemas de datos (Pydantic)
-│   │   ├── loaders.py            # Cargadores de datos
-│   │   ├── data_transformers.py  # Transformadores de datos
-│   │   └── cleaners.py           # Limpieza de texto
-│   │
-│   └── modelo/
-│       ├── model_utils.py        # Utilidades del modelo (MaskedSeqDataset, LSTMBinary)
-│       ├── training.py           # Entrenamiento con Cross-Validation
-│       ├── train_final.py       # Entrenamiento final con todos los datos
-│       ├── optuna_search.py     # Optimización de hiperparámetros
-│       ├── predict.py           # Generar predicciones
-│       ├── plot_roc.py          # Visualizar curva ROC
-│       └── data/                # Datos del modelo (CSV, modelos entrenados, etc.)
-│           ├── data_train.csv
-│           ├── data_test.csv
-│           ├── final_model_state.pth
-│           ├── optuna_study.db
-│           └── ...
-│
+Reddit scraping ─► ETL + cleaning ─► sentiment (RoBERTuito) ─► daily aggregation
+                                                                        │
+yfinance (MERVAL) ──────────────────────────────────────────────────────┤
+Dólar (CSV) ────────────────────────────────────────────────────────────┤
+                                                                        ▼
+                                                              Dataset (windowed)
+                                                                        │
+                                                                Optuna search (AUC)
+                                                                        │
+                                                            Rolling-CV training
+                                                                        │
+                                                                  Final model
+                                                                        │
+                                                                Test predictions
+```
+
+### Stack
+PyTorch · pysentimiento (RoBERTuito) · Optuna · Pandas · yfinance · scikit-learn
+
+### Autores
+- **Sebastián Mesch Henriques** — [@SMESCH1](https://github.com/SMESCH1)
+- **Leandro Carcagno** — [@lcgno](https://github.com/lcgno)
+
+### Cómo correr
+Ver sección "Flujo de trabajo" más abajo (idéntica versión en EN). Resumen:
+```bash
+python -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+# 1) Credenciales de Reddit en .env (ver .env.example)
+# 2) python src/scraping/scraper_historico.py --start-date 2020-01-01 --end-date 2024-12-31
+# 3) python src/processing/run_etl.py --reddit-only --output-dir data/preprocesada --format jsonl
+# 4) python src/processing/run_sentiment.py data/preprocesada/unified_data_2025.jsonl --output data/procesada/with_sentiment.jsonl
+# 5) Jupyter: notebooks/generar_datasets.ipynb
+# 6) cd src/modelo && python optuna_search.py 200
+# 7) python training.py && python train_final.py && python predict.py
+```
+
+### Datos
+Los datos crudos (>200 MB de JSON de Reddit) **no se versionan en git**. Para reproducir, correr el scraper o descargar el dataset desde el release vinculado (TODO: subir release con dataset preprocesado).
+
+### Presentación
+📊 [Presentación final del proyecto (Google Slides)](https://docs.google.com/presentation/d/e/2PACX-1vQxqObrHd2g0kOkwWzr-udYWEFjN8OG7mZkR9wlRs6HeNHhtzN6N1P0gilSl_TVJTZczMcXIHu1_fmx/pub?start=false&loop=false&delayms=3000)
+
+---
+
+## 🇬🇧 English
+
+This project combines **NLP** and **time series** to answer a concrete question: **does the aggregated sentiment in Argentine financial forums contain predictive information on the next-day MERVAL direction?**
+
+- **Task:** binary classification (up / down next day).
+- **Features:** daily-aggregated positive sentiment probability, log return of MERVAL, log return of USD.
+- **Model:** single-layer unidirectional LSTM with dropout, trained on 90-day sequences.
+- **Validation:** rolling-window temporal cross-validation (no leakage).
+- **Tuning:** Bayesian optimization with Optuna (200 trials).
+
+### Stack
+PyTorch · pysentimiento (RoBERTuito) · Optuna · Pandas · yfinance · scikit-learn
+
+### Authors
+- **Sebastián Mesch Henriques** — [@SMESCH1](https://github.com/SMESCH1)
+- **Leandro Carcagno** — [@lcgno](https://github.com/lcgno)
+
+### Repository layout
+
+```
+.
+├── data/                         # local data (gitignored; see notes)
+├── docs/                         # bibliography & docs
 ├── notebooks/
-│   ├── generar_datasets.ipynb      # Generación de datasets de entrenamiento y test
-│   └── analisis_lstm_completo.ipynb # Análisis completo del modelo
-│
-├── docs/
-│   ├── bibliografía.md
-│   └── documentacion_proyecto.docx
-│
-├── logs/                      # Logs de ejecución
-├── requirements.txt           # Dependencias Python
-└── README.md                  # Este archivo
+│   ├── generar_datasets.ipynb    # train/test dataset generation
+│   └── analisis_lstm_completo.ipynb
+├── src/
+│   ├── scraping/                 # Reddit scrapers
+│   ├── processing/               # ETL + sentiment pipelines
+│   └── modelo/                   # LSTM, training, Optuna search, prediction
+├── requirements.txt
+└── README.md
 ```
+
+### How to run
+See the README in spanish above for the full pipeline. Quick version:
+```bash
+python -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+cp .env.example .env  # then fill in Reddit creds
+python src/scraping/scraper_historico.py --start-date 2020-01-01 --end-date 2024-12-31
+python src/processing/run_etl.py --reddit-only --output-dir data/preprocesada --format jsonl
+python src/processing/run_sentiment.py data/preprocesada/unified_data.jsonl --output data/procesada/with_sentiment.jsonl
+# then run the notebooks / scripts in src/modelo/
+```
+
+### Results
+
+Optimal hyperparameters found by Optuna:
+- `SEQ_LEN = 90`, `HIDDEN_SIZE = 28`, `DROPOUT = 0.46`, `LEARNING_RATE = 5.7e-4`, `BIDIRECTIONAL = False`
+
+ROC curve and confusion matrix are saved to `src/modelo/data/`.
+
+### License
+MIT — see `LICENSE`.
 
 ---
 
-## Flujo de Trabajo
-
-### Prerrequisitos
-- Python 3.11+
-- Cuenta de Reddit con API credentials
-
-### 1. Configurar Credenciales de Reddit
-
-Crear archivo `.env` con las credenciales de Reddit:
-```
-client_id=tu_client_id
-client_secret=tu_client_secret
-reddit_username=tu_usuario
-reddit_password=tu_password
-```
-
-### 2. Scraping Histórico de Reddit 
-
-Script para obtener datos históricos de Reddit y aumentar el tamaño del dataset:
-
-```bash
-# Scraping histórico con filtro de keywords (solo posts financieros)
-python src/scraping/scraper_historico.py \
-    --start-date 2020-01-01 \
-    --end-date 2024-12-31
-
-```
-
-### 3. Pipeline ETL
-
-```bash
-# Procesar datos de reddit
-python src/processing/run_etl.py \
-    --reddit-only \
-    --output-dir data/preprocesada \
-    --format jsonl \
-    --verbose
-
-```
-### 4. Análisis de Sentimiento
-
-Aplica análisis de sentimiento usando `pysentimiento` (modelo RoberTuito) a los datos preprocesados
-
-```bash
-
-# Ejecutar análisis de sentimiento
-python src/processing/run_sentiment.py \
-    data/preprocesada/unified_data_2025.jsonl \
-    --output data/procesada/reddit_unified_2025_with_sentiment.jsonl \
-    --batch-size 32 \
-    --verbose
-```
-### 5. Preparar Dataset para el Modelo
-
-Los datasets de entrenamiento y test se generan usando el notebook `notebooks/generar_datasets.ipynb`. Este notebook:
-
-1. Carga datos de Reddit con análisis de sentimiento
-2. Extrae la probabilidad positiva de sentimiento (`pos_prob_mean`) agrupada por día
-3. Descarga datos de MERVAL desde yfinance y calcula retorno logarítmico
-4. Carga datos del dólar desde CSV y calcula retorno logarítmico
-5. Crea la columna `prediccion` (target): 1 si MERVAL sube al día siguiente, 0 si baja
-6. Guarda los datasets en formato CSV con separador `;`
-
-**Columnas del dataset**:
-- `pos_prob_mean`: Media de probabilidad positiva de sentimiento por día
-- `retorno_log_merval`: Retorno logarítmico del MERVAL
-- `retorno_log_dolar`: Retorno logarítmico del dólar
-- `prediccion`: Target (1 si MERVAL sube al día siguiente, 0 si baja, NaN para días no hábiles)
-
-### 6. Entrenar el Modelo LSTM
-
-El modelo LSTM se encuentra en `src/modelo/`. El proceso de entrenamiento sigue un flujo específico que incluye optimización de hiperparámetros, validación cruzada, y entrenamiento final.
-
-#### Componentes Principales del Modelo
-
-**1. Dataset (`MaskedSeqDataset`)**
-- Crea ventanas deslizantes de longitud `seq_len` (típicamente 90 días)
-- Evita generar secuencias cuyo último día sea anterior a un día sin actividad bursátil (fines de semana, feriados)
-- Filtra automáticamente días donde el target (`prediccion`) tiene valor NaN
-- Retorna tuplas (secuencia, label) para entrenamiento
-
-**2. Modelo LSTM (`LSTMBinary`)**
-Arquitectura de red neuronal:
-```
-Input (seq_len, n_features) 
-    ↓
-LSTM (num_layers=1, hidden_size, bidirectional=False)
-    ↓
-Dropout (p = dropout)
-    ↓
-Linear (hidden_size → 1)
-    ↓
-Output (logit) → Sigmoid → Probabilidad [0,1]
-```
-
-**3. Early Stopping**
-- Monitorea AUC de validación en cada epoch
-- Detiene el entrenamiento si no hay mejora por `patience` epochs (70 por defecto)
-- Usa período de warmup (min_epochs) para estabilidad
-
-**4. Cross-Validation Temporal (`rolling_splits`)**
-Genera folds respetando el orden temporal:
-```
-Fold 1: [Train: 0-650]    [Val: 650-750]
-Fold 2: [Train: 100-750]  [Val: 750-850]
-Fold 3: [Train: 200-850]  [Val: 850-950]
-...
-```
-Cada fold entrena y evalúa un modelo con la información disponible hasta ese momento.
-
-#### 6.1. Preparar datos para el modelo
-
-**Preprocesamiento:**
-- Features utilizados: `pos_prob_mean`, `retorno_log_merval`, `retorno_log_dolar`
-- Normalización: Se normalizan las variables usando estadísticas del conjunto de entrenamiento para evitar data leakage
-- Manejo de NaN: Features con NaN se rellenan con 0, targets con NaN se filtran automáticamente
-
-#### 6.2. Optimización de Hiperparámetros (Optuna)
-
-**Paso 1: Búsqueda de Hiperparámetros**
-
-```bash
-cd src/modelo
-python optuna_search.py [n_trials]
-```
-
-Este script ejecuta búsqueda bayesiana (por defecto 200 trials) y optimiza:
-
-| Hiperparámetro | Rango | Tipo |
-|----------------|-------|------|
-| seq_len | 70-100 | Entero (step=7) |
-| batch_size | 16-64 | Entero (step=16) |
-| hidden_size | 4-42 | Entero (step=4) |
-| dropout | 0.0-0.5 | Continuo |
-| learning_rate | 1e-4 - 1e-2 | Log-uniforme |
-| n_epochs | 50-100 | Entero (step=25) |
-| bidirectional | {True, False} | Categórico |
-
-**Función objetivo:** AUC promedio en validación cruzada temporal
-
-**Archivos generados:**
-- `src/modelo/data/optuna_study.db`: Base de datos SQLite con historial completo
-- `src/modelo/data/optuna_trials.csv`: Historial de todos los trials
-- `src/modelo/data/best_params.csv`: Mejores hiperparámetros encontrados
-- `src/modelo/data/param_importance.png`: Importancia de cada parámetro
-- `src/modelo/data/optimization_history.png`: Historial de convergencia
-
-**Ejecutar en background:**
-```bash
-cd src/modelo
-nohup python optuna_search.py 200 > ../../logs/optuna.log 2>&1 &
-tail -f ../../logs/optuna.log
-```
-
-#### 6.3. Entrenamiento con Cross-Validation
-
-**Paso 2: Validación Cruzada Temporal**
-
-```bash
-cd src/modelo
-python training.py
-```
-
-Se realiza validación cruzada con los hiperparámetros optimizados. El script ejecuta:
-
-**Configuración:**
-- Tipo: Rolling Window Cross-Validation
-- Train size: 650 muestras
-- Validation size: 100 muestras
-- Se desplaza temporalmente para simular predicciones en el futuro
-
-**Reportes generados:**
-- AUC por fold
-- Estadísticas de early stopping: número de epochs usados en cada fold antes de que se active el early stopping (importante para determinar epochs en entrenamiento final)
-- Curva ROC global: predicciones de todos los folds concatenadas (válido porque cada predicción es out-of-sample)
-- Análisis de umbrales de decisión: evaluación de diferentes umbrales (0.3, 0.4, 0.5, 0.6, 0.7)
-
-**Archivos generados:**
-- `src/modelo/data/val_predictions.csv`: Predicciones de validación (probabilidades y labels)
-- `src/modelo/data/roc_curve.png`: Curva ROC global
-
-#### 6.4. Entrenamiento Final
-
-**Paso 3: Entrenamiento del Modelo Final**
-
-```bash
-cd src/modelo
-python train_final.py
-```
-
-Entrena el modelo con todos los datos disponibles en el training set usando los hiperparámetros optimizados. 
-
-**Características:**
-- Utiliza el número de epochs recomendado por las estadísticas de early stopping de la validación cruzada
-- Normaliza usando estadísticas de todo el conjunto de entrenamiento
-- Guarda el modelo, estadísticas de normalización, y configuración para uso posterior
-
-**Archivos generados:**
-- `src/modelo/data/final_model_state.pth`: Modelo entrenado con metadatos (configuración, estadísticas de normalización, feature columns)
-- `src/modelo/data/loss_curve_final.png`: Curva de pérdida durante el entrenamiento
-
-#### 6.5. Generar Predicciones
-
-**Paso 4: Predicción en Conjunto de Test**
-
-```bash
-cd src/modelo
-python predict.py
-```
-
-Genera predicciones en datos de prueba y calcula métricas finales.
-
-**Proceso:**
-- Carga el modelo entrenado y sus metadatos
-- Agrega las últimas filas del training set para warm-up de secuencias (permite predecir todas las filas del test)
-- Aplica la misma normalización usada en entrenamiento
-- Genera probabilidades y predicciones binarias (usando umbral configurado)
-
-**Archivos generados:**
-- `src/modelo/data/predictions.csv`: Predicciones con probabilidades (`pred_prob`) y clases (`pred_class`)
-- Muestra matriz de confusión si hay labels disponibles en el test set
-
-#### 6.6. Visualizar Resultados
-
-```bash
-cd src/modelo
-python plot_roc.py --input src/modelo/data/val_predictions.csv
-```
-
-Genera visualización de la curva ROC desde predicciones guardadas.
-
-**Métricas de Evaluación:**
-
-| Métrica | Descripción | Uso |
-|---------|-------------|-----|
-| **AUC** | Área bajo curva ROC | Métrica principal |
-| **Accuracy** | (TP+TN)/Total | Rendimiento general |
-| **Precision** | TP/(TP+FP) | Evitar falsas alarmas |
-| **Recall** | TP/(TP+FN) | Detectar todos los positivos |
-| **F1-Score** | Media armónica P/R | Balance precision/recall |
-
----
-
-## Resultados
-
-### Configuración Óptima Encontrada
-
-```python
-SEQ_LEN = 90           # Ventana temporal
-HIDDEN_SIZE = 28       # Neuronas LSTM
-DROPOUT = 0.46         # Tasa de dropout
-LEARNING_RATE = 0.00057
-BIDIRECTIONAL = False  # LSTM unidireccional
-```
-
-### Rendimiento
-
-**Matriz de Confusión (Test):**
-```
-        Predicho
-        Baja  Sube
-Real Baja  15    9
-     Sube  0    2
-```
----
+> 📜 The original detailed README (in Spanish) is preserved as `docs/README_full_ES.md` for reference.
